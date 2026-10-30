@@ -1,0 +1,32 @@
+[
+  {
+    "id": "tmpl_rec_01",
+    "name": "Mẫu Tuyển Dụng Nhân Viên Kinh Doanh / Bán Hàng",
+    "category": "recruitment",
+    "channelType": "BOTH",
+    "title": "Tuyển Dụng Nhân Viên Kinh Doanh & Tư Vấn B2B",
+    "body": "LeadX cần tuyển 05 Nhân viên Kinh doanh thị trường.\n- Thu nhập: 10 - 25 triệu/tháng (Lương cứng + Hoa hồng cao)\n- Khu vực: Đà Nẵng / Toàn quốc\n- Yêu cầu: Nhanh nhẹn, có laptop, ham học hỏi\n- Quyền lợi: Đầy đủ BHXH, đào tạo bài bản từ A-Z",
+    "contact": "0971946725 (Zalo/Call)",
+    "tags": [
+      "Sales",
+      "Kinh doanh",
+      "B2B"
+    ],
+    "createdAt": "2026-10-02T10:18:45.688Z"
+  },
+  {
+    "id": "tmpl_bds_01",
+    "name": "Mẫu Cho Thuê Căn Hộ Cao Cấp View Đẹp",
+    "category": "bds",
+    "channelType": "BOTH",
+    "title": "Cho Thuê Căn Hộ Sơn Trà - Full Nội Thất Hiện Đại",
+    "body": "Chính chủ cho thuê căn hộ 1PN - 2PN Sơn Trà, Đà Nẵng.\n- Giá thuê: 7.5 - 12 triệu/tháng\n- Diện tích: 45 - 65m²\n- Nội thất: Full đồ cao cấp (Tủ lạnh, Máy giặt riêng, Smart TV, Bếp)\n- Tiện ích: Hồ bơi vô cực, Gym, Thang máy, An ninh 24/7",
+    "contact": "0971946725 (Xem nhà trực tiếp)",
+    "tags": [
+      "Căn hộ",
+      "Sơn Trà",
+      "Đà Nẵng"
+    ],
+    "createdAt": "2026-10-02T10:18:45.691Z"
+  }
+]

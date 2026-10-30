@@ -1,0 +1,68 @@
+[
+  {
+    "id": "auto_seq_candidate_onboarding",
+    "name": "Quy Trình Chăm Sóc & Mời Phỏng Vấn Ứng Viên Tự Động",
+    "trigger": "NEW_CANDIDATE_INGESTED",
+    "enabled": true,
+    "category": "candidate",
+    "autoStopConditions": [
+      "INTERVIEW_SCHEDULED",
+      "HIRED",
+      "REPLIED",
+      "LOST"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "type": "SEND_EMAIL",
+        "templateId": "tmpl_candidate_ack",
+        "delayMinutes": 0
+      },
+      {
+        "stepNumber": 2,
+        "type": "WAIT",
+        "delayMinutes": 1440
+      },
+      {
+        "stepNumber": 3,
+        "type": "SEND_EMAIL",
+        "templateId": "tmpl_interview_invite",
+        "delayMinutes": 0
+      }
+    ],
+    "createdAt": "2026-10-02T12:04:05.291Z"
+  },
+  {
+    "id": "auto_seq_employer_nurture",
+    "name": "Quy Trình Tiếp Cận & Báo Giá Doanh Nghiệp (B2B Nurture)",
+    "trigger": "NEW_B2B_LEAD_FOUND",
+    "enabled": true,
+    "category": "employer",
+    "autoStopConditions": [
+      "CONTACTED",
+      "CONVERTED",
+      "REPLIED",
+      "NOT_INTERESTED"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "type": "SEND_EMAIL",
+        "templateId": "tmpl_employer_outreach",
+        "delayMinutes": 0
+      },
+      {
+        "stepNumber": 2,
+        "type": "WAIT",
+        "delayMinutes": 2880
+      },
+      {
+        "stepNumber": 3,
+        "type": "SEND_EMAIL",
+        "templateId": "tmpl_employer_quotation",
+        "delayMinutes": 0
+      }
+    ],
+    "createdAt": "2026-10-02T12:04:05.291Z"
+  }
+]

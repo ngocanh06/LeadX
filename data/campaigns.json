@@ -1,0 +1,112 @@
+[
+  {
+    "id": "camp_rec_it_01",
+    "name": "Chiến dịch Tuyển dụng Sales & B2B Miền Trung Q4",
+    "industry": "recruitment",
+    "objective": "CANDIDATE_ATTRACTION",
+    "status": "RUNNING",
+    "accountPoolId": "pool_recruitment",
+    "templateId": "tmpl_rec_01",
+    "baseContent": {
+      "title": "Tuyển Dụng Nhân Viên Kinh Doanh & Tư Vấn B2B",
+      "body": "LeadX cần tuyển 05 Nhân viên Kinh doanh thị trường.\n- Thu nhập: 10 - 25 triệu/tháng (Lương cứng + Hoa hồng cao)\n- Khu vực: Đà Nẵng / Miền Trung\n- Yêu cầu: Nhanh nhẹn, có laptop, ham học hỏi\n- Quyền lợi: Đầy đủ BHXH, đào tạo bài bản từ A-Z",
+      "contact": "0971946725 (Zalo/Call)",
+      "tags": [
+        "Sales",
+        "Kinh doanh",
+        "Đà Nẵng"
+      ]
+    },
+    "targets": [
+      {
+        "targetType": "GROUP",
+        "targetId": "grp_rec_01",
+        "targetName": "Việc Làm Đà Nẵng 2026",
+        "targetUrl": "https://facebook.com/groups/vieclamdanang2026",
+        "location": "Đà Nẵng"
+      },
+      {
+        "targetType": "GROUP",
+        "targetId": "grp_rec_02",
+        "targetName": "Tuyển Dụng Sales & Marketing Miền Trung",
+        "targetUrl": "https://facebook.com/groups/salesmarketingmientrung",
+        "location": "Đà Nẵng"
+      },
+      {
+        "targetType": "FANPAGE",
+        "targetId": "page_rec_01",
+        "targetName": "Tuyển Dụng Đà Nẵng",
+        "targetUrl": "https://facebook.com/tuyendungdanang",
+        "location": "Đà Nẵng"
+      }
+    ],
+    "schedule": {
+      "type": "INTERVAL",
+      "intervalMinutes": 5,
+      "startAt": "2026-10-02T10:18:46.259Z"
+    },
+    "seedingConfig": {
+      "enabled": true,
+      "commentCount": 2
+    },
+    "createdAt": "2026-10-02T10:18:46.259Z",
+    "updatedAt": "2026-10-02T10:20:19.607Z",
+    "startedAt": "2026-10-02T10:20:19.603Z",
+    "completedAt": null
+  },
+  {
+    "id": "camp_bds_luxury_01",
+    "name": "Chiến dịch Cho Thuê Căn Hộ Sơn Trà - Đà Nẵng",
+    "industry": "bds",
+    "objective": "LEAD_GENERATION",
+    "status": "READY",
+    "accountPoolId": "pool_bds",
+    "templateId": "tmpl_bds_01",
+    "baseContent": {
+      "title": "Cho Thuê Căn Hộ Sơn Trà - Full Nội Thất Hiện Đại",
+      "body": "Chính chủ cho thuê căn hộ 1PN - 2PN Sơn Trà, Đà Nẵng.\n- Giá thuê: 7.5 - 12 triệu/tháng\n- Diện tích: 45 - 65m²\n- Nội thất: Full đồ cao cấp (Tủ lạnh, Máy giặt riêng, Smart TV, Bếp)\n- Tiện ích: Hồ bơi vô cực, Gym, Thang máy, An ninh 24/7",
+      "contact": "0971946725 (Xem nhà trực tiếp)",
+      "tags": [
+        "Căn hộ",
+        "Sơn Trà",
+        "Đà Nẵng"
+      ]
+    },
+    "targets": [
+      {
+        "targetType": "GROUP",
+        "targetId": "grp_bds_01",
+        "targetName": "Hội Thuê Nhà Đà Nẵng",
+        "targetUrl": "https://facebook.com/groups/thuenhadanang",
+        "location": "Đà Nẵng"
+      },
+      {
+        "targetType": "GROUP",
+        "targetId": "grp_bds_02",
+        "targetName": "Căn Hộ Cho Thuê Sơn Trà - Ngũ Hành Sơn",
+        "targetUrl": "https://facebook.com/groups/canhosontra",
+        "location": "Đà Nẵng"
+      },
+      {
+        "targetType": "FANPAGE",
+        "targetId": "page_bds_01",
+        "targetName": "Căn Hộ Đà Nẵng Giá Tốt",
+        "targetUrl": "https://facebook.com/canhodanang",
+        "location": "Đà Nẵng"
+      }
+    ],
+    "schedule": {
+      "type": "INTERVAL",
+      "intervalMinutes": 6,
+      "startAt": "2026-10-02T10:18:46.259Z"
+    },
+    "seedingConfig": {
+      "enabled": false,
+      "commentCount": 0
+    },
+    "createdAt": "2026-10-02T10:18:46.259Z",
+    "updatedAt": "2026-10-02T10:18:46.259Z",
+    "startedAt": null,
+    "completedAt": null
+  }
+]

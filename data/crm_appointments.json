@@ -1,0 +1,16 @@
+[
+  {
+    "id": "appt_muqtfaz6_idu5",
+    "leadId": "lead_muqtdj6p_06ym",
+    "customerName": "Nguyễn Văn Test",
+    "phone": "0912345678",
+    "industry": "recruitment",
+    "type": "INTERVIEW",
+    "scheduledAt": "2026-10-03T10:23:43.695Z",
+    "location": "Tầng 5, Tòa nhà LeadX Đà Nẵng",
+    "notes": "Phỏng vấn vị trí Sales",
+    "assignedStaff": "Trần Thị Mai",
+    "status": "SCHEDULED",
+    "createdAt": "2026-10-02T10:23:43.698Z"
+  }
+]

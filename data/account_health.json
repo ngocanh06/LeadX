@@ -1,0 +1,76 @@
+{
+  "accounts": {
+    "acc_primary": {
+      "isRestricted": true,
+      "lastRestrictionAt": "2026-09-06T10:16:13.719Z",
+      "lastRestrictionReason": "Facebook tạm khóa tính năng đăng bài do bị giới hạn tần suất (Spam Limit).",
+      "lastRestrictionGroup": "Việc Làm Đà Nẵng",
+      "incidents": [
+        {
+          "id": "inc_1788689773719",
+          "timestamp": "2026-09-06T10:16:13.719Z",
+          "type": "ACTION_BLOCK",
+          "severity": "HIGH",
+          "reason": "Facebook tạm khóa tính năng đăng bài do bị giới hạn tần suất (Spam Limit).",
+          "groupName": "Việc Làm Đà Nẵng",
+          "groupUrl": "https://www.facebook.com/groups/vieclamdanangvn0/",
+          "accountId": "acc_primary",
+          "accountName": "TD1 (accvia05 - Phạm Ngọc Hiển)"
+        }
+      ]
+    },
+    "acc_1788693110873": {
+      "isRestricted": true,
+      "lastRestrictionAt": "2026-09-25T02:46:41.147Z",
+      "lastRestrictionReason": "Facebook tạm khóa tính năng đăng bài do bị giới hạn tần suất (Spam Limit).",
+      "lastRestrictionGroup": "Việc Làm Đà Nẵng",
+      "incidents": [
+        {
+          "id": "inc_1790304401147",
+          "timestamp": "2026-09-25T02:46:41.147Z",
+          "type": "ACTION_BLOCK",
+          "severity": "HIGH",
+          "reason": "Facebook tạm khóa tính năng đăng bài do bị giới hạn tần suất (Spam Limit).",
+          "groupName": "Việc Làm Đà Nẵng",
+          "groupUrl": "https://www.facebook.com/groups/vieclamdanangvn0/",
+          "accountId": "acc_1788693110873",
+          "accountName": "TD2 (accvia14 - Mơ Ngọc)"
+        },
+        {
+          "id": "inc_1789361463046",
+          "timestamp": "2026-09-14T04:51:03.046Z",
+          "type": "ACTION_BLOCK",
+          "severity": "HIGH",
+          "reason": "Facebook tạm khóa tính năng đăng bài do bị giới hạn tần suất (Spam Limit).",
+          "groupName": "Việc Làm Đà Nẵng",
+          "groupUrl": "https://www.facebook.com/groups/vieclamdanang3/",
+          "accountId": "acc_1788693110873",
+          "accountName": "TD2 (accvia14 - Mơ Ngọc)"
+        }
+      ]
+    },
+    "acc_1788693290706": {
+      "isRestricted": true,
+      "lastRestrictionAt": "2026-09-07T10:48:00.000Z",
+      "lastRestrictionReason": "Yêu cầu quay video selfie xác minh danh tính người thật (Checkpoint 282).",
+      "lastRestrictionGroup": null,
+      "incidents": [
+        {
+          "id": "inc_1788778080000",
+          "timestamp": "2026-09-07T10:48:00.000Z",
+          "type": "CHECKPOINT",
+          "severity": "CRITICAL",
+          "reason": "Yêu cầu quay video selfie xác minh danh tính người thật (Checkpoint 282).",
+          "accountId": "acc_1788693290706",
+          "accountName": "TD3 (accvia11 - Tuấn Nguyễn)"
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-09-25T02:46:41.147Z",
+  "isRestricted": false,
+  "lastProbeAt": "2026-09-28T08:44:39.326Z",
+  "lastProbeResult": "HEALTHY",
+  "lastProbeMessage": "Tài khoản hoàn toàn bình thường! Không phát hiện lệnh giới hạn nào.",
+  "lastRestrictionAt": null
+}

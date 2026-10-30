@@ -1,0 +1,48 @@
+[
+  {
+    "id": "seed_camp_muqt5nbv_r0qa",
+    "name": "Chiến Dịch Seeding Tương Tác Bài Đăng Tuyển Dụng",
+    "targetPostUrls": [
+      "https://facebook.com/groups/101/posts/882199",
+      "https://facebook.com/groups/102/posts/991204"
+    ],
+    "commentTemplates": [
+      "Cho mình hỏi công việc này còn tuyển không ạ?",
+      "Đã gửi CV qua email rồi ạ, nhờ bạn check giúp mình nhé.",
+      "Môi trường công ty rất chuyên nghiệp, các bạn nên ứng tuyển nha."
+    ],
+    "accountPoolId": "pool_seeding",
+    "minDelaySeconds": 30,
+    "maxDelaySeconds": 60,
+    "reactionType": "LIKE",
+    "status": "RUNNING",
+    "totalCommentsPlanned": 4,
+    "commentsSent": 0,
+    "commentsFailed": 4,
+    "createdAt": "2026-10-02T10:16:13.147Z",
+    "completedAt": null
+  },
+  {
+    "id": "seed_camp_muqt2rwh_71re",
+    "name": "Chiến Dịch Seeding Tương Tác Bài Đăng Tuyển Dụng",
+    "targetPostUrls": [
+      "https://facebook.com/groups/101/posts/882199",
+      "https://facebook.com/groups/102/posts/991204"
+    ],
+    "commentTemplates": [
+      "Cho mình hỏi công việc này còn tuyển không ạ?",
+      "Đã gửi CV qua email rồi ạ, nhờ bạn check giúp mình nhé.",
+      "Môi trường công ty rất chuyên nghiệp, các bạn nên ứng tuyển nha."
+    ],
+    "accountPoolId": "pool_seeding",
+    "minDelaySeconds": 30,
+    "maxDelaySeconds": 60,
+    "reactionType": "LIKE",
+    "status": "RUNNING",
+    "totalCommentsPlanned": 4,
+    "commentsSent": 0,
+    "commentsFailed": 4,
+    "createdAt": "2026-10-02T10:13:59.105Z",
+    "completedAt": null
+  }
+]

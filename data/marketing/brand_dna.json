@@ -1,0 +1,36 @@
+{
+  "brand_vhfresh": {
+    "brandProfileId": "brand_vhfresh",
+    "brandName": "VHFresh - Nông Sản & Thực Phẩm Sạch",
+    "totalPostsAnalyzed": 3,
+    "lastAnalyzedAt": "2026-10-07T13:07:32.005Z",
+    "metrics": {
+      "avgWordsPerPost": 41,
+      "avgSentencesPerPost": 3,
+      "avgWordsPerSentence": 15.3,
+      "humanRhythmScore": 79,
+      "formalityScore": 2,
+      "avgEmojisPerPost": 0,
+      "avgHashtagsPerPost": 0
+    },
+    "hooks": [
+      "Đi chợ nhìn vậy thôi chứ chọn rau tươi cũng có mẹo nhỏ",
+      "Có những ngày đi làm về mệt, mở tủ lạnh thấy mớ rau tươi rói được nhặt sạch sẽ là tự nhiên thấy nhẹ cả người",
+      "Bắp cải mùa này cuốn thịt hay luộc chấm trứng dầm nước mắm đều ngon hết sảy"
+    ],
+    "ctas": [
+      "Đi chợ nhìn vậy thôi chứ chọn rau tươi cũng có mẹo nhỏ. Rau muống muốn giòn ngọt thì ngọn nhỏ, lá xanh sáng chứ đừng ham ngọn quá mập. Bữa nay cả nhà có nấu canh rau muống luộc dầm sấu không?",
+      "Có những ngày đi làm về mệt, mở tủ lạnh thấy mớ rau tươi rói được nhặt sạch sẽ là tự nhiên thấy nhẹ cả người. Nấu nhanh bát canh, thêm đĩa cá kho là trọn vẹn bữa tối ấm êm.",
+      "Bắp cải mùa này cuốn thịt hay luộc chấm trứng dầm nước mắm đều ngon hết sảy. Chọn bắp chắc tay, lá cuốn chặt là ăn ngọt lịm. Mọi người thích ăn món gì nhất từ bắp cải?"
+    ],
+    "topEmojis": [],
+    "extractedRules": [
+      "Độ dài bài lý tưởng: 41 từ (~3 câu)",
+      "Nhịp điệu câu tự nhiên: Trung bình 15.3 từ/câu, có độ biến thiên cao (Điểm tự nhiên: 79/100)",
+      "Mức độ thân mật: Thân thiện, gần gũi như trò chuyện đời thường",
+      "Mật độ biểu tượng cảm xúc: ~0.0 emoji/bài, không lạm dụng",
+      "Mật độ hashtag: ~0.0 hashtag/bài đặt ở cuối nội dung"
+    ],
+    "dnaSummary": "Giọng văn đặc trưng mang tính Tự nhiên, gần gũi, ấm áp, đời thường. Cấu trúc câu nhịp nhàng, trung bình 41 từ, ưu tiên sự tự nhiên và kết nối người đọc."
+  }
+}

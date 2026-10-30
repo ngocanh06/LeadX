@@ -1,0 +1,453 @@
+/**
+ * brandProfileService.js - Quản Lý Hồ Sơ Thương Hiệu & Ma Trận Content Pillars
+ * Phục vụ AI Marketing Content Automation Engine
+ */
+const fs = require('fs');
+const path = require('path');
+const config = require('../../../config');
+const logger = require('../../../core/utils/logger');
+
+// Hồ sơ mẫu ban đầu (Dynamic Profiles mẫu)
+const DEFAULT_BRAND_PROFILES = [
+  {
+    id: 'brand_vhfresh',
+    pageId: '61580123456789',
+    brandName: 'VHFresh - Nông Sản & Thực Phẩm Sạch',
+    tagline: 'Tươi ngon từ nông trại tới mâm cơm gia đình',
+    description: 'Thương hiệu bán lẻ thực phẩm sạch, rau củ quả VietGAP, thịt cá tươi sống và mẹo vặt dinh dưỡng gia đình.',
+    targetAudience: {
+      persona: 'Phụ nữ và các bậc cha mẹ (25 - 45 tuổi), quan tâm đến sức khỏe gia đình, thích tự nấu ăn ngon, tìm kiếm nguồn thực phẩm sạch uy tín.',
+      painPoints: 'Sợ mua phải rau củ phun thuốc, thực phẩm đông lạnh kém chất lượng, giá cả không minh bạch, mất thời gian đi chợ.',
+      desires: 'Mâm cơm an toàn, rau củ tươi rói mỗi ngày, bí quyết nấu ăn nhanh gọn, mua sắm tiện lợi.'
+    },
+    location: 'Hà Nội & TP. Hồ Chí Minh',
+    toneOfVoice: {
+      primary: 'Tự nhiên, gần gũi, ấm áp, đời thường',
+      secondary: 'Hữu ích, đồng cảm, chân thành',
+      forbiddenTone: 'Văn phong AI cứng nhắc, sáo rỗng, quá quảng cáo, ép buộc mua hàng'
+    },
+    writingStyle: {
+      sentenceLength: 'Ngắn gọn, nhịp điệu linh hoạt như lời trò chuyện hàng ngày',
+      perspective: 'Ngôi thứ nhất (mình / bếp nhà / team VHFresh)',
+      paragraphLength: 'Tối đa 2-3 câu mỗi đoạn, thoáng mắt dễ đọc trên điện thoại'
+    },
+    vocabularyPreferences: {
+      allowedTerms: ['rau củ tươi', 'bữa cơm nhà', 'mẹo bếp', 'nấu nhanh', 'bà nội trợ', 'giòn ngọt', 'vị thanh'],
+      forbiddenTerms: ['trong cuộc sống hiện đại', 'bạn có biết', 'hãy cùng khám phá', 'siêu phẩm', 'không thể bỏ qua', 'đỉnh cao']
+    },
+    forbiddenPatterns: [
+      'Bạn có biết rằng...',
+      'Trong cuộc sống hiện đại...',
+      'Không chỉ... mà còn...',
+      'Hãy cùng khám phá...',
+      'Điều đặc biệt là...',
+      'Có thể bạn chưa biết...'
+    ],
+    contentRules: {
+      maxEmojis: 3,
+      headingStyle: 'Tự nhiên, không dùng font in đậm unicode lạ mắt',
+      bulletPolicy: 'Chỉ dùng khi liệt kê công thức hoặc mẹo ngắn (tối đa 4 ý)',
+      postLength: '150 - 350 từ'
+    },
+    ctaRules: {
+      preferredPatterns: [
+        'Hôm nay bếp nhà bạn nấu món gì thế?',
+        'Lưu lại mẹo này khi cần đi chợ nha.',
+        'Nhắn VHFresh nếu cần chuẩn bị rau tươi cho bữa tối nhé.'
+      ],
+      forbiddenPatterns: [
+        'INBOX NGAY KẺO HẾT',
+        'MUA NGAY HÔM NAY',
+        'NHANH TAY KẺO LỠ'
+      ]
+    },
+    hashtagRules: {
+      brandHashtags: ['#VHFresh', '#ThucPhamSach', '#MeoVatNhaBep', '#ComNha'],
+      maxCount: 4,
+      placement: 'BOTTOM'
+    },
+    visualStyle: {
+      aesthetic: 'Ảnh chụp đời thường, ánh sáng tự nhiên, ấm áp, không gian bếp gia đình Việt Nam',
+      colors: ['#10b981', '#f59e0b', '#ffffff'],
+      defaultFormat: '1080x1350'
+    },
+    pillars: [
+      { id: 'pil_vh_edu', name: 'Kiến Thức & Mẹo Hữu Ích (Educational)', percentage: 25, description: 'Cách chọn rau củ, bảo quản thực phẩm, mẹo vặt làm bếp' },
+      { id: 'pil_vh_life', name: 'Đời Sống & Bữa Cơm Gia Đình (Lifestyle)', percentage: 25, description: 'Không khí ấm cúng, chuyện đi chợ sớm, bữa cơm sum vầy' },
+      { id: 'pil_vh_eng', name: 'Tương Tác & Thảo Luận (Engagement)', percentage: 20, description: 'Hỏi ý kiến bạn đọc, đố vui nấu ăn, chia sẻ thói quen' },
+      { id: 'pil_vh_prod', name: 'Giới Thiệu Nông Sản (Product)', percentage: 15, description: 'Nguồn gốc nông trại, rau quả vào mùa, quy trình chọn lọc' },
+      { id: 'pil_vh_story', name: 'Câu Chuyện Nông Trại (Storytelling)', percentage: 10, description: 'Hành trình người nông dân, câu chuyện từ vườn về phố' },
+      { id: 'pil_vh_promo', name: 'Ưu Đãi & Tin Tức (Promotional)', percentage: 5, description: 'Combo tiết kiệm, ưu đãi cuối tuần nhẹ nhàng' }
+    ],
+    examplePosts: [
+      'Đi chợ nhìn vậy thôi chứ chọn rau tươi cũng có mẹo nhỏ. Rau muống muốn giòn ngọt thì ngọn nhỏ, lá xanh sáng chứ đừng ham ngọn quá mập. Bữa nay cả nhà có nấu canh rau muống luộc dầm sấu không?',
+      'Có những ngày đi làm về mệt, mở tủ lạnh thấy mớ rau tươi rói được nhặt sạch sẽ là tự nhiên thấy nhẹ cả người. Nấu nhanh bát canh, thêm đĩa cá kho là trọn vẹn bữa tối ấm êm.'
+    ],
+    status: 'ACTIVE',
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString()
+  },
+  {
+    id: 'brand_ngam',
+    pageId: '61580234567890',
+    brandName: 'Ngẫm - Góc Nhìn Cuộc Sống & Tâm Lý',
+    tagline: 'Khoảng lặng để nhìn lại chính mình giữa dòng đời vội vã',
+    description: 'Trang tản văn, chiêm nghiệm đời sống, tâm lý học ứng dụng, những câu chuyện bình dị gợi mở suy nghĩ sâu sắc.',
+    targetAudience: {
+      persona: 'Người trẻ và người trưởng thành (20 - 38 tuổi), người thích đọc sách, hướng nội, trân trọng giá trị tinh thần, tìm kiếm bình yên.',
+      painPoints: 'Áp lực cuộc sống, cô đơn giữa đám đông, mông lung định hướng, overthinking.',
+      desires: 'Được thấu cảm, tìm thấy sự tĩnh tại, những góc nhìn bao dung và thực tế về các mối quan hệ.'
+    },
+    location: 'Toàn quốc',
+    toneOfVoice: {
+      primary: 'Trầm, sâu lắng, tự nhiên, gợi suy nghĩ',
+      secondary: 'Điềm tĩnh, bao dung, không phán xét',
+      forbiddenTone: 'Giáo điều, dạy đời, sáo rỗng, hô hào đa cấp, kịch tính thái quá'
+    },
+    writingStyle: {
+      sentenceLength: 'Có độ sâu và khoảng lặng, xen kẽ câu ngắn đắt giá và câu dẫn dắt uyển chuyển',
+      perspective: 'Ngôi thứ ba hoặc tự sự chiêm nghiệm',
+      paragraphLength: 'Đoạn văn ngắn, thoáng, gợi nhịp thở tự nhiên'
+    },
+    vocabularyPreferences: {
+      allowedTerms: ['bình yên', 'khoảng lặng', 'lựa chọn', 'trưởng thành', 'thấu hiểu', 'nhẹ nhõm', 'chậm lại'],
+      forbiddenTerms: ['bạn phải thành công', 'hãy thức tỉnh', 'bí quyết làm giàu', 'tuyệt đỉnh', 'chắc chắn 100%']
+    },
+    forbiddenPatterns: [
+      'Nếu bạn đang cảm thấy...',
+      'Bài học đắt giá là...',
+      'Hãy nhớ rằng...',
+      'Trong xã hội ngày nay...'
+    ],
+    contentRules: {
+      maxEmojis: 1,
+      headingStyle: 'Câu mở đầu mang tính gợi mở tự nhiên, không in hoa toàn bộ',
+      bulletPolicy: 'Không dùng bullet point máy móc',
+      postLength: '200 - 450 từ'
+    },
+    ctaRules: {
+      preferredPatterns: [
+        'Còn bạn, bạn nghĩ sao về điều này?',
+        'Mong một ngày trôi qua thật bình yên với bạn.',
+        'Đôi khi chỉ cần ngồi lại và thở một hơi thật sâu.'
+      ],
+      forbiddenPatterns: [
+        'HÃY LIKE VÀ SHARE NGAY',
+        'COMMENT SỐ 1 NẾU BẠN ĐỒNG Ý'
+      ]
+    },
+    hashtagRules: {
+      brandHashtags: ['#Ngam', '#GocNhinCuocSong', '#TamLyHoc', '#ChuyenDoiThuong'],
+      maxCount: 3,
+      placement: 'BOTTOM'
+    },
+    visualStyle: {
+      aesthetic: 'Nhiếp ảnh tối giản, tông màu trầm ấm (film tone), tĩnh lặng, hình ảnh người quan sát hoặc đời sống thường nhật',
+      colors: ['#475569', '#334155', '#e2e8f0'],
+      defaultFormat: '1080x1350'
+    },
+    pillars: [
+      { id: 'pil_ng_ref', name: 'Chiêm Nghiệm Cuộc Sống (Life Reflection)', percentage: 35, description: 'Góc nhìn chậm rãi về được mất, buông bỏ, thói quen sống' },
+      { id: 'pil_ng_psy', name: 'Tâm Lý Học Đời Thường (Psychology)', percentage: 25, description: 'Giải mã cảm xúc, sự kỳ vọng, cách đối diện với nỗi buồn' },
+      { id: 'pil_ng_story', name: 'Câu Chuyện Đời Thường (Story)', percentage: 20, description: 'Mẩu chuyện nhỏ bắt gặp trên phố, cuộc trò chuyện bất chợt' },
+      { id: 'pil_ng_soc', name: 'Quan Sát Xã Hội (Social Observation)', percentage: 10, description: 'Lát cắt ứng xử văn minh, sự tử tế bình dị' },
+      { id: 'pil_ng_eng', name: 'Thảo Luận & Chia Sẻ (Engagement)', percentage: 10, description: 'Câu hỏi gợi mở góc nhìn cá nhân của độc giả' }
+    ],
+    examplePosts: [
+      'Trưởng thành thật ra không phải là học cách trở nên mạnh mẽ trước mọi biến cố. Đôi khi, nó chỉ đơn giản là biết chấp nhận những ngày mình không hoàn hảo, và cho phép bản thân được nghỉ ngơi một chút mà không thấy áy náy.',
+      'Người ta thường nói về việc tìm kiếm bình yên như một điểm đến xa xôi. Nhưng có khi bình yên lại nằm ở một buổi chiều tan làm sớm, ngồi ngắm đường phố trôi qua mà lòng không còn bận tâm đến những lời phán xét.'
+    ],
+    status: 'ACTIVE',
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString()
+  },
+  {
+    id: 'brand_bds',
+    pageId: '61580345678901',
+    brandName: 'BĐS - Nhịp Sống Đô Thị & An Cư',
+    tagline: 'Thông tin nhà đất minh bạch, thực tế và góc nhìn an cư',
+    description: 'Trang chia sẻ kinh nghiệm thuê mua căn hộ, phân tích quy hoạch khu vực, kinh nghiệm pháp lý và đời sống cư dân đô thị.',
+    targetAudience: {
+      persona: 'Người đi làm, gia đình trẻ (24 - 40 tuổi), chuyên gia cần thuê/mua căn hộ, người đầu tư cá nhân tìm kiếm thông tin thị trường thực.',
+      painPoints: 'Gặp tin ảo, giá bị thổi phồng, pháp lý mập mờ, mất nhiều thời gian tìm kiếm không đúng nhu cầu.',
+      desires: 'Thông tin giá thuê/bán chuẩn xác, hình ảnh thực tế, kinh nghiệm thương lượng hợp đồng, vị trí tiện ích rõ ràng.'
+    },
+    location: 'Đà Nẵng & Các đô thị lớn',
+    toneOfVoice: {
+      primary: 'Thực tế, minh bạch, có số liệu, dễ đọc',
+      secondary: 'Khách quan, hữu ích, am hiểu địa phương',
+      forbiddenTone: 'Cò mồi chèo kéo, cam kết lợi nhuận viển vông, ép inbox'
+    },
+    writingStyle: {
+      sentenceLength: 'Rõ ràng, trực diện, thông tin mạch lạc',
+      perspective: 'Chuyên viên tư vấn độc lập / Người khảo sát địa phương',
+      paragraphLength: 'Phân đoạn ngắn, thông số cụ thể (giá, diện tích, vị trí)'
+    },
+    vocabularyPreferences: {
+      allowedTerms: ['thực tế', 'giá khảo sát', 'pháp lý minh bạch', 'tiện ích lân cận', 'kinh nghiệm thuê', 'an cư', 'hợp đồng rõ ràng'],
+      forbiddenTerms: ['cơ hội làm giàu duy nhất', 'cam kết sinh lời x2', 'chốt deal thần tốc', 'giá rẻ như cho']
+    },
+    forbiddenPatterns: [
+      'Cơ hội ngàn năm có một...',
+      'Không xem là tiếc cả đời...',
+      'Nhanh tay cọc ngay kẻo lỡ...'
+    ],
+    contentRules: {
+      maxEmojis: 4,
+      headingStyle: 'Nêu thẳng địa điểm hoặc vấn đề bài viết đề cập',
+      bulletPolicy: 'Áp dụng cho thông số căn nhà (diện tích, giá, tiện ích)',
+      postLength: '180 - 380 từ'
+    },
+    ctaRules: {
+      preferredPatterns: [
+        'Mức giá này ở khu vực bạn thấy đã hợp lý chưa?',
+        'Lưu lại bài viết nếu bạn đang chuẩn bị đi xem nhà nhé.',
+        'Cần khảo sát chi tiết khu vực nào, để lại bình luận mình tổng hợp thêm nhé.'
+      ],
+      forbiddenPatterns: [
+        'INBOX NGAY ĐỂ NHẬN GIÁ KÍN',
+        'CÒN 1 CĂN DUY NHẤT CỌC NGAY'
+      ]
+    },
+    hashtagRules: {
+      brandHashtags: ['#BatDongSanThucTe', '#CanHoDaNang', '#KinhNghiemThueNha', '#AnCuDoThi'],
+      maxCount: 4,
+      placement: 'BOTTOM'
+    },
+    visualStyle: {
+      aesthetic: 'Ảnh chụp mặt bằng và không gian nội thất thực tế, bản đồ khu vực trực quan, sáng sủa, không gắn watermark rối mắt',
+      colors: ['#0284c7', '#0f172a', '#f8fafc'],
+      defaultFormat: '1080x1350'
+    },
+    pillars: [
+      { id: 'pil_bds_list', name: 'Giới Thiệu Căn Hộ Thực Tế (Listings)', percentage: 35, description: 'Hình ảnh thực tế, thông số diện tích, giá thuê, tiện ích rõ ràng' },
+      { id: 'pil_bds_local', name: 'Nhịp Sống & Quy Hoạch Khu Vực (Local Market)', percentage: 20, description: 'Đặc thù quận huyện, hạ tầng giao thông, tiện ích trường học/chợ' },
+      { id: 'pil_bds_tips', name: 'Kinh Nghiệm Thuê & Mua Bán (Property Tips)', percentage: 20, description: 'Mẹo soi hợp đồng, chi phí phát sinh, cách thương lượng giá' },
+      { id: 'pil_bds_life', name: 'Đời Sống Cư Dân & Không Gian Sống (Lifestyle)', percentage: 15, description: 'Decor góc làm việc, phong cách sống tại chung cư, cây xanh' },
+      { id: 'pil_bds_eng', name: 'Thảo Luận Thị Trường (Engagement)', percentage: 10, description: 'Khảo sát giá, câu hỏi chọn thuê hay mua, chọn khu vực nào' }
+    ],
+    examplePosts: [
+      'Đi tìm phòng trọ hay căn hộ cho thuê, điều nên kiểm tra đầu tiên không phải là view ban công mà là công tơ điện và áp lực nước sinh hoạt. Rất nhiều bạn khi dọn vào mới ngã ngửa vì giá điện tính bậc thang hoặc nước yếu giờ cao điểm. Anh chị em có kinh nghiệm gì thêm khi xem nhà không?',
+      'Khu vực An Thượng (Ngũ Hành Sơn) hiện tại giá thuê căn hộ 1 phòng ngủ full đồ dao động từ 6.5 đến 9.5 triệu tuỳ vị trí cách biển bao xa. Khách nước ngoài và dân digital nomad chuộng khu này vì nhiều quán cafe yên tĩnh và tiện đi bộ.'
+    ],
+    status: 'ACTIVE',
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString()
+  }
+];
+
+class BrandProfileService {
+  constructor() {
+    this.rootDir = config.rootDir || path.resolve(__dirname, '../../../../');
+    this.profilesFile = path.resolve(this.rootDir, 'data/marketing/brand_profiles.json');
+    this.dnaFile = path.resolve(this.rootDir, 'data/marketing/brand_dna.json');
+    this.postsFile = path.resolve(this.rootDir, 'data/marketing/past_posts.json');
+
+    this._ensureDirs();
+    this.profiles = this._loadProfiles();
+  }
+
+  _ensureDirs() {
+    const dir = path.dirname(this.profilesFile);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  }
+
+  _loadProfiles() {
+    try {
+      if (fs.existsSync(this.profilesFile)) {
+        const raw = fs.readFileSync(this.profilesFile, 'utf8');
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          return parsed;
+        }
+      }
+    } catch (err) {
+      logger.error(`[BRAND_PROFILE] Lỗi nạp profiles: ${err.message}`);
+    }
+
+    // Nếu chưa có, nạp 3 hồ sơ mẫu
+    this._saveProfiles(DEFAULT_BRAND_PROFILES);
+    return DEFAULT_BRAND_PROFILES;
+  }
+
+  _saveProfiles(profiles) {
+    try {
+      this._ensureDirs();
+      fs.writeFileSync(this.profilesFile, JSON.stringify(profiles, null, 2), 'utf8');
+    } catch (err) {
+      logger.error(`[BRAND_PROFILE] Lỗi lưu profiles: ${err.message}`);
+    }
+  }
+
+  /**
+   * Lấy danh sách tất cả Brand Profiles
+   */
+  getAllProfiles() {
+    return this.profiles;
+  }
+
+  /**
+   * Lấy chi tiết 1 Brand Profile theo ID
+   */
+  getProfileById(id) {
+    return this.profiles.find(p => p.id === id) || null;
+  }
+
+  /**
+   * Tạo Brand Profile mới
+   */
+  createProfile(payload) {
+    if (!payload.brandName || !payload.brandName.trim()) {
+      throw new Error('Tên thương hiệu (Brand Name) không được để trống.');
+    }
+
+    const id = `brand_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 6)}`;
+    
+    // Đảm bảo có cấu trúc mặc định chuẩn
+    const newProfile = {
+      id,
+      pageId: payload.pageId || '',
+      brandName: payload.brandName.trim(),
+      tagline: payload.tagline || '',
+      description: payload.description || '',
+      targetAudience: payload.targetAudience || { persona: '', painPoints: '', desires: '' },
+      location: payload.location || 'Toàn quốc',
+      toneOfVoice: payload.toneOfVoice || { primary: 'Tự nhiên, chân thực', secondary: '', forbiddenTone: '' },
+      writingStyle: payload.writingStyle || { sentenceLength: '', perspective: 'Ngôi thứ nhất', paragraphLength: '' },
+      vocabularyPreferences: payload.vocabularyPreferences || { allowedTerms: [], forbiddenTerms: [] },
+      forbiddenPatterns: payload.forbiddenPatterns || [],
+      contentRules: payload.contentRules || { maxEmojis: 3, headingStyle: '', bulletPolicy: '', postLength: '200 - 350 từ' },
+      ctaRules: payload.ctaRules || { preferredPatterns: [], forbiddenPatterns: [] },
+      hashtagRules: payload.hashtagRules || { brandHashtags: [], maxCount: 3, placement: 'BOTTOM' },
+      visualStyle: payload.visualStyle || { aesthetic: '', colors: [], defaultFormat: '1080x1350' },
+      pillars: Array.isArray(payload.pillars) && payload.pillars.length > 0 ? payload.pillars : [
+        { id: `pil_${Date.now()}_1`, name: 'Kiến Thức & Giá Trị', percentage: 40, description: 'Nội dung giáo dục, chia sẻ mẹo hữu ích' },
+        { id: `pil_${Date.now()}_2`, name: 'Tương Tác & Thảo Luận', percentage: 30, description: 'Gợi mở câu chuyện và gắn kết độc giả' },
+        { id: `pil_${Date.now()}_3`, name: 'Sản Phẩm & Dịch Vụ', percentage: 30, description: 'Giới thiệu giải pháp tinh tế' }
+      ],
+      examplePosts: payload.examplePosts || [],
+      status: 'ACTIVE',
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString()
+    };
+
+    // Kiểm tra tỷ lệ Content Pillars
+    this._validatePillars(newProfile.pillars);
+
+    this.profiles.unshift(newProfile);
+    this._saveProfiles(this.profiles);
+
+    logger.info(`[BRAND_PROFILE] Đã tạo Brand Profile mới: ${newProfile.brandName} (${newProfile.id})`);
+    return newProfile;
+  }
+
+  /**
+   * Cập nhật Brand Profile
+   */
+  updateProfile(id, payload) {
+    const idx = this.profiles.findIndex(p => p.id === id);
+    if (idx === -1) throw new Error(`Không tìm thấy Brand Profile với ID: ${id}`);
+
+    const existing = this.profiles[idx];
+
+    if (payload.pillars) {
+      this._validatePillars(payload.pillars);
+    }
+
+    const updated = {
+      ...existing,
+      ...payload,
+      id: existing.id, // không đổi id
+      updatedAt: new Date().toISOString()
+    };
+
+    this.profiles[idx] = updated;
+    this._saveProfiles(this.profiles);
+
+    logger.info(`[BRAND_PROFILE] Đã cập nhật Brand Profile: ${updated.brandName}`);
+    return updated;
+  }
+
+  /**
+   * Xóa Brand Profile
+   */
+  deleteProfile(id) {
+    const idx = this.profiles.findIndex(p => p.id === id);
+    if (idx === -1) throw new Error(`Không tìm thấy Brand Profile với ID: ${id}`);
+
+    const deleted = this.profiles.splice(idx, 1)[0];
+    this._saveProfiles(this.profiles);
+    logger.info(`[BRAND_PROFILE] Đã xóa Brand Profile: ${deleted.brandName}`);
+    return true;
+  }
+
+  /**
+   * Cập nhật riêng Ma trận Content Pillars (với kiểm tra tổng = 100%)
+   */
+  updatePillars(id, pillars) {
+    if (!Array.isArray(pillars) || pillars.length === 0) {
+      throw new Error('Danh sách Content Pillars không được để trống.');
+    }
+
+    this._validatePillars(pillars);
+
+    const profile = this.getProfileById(id);
+    if (!profile) throw new Error(`Không tìm thấy Brand Profile với ID: ${id}`);
+
+    profile.pillars = pillars.map(p => ({
+      id: p.id || `pil_${Date.now()}_${Math.random().toString(36).substring(2, 5)}`,
+      name: p.name.trim(),
+      percentage: parseInt(p.percentage, 10) || 0,
+      description: p.description || ''
+    }));
+
+    profile.updatedAt = new Date().toISOString();
+    this._saveProfiles(this.profiles);
+
+    return profile.pillars;
+  }
+
+  /**
+   * Thêm bài viết mẫu (Example Post) cho Brand Profile
+   */
+  addExamplePost(id, postText) {
+    if (!postText || !postText.trim()) throw new Error('Nội dung bài viết mẫu không được để trống.');
+    const profile = this.getProfileById(id);
+    if (!profile) throw new Error(`Không tìm thấy Brand Profile với ID: ${id}`);
+
+    if (!Array.isArray(profile.examplePosts)) profile.examplePosts = [];
+    profile.examplePosts.push(postText.trim());
+    profile.updatedAt = new Date().toISOString();
+    this._saveProfiles(this.profiles);
+
+    return profile.examplePosts;
+  }
+
+  /**
+   * Xóa bài viết mẫu
+   */
+  deleteExamplePost(id, postIndex) {
+    const profile = this.getProfileById(id);
+    if (!profile) throw new Error(`Không tìm thấy Brand Profile với ID: ${id}`);
+
+    if (Array.isArray(profile.examplePosts) && profile.examplePosts[postIndex] !== undefined) {
+      profile.examplePosts.splice(postIndex, 1);
+      profile.updatedAt = new Date().toISOString();
+      this._saveProfiles(this.profiles);
+    }
+    return profile.examplePosts;
+  }
+
+  /**
+   * Kiểm tra tổng tỷ lệ phần trăm Content Pillars
+   */
+  _validatePillars(pillars) {
+    if (!Array.isArray(pillars)) return;
+    const total = pillars.reduce((sum, p) => sum + (parseInt(p.percentage, 10) || 0), 0);
+    if (total !== 100) {
+      throw new Error(`Tổng tỷ lệ phần trăm của Content Pillars phải đúng 100% (Hiện tại là: ${total}%). Vui lòng cân đối lại.`);
+    }
+  }
+}
+
+module.exports = new BrandProfileService();

@@ -1,0 +1,2108 @@
+[
+  {
+    "nhomNghe": "Kinh doanh/Bán hàng",
+    "ngheList": [
+      {
+        "nghe": "Sales Xuất nhập khẩu/Logistics",
+        "viTriList": [
+          "Sales Logistics",
+          "Sales Xuất nhập khẩu/Logistics khác"
+        ]
+      },
+      {
+        "nghe": "Sales Bất động sản",
+        "viTriList": [
+          "Sales bất động sản/Môi giới bất động sản",
+          "Sales Bất động sản khác"
+        ]
+      },
+      {
+        "nghe": "Sales Xây dựng",
+        "viTriList": [
+          "Kinh doanh thiết bị/vật liệu xây dựng",
+          "Kinh doanh nội thất",
+          "Tư vấn thiết kế xây dựng",
+          "Sales Xây dựng khác"
+        ]
+      },
+      {
+        "nghe": "Sales Giáo dục/Khoá học",
+        "viTriList": [
+          "Kinh doanh thiết bị/vật liệu xây dựng",
+          "Kinh doanh nội thất",
+          "Tư vấn thiết kế xây dựng",
+          "Sales Xây dựng khác"
+        ]
+      },
+      {
+        "nghe": "Sales Admin/Sales Support",
+        "viTriList": [
+          "Sales Admin/Sales Support/Sales Associate",
+          "Chuyên viên đấu thầu",
+          "Customer Success",
+          "Vận hành Livestream"
+        ]
+      },
+      {
+        "nghe": "Sales Tài chính/Ngân hàng/Bảo hiểm",
+        "viTriList": [
+          "Tư vấn bảo hiểm",
+          "Quan hệ khách hàng cá nhân/doanh nghiệp",
+          "Bancassurance",
+          "Tư vấn đầu tư",
+          "Kinh doanh ngoại hối, vàng, phái sinh",
+          "Tư vấn tài chính",
+          "Sales Tài chính/Ngân hàng/Bảo hiểm khác"
+        ]
+      },
+      {
+        "nghe": "Sales Bán lẻ/Dịch vụ tiêu dùng",
+        "viTriList": [
+          "Kinh doanh kênh MT",
+          "Kinh doanh kênh GT",
+          "Bán hàng siêu thị/cửa hàng tiện ích/tiện lợi",
+          "Bán hàng điện thoại",
+          "Bán hàng điện máy",
+          "Bán hàng thời trang",
+          "Bán hàng trang sức đá quý",
+          "Bán hàng mỹ phẩm",
+          "Kinh doanh thực phẩm",
+          "Kinh doanh bao bì",
+          "Sales thẻ tập",
+          "Sales Bán lẻ/Dịch vụ tiêu dùng khác"
+        ]
+      },
+      {
+        "nghe": "Sales Sản xuất",
+        "viTriList": [
+          "Kinh doanh hoá chất",
+          "Kinh doanh ô tô/xe máy/xe điện",
+          "Kinh doanh phụ tùng ô tô/xe máy/xe điện",
+          "Sales Sản xuất khác"
+        ]
+      },
+      {
+        "nghe": "Sales Kỹ thuật (Sales Engineer)",
+        "viTriList": [
+          "Bán hàng kỹ thuật Điện/Điện tử/Viễn thông",
+          "Bán hàng kỹ thuật cơ khí",
+          "Bán hàng kỹ thuật IT",
+          "Sales Kỹ thuật khác"
+        ]
+      },
+      {
+        "nghe": "Sales Nhà hàng/Khách sạn/Du lịch",
+        "viTriList": [
+          "Kinh doanh HORECA",
+          "Sales Tour/Kinh doanh du lịch",
+          "Kinh doanh khách đoàn (MICE)",
+          "Bán vé máy bay (Ticketing/Booker)",
+          "Kinh doanh khách sạn",
+          "Kinh doanh OTA",
+          "Sales Nhà hàng/Khách sạn/Du lịch khác"
+        ]
+      },
+      {
+        "nghe": "Sales Dược/Y tế/Sức khoẻ/Làm đẹp",
+        "viTriList": [
+          "Kinh doanh thiết bị/vật tư y tế",
+          "Trình dược viên",
+          "Dược sĩ/Bán thuốc",
+          "Tư vấn thẩm mỹ/Spa",
+          "Tư vấn nha khoa",
+          "Kinh doanh dịch vụ y tế",
+          "Sales Dược/Y tế/Sức khoẻ/Làm đẹp khác"
+        ]
+      },
+      {
+        "nghe": "Sales IT Phần mềm",
+        "viTriList": [
+          "Kinh doanh phần mềm",
+          "Kinh doanh Domain/Hosting/Server",
+          "Sales IT Phần mềm khác"
+        ]
+      },
+      {
+        "nghe": "Sales Điện/Điện tử/Viễn thông",
+        "viTriList": [
+          "Kinh doanh thiết bị/linh kiện điện",
+          "Kinh doanh thiết bị công nghiệp",
+          "Kinh doanh dịch vụ viễn thông",
+          "Kinh doanh điện mặt trời",
+          "Kinh doanh HVAC",
+          "Sales Điện/Điện tử/Viễn thông khác"
+        ]
+      },
+      {
+        "nghe": "Sales dịch vụ Quảng cáo/Triển lãm/Sự kiện",
+        "viTriList": [
+          "Kinh doanh dịch vụ quảng cáo",
+          "Kinh doanh triển lãm",
+          "Kinh doanh tiệc/sự kiện/hội nghị",
+          "Kinh doanh mảng Nhà tài trợ",
+          "Sales dịch vụ Quảng cáo/Triển lãm/Sự kiện khác",
+          "Sales Marketing"
+        ]
+      },
+      {
+        "nghe": "Sales Thương mại điện tử",
+        "viTriList": [
+          "Kinh doanh sàn thương mại điện tử"
+        ]
+      },
+      {
+        "nghe": "Quản lý kinh doanh",
+        "viTriList": [
+          "Sales Manager/Trưởng phòng kinh doanh",
+          "Sales Supervisor/Giám sát bán hàng",
+          "ASM/Quản lý khu vực/vùng miền",
+          "Quản lý cửa hàng/Cửa hàng trưởng",
+          "Sales Director/Giám đốc kinh doanh",
+          "Chief Customer Officer (CCO)",
+          "Chuyên viên chính sách kinh doanh",
+          "Quản lý Kinh doanh khác"
+        ]
+      },
+      {
+        "nghe": "Kinh doanh/Bán hàng khác",
+        "viTriList": [
+          "Kinh doanh nông sản",
+          "Account Executive",
+          "Account Manager (Quản lý khách hàng)",
+          "Sales Representative/Phát triển kinh doanh",
+          "Trợ lý kinh doanh",
+          "Sales Dịch vụ kế toán",
+          "Kinh doanh quà tặng/in ấn",
+          "Chuyên môn Kinh doanh/Bán hàng khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Marketing/PR/Quảng cáo",
+    "ngheList": [
+      {
+        "nghe": "Marketing",
+        "viTriList": [
+          "Digital Marketing",
+          "Content Marketing",
+          "Copywriter",
+          "Content Creator",
+          "TikTok Content",
+          "Social Content",
+          "SEO",
+          "Email Marketing",
+          "Social Media",
+          "Affiliate Marketing",
+          "In-bound Marketing",
+          "Growth Hacker",
+          "Chạy Ads",
+          "Host Livestream/Streamer",
+          "Chuyên môn Marketing",
+          "Marketing Planner",
+          "Brand Marketing",
+          "Product Marketing",
+          "Trade Marketing",
+          "Event Marketing",
+          "KOL/KOC Manager",
+          "Global Marketing",
+          "Marketing Manager",
+          "Marketing Director",
+          "Giám đốc Marketing (CMO)",
+          "Sales Marketing",
+          "Marketing Admin",
+          "Marketing Operations"
+        ]
+      },
+      {
+        "nghe": "Quảng cáo/Sáng tạo",
+        "viTriList": [
+          "Campaign Manager",
+          "Media Planner/Buyer Executive",
+          "Media Placement Specialist",
+          "Creative Planner",
+          "Production Manager",
+          "Ad Operations Manager",
+          "Kiểm duyệt quảng cáo",
+          "Creative Director",
+          "Art Director",
+          "Photographer/Video Editor",
+          "Thiết kế đồ họa (Graphic Design)",
+          "Illustration",
+          "Animation Design",
+          "3D Modeler",
+          "Chuyên môn Quảng cáo/Sáng tạo khác"
+        ]
+      },
+      {
+        "nghe": "Quan hệ Công chúng (PR)",
+        "viTriList": [
+          "Chuyên môn Quan hệ Công chúng",
+          "PR Specialist",
+          "Quan hệ báo chí",
+          "Xử lý khủng hoảng truyền thông",
+          "Corporate Communication",
+          "Xây dựng và bảo vệ thương hiệu",
+          "Truyền thông nội bộ",
+          "Phát triển cộng đồng"
+        ]
+      },
+      {
+        "nghe": "Quan hệ Chính phủ",
+        "viTriList": [
+          "Chuyên môn Quan hệ chính phủ",
+          "Quan hệ đối ngoại",
+          "Hợp tác quốc tế",
+          "Public Affairs Manager",
+          "Nghiên cứu chính sách",
+          "Goverment Affairs Manager",
+          "Vận động hành lang"
+        ]
+      },
+      {
+        "nghe": "Market Research and Analysis",
+        "viTriList": [
+          "Nghiên cứu thị trường (Market Research)",
+          "Business Intelligence",
+          "Quantitative Analyst",
+          "Data Analyst",
+          "Chuyên môn Market Research and Analysis khác"
+        ]
+      },
+      {
+        "nghe": "Sales dịch vụ Quảng cáo/Triển lãm/Sự kiện",
+        "viTriList": [
+          "Kinh doanh dịch vụ quảng cáo",
+          "Kinh doanh triển lãm",
+          "Kinh doanh tiệc/sự kiện/hội nghị",
+          "Kinh doanh mảng Nhà tài trợ",
+          "Sales dịch vụ Quảng cáo/Triển lãm/Sự kiện khác",
+          "Sales Marketing"
+        ]
+      },
+      {
+        "nghe": "Marketing/PR/Quảng cáo khác",
+        "viTriList": [
+          "Marketing/PR/Quảng cáo khác",
+          "Vendor Management Executive/Supplier Relationship Management Executive",
+          "Nhân viên phát tờ rơi",
+          "PG",
+          "Chuyên môn Marketing/PR/Quảng cáo khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Chăm sóc khách hàng (Customer Service)/Vận hành",
+    "ngheList": [
+      {
+        "nghe": "Chăm sóc khách hàng (Customer Service)",
+        "viTriList": [
+          "Chăm sóc khách hàng",
+          "Call Center/Trực tổng đài",
+          "Trực page",
+          "Customer Success",
+          "Customer Experience (Trải nghiệm khách hàng)",
+          "Dịch vụ khách hàng/Chăm sóc khách hàng khác"
+        ]
+      },
+      {
+        "nghe": "Vận hành Thương mại điện tử",
+        "viTriList": [
+          "Vận hành sàn thương mại điện tử"
+        ]
+      },
+      {
+        "nghe": "Business Operation (Vận hành kinh doanh)",
+        "viTriList": [
+          "Vận hành chung",
+          "Data Labeling (Gán nhãn dữ liệu)"
+        ]
+      },
+      {
+        "nghe": "Quản lý vận hành",
+        "viTriList": [
+          "Quản lý/Trưởng phòng vận hành",
+          "Giám đốc vận hành/COO",
+          "Giám đốc dịch vụ khách hàng"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ khách hàng/Vận hành khác",
+        "viTriList": [
+          "Chuyên môn Dịch vụ khách hàng/Vận hành khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Nhân sự/Hành chính/Pháp chế",
+    "ngheList": [
+      {
+        "nghe": "Nhân sự",
+        "viTriList": [
+          "Tuyển dụng",
+          "Đối tác nhân sự (HRBP)",
+          "Đào tạo",
+          "Quan hệ lao động",
+          "Phát triển tổ chức",
+          "Truyền thông nội bộ",
+          "Chuyên viên phát triển văn hóa doanh nghiệp",
+          "Payroll/C&B (Lương/Thưởng/Phúc lợi)",
+          "Nhân sự tổng hợp",
+          "Trưởng phòng nhân sự",
+          "Giám đốc nhân sự",
+          "Chuyên môn Nhân sự khác"
+        ]
+      },
+      {
+        "nghe": "Hành chính",
+        "viTriList": [
+          "Hành chính nhân sự",
+          "Hành chính tổng hợp",
+          "Trưởng phòng hành chính",
+          "Giám đốc hành chính",
+          "Giám đốc điều hành",
+          "Lễ tân/Đón tiếp",
+          "Văn thư",
+          "Quản lý cơ sở vật chất",
+          "Tài xế lái xe văn phòng",
+          "Lái xe cho sếp",
+          "Trợ lý/Thư ký",
+          "Project Administrator",
+          "Xử lý hồ sơ",
+          "Chuyên viên hợp đồng",
+          "Chuyên môn Hành chính khác"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ pháp chế (In-house)",
+        "viTriList": [
+          "Pháp chế",
+          "Giám đốc pháp chế",
+          "Chuyên môn Pháp chế khác"
+        ]
+      },
+      {
+        "nghe": "Nhân sự/Hành chính/Pháp chế khác",
+        "viTriList": [
+          "Chuyên môn Nhân sự/Hành chính/Pháp chế khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Công nghệ Thông tin",
+    "ngheList": [
+      {
+        "nghe": "Software Engineering",
+        "viTriList": [
+          "Software Engineer",
+          "Backend Developer",
+          "Frontend Developer",
+          "Mobile Developer",
+          "Fullstack Developer",
+          "Blockchain Engineer"
+        ]
+      },
+      {
+        "nghe": "Software Testing",
+        "viTriList": [
+          "Software Tester (Automation & Manual)",
+          "Automation Tester",
+          "Manual Tester",
+          "Game Tester",
+          "QA Engineer",
+          "Process Quality Assurance (PQA)"
+        ]
+      },
+      {
+        "nghe": "Artificial Intelligence (AI)",
+        "viTriList": [
+          "Artificial Intelligence (AI)",
+          "AI Engineer",
+          "AI Researcher",
+          "Data Labeling (Gán nhãn dữ liệu)"
+        ]
+      },
+      {
+        "nghe": "Data Science",
+        "viTriList": [
+          "Data Analyst",
+          "Data Engineer",
+          "Data Scientist"
+        ]
+      },
+      {
+        "nghe": "IT Infrastructure and Operations",
+        "viTriList": [
+          "IT Helpdesk/IT support",
+          "DevOps Engineer",
+          "Network Engineer",
+          "System Engineer",
+          "System Administrator",
+          "Database Administrator (DBA)",
+          "Cloud Engineer",
+          "Kỹ thuật IT"
+        ]
+      },
+      {
+        "nghe": "Information Security",
+        "viTriList": [
+          "Chuyên viên Cyber Security",
+          "Chuyên viên IT Security",
+          "Chiến lược và phân tích bảo mật",
+          "Quản trị và vận hành bảo mật",
+          "Tuân thủ và kiểm toán bảo mật",
+          "Phòng chống lừa đảo và an ninh mạng",
+          "Bảo mật ứng dụng và phát triển",
+          "Mã hóa và bảo mật dữ liệu",
+          "Kiểm thử và đánh giá bảo mật"
+        ]
+      },
+      {
+        "nghe": "IoT/Embedded Engineer",
+        "viTriList": [
+          "Kỹ sư IoT (IoT Engineer)",
+          "Embedded Engineer/Lập trình nhúng"
+        ]
+      },
+      {
+        "nghe": "IT Project Management",
+        "viTriList": [
+          "IT Project Manager",
+          "Scrum Master",
+          "Kỹ sư cầu nối BrSE",
+          "IT Comtor"
+        ]
+      },
+      {
+        "nghe": "IT Management/Specialist",
+        "viTriList": [
+          "Software Architect",
+          "System Architect",
+          "Solution Architect",
+          "Technical Leader",
+          "Technical Manager",
+          "Head of Engineering",
+          "Technical Director",
+          "Chief Technology Officer (CTO)",
+          "Chief Information Officer (CIO)"
+        ]
+      },
+      {
+        "nghe": "Software Design",
+        "viTriList": [
+          "UI/UX Design",
+          "Thiết kế đồ họa (Graphic Design)",
+          "Illustration",
+          "Animation Design",
+          "Interaction Designer",
+          "3D Modeler"
+        ]
+      },
+      {
+        "nghe": "Product Management",
+        "viTriList": [
+          "Product Owner/Product Manager",
+          "Business Analyst (Phân tích nghiệp vụ)",
+          "Product Analyst/Research"
+        ]
+      },
+      {
+        "nghe": "Game Development",
+        "viTriList": [
+          "Game Development",
+          "Game Developer",
+          "Concept Artist",
+          "Game Design",
+          "AR/VR Developer",
+          "Vị trí Game Development khác"
+        ]
+      },
+      {
+        "nghe": "Sales IT Phần mềm",
+        "viTriList": [
+          "Kinh doanh phần mềm",
+          "Kinh doanh Domain/Hosting/Server",
+          "Sales IT Phần mềm khác"
+        ]
+      },
+      {
+        "nghe": "Công nghệ thông tin khác",
+        "viTriList": [
+          "IT Consultant",
+          "GIS Engineer",
+          "Bán hàng"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Tài chính/Ngân hàng/Bảo hiểm",
+    "ngheList": [
+      {
+        "nghe": "Tài chính",
+        "viTriList": [
+          "Chuyên môn Tài chính",
+          "Hoạch định tài chính",
+          "Định chế tài chính",
+          "Kiểm soát và báo cáo tài chính",
+          "Tư vấn tài chính",
+          "Giám đốc tài chính",
+          "Huy động vốn"
+        ]
+      },
+      {
+        "nghe": "Ngân hàng",
+        "viTriList": [
+          "Giao dịch viên",
+          "Chuyên viên xử lý nợ",
+          "Kinh doanh nguồn vốn",
+          "Kinh doanh ngoại hối, vàng, phái sinh",
+          "Tài trợ thương mại",
+          "Giám đốc khối khách hàng cá nhân",
+          "Giám đốc khối khách hàng doanh nghiệp",
+          "Giám đốc khối nguồn vốn và thị trường",
+          "Giám đốc kinh doanh bảo hiểm",
+          "Giám đốc ngân hàng",
+          "Quan hệ khách hàng cá nhân/doanh nghiệp",
+          "Thẩm định tín dụng",
+          "Tác nghiệp tín dụng",
+          "Kiểm soát tuân thủ",
+          "Chuyên môn Ngân hàng khác"
+        ]
+      },
+      {
+        "nghe": "Chứng khoán",
+        "viTriList": [
+          "Phân tích đầu tư chứng khoán",
+          "Quản lý danh mục đầu tư",
+          "Chuyên môn Chứng khoán khác"
+        ]
+      },
+      {
+        "nghe": "Thẩm định và quản trị rủi ro",
+        "viTriList": [
+          "Quản trị rủi ro",
+          "Kiểm soát tuân thủ",
+          "Phòng chống rửa tiền",
+          "Pháp chế",
+          "Thẩm định tín dụng",
+          "Quản lý thanh khoản",
+          "Định giá tài sản",
+          "Thu hồi nợ",
+          "Giám đốc tuân thủ và pháp lý",
+          "Giám đốc quản lý rủi ro (CRO)",
+          "Chuyên môn Thẩm định và quản trị rủi ro khác"
+        ]
+      },
+      {
+        "nghe": "Đầu tư và Tài trợ",
+        "viTriList": [
+          "Phân tích đầu tư",
+          "Tài trợ thương mại",
+          "Mua bán và sáp nhập (M&A)",
+          "Quan hệ nhà đầu tư",
+          "Quản lý tài sản",
+          "Quản lý danh mục/quỹ",
+          "Giám đốc/Phó giám đốc đầu tư",
+          "Tư vấn đầu tư",
+          "Chuyên môn đầu tư và tài trợ khác"
+        ]
+      },
+      {
+        "nghe": "Bảo hiểm",
+        "viTriList": [
+          "Bồi thường bảo hiểm",
+          "Định phí bảo hiểm",
+          "Thẩm định và phát hành hợp đồng bảo hiểm",
+          "Quản lý hợp đồng bảo hiểm",
+          "Tư vấn bảo hiểm",
+          "Bancassurance",
+          "Chuyên môn Bảo hiểm khác"
+        ]
+      },
+      {
+        "nghe": "Sales Tài chính/Ngân hàng/Bảo hiểm",
+        "viTriList": [
+          "Tư vấn bảo hiểm",
+          "Quan hệ khách hàng cá nhân/doanh nghiệp",
+          "Bancassurance",
+          "Tư vấn đầu tư",
+          "Kinh doanh ngoại hối, vàng, phái sinh",
+          "Tư vấn tài chính",
+          "Sales Tài chính/Ngân hàng/Bảo hiểm khác"
+        ]
+      },
+      {
+        "nghe": "Tài chính/Ngân hàng/Bảo hiểm khác",
+        "viTriList": [
+          "Chuyên viên kế hoạch",
+          "Chuyên môn Tài chính/Ngân hàng/Bảo hiểm khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Bất động sản",
+    "ngheList": [
+      {
+        "nghe": "Quản lý vận hành bất động sản",
+        "viTriList": [
+          "Quản lý tòa nhà",
+          "Bảo trì tòa nhà",
+          "Giám sát bảo trì tòa nhà",
+          "Nhân viên cảnh quan",
+          "Bảo trì PCCC",
+          "Vận hành tòa nhà",
+          "Quản lý vận hành bất động sản khác"
+        ]
+      },
+      {
+        "nghe": "Quy hoạch và phát triển bất động sản",
+        "viTriList": [
+          "Quy hoạch và thiết kế đô thị",
+          "Đấu thầu bất động sản",
+          "Quản lý dự án bất động sản",
+          "Quy hoạch bất động sản",
+          "Phát triển mặt bằng",
+          "Giải phóng mặt bằng",
+          "Thẩm định giá bất động sản",
+          "Giám đốc kế hoạch bất động sản",
+          "Giám đốc đấu thầu bất động sản",
+          "Giám đốc dự án bất động sản"
+        ]
+      },
+      {
+        "nghe": "Sales Bất động sản",
+        "viTriList": [
+          "Sales bất động sản/Môi giới bất động sản",
+          "Sales Bất động sản khác"
+        ]
+      },
+      {
+        "nghe": "Bất động sản khác",
+        "viTriList": [
+          "Chuyên môn Bất động sản khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Xây dựng",
+    "ngheList": [
+      {
+        "nghe": "Quản lý dự án xây dựng",
+        "viTriList": [
+          "Quản lý dự án thi công xây dựng",
+          "Dự toán công trình",
+          "Giám sát dự án/công trình/thi công",
+          "Thư ký công trình",
+          "Nhân viên hồ sơ xây dựng",
+          "Nhân viên vật tư",
+          "Nhân viên trắc đạc",
+          "Kỹ sư an toàn lao động (HSE)",
+          "Kỹ sư hiện trường",
+          "Quản đốc công trình",
+          "Quản lý chất lượng công trình",
+          "Kỹ sư địa chất",
+          "Đấu thầu xây dựng",
+          "Quản lý thiết bị công trình",
+          "Giám sát thi công nội thất",
+          "Quản lý dự án xây dựng khác"
+        ]
+      },
+      {
+        "nghe": "Thiết kế và Kiến trúc",
+        "viTriList": [
+          "Kỹ sư kết cấu công trình",
+          "Kỹ sư hạ tầng đô thị",
+          "Thiết kế cảnh quan",
+          "Thiết kế nội thất",
+          "Kiến trúc sư",
+          "Kỹ sư xây dựng",
+          "Kỹ sư hệ thống điện nhẹ",
+          "Kỹ sư cơ điện",
+          "Kỹ sư cấp thoát nước",
+          "Kỹ sư HVAC",
+          "Kỹ sư thiết kế nhôm kính",
+          "BIM Engineer",
+          "Kỹ sư PCCC",
+          "Kỹ sư cầu đường",
+          "Chuyên môn Thiết kế và Kiến trúc khác"
+        ]
+      },
+      {
+        "nghe": "Công nhân Xây dựng/Cải tạo",
+        "viTriList": [
+          "Sửa chữa/Bảo trì điện nước",
+          "Thợ điện lạnh",
+          "Thợ hàn",
+          "Thợ mộc",
+          "Thợ sơn",
+          "Lắp đặt/bảo trì thang máy",
+          "Thợ xây/Thợ nề/Thợ hồ",
+          "Thợ nhôm kính",
+          "Nhân viên thi công",
+          "Công nhân thời vụ",
+          "Công nhân khai thác than",
+          "Công nhân xưởng gỗ",
+          "Công nhân lắp ráp",
+          "Công nhân vận hành máy",
+          "Công nhân xây dựng",
+          "Thợ xây dựng khác",
+          "Việc làm Công nhân khác"
+        ]
+      },
+      {
+        "nghe": "Sales Xây dựng",
+        "viTriList": [
+          "Kinh doanh thiết bị/vật liệu xây dựng",
+          "Kinh doanh nội thất",
+          "Tư vấn thiết kế xây dựng",
+          "Sales Xây dựng khác"
+        ]
+      },
+      {
+        "nghe": "Xây dựng khác",
+        "viTriList": [
+          "Chuyên môn Xây dựng khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Kế toán/Kiểm toán/Thuế",
+    "ngheList": [
+      {
+        "nghe": "Kế toán",
+        "viTriList": [
+          "Kế toán tổng hợp",
+          "Kế toán nội bộ",
+          "Kế toán công nợ",
+          "Kế toán thuế",
+          "Kế toán chi phí/giá thành",
+          "Kế toán bán hàng",
+          "Kế toán doanh thu",
+          "Kế toán tài chính",
+          "Kế toán đầu tư",
+          "Kế toán tài sản cố định",
+          "Kế toán mua hàng",
+          "Kế toán thanh toán",
+          "Kế toán kho/nguyên vật liệu",
+          "Kế toán tiền lương",
+          "Kế toán quản trị",
+          "Kế toán trưởng",
+          "Kế toán công trình",
+          "Kế toán sản xuất",
+          "Kế toán dự án",
+          "Kế toán xuất nhập khẩu",
+          "Kế toán ngân hàng",
+          "Thủ quỹ",
+          "Kế toán khác"
+        ]
+      },
+      {
+        "nghe": "Kiểm toán",
+        "viTriList": [
+          "Kiểm toán viên",
+          "Kiểm toán nội bộ",
+          "Kiểm toán độc lập",
+          "Trưởng nhóm kiểm toán",
+          "Chuyên môn Kiểm toán khác"
+        ]
+      },
+      {
+        "nghe": "Thuế",
+        "viTriList": [
+          "Chuyên viên thuế",
+          "Chuyên môn Thuế khác"
+        ]
+      },
+      {
+        "nghe": "Kế toán/Kiểm toán/Thuế khác",
+        "viTriList": [
+          "Chuyên môn Kế toán/Kiểm toán/Thuế khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Sản xuất",
+    "ngheList": [
+      {
+        "nghe": "Gia công cơ khí",
+        "viTriList": [
+          "Công nhân cơ khí",
+          "Thợ hàn",
+          "Thợ phay",
+          "Thợ mài",
+          "Thợ tiện",
+          "Thợ khoan",
+          "Thợ Gia công cơ khí khác"
+        ]
+      },
+      {
+        "nghe": "Thiết kế/chế tạo máy",
+        "viTriList": [
+          "Thợ tiện",
+          "Kỹ sư lập trình máy",
+          "Kỹ sư tự động hóa",
+          "Kỹ sư cơ khí",
+          "Kỹ sư kết cấu máy",
+          "Kỹ sư quy trình",
+          "Kỹ sư khuôn mẫu",
+          "Kỹ sư thiết kế cơ khí",
+          "Kỹ sư vật liệu",
+          "Kỹ sư công nghiệp (IE)",
+          "Kỹ sư thiết kế HVAC",
+          "Chuyên môn Thiết kế/chế tạo máy khác"
+        ]
+      },
+      {
+        "nghe": "Hoá chất/Hoá mỹ phẩm",
+        "viTriList": [
+          "Kỹ thuật viên phòng thí nghiệm",
+          "Kỹ sư hóa học",
+          "Nghiên cứu và phát triển (R&D) thực phẩm/đồ uống",
+          "Nghiên cứu và phát triển (R&D) mỹ phẩm",
+          "Chuyên môn Hoá chất/Hoá mỹ phẩm khác"
+        ]
+      },
+      {
+        "nghe": "May mặc/Dệt may/Da",
+        "viTriList": [
+          "Thiết kế rập",
+          "Thiết kế vải",
+          "Công nhân may",
+          "Thợ cắt vải",
+          "Công nhân xếp quần áo",
+          "Công nhân giày da",
+          "Chuyên môn May mặc/Dệt may/Da khác"
+        ]
+      },
+      {
+        "nghe": "R&D/Sản xuất ô tô",
+        "viTriList": [
+          "Kỹ sư thiết kế ô tô",
+          "Kỹ sư khung gầm",
+          "Kỹ sư lắp ráp ô tô",
+          "Chuyên môn R&D/Sản xuất ô tô khác"
+        ]
+      },
+      {
+        "nghe": "Thợ kỹ thuật",
+        "viTriList": [
+          "Kỹ sư thiết kế điện",
+          "Thợ mộc",
+          "Thợ sơn",
+          "Công nhân xưởng gỗ",
+          "Công nhân lắp ráp",
+          "Công nhân giày da",
+          "Công nhân bao bì",
+          "Công nhân ép nhựa",
+          "Công nhân làm nước đá",
+          "Công nhân sản xuất",
+          "Thợ kỹ thuật khác"
+        ]
+      },
+      {
+        "nghe": "Vận hành thiết bị vận tải/thiết bị nặng",
+        "viTriList": [
+          "Tài xế lái xe nâng",
+          "Tài xế lái máy công trình",
+          "Vận hành thiết bị nặng/phụ trợ",
+          "Tài xế xe tải",
+          "Tài xế container",
+          "Vận hành thiết bị vận tải/thiết bị nặng khác"
+        ]
+      },
+      {
+        "nghe": "Quản lý chất lượng",
+        "viTriList": [
+          "Quản lý chất lượng (QA)",
+          "Kiểm soát chất lượng (QC)",
+          "Kỹ thuật viên phòng thí nghiệm",
+          "Kỹ sư phân tích lỗi (PE)",
+          "Phát triển bao bì",
+          "Kỹ sư quản lý chất lượng nhà cung cấp (SQE)",
+          "Quản lý chất lượng khác"
+        ]
+      },
+      {
+        "nghe": "Vận hành sản xuất",
+        "viTriList": [
+          "Giám đốc sản xuất",
+          "Trưởng phòng sản xuất",
+          "Quản đốc phân xưởng/nhà máy",
+          "Trưởng chuyền/Tổ trưởng sản xuất",
+          "Trưởng ca",
+          "Giám sát sản xuất",
+          "Công nhân sản xuất",
+          "Theo dõi đơn hàng",
+          "Kế hoạch sản xuất",
+          "Thủ kho/Quản lý kho",
+          "Quản lý thiết bị sản xuất",
+          "Công nhân vận hành máy",
+          "Chuyên môn Vận hành sản xuất khác"
+        ]
+      },
+      {
+        "nghe": "Bảo trì, sửa chữa",
+        "viTriList": [
+          "Sửa chữa/Bảo trì máy công nghiệp",
+          "Kỹ thuật viên lắp đặt",
+          "Bảo trì, sửa chữa khác"
+        ]
+      },
+      {
+        "nghe": "Sales Sản xuất",
+        "viTriList": [
+          "Kinh doanh hoá chất",
+          "Kinh doanh ô tô/xe máy/xe điện",
+          "Kinh doanh phụ tùng ô tô/xe máy/xe điện",
+          "Sales Sản xuất khác"
+        ]
+      },
+      {
+        "nghe": "Sản xuất khác",
+        "viTriList": [
+          "Kỹ sư an toàn lao động (HSE)",
+          "Công nhân đóng gói hàng hóa",
+          "Công nhân bốc xếp hàng hóa",
+          "Bán hàng kỹ thuật cơ khí",
+          "Trợ lý/Thư ký sản xuất",
+          "Công nhân thời vụ",
+          "Việc làm công nhân khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Giáo dục/Đào tạo",
+    "ngheList": [
+      {
+        "nghe": "Giáo viên/Giảng viên/Gia sư",
+        "viTriList": [
+          "Giáo viên mầm non",
+          "Giáo viên giáo dục sớm",
+          "Giáo viên tiểu học",
+          "Giảng viên thỉnh giảng",
+          "Giáo viên Toán",
+          "Giáo viên Tiếng Việt/Ngữ văn",
+          "Giáo viên Tin học",
+          "Giáo viên Giáo dục thể chất",
+          "Giáo viên dạy nhảy/múa",
+          "Giáo viên tiếng Anh",
+          "Giáo viên tiếng Nhật",
+          "Giáo viên tiếng Hàn",
+          "Giáo viên tiếng Trung",
+          "Giáo viên tiếng Đức",
+          "Giáo viên ngoại ngữ khác",
+          "Giáo viên bộ môn khác"
+        ]
+      },
+      {
+        "nghe": "Văn hoá/Nghệ thuật/Khoa học",
+        "viTriList": [
+          "Giáo viên mỹ thuật",
+          "Giáo viên dạy nhảy/múa",
+          "Giáo viên âm nhạc",
+          "Giáo viên dạy chơi cờ",
+          "Giáo viên STEAM/STEM",
+          "Giáo viên Văn hóa/Nghệ thuật/Khoa học khác"
+        ]
+      },
+      {
+        "nghe": "Thể chất/Thể hình",
+        "viTriList": [
+          "Huấn luyện viên Thể hình (PT)",
+          "Giáo viên dạy nhảy/múa",
+          "Giáo viên Giáo dục thể chất",
+          "Huấn luyện viên bóng rổ",
+          "Huấn luyện viên Yoga",
+          "Huấn luyện viên bơi lội",
+          "Huấn luyện viên võ thuật",
+          "Huấn luyện viên trượt patin",
+          "Huấn luyện viên bóng bàn",
+          "Huấn luyện viên bóng đá",
+          "Huấn luyện viên cầu lông",
+          "Huấn luyện viên quyền anh (Boxing)",
+          "Huấn luyện viên Bi-a (Billiard)",
+          "Huấn luyện viên thể thao khác"
+        ]
+      },
+      {
+        "nghe": "Quản lý giáo dục",
+        "viTriList": [
+          "Quản lý học vụ",
+          "Chuyên viên điều phối giáo viên",
+          "Hiệu trưởng/Phó hiệu trưởng",
+          "Giáo viên chủ nhiệm",
+          "Quản lý giảng dạy",
+          "Quản lý chất lượng giáo dục",
+          "Quản lý giáo dục khác"
+        ]
+      },
+      {
+        "nghe": "Trợ giảng",
+        "viTriList": [
+          "Trợ giảng tiếng Anh",
+          "Trợ giảng tiếng Trung",
+          "Trợ giảng tiếng Nhật",
+          "Trợ giảng tiếng Hàn",
+          "Trợ giảng tiếng Đức",
+          "Trợ giảng ngoại ngữ khác",
+          "Trợ giảng bộ môn khác"
+        ]
+      },
+      {
+        "nghe": "Quản lý/Hỗ trợ lớp học",
+        "viTriList": [
+          "Quản lý/Vận hành lớp học",
+          "Hỗ trợ lớp học",
+          "Chăm sóc/Hỗ trợ học viên",
+          "Quản lý/Hỗ trợ lớp học khác"
+        ]
+      },
+      {
+        "nghe": "Sales Giáo dục/Khoá học",
+        "viTriList": [
+          "Tư vấn tuyển sinh/khoá học",
+          "Tư vấn du học/định cư",
+          "Sales Giáo dục/Khoá học khác"
+        ]
+      },
+      {
+        "nghe": "Giáo dục/Đào tạo khác",
+        "viTriList": [
+          "Giáo viên dạy lái xe ô tô",
+          "Giáo viên dạy nghề",
+          "Giáo viên giáo dục đặc biệt",
+          "Giáo viên dạy cắm hoa",
+          "Giáo viên dạy nấu ăn",
+          "Thủ thư",
+          "Phát triển học liệu/Thiết kế khóa học",
+          "Cố vấn học tập",
+          "Tư vấn hướng nghiệp",
+          "Tư vấn tâm lý học đường",
+          "Chuyên môn Giáo dục/Đào tạo khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Bán lẻ/Dịch vụ đời sống",
+    "ngheList": [
+      {
+        "nghe": "Bán lẻ",
+        "viTriList": [
+          "Kinh doanh kênh MT",
+          "Kinh doanh kênh GT",
+          "Bán hàng siêu thị/cửa hàng tiện ích/tiện lợi",
+          "Bán hàng điện thoại",
+          "Bán hàng điện máy",
+          "Bán hàng thời trang",
+          "Bán hàng trang sức đá quý",
+          "Bán hàng mỹ phẩm",
+          "Kinh doanh thực phẩm",
+          "Kinh doanh bao bì",
+          "Sales thẻ tập",
+          "Sales Bán lẻ/Dịch vụ tiêu dùng khác",
+          "Thu ngân",
+          "Giám sát thu ngân",
+          "Nhân viên siêu thị",
+          "Phòng chống thất thoát",
+          "Quản lý cửa hàng/Cửa hàng trưởng",
+          "Giám đốc siêu thị",
+          "Vận hành trung tâm thương mại"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ làm đẹp",
+        "viTriList": [
+          "Kỹ thuật viên Spa",
+          "Quản lý Spa",
+          "Tư vấn thẩm mỹ/Spa",
+          "Tư vấn nha khoa",
+          "Thợ nail/mi",
+          "Phun xăm thẩm mỹ",
+          "Thợ xăm (Tattoo Artist)",
+          "Thợ cắt tóc",
+          "Trợ lý/Học việc làm tóc",
+          "Makeup/Stylist",
+          "Việc làm Chăm sóc sức khỏe/Làm đẹp khác"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ chăm sóc sức khoẻ",
+        "viTriList": [
+          "Chuyên viên vật lý trị liệu",
+          "Kỹ thuật viên châm cứu bấm huyệt",
+          "Nhân viên massage",
+          "Dịch vụ chăm sóc sức khỏe khác"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ vệ sinh/nhà cửa",
+        "viTriList": [
+          "Nhân viên dọn vệ sinh",
+          "Giám sát vệ sinh",
+          "Giúp việc",
+          "Sắp xếp tủ quần áo và nhà cửa",
+          "Vệ sinh/Tạp vụ",
+          "Dịch vụ vệ sinh/nhà cửa khác"
+        ]
+      },
+      {
+        "nghe": "Thể chất/Thể hình",
+        "viTriList": [
+          "Huấn luyện viên Thể hình (PT)",
+          "Giáo viên dạy nhảy/múa",
+          "Giáo viên Giáo dục thể chất",
+          "Huấn luyện viên bóng rổ",
+          "Huấn luyện viên Yoga",
+          "Huấn luyện viên bơi lội",
+          "Huấn luyện viên võ thuật",
+          "Huấn luyện viên trượt patin",
+          "Huấn luyện viên bóng bàn",
+          "Huấn luyện viên bóng đá",
+          "Huấn luyện viên cầu lông",
+          "Huấn luyện viên quyền anh (Boxing)",
+          "Huấn luyện viên Bi-a (Billiard)",
+          "Huấn luyện viên thể thao khác"
+        ]
+      },
+      {
+        "nghe": "Tài xế/Lái xe",
+        "viTriList": [
+          "Bưu tá",
+          "Shipper (Nhân viên giao hàng)",
+          "Tài xế lái xe thuê",
+          "Tài xế taxi",
+          "Tài xế lái xe văn phòng",
+          "Tài xế xe khách",
+          "Tài xế B2",
+          "Lái xe cho sếp",
+          "Tài xế lái xe đường dài",
+          "Tài xế công nghệ",
+          "Dịch vụ vận tải khác"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ an ninh và bảo trì",
+        "viTriList": [
+          "Bảo vệ",
+          "Giám sát an ninh",
+          "Nhân viên PCCC",
+          "Bảo trì PCCC",
+          "Sửa chữa thiết bị gia dụng",
+          "Sửa chữa điện thoại",
+          "Sửa chữa máy tính và máy in",
+          "Thợ điện lạnh",
+          "Thợ sửa khoá",
+          "Sửa chữa/Bảo trì điện nước",
+          "Lắp đặt/bảo trì thang máy",
+          "Thợ sửa xe",
+          "Bảo trì tòa nhà",
+          "Việc làm Bảo vệ/Bảo trì/Sửa chữa khác"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ bà mẹ trẻ em",
+        "viTriList": [
+          "Bảo mẫu/Người trông trẻ",
+          "Chăm sóc mẹ và bé",
+          "Dịch vụ bà mẹ trẻ em khác"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ ô tô/xe máy/xe điện",
+        "viTriList": [
+          "Thợ sửa xe",
+          "Nhân viên rửa xe",
+          "Thợ độ xe ô tô/xe máy/xe điện",
+          "Quản lý cửa hàng sửa chữa và bảo trì ô tô/xe máy/xe điện",
+          "Kiểm định ô tô",
+          "Giám định bồi thường ô tô",
+          "Dịch vụ ô tô/xe máy/xe điện khác"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ thú cưng",
+        "viTriList": [
+          "Chuyên viên chăm sóc/spa thú cưng",
+          "Bác sĩ thú y",
+          "Dịch vụ thú cưng khác"
+        ]
+      },
+      {
+        "nghe": "Bán lẻ/Dịch vụ đời sống khác",
+        "viTriList": [
+          "Thợ cắm hoa",
+          "Thợ thủ công mỹ nghệ",
+          "Thợ thủ công khác",
+          "Tổ chức tiệc cưới (Wedding Planner)",
+          "Quản lý quán net",
+          "Sales Tour/Kinh doanh du lịch",
+          "Bán vé máy bay (Ticketing/Booker)",
+          "Kinh doanh khách sạn",
+          "Chuyên viên đo thị lực",
+          "Photographer/Video Editor",
+          "Nhân viên rạp chiếu phim",
+          "Nhân viên cây xăng",
+          "Nhân viên cứu hộ (Lifeguard)",
+          "Giáo viên dạy cắm hoa",
+          "Giáo viên dạy nấu ăn",
+          "Giáo viên dạy lái xe ô tô",
+          "Chuyên viên điều khiển drone",
+          "Tổ chức sự kiện (Event Planner)",
+          "Việc làm Bán lẻ/Dịch vụ đời sống khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Phim và truyền hình/Báo chí/Xuất bản",
+    "ngheList": [
+      {
+        "nghe": "Biên tập/Viết/Xuất bản",
+        "viTriList": [
+          "Biên tập viên",
+          "Tổng biên tập/Phó tổng biên tập",
+          "Phóng viên/Biên tập viên tin tức",
+          "Nhập liệu",
+          "In ấn và sắp chữ",
+          "Nhân viên chế bản",
+          "Chuyên môn Biên tập/Viết/Xuất bản khác"
+        ]
+      },
+      {
+        "nghe": "Phim và truyền hình",
+        "viTriList": [
+          "Makeup/Stylist",
+          "Diễn viên",
+          "Diễn viên lồng tiếng",
+          "Quản lý/Trợ lý nghệ sĩ",
+          "Dẫn chương trình (MC)",
+          "Người mẫu/Mẫu ảnh",
+          "Photographer/Video Editor",
+          "Đạo diễn",
+          "Biên đạo",
+          "Biên kịch",
+          "Producer (Sản xuất phim)",
+          "Phát hành điện ảnh và truyền hình",
+          "Hậu kỳ sản xuất",
+          "Animation Design",
+          "Chỉnh sửa ảnh (Retouch)",
+          "Kỹ thuật viên ánh sáng",
+          "Kỹ thuật viên âm thanh",
+          "Nhân viên chiếu phim",
+          "Thiết kế mỹ thuật sân khấu",
+          "Chuyên môn Phim và truyền hình khác"
+        ]
+      },
+      {
+        "nghe": "Phim và truyền hình/Báo chí/Xuất bản khác",
+        "viTriList": [
+          "Chuyên môn Phim và truyền hình/Báo chí/Xuất bản khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Điện/Điện tử/Viễn thông",
+    "ngheList": [
+      {
+        "nghe": "Điện/Tự động hoá",
+        "viTriList": [
+          "Kỹ sư điện",
+          "Kỹ sư thiết kế điện",
+          "Thợ điện",
+          "Kỹ sư tự động hóa",
+          "Kỹ sư cơ điện",
+          "Kỹ sư lập trình PLC/SCADA",
+          "Kỹ sư robot",
+          "Chuyên môn Điện/Tự động hoá khác"
+        ]
+      },
+      {
+        "nghe": "Điện tử/Phần cứng",
+        "viTriList": [
+          "Kỹ sư điện tử",
+          "Thiết kế mạch điện/vi mạch",
+          "Kỹ sư phần cứng",
+          "Embedded Engineer/Lập trình nhúng",
+          "Sửa chữa/Bảo trì điện tử/viễn thông",
+          "Phát triển FPGA",
+          "Vi điều khiển",
+          "Kỹ sư phát triển Driver",
+          "Kỹ sư PCB",
+          "Kỹ sư RF",
+          "Tích hợp hệ thống",
+          "Kỹ sư quang học",
+          "Phát triển DSP",
+          "Phát triển ARM",
+          "Kỹ thuật điện/điện tử",
+          "Công nhân điện tử",
+          "Chuyên môn Điện tử/Phần cứng khác"
+        ]
+      },
+      {
+        "nghe": "Nhiệt/Gió/Điều hoà (HVAC-R)",
+        "viTriList": [
+          "Kỹ sư HVAC",
+          "Kỹ sư nhiệt lạnh",
+          "Kỹ sư điện lạnh",
+          "Thợ điện lạnh",
+          "Chuyên môn Nhiệt/Gió/Điều hoà (HVAC-R)"
+        ]
+      },
+      {
+        "nghe": "Chất bán dẫn/Chip",
+        "viTriList": [
+          "Thiết kế vi mạch IC",
+          "Kỹ sư kiểm định IC",
+          "Analog Layout Design Engineer",
+          "Chip test Engineer",
+          "DFT Engineer",
+          "FAE",
+          "Digital Front-end Designer",
+          "Back-end Engineer",
+          "Analog IC Design Engineer",
+          "Chuyên môn Chất bán dẫn/Chip khác"
+        ]
+      },
+      {
+        "nghe": "Quản lý/Vận hành dự án kỹ thuật",
+        "viTriList": [
+          "Quản lý dự án điện",
+          "Quản lý dự án kỹ thuật",
+          "Trợ lý dự án kỹ thuật",
+          "Chuyên viên dự án kỹ thuật",
+          "Kỹ sư triển khai",
+          "Tư vấn triển khai",
+          "Kỹ sư phân tích yêu cầu",
+          "Quản lý dự án phần cứng",
+          "Quản lý dự án viễn thông",
+          "Quản lý dự án hệ thống tự động hóa",
+          "Quản lý dự án năng lượng tái tạo",
+          "Công nhân vận hành máy",
+          "Chuyên môn Quản lý/Vận hành dự án kỹ thuật khác"
+        ]
+      },
+      {
+        "nghe": "Viễn thông",
+        "viTriList": [
+          "Kỹ sư điện tử viễn thông",
+          "Kỹ thuật viễn thông",
+          "Kỹ sư IoT (IoT Engineer)",
+          "Kỹ sư nghiên cứu và phát triển viễn thông",
+          "Kỹ sư truyền thông không dây/vô tuyến (RF)",
+          "Kỹ sư truyền thông di động",
+          "Kỹ sư mạng viễn thông",
+          "Kỹ sư truyền thông dữ liệu",
+          "Kỹ sư kiểm thử viễn thông",
+          "Kỹ sư truyền thông quang học",
+          "Kỹ sư mạng quang",
+          "Kỹ sư điện viễn thông",
+          "Kỹ sư truyền dẫn cáp",
+          "Kỹ sư thiết bị viễn thông",
+          "Kỹ sư mạng lõi",
+          "Kỹ sư tiêu chuẩn hóa viễn thông",
+          "Kỹ sư mạng",
+          "Chuyên môn Viễn thông khác"
+        ]
+      },
+      {
+        "nghe": "Vận hành và bảo trì/Hỗ trợ kỹ thuật",
+        "viTriList": [
+          "Sửa chữa/Bảo trì điện tử/viễn thông",
+          "Kỹ sư hệ thống",
+          "Kỹ sư tài liệu kỹ thuật",
+          "Vận hành điện",
+          "Kỹ thuật điện/điện tử",
+          "Công nhân vận hành máy",
+          "Chuyên môn Vận hành và bảo trì/Hỗ trợ kỹ thuật khác"
+        ]
+      },
+      {
+        "nghe": "Sales Điện/Điện tử/Viễn thông",
+        "viTriList": [
+          "Kinh doanh thiết bị/linh kiện điện",
+          "Kinh doanh thiết bị công nghiệp",
+          "Kinh doanh dịch vụ viễn thông",
+          "Kinh doanh điện mặt trời",
+          "Kinh doanh HVAC",
+          "Sales Điện/Điện tử/Viễn thông khác"
+        ]
+      },
+      {
+        "nghe": "Điện/Điện tử/Viễn thông khác",
+        "viTriList": [
+          "Bán hàng kỹ thuật Điện/Điện tử/Viễn thông",
+          "Chuyên môn Điện/Điện tử/Viễn thông khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Logistics/Thu mua/Kho/Vận tải",
+    "ngheList": [
+      {
+        "nghe": "Sales Xuất nhập khẩu/Logistics",
+        "viTriList": [
+          "Sales Logistics",
+          "Sales Xuất nhập khẩu/Logistics khác"
+        ]
+      },
+      {
+        "nghe": "Xuất nhập khẩu/Logistics",
+        "viTriList": [
+          "Chuyên môn Xuất nhập khẩu/Logistics",
+          "Giám đốc Logistics",
+          "Theo dõi đơn hàng",
+          "Nhân viên hiện trường Logistics",
+          "Quản lý hệ thống vận tải (TMS)",
+          "Giám sát/Điều phối hàng hoá và kho vận",
+          "Chứng từ xuất nhập khẩu"
+        ]
+      },
+      {
+        "nghe": "Vận tải",
+        "viTriList": [
+          "Giám sát/Điều phối vận tải",
+          "Phân loại/Sắp xếp hàng hoá",
+          "Công nhân bốc xếp hàng hóa",
+          "Tài xế lái xe nâng",
+          "Tài xế xe tải",
+          "Tài xế container",
+          "Tài xế lái xe đường dài",
+          "Tài xế lái xe chuyên dụng",
+          "Tài xế xe khách",
+          "Phụ xe",
+          "Dịch vụ vận tải khác"
+        ]
+      },
+      {
+        "nghe": "Giao nhận",
+        "viTriList": [
+          "Bưu tá",
+          "Quản lý trạm giao nhận/bưu cục",
+          "Phân loại/Sắp xếp hàng hoá",
+          "Shipper (Nhân viên giao hàng)",
+          "Điều phối giao hàng",
+          "Công nhân bốc xếp hàng hóa",
+          "Freight Forwarder",
+          "Dịch vụ giao nhận khác"
+        ]
+      },
+      {
+        "nghe": "Kho vận",
+        "viTriList": [
+          "Nhân viên kho",
+          "Hành chính kho",
+          "Trưởng kho/Giám sát kho",
+          "Freight Forwarder",
+          "Công nhân xếp quần áo",
+          "Công nhân đóng gói hàng hóa",
+          "Chuyên môn Kho vận khác"
+        ]
+      },
+      {
+        "nghe": "Thu mua/Mua hàng",
+        "viTriList": [
+          "Chuyên môn Thu mua/Mua hàng",
+          "Quản lý/Giám sát mua hàng",
+          "Kỹ sư quản lý chất lượng nhà cung cấp (SQE)",
+          "Điều phối hàng hóa",
+          "Quản lý hàng hoá (Merchandiser)",
+          "Giám đốc Thu mua/Mua hàng",
+          "Chuyên viên đấu thầu",
+          "Chuyên viên hồ sơ thầu",
+          "Khai báo hải quan và kiểm dịch"
+        ]
+      },
+      {
+        "nghe": "Chuỗi cung ứng",
+        "viTriList": [
+          "Chuyên môn chuỗi cung ứng",
+          "Quản lý/Giám sát chuỗi cung ứng",
+          "Giám đốc chuỗi cung ứng",
+          "Quản lý sản xuất/Quản lý nguyên vật liệu (PMC)"
+        ]
+      },
+      {
+        "nghe": "Logistics khác",
+        "viTriList": [
+          "Việc làm Kho vận/Giao hàng khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Tư vấn chuyên môn",
+    "ngheList": [
+      {
+        "nghe": "Tư vấn/Phân tích chuyên môn",
+        "viTriList": [
+          "Tư vấn quản lý doanh nghiệp",
+          "Tư vấn chiến lược",
+          "Tư vấn tài chính",
+          "Tư vấn CNTT/IT consultant",
+          "Tư vấn nhân sự",
+          "Tư vấn headhunting",
+          "Tư vấn tâm lý",
+          "Tư vấn hôn nhân",
+          "Nghiên cứu thị trường (Market Research)",
+          "Phân tích dữ liệu",
+          "Các vị trí tư vấn khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Dược/Y tế/Sức khoẻ/Công nghệ sinh học",
+    "ngheList": [
+      {
+        "nghe": "Nghề Y tá/Điều dưỡng",
+        "viTriList": [
+          "Y tá/Điều dưỡng",
+          "Y tá trưởng/Điều dưỡng trưởng",
+          "Hộ lý/Hộ sinh"
+        ]
+      },
+      {
+        "nghe": "Bác sĩ/Kỹ thuật viên",
+        "viTriList": [
+          "Bác sĩ ngoại khoa",
+          "Bác sĩ nội khoa",
+          "Bác sĩ da liễu",
+          "Bác sĩ sản khoa và phụ khoa",
+          "Bác sĩ nhi khoa",
+          "Bác sĩ nhãn khoa",
+          "Bác sĩ tâm lý",
+          "Bác sĩ thẩm mỹ",
+          "Bác sĩ đa khoa",
+          "Bác sĩ tai mũi họng",
+          "Bác sĩ siêu âm",
+          "Bác sĩ gây mê hồi sức",
+          "Bác sĩ y học cổ truyền",
+          "Bác sĩ nha khoa",
+          "Kỹ thuật viên xét nghiệm",
+          "Kỹ thuật viên chẩn đoán hình ảnh",
+          "Kỹ thuật viên gây mê",
+          "Kỹ thuật viên đo thị lực",
+          "Quản lý y tế",
+          "Các vị trí bác sĩ khác"
+        ]
+      },
+      {
+        "nghe": "Vật lý trị liệu và chăm sóc sức khỏe",
+        "viTriList": [
+          "Chuyên viên vật lý trị liệu",
+          "Chuyên gia dinh dưỡng/quản lý sức khoẻ",
+          "Kỹ thuật viên châm cứu bấm huyệt",
+          "Nhân viên massage",
+          "Kỹ thuật viên phục hồi chức năng",
+          "Chăm sóc mẹ và bé",
+          "Chuyên môn Vật lý trị liệu và chăm sóc sức khỏe khác"
+        ]
+      },
+      {
+        "nghe": "Dược phẩm/Công nghệ sinh học",
+        "viTriList": [
+          "Dược sĩ/Bán thuốc",
+          "Quản lý cửa hàng thuốc",
+          "Nghiên cứu sinh học",
+          "R&D y dược",
+          "Kỹ sư Bioinformatics",
+          "Sản xuất dược phẩm",
+          "Đăng ký dược phẩm",
+          "Quản lý dự án y dược",
+          "Kỹ thuật viên nuôi cấy tế bào",
+          "Chuyên môn Dược phẩm/Công nghệ sinh học khác"
+        ]
+      },
+      {
+        "nghe": "Thiết bị y tế",
+        "viTriList": [
+          "Quản lý thiết bị y tế",
+          "Phát triển thuốc thử",
+          "Kỹ thuật viên phòng lab",
+          "Quản lý phòng lab",
+          "Chuyên môn Thiết bị y tế khác"
+        ]
+      },
+      {
+        "nghe": "Sales Dược/Y tế/Sức khoẻ/Làm đẹp",
+        "viTriList": [
+          "Kinh doanh thiết bị/vật tư y tế",
+          "Trình dược viên",
+          "Dược sĩ/Bán thuốc",
+          "Tư vấn thẩm mỹ/Spa",
+          "Tư vấn nha khoa",
+          "Kinh doanh dịch vụ y tế",
+          "Sales Dược/Y tế/Sức khoẻ/Làm đẹp khác"
+        ]
+      },
+      {
+        "nghe": "Dược/Y tế/Sức khoẻ/Công nghệ sinh học khác",
+        "viTriList": [
+          "Thử nghiệm lâm sàng",
+          "Chuyên môn Dược/Y tế/Sức khoẻ/Công nghệ sinh học khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Thiết kế",
+    "ngheList": [
+      {
+        "nghe": "Thiết kế Đồ hoạ/Giao diện/Trải nghiệm",
+        "viTriList": [
+          "Thiết kế đồ họa (Graphic Design)",
+          "Illustration",
+          "UI/UX Design",
+          "3D Modeler",
+          "Chuyên môn Thiết kế Đồ hoạ/Giao diện/Trải nghiệm khác"
+        ]
+      },
+      {
+        "nghe": "Thiết kế Nhà/Nội thất/Môi trường",
+        "viTriList": [
+          "Kiến trúc sư",
+          "Thiết kế nội thất",
+          "Thiết kế triển lãm/trưng bày",
+          "Thiết kế cảnh quan",
+          "Thiết kế mỹ thuật sân khấu",
+          "Vẽ AutoCAD",
+          "Chuyên môn Thiết kế Nhà/Nội thất/Môi trường khác"
+        ]
+      },
+      {
+        "nghe": "Thiết kế Công nghiệp",
+        "viTriList": [
+          "Thiết kế sản phẩm nội thất",
+          "Chuyên môn Thiết kế Công nghiệp",
+          "Thiết kế bao bì",
+          "Thiết kế đồ trang sức",
+          "Vẽ kỹ thuật"
+        ]
+      },
+      {
+        "nghe": "Thiết kế Thời trang",
+        "viTriList": [
+          "Chuyên môn Thiết kế Thời trang",
+          "Thiết kế rập",
+          "Thiết kế vải"
+        ]
+      },
+      {
+        "nghe": "Nghệ thuật/Hoạt hình/Game",
+        "viTriList": [
+          "Illustration",
+          "Animation Design",
+          "Motion Graphic",
+          "Hoạ sĩ truyện tranh",
+          "Chỉnh sửa ảnh (Retouch)",
+          "Concept Artist",
+          "Game Design",
+          "Photographer/Video Editor",
+          "Chuyên môn Nghệ thuật/Hoạt hình/Game khác"
+        ]
+      },
+      {
+        "nghe": "Nghiên cứu người dùng",
+        "viTriList": [
+          "Chuyên môn nghiên cứu người dùng"
+        ]
+      },
+      {
+        "nghe": "Quản lý thiết kế",
+        "viTriList": [
+          "Quản lý/Giám sát thiết kế",
+          "Giám đốc/Đạo diễn thiết kế",
+          "Giám đốc thiết kế hình ảnh (Visual)",
+          "Quản lý thiết kế khác"
+        ]
+      },
+      {
+        "nghe": "Thiết kế khác",
+        "viTriList": [
+          "Chuyên môn Thiết kế khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Nhà hàng/Khách sạn/Du lịch",
+    "ngheList": [
+      {
+        "nghe": "Nhà hàng/Dịch vụ ăn uống",
+        "viTriList": [
+          "Phục vụ",
+          "Thu ngân",
+          "Lễ tân/Đón tiếp",
+          "Quản lý lễ tân",
+          "Đầu bếp",
+          "Bếp trưởng",
+          "Phụ bếp",
+          "Quản lý bếp",
+          "Thợ làm bánh",
+          "Pha chế (Barista)",
+          "Chuyên gia thẩm rượu",
+          "Quản lý nhà hàng",
+          "Shipper (Nhân viên giao hàng)",
+          "Chuyên môn Nhà hàng/Dịch vụ ăn uống khác"
+        ]
+      },
+      {
+        "nghe": "Khách sạn/Dịch vụ cư trú",
+        "viTriList": [
+          "Lễ tân/Đón tiếp",
+          "Bellman (nhân viên hành lý)",
+          "Buồng phòng",
+          "Giặt là",
+          "Nhân viên đỗ xe (Valet Parking)",
+          "Quản lý khách sạn",
+          "Quản lý homestay",
+          "Chuyên môn Khách sạn/Dịch vụ cư trú khác"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ du lịch",
+        "viTriList": [
+          "Hướng dẫn viên du lịch",
+          "Điều hành tour",
+          "Nhân viên visa",
+          "Sales Tour/Kinh doanh du lịch",
+          "Chuyên môn Dịch vụ du lịch khác"
+        ]
+      },
+      {
+        "nghe": "Sales Nhà hàng/Khách sạn/Du lịch",
+        "viTriList": [
+          "Kinh doanh HORECA",
+          "Sales Tour/Kinh doanh du lịch",
+          "Kinh doanh khách đoàn (MICE)",
+          "Bán vé máy bay (Ticketing/Booker)",
+          "Kinh doanh khách sạn",
+          "Kinh doanh OTA",
+          "Sales Nhà hàng/Khách sạn/Du lịch khác"
+        ]
+      },
+      {
+        "nghe": "Nhà hàng/Khách sạn/Du lịch khác",
+        "viTriList": [
+          "Chuyên môn Nhà hàng/Khách sạn/Du lịch khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Năng lượng/Môi trường/Nông nghiệp",
+    "ngheList": [
+      {
+        "nghe": "Năng lượng/Địa chất",
+        "viTriList": [
+          "Kỹ sư năng lượng",
+          "Kỹ sư điện mặt trời",
+          "Kỹ sư thủy lợi",
+          "Kỹ sư địa chất",
+          "Chuyên môn Năng lượng/Địa chất khác"
+        ]
+      },
+      {
+        "nghe": "An toàn lao động/Môi trường",
+        "viTriList": [
+          "Kỹ sư an toàn lao động (HSE)",
+          "Kỹ sư môi trường",
+          "Công nhân môi trường",
+          "Vận hành hệ thống xử lý nước thải"
+        ]
+      },
+      {
+        "nghe": "Nông/Lâm/Ngư nghiệp",
+        "viTriList": [
+          "Kỹ thuật viên nông nghiệp/trồng trọt",
+          "Công nhân chăn nuôi",
+          "Kỹ sư lâm nghiệp",
+          "Kiểm lâm",
+          "Chuyên môn Nông/Lâm/Ngư nghiệp khác"
+        ]
+      },
+      {
+        "nghe": "Năng lượng/Môi trường/Nông nghiệp khác",
+        "viTriList": [
+          "Chuyên môn Năng lượng/Môi trường/Nông nghiệp khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Tài xế",
+    "ngheList": [
+      {
+        "nghe": "Vận tải",
+        "viTriList": [
+          "Giám sát/Điều phối vận tải",
+          "Phân loại/Sắp xếp hàng hoá",
+          "Công nhân bốc xếp hàng hóa",
+          "Tài xế lái xe nâng",
+          "Tài xế xe tải",
+          "Tài xế container",
+          "Tài xế lái xe đường dài",
+          "Tài xế lái xe chuyên dụng",
+          "Tài xế xe khách",
+          "Phụ xe",
+          "Dịch vụ vận tải khác"
+        ]
+      },
+      {
+        "nghe": "Đưa đón",
+        "viTriList": [
+          "Tài xế công nghệ",
+          "Tài xế taxi",
+          "Tài xế lái xe thuê",
+          "Tài xế lái xe văn phòng",
+          "Tài xế B2",
+          "Lái xe cho sếp",
+          "Tài xế xe khách",
+          "Dịch vụ đưa đón khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Biên phiên dịch",
+    "ngheList": [
+      {
+        "nghe": "Biên phiên dịch",
+        "viTriList": [
+          "Biên phiên dịch tiếng Anh",
+          "Biên phiên dịch tiếng Trung",
+          "Biên phiên dịch tiếng Nhật",
+          "Biên phiên dịch tiếng Hàn",
+          "Biên phiên dịch tiếng Nga",
+          "Biên phiên dịch tiếng Tây Ban Nha",
+          "Biên phiên dịch tiếng Đức",
+          "Biên phiên dịch tiếng Pháp",
+          "Biên phiên dịch ngôn ngữ khác",
+          "Biên phiên dịch đa ngôn ngữ",
+          "Tư vấn dịch thuật"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Luật",
+    "ngheList": [
+      {
+        "nghe": "Dịch vụ pháp lý (Agency/Firm)",
+        "viTriList": [
+          "Luật sư",
+          "Chuyên viên pháp lý",
+          "Thư ký công chứng viên",
+          "Thư ký văn phòng luật sư/Thư ký pháp lý",
+          "Chuyên môn Pháp lý khác"
+        ]
+      },
+      {
+        "nghe": "Dịch vụ pháp chế (In-house)",
+        "viTriList": [
+          "Pháp chế",
+          "Giám đốc pháp chế",
+          "Chuyên môn Pháp chế khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Lao động phổ thông",
+    "ngheList": [
+      {
+        "nghe": "Công nhân",
+        "viTriList": [
+          "Công nhân may",
+          "Công nhân cơ khí",
+          "Công nhân xây dựng",
+          "Công nhân thời vụ",
+          "Công nhân bốc xếp hàng hóa",
+          "Công nhân đóng gói hàng hóa",
+          "Công nhân môi trường",
+          "Công nhân chăn nuôi",
+          "Công nhân làm nước đá",
+          "Công nhân xưởng gỗ",
+          "Công nhân bao bì",
+          "Công nhân điện tử",
+          "Công nhân sản xuất",
+          "Công nhân ép nhựa",
+          "Công nhân giày da",
+          "Công nhân vận hành máy",
+          "Công nhân khai thác than",
+          "Công nhân lắp ráp",
+          "Công nhân xếp quần áo",
+          "Việc làm Công nhân khác"
+        ]
+      },
+      {
+        "nghe": "Tài xế/Lái xe",
+        "viTriList": [
+          "Tài xế taxi",
+          "Tài xế B2",
+          "Tài xế xe tải",
+          "Phụ xe",
+          "Lái xe cho sếp",
+          "Tài xế công nghệ",
+          "Tài xế container",
+          "Tài xế lái xe văn phòng",
+          "Tài xế xe khách",
+          "Tài xế lái xe nâng",
+          "Tài xế lái xe đường dài"
+        ]
+      },
+      {
+        "nghe": "Kho vận/Giao hàng",
+        "viTriList": [
+          "Nhân viên kho",
+          "Shipper (Nhân viên giao hàng)",
+          "Công nhân bốc xếp hàng hóa",
+          "Bưu tá",
+          "Phân loại/Sắp xếp hàng hoá",
+          "Công nhân đóng gói hàng hóa"
+        ]
+      },
+      {
+        "nghe": "Bảo vệ/Bảo trì/Sửa chữa",
+        "viTriList": [
+          "Sửa chữa điện thoại",
+          "Bảo vệ",
+          "Sửa chữa/Bảo trì điện nước",
+          "Thợ sửa khoá",
+          "Thợ điện",
+          "Thợ điện lạnh",
+          "Bảo trì tòa nhà",
+          "Thợ sửa xe",
+          "Nhân viên rửa xe",
+          "Sửa chữa máy tính và máy in",
+          "Lắp đặt/bảo trì thang máy",
+          "Việc làm Bảo vệ/Bảo trì/Sửa chữa khác"
+        ]
+      },
+      {
+        "nghe": "Vệ sinh/Giúp việc/Bảo mẫu",
+        "viTriList": [
+          "Vệ sinh/Tạp vụ",
+          "Giúp việc",
+          "Bảo mẫu/Người trông trẻ",
+          "Nhân viên dọn vệ sinh",
+          "Dịch vụ vệ sinh/nhà cửa khác"
+        ]
+      },
+      {
+        "nghe": "Chăm sóc sức khoẻ/Làm đẹp",
+        "viTriList": [
+          "Phun xăm thẩm mỹ",
+          "Thợ xăm (Tattoo Artist)",
+          "Kỹ thuật viên Spa",
+          "Thợ cắt tóc",
+          "Thợ nail/mi",
+          "Nhân viên massage",
+          "Việc làm Chăm sóc sức khỏe/Làm đẹp khác"
+        ]
+      },
+      {
+        "nghe": "Nhà hàng/Dịch vụ ăn uống",
+        "viTriList": [
+          "Đầu bếp",
+          "Pha chế (Barista)",
+          "Phục vụ",
+          "Phụ bếp",
+          "Thợ làm bánh",
+          "Chuyên môn Nhà hàng/Dịch vụ ăn uống khác"
+        ]
+      },
+      {
+        "nghe": "Khách sạn/Dịch vụ cư trú",
+        "viTriList": [
+          "Giặt là",
+          "Lễ tân/Đón tiếp",
+          "Bellman (nhân viên hành lý)",
+          "Buồng phòng",
+          "Nhân viên đỗ xe (Valet Parking)"
+        ]
+      },
+      {
+        "nghe": "Tiếp thị/Bán hàng",
+        "viTriList": [
+          "PG",
+          "Nhập liệu",
+          "Thu ngân",
+          "Trực page",
+          "Nhân viên siêu thị",
+          "Bán hàng siêu thị/cửa hàng tiện ích/tiện lợi",
+          "Nhân viên phát tờ rơi",
+          "Bán hàng điện thoại",
+          "Nhân viên cây xăng"
+        ]
+      },
+      {
+        "nghe": "Thợ thủ công",
+        "viTriList": [
+          "Công nhân may",
+          "Thợ cắm hoa",
+          "Thợ cắt vải",
+          "Thợ thủ công mỹ nghệ",
+          "Thợ thủ công khác"
+        ]
+      },
+      {
+        "nghe": "Gia công cơ khí",
+        "viTriList": [
+          "Thợ hàn",
+          "Công nhân cơ khí",
+          "Thợ tiện",
+          "Thợ khoan",
+          "Thợ mài",
+          "Thợ phay",
+          "Thợ Gia công cơ khí khác"
+        ]
+      },
+      {
+        "nghe": "Thợ xây dựng",
+        "viTriList": [
+          "Thợ xây/Thợ nề/Thợ hồ",
+          "Thợ mộc",
+          "Thợ sơn",
+          "Thợ nhôm kính",
+          "Thợ xây dựng khác"
+        ]
+      }
+    ]
+  },
+  {
+    "nhomNghe": "Nhóm nghề khác",
+    "ngheList": [
+      {
+        "nghe": "Hàng hải",
+        "viTriList": [
+          "Chuyên môn Hàng hải"
+        ]
+      },
+      {
+        "nghe": "NGO/Phi chính phủ/Phi lợi nhuận",
+        "viTriList": [
+          "Chuyên môn NGO/Phi chính phủ/Phi lợi nhuận"
+        ]
+      },
+      {
+        "nghe": "Nghề khác",
+        "viTriList": [
+          "Chuyên môn khác"
+        ]
+      }
+    ]
+  }
+]

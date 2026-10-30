@@ -1,0 +1,567 @@
+[
+  {
+    "id": "draft_1791380141669_cza2y",
+    "brandId": "brand_ngam",
+    "brandName": "Ngẫm - Góc Nhìn Cuộc Sống & Tâm Lý",
+    "topicTitle": "Khoảng lặng sau giờ tan tầm: Khi một mình không đồng nghĩa với cô đơn",
+    "topicPillar": "Chiêm Nghiệm Cuộc Sống (Life Reflection)",
+    "customInstruction": "",
+    "selectedVariantIndex": 0,
+    "status": "DRAFT",
+    "variants": [
+      {
+        "id": "var_1791380141669_0",
+        "angleKey": "storytelling",
+        "angleTitle": "Storytelling & Cảm Xúc",
+        "angleBadge": "📖 Tản Văn Sâu Lắng",
+        "headline": "Khoảng lặng giữa dòng đời vội vã",
+        "content": "Đôi khi ngồi lại trong quán nước ven đường 15 phút sau giờ làm không phải vì lười về, mà là để kịp dỡ bỏ những ồn ào trước khi bước vào cửa nhà.\n\nChúng ta thường mải miết chạy theo những kỳ vọng của người khác mà quên mất tự hỏi bản thân đang cảm thấy thế nào.\n\nKhoảng lặng sau giờ tan tầm: Khi một mình không đồng nghĩa với cô đơn: Đôi khi sự trưởng thành không nằm ở việc bạn làm được bao nhiêu việc lớn, mà là khi bạn học được cách nhẹ nhàng với chính mình sau những chông chênh.\n\nDừng lại một nhịp thở. Cuộc đời không phải là một cuộc đua mà ai về đích trước cũng là người chiến thắng.\n\nCòn bạn, bạn nghĩ sao về điều này?\n\n#Ngam #GocNhinCuocSong #TamLyHoc #ChuyenDoiThuong",
+        "qualityScore": 95,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 93,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 141,
+          "sentenceCount": 7,
+          "emojiCount": 0,
+          "varianceWords": 15
+        },
+        "visualDirection": {
+          "concept": "Bức ảnh tối giản một tách trà nóng bên khung cửa sổ mờ sương, cuốn sách mở ngỏ, gợi cảm giác bình yên sâu sắc",
+          "aiPrompt": "Minimalist cinematic aesthetic photography of warm cup of tea beside rainy window, opened book, thoughtful mood, moody natural soft light, muted film grain --ar 4:5 --v 6.0",
+          "aspectRatio": "4:5",
+          "textOverlay": "Học Cách Chậm Lại",
+          "colorTone": "#6366f1"
+        }
+      },
+      {
+        "id": "var_1791380141669_1",
+        "angleKey": "educational",
+        "angleTitle": "Kiến Thức Thực Tế",
+        "angleBadge": "💡 Tâm Lý Ứng Dụng",
+        "headline": "Nhìn nhận lại ranh giới của sự bận rộn",
+        "content": "Khoảng lặng sau giờ tan tầm: Khi một mình không đồng nghĩa với cô đơn\n\nTâm lý học có một khái niệm gọi là \"ảo tưởng bận rộn\": Khi ta cố lấp đầy từng khoảng trống trong lịch trình chỉ để tránh phải đối diện với cảm giác trống trải bên trong.\n\nĐể thoát khỏi vòng xoáy này, hãy thử 2 điều:\n- Dành ra 15 phút mỗi ngày không điện thoại, không công việc.\n- Tập nói \"không\" với những cuộc hẹn chỉ vì cả nể.\n\nGiữ cho tâm trí có chỗ trống chính là cách tốt nhất để năng lượng tích cực quay trở lại.\n\nCòn bạn, bạn nghĩ sao về điều này?\n\n#Ngam #GocNhinCuocSong #TamLyHoc #ChuyenDoiThuong",
+        "qualityScore": 94,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 89,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 119,
+          "sentenceCount": 8,
+          "emojiCount": 0,
+          "varianceWords": 9.5
+        },
+        "visualDirection": {
+          "concept": "Đồ họa tối giản đen trắng thanh lịch, dòng trích dẫn tinh tế giữa không gian thở khoáng đạt",
+          "aiPrompt": "Clean minimalist typography poster background, neutral beige and charcoal aesthetic, soft abstract architectural shadow, zen atmosphere --ar 4:5 --v 6.0",
+          "aspectRatio": "4:5",
+          "textOverlay": "Giải Phóng Tâm Trí",
+          "colorTone": "#475569"
+        }
+      },
+      {
+        "id": "var_1791380141669_2",
+        "angleKey": "conversational",
+        "angleTitle": "Tương Tác & Thảo Luận",
+        "angleBadge": "💬 Lắng Nghe Bạn Đọc",
+        "headline": "Điều gì gần đây làm bạn cảm thấy nhẹ lòng nhất?",
+        "content": "Khoảng lặng sau giờ tan tầm: Khi một mình không đồng nghĩa với cô đơn\n\nNgười ta bảo càng lớn, niềm vui càng giản dị. Một buổi sáng thức dậy thấy trời không mưa, một bữa tối ăn cùng người thân, hay đơn giản là hoàn thành xong việc tồn đọng trước hạn.\n\nCòn với bạn, khoảnh khắc nào trong tuần qua khiến bạn mỉm cười nhẹ nhõm nhất? Để lại một dòng ở đây như một trạm dừng nghỉ nhé.\n\n#Ngam #GocNhinCuocSong #TamLyHoc #ChuyenDoiThuong",
+        "qualityScore": 95,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 93,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 85,
+          "sentenceCount": 6,
+          "emojiCount": 0,
+          "varianceWords": 7.3
+        },
+        "visualDirection": {
+          "concept": "Hình ảnh một góc quán cà phê vắng người vào buổi sớm mai, ánh nắng len qua tán lá chiếu lên mặt bàn gỗ mộc",
+          "aiPrompt": "Peaceful quiet coffee shop corner at dawn, sunlight dappling on wooden table, empty chair, slow living aesthetic, nostalgic cinematic --ar 1:1 --v 6.0",
+          "aspectRatio": "1:1",
+          "textOverlay": "Trạm Dừng Nghỉ",
+          "colorTone": "#8b5cf6"
+        }
+      }
+    ],
+    "createdAt": "2026-10-07T13:35:41.669Z",
+    "updatedAt": "2026-10-07T13:35:41.669Z"
+  },
+  {
+    "id": "draft_1791380130902_tmj6j",
+    "brandId": "brand_vhfresh",
+    "brandName": "VHFresh - Nông Sản & Thực Phẩm Sạch",
+    "topicTitle": "Mẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn",
+    "topicPillar": "Kiến Thức & Mẹo Hữu Ích (Educational)",
+    "customInstruction": "",
+    "selectedVariantIndex": 0,
+    "status": "DRAFT",
+    "variants": [
+      {
+        "id": "var_1791380130902_0",
+        "angleKey": "storytelling",
+        "angleTitle": "Storytelling & Cảm Xúc",
+        "angleBadge": "📖 Tự Sự Bếp Nhà",
+        "headline": "Chuyện đi chợ sớm và mớ rau vừa hái",
+        "content": "Rau muống ngọn mập mạp xanh đen nhìn thì bắt mắt, nhưng mẹo của các bà nội trợ sành sỏi lại nằm ở chỗ khác...\n\nCó những hôm đi làm về muộn, bước vào nhà chỉ muốn buông hết mệt mỏi. Mở tủ lạnh thấy mớ rau tươi rói được nhặt sạch sẽ, tự nhiên lòng nhẹ nhõm hẳn.\n\nMẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn: Không cầu kỳ gia vị, chỉ cần luộc nhanh vừa chín tới, giữ trọn vị giòn ngọt thanh tao. Bữa cơm gia đình đôi khi chẳng cần sơn hào hải vị, một đĩa rau luộc xanh mướt chấm bát kho quẹt hay nước mắm tỏi ớt cũng đủ làm ấm cả gian bếp.\n\nHôm nay bếp nhà bạn nấu món gì thế?\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 95,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 93,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 138,
+          "sentenceCount": 7,
+          "emojiCount": 0,
+          "varianceWords": 10.4
+        },
+        "visualDirection": {
+          "concept": "Góc chụp cận mâm cơm gia đình với đĩa rau luộc xanh mướt bốc khói nhẹ, ánh nắng chiều chiếu xiên qua cửa sổ bếp mộc mạc",
+          "aiPrompt": "Cinematic authentic photography of Vietnamese home dinner table, freshly boiled green morning glory vegetables on ceramic plate, steam rising, natural warm window sunlight, rustic wooden table, Fujifilm 35mm tone --ar 4:5 --v 6.0",
+          "aspectRatio": "4:5",
+          "textOverlay": "Vị Ngọt Bữa Cơm Nhà",
+          "colorTone": "#10b981"
+        }
+      },
+      {
+        "id": "var_1791380130902_1",
+        "angleKey": "educational",
+        "angleTitle": "Kiến Thức Thực Tế",
+        "angleBadge": "💡 Mẹo Nhỏ Vào Bếp",
+        "headline": "Mẹo chọn và bảo quản rau củ chuẩn VietGAP",
+        "content": "Mẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn\n\nNhiều người đi chợ hay chuộng rau quả thật to, bóng bẩy không một tì vết. Nhưng kinh nghiệm của các cô chú làm vườn lâu năm lại khác:\n\n1. Nhìn phần cuống và màu sắc: Rau củ tự nhiên có màu xanh sáng nhạt, cuống còn tươi nhựa chứ không thâm nhũn.\n2. Trọng lượng khi cầm trên tay: Quả tươi cầm chắc nịch, nặng tay, cùi dày mọng nước.\n3. Độ giòn: Bấm nhẹ thấy giòn ngọt, không xơ ráp.\n\nChỉ cần để ý 3 chi tiết nhỏ này là bạn đã an tâm chuẩn bị bữa ăn trọn vẹn dinh dưỡng cho cả nhà.\n\nHôm nay bếp nhà bạn nấu món gì thế?\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 94,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 89,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 133,
+          "sentenceCount": 9,
+          "emojiCount": 0,
+          "varianceWords": 6.3
+        },
+        "visualDirection": {
+          "concept": "Hình ảnh so sánh trực quan cận cảnh rổ rau củ tươi non, giọt nước đọng trên lá, phong cách chụp tạp chí ẩm thực hiện đại",
+          "aiPrompt": "Editorial flatlay photography of fresh organic vegetables on clean kitchen counter, water droplets on green leaves, wooden cutting board, bright natural daylight, clean and sharp focus --ar 4:5 --v 6.0",
+          "aspectRatio": "4:5",
+          "textOverlay": "3 Mẹo Chọn Rau Sạch",
+          "colorTone": "#059669"
+        }
+      },
+      {
+        "id": "var_1791380130902_2",
+        "angleKey": "conversational",
+        "angleTitle": "Tương Tác & Thảo Luận",
+        "angleBadge": "💬 Chuyện Trò Bếp Núc",
+        "headline": "Bữa nay bếp nhà bạn nấu món gì thế?",
+        "content": "Rau muống ngọn mập mạp xanh đen nhìn thì bắt mắt, nhưng mẹo của các bà nội trợ sành sỏi lại nằm ở chỗ khác...\n\nMẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn: Có nhà thích canh chua thanh mát, có nhà lại chuộng món xào tỏi thơm lừng. Mỗi người một thói quen nêm nếm, nhưng chung quy lại vẫn là cảm giác được ngồi lại cùng những người thân yêu.\n\nCòn bếp nhà bạn hôm nay, món đinh trên bàn ăn là gì? Khoe nhẹ tấm ảnh dưới phần bình luận để team VHFresh học lỏm công thức với nha!\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 94,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 89,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 111,
+          "sentenceCount": 6,
+          "emojiCount": 0,
+          "varianceWords": 8.3
+        },
+        "visualDirection": {
+          "concept": "Bức ảnh ấm áp đôi bàn tay đang nhặt rau bên hiên nhà, gợi cảm giác thân thuộc của tuổi thơ và bếp mẹ",
+          "aiPrompt": "Cozy candid shot of caring hands preparing fresh green vegetables, warm vintage kitchen aesthetic, soft morning light, emotional storytelling tone --ar 1:1 --v 6.0",
+          "aspectRatio": "1:1",
+          "textOverlay": "Hôm Nay Ăn Gì?",
+          "colorTone": "#f59e0b"
+        }
+      }
+    ],
+    "createdAt": "2026-10-07T13:35:30.902Z",
+    "updatedAt": "2026-10-07T13:35:30.902Z"
+  },
+  {
+    "id": "draft_1791380031686_7y73g",
+    "brandId": "brand_vhfresh",
+    "brandName": "VHFresh - Nông Sản & Thực Phẩm Sạch",
+    "topicTitle": "Mẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn",
+    "topicPillar": "Kiến Thức & Mẹo Hữu Ích (Educational)",
+    "customInstruction": "",
+    "selectedVariantIndex": 0,
+    "status": "DRAFT",
+    "variants": [
+      {
+        "id": "var_1791380031686_0",
+        "angleKey": "storytelling",
+        "angleTitle": "Storytelling & Cảm Xúc",
+        "angleBadge": "📖 Tự Sự Bếp Nhà",
+        "headline": "Chuyện đi chợ sớm và mớ rau vừa hái",
+        "content": "Rau muống ngọn mập mạp xanh đen nhìn thì bắt mắt, nhưng mẹo của các bà nội trợ sành sỏi lại nằm ở chỗ khác...\n\nCó những hôm đi làm về muộn, bước vào nhà chỉ muốn buông hết mệt mỏi. Mở tủ lạnh thấy mớ rau tươi rói được nhặt sạch sẽ, tự nhiên lòng nhẹ nhõm hẳn.\n\nMẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn: Không cầu kỳ gia vị, chỉ cần luộc nhanh vừa chín tới, giữ trọn vị giòn ngọt thanh tao. Bữa cơm gia đình đôi khi chẳng cần sơn hào hải vị, một đĩa rau luộc xanh mướt chấm bát kho quẹt hay nước mắm tỏi ớt cũng đủ làm ấm cả gian bếp.\n\nHôm nay bếp nhà bạn nấu món gì thế?\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 95,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 93,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 138,
+          "sentenceCount": 7,
+          "emojiCount": 0,
+          "varianceWords": 10.4
+        },
+        "visualDirection": {
+          "concept": "Góc chụp cận mâm cơm gia đình với đĩa rau luộc xanh mướt bốc khói nhẹ, ánh nắng chiều chiếu xiên qua cửa sổ bếp mộc mạc",
+          "aiPrompt": "Cinematic authentic photography of Vietnamese home dinner table, freshly boiled green morning glory vegetables on ceramic plate, steam rising, natural warm window sunlight, rustic wooden table, Fujifilm 35mm tone --ar 4:5 --v 6.0",
+          "aspectRatio": "4:5",
+          "textOverlay": "Vị Ngọt Bữa Cơm Nhà",
+          "colorTone": "#10b981"
+        }
+      },
+      {
+        "id": "var_1791380031686_1",
+        "angleKey": "educational",
+        "angleTitle": "Kiến Thức Thực Tế",
+        "angleBadge": "💡 Mẹo Nhỏ Vào Bếp",
+        "headline": "Mẹo chọn và bảo quản rau củ chuẩn VietGAP",
+        "content": "Mẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn\n\nNhiều người đi chợ hay chuộng rau quả thật to, bóng bẩy không một tì vết. Nhưng kinh nghiệm của các cô chú làm vườn lâu năm lại khác:\n\n1. Nhìn phần cuống và màu sắc: Rau củ tự nhiên có màu xanh sáng nhạt, cuống còn tươi nhựa chứ không thâm nhũn.\n2. Trọng lượng khi cầm trên tay: Quả tươi cầm chắc nịch, nặng tay, cùi dày mọng nước.\n3. Độ giòn: Bấm nhẹ thấy giòn ngọt, không xơ ráp.\n\nChỉ cần để ý 3 chi tiết nhỏ này là bạn đã an tâm chuẩn bị bữa ăn trọn vẹn dinh dưỡng cho cả nhà.\n\nHôm nay bếp nhà bạn nấu món gì thế?\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 94,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 89,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 133,
+          "sentenceCount": 9,
+          "emojiCount": 0,
+          "varianceWords": 6.3
+        },
+        "visualDirection": {
+          "concept": "Hình ảnh so sánh trực quan cận cảnh rổ rau củ tươi non, giọt nước đọng trên lá, phong cách chụp tạp chí ẩm thực hiện đại",
+          "aiPrompt": "Editorial flatlay photography of fresh organic vegetables on clean kitchen counter, water droplets on green leaves, wooden cutting board, bright natural daylight, clean and sharp focus --ar 4:5 --v 6.0",
+          "aspectRatio": "4:5",
+          "textOverlay": "3 Mẹo Chọn Rau Sạch",
+          "colorTone": "#059669"
+        }
+      },
+      {
+        "id": "var_1791380031686_2",
+        "angleKey": "conversational",
+        "angleTitle": "Tương Tác & Thảo Luận",
+        "angleBadge": "💬 Chuyện Trò Bếp Núc",
+        "headline": "Bữa nay bếp nhà bạn nấu món gì thế?",
+        "content": "Rau muống ngọn mập mạp xanh đen nhìn thì bắt mắt, nhưng mẹo của các bà nội trợ sành sỏi lại nằm ở chỗ khác...\n\nMẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn: Có nhà thích canh chua thanh mát, có nhà lại chuộng món xào tỏi thơm lừng. Mỗi người một thói quen nêm nếm, nhưng chung quy lại vẫn là cảm giác được ngồi lại cùng những người thân yêu.\n\nCòn bếp nhà bạn hôm nay, món đinh trên bàn ăn là gì? Khoe nhẹ tấm ảnh dưới phần bình luận để team VHFresh học lỏm công thức với nha!\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 94,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 89,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 111,
+          "sentenceCount": 6,
+          "emojiCount": 0,
+          "varianceWords": 8.3
+        },
+        "visualDirection": {
+          "concept": "Bức ảnh ấm áp đôi bàn tay đang nhặt rau bên hiên nhà, gợi cảm giác thân thuộc của tuổi thơ và bếp mẹ",
+          "aiPrompt": "Cozy candid shot of caring hands preparing fresh green vegetables, warm vintage kitchen aesthetic, soft morning light, emotional storytelling tone --ar 1:1 --v 6.0",
+          "aspectRatio": "1:1",
+          "textOverlay": "Hôm Nay Ăn Gì?",
+          "colorTone": "#f59e0b"
+        }
+      }
+    ],
+    "createdAt": "2026-10-07T13:33:51.686Z",
+    "updatedAt": "2026-10-07T13:33:51.686Z"
+  },
+  {
+    "id": "draft_1791379868728_62k6q",
+    "brandId": "brand_vhfresh",
+    "brandName": "VHFresh - Nông Sản & Thực Phẩm Sạch",
+    "topicTitle": "Mẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn",
+    "topicPillar": "Kiến Thức & Mẹo Hữu Ích (Educational)",
+    "customInstruction": "",
+    "selectedVariantIndex": 0,
+    "status": "DRAFT",
+    "variants": [
+      {
+        "id": "var_1791379868727_0",
+        "angleKey": "storytelling",
+        "angleTitle": "Storytelling & Cảm Xúc",
+        "angleBadge": "📖 Tự Sự Bếp Nhà",
+        "headline": "Chuyện đi chợ sớm và mớ rau vừa hái",
+        "content": "Rau muống ngọn mập mạp xanh đen nhìn thì bắt mắt, nhưng mẹo của các bà nội trợ sành sỏi lại nằm ở chỗ khác...\n\nCó những hôm đi làm về muộn, bước vào nhà chỉ muốn buông hết mệt mỏi. Mở tủ lạnh thấy mớ rau tươi rói được nhặt sạch sẽ, tự nhiên lòng nhẹ nhõm hẳn.\n\nMẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn: Không cầu kỳ gia vị, chỉ cần luộc nhanh vừa chín tới, giữ trọn vị giòn ngọt thanh tao. Bữa cơm gia đình đôi khi chẳng cần sơn hào hải vị, một đĩa rau luộc xanh mướt chấm bát kho quẹt hay nước mắm tỏi ớt cũng đủ làm ấm cả gian bếp.\n\nHôm nay bếp nhà bạn nấu món gì thế?\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 95,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 93,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 138,
+          "sentenceCount": 7,
+          "emojiCount": 0,
+          "varianceWords": 10.4
+        },
+        "visualDirection": {
+          "concept": "Góc chụp cận mâm cơm gia đình với đĩa rau luộc xanh mướt bốc khói nhẹ, ánh nắng chiều chiếu xiên qua cửa sổ bếp mộc mạc",
+          "aiPrompt": "Cinematic authentic photography of Vietnamese home dinner table, freshly boiled green morning glory vegetables on ceramic plate, steam rising, natural warm window sunlight, rustic wooden table, Fujifilm 35mm tone --ar 4:5 --v 6.0",
+          "aspectRatio": "4:5",
+          "textOverlay": "Vị Ngọt Bữa Cơm Nhà",
+          "colorTone": "#10b981"
+        }
+      },
+      {
+        "id": "var_1791379868727_1",
+        "angleKey": "educational",
+        "angleTitle": "Kiến Thức Thực Tế",
+        "angleBadge": "💡 Mẹo Nhỏ Vào Bếp",
+        "headline": "Mẹo chọn và bảo quản rau củ chuẩn VietGAP",
+        "content": "Mẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn\n\nNhiều người đi chợ hay chuộng rau quả thật to, bóng bẩy không một tì vết. Nhưng kinh nghiệm của các cô chú làm vườn lâu năm lại khác:\n\n1. Nhìn phần cuống và màu sắc: Rau củ tự nhiên có màu xanh sáng nhạt, cuống còn tươi nhựa chứ không thâm nhũn.\n2. Trọng lượng khi cầm trên tay: Quả tươi cầm chắc nịch, nặng tay, cùi dày mọng nước.\n3. Độ giòn: Bấm nhẹ thấy giòn ngọt, không xơ ráp.\n\nChỉ cần để ý 3 chi tiết nhỏ này là bạn đã an tâm chuẩn bị bữa ăn trọn vẹn dinh dưỡng cho cả nhà.\n\nHôm nay bếp nhà bạn nấu món gì thế?\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 94,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 89,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 133,
+          "sentenceCount": 9,
+          "emojiCount": 0,
+          "varianceWords": 6.3
+        },
+        "visualDirection": {
+          "concept": "Hình ảnh so sánh trực quan cận cảnh rổ rau củ tươi non, giọt nước đọng trên lá, phong cách chụp tạp chí ẩm thực hiện đại",
+          "aiPrompt": "Editorial flatlay photography of fresh organic vegetables on clean kitchen counter, water droplets on green leaves, wooden cutting board, bright natural daylight, clean and sharp focus --ar 4:5 --v 6.0",
+          "aspectRatio": "4:5",
+          "textOverlay": "3 Mẹo Chọn Rau Sạch",
+          "colorTone": "#059669"
+        }
+      },
+      {
+        "id": "var_1791379868728_2",
+        "angleKey": "conversational",
+        "angleTitle": "Tương Tác & Thảo Luận",
+        "angleBadge": "💬 Chuyện Trò Bếp Núc",
+        "headline": "Bữa nay bếp nhà bạn nấu món gì thế?",
+        "content": "Rau muống ngọn mập mạp xanh đen nhìn thì bắt mắt, nhưng mẹo của các bà nội trợ sành sỏi lại nằm ở chỗ khác...\n\nMẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn: Có nhà thích canh chua thanh mát, có nhà lại chuộng món xào tỏi thơm lừng. Mỗi người một thói quen nêm nếm, nhưng chung quy lại vẫn là cảm giác được ngồi lại cùng những người thân yêu.\n\nCòn bếp nhà bạn hôm nay, món đinh trên bàn ăn là gì? Khoe nhẹ tấm ảnh dưới phần bình luận để team VHFresh học lỏm công thức với nha!\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 94,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 89,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 111,
+          "sentenceCount": 6,
+          "emojiCount": 0,
+          "varianceWords": 8.3
+        },
+        "visualDirection": {
+          "concept": "Bức ảnh ấm áp đôi bàn tay đang nhặt rau bên hiên nhà, gợi cảm giác thân thuộc của tuổi thơ và bếp mẹ",
+          "aiPrompt": "Cozy candid shot of caring hands preparing fresh green vegetables, warm vintage kitchen aesthetic, soft morning light, emotional storytelling tone --ar 1:1 --v 6.0",
+          "aspectRatio": "1:1",
+          "textOverlay": "Hôm Nay Ăn Gì?",
+          "colorTone": "#f59e0b"
+        }
+      }
+    ],
+    "createdAt": "2026-10-07T13:31:08.728Z",
+    "updatedAt": "2026-10-07T13:31:08.728Z"
+  },
+  {
+    "id": "draft_1791379492537_s9lye",
+    "brandId": "brand_vhfresh",
+    "brandName": "VHFresh - Nông Sản & Thực Phẩm Sạch",
+    "topicTitle": "Mẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn",
+    "topicPillar": "Kiến Thức & Mẹo Hữu Ích",
+    "customInstruction": "",
+    "selectedVariantIndex": 0,
+    "status": "DRAFT",
+    "variants": [
+      {
+        "id": "var_1791379492536_0",
+        "angleKey": "storytelling",
+        "angleTitle": "Storytelling & Cảm Xúc",
+        "angleBadge": "📖 Tự Sự Bếp Nhà",
+        "headline": "Chuyện đi chợ sớm và mớ rau vừa hái",
+        "content": "Rau muống ngọn mập mạp xanh đen nhìn thì bắt mắt...\n\nCó những hôm đi làm về muộn, bước vào nhà chỉ muốn buông hết mệt mỏi. Mở tủ lạnh thấy mớ rau tươi rói được nhặt sạch sẽ, tự nhiên lòng nhẹ nhõm hẳn.\n\nMẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn: Không cầu kỳ gia vị, chỉ cần luộc nhanh vừa chín tới, giữ trọn vị giòn ngọt thanh tao. Bữa cơm gia đình đôi khi chẳng cần sơn hào hải vị, một đĩa rau luộc xanh mướt chấm bát kho quẹt hay nước mắm tỏi ớt cũng đủ làm ấm cả gian bếp.\n\nHôm nay bếp nhà bạn nấu món gì thế?\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 94,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 89,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 124,
+          "sentenceCount": 7,
+          "emojiCount": 0,
+          "varianceWords": 10.6
+        },
+        "visualDirection": {
+          "concept": "Góc chụp cận mâm cơm gia đình với đĩa rau luộc xanh mướt bốc khói nhẹ, ánh nắng chiều chiếu xiên qua cửa sổ bếp mộc mạc",
+          "aiPrompt": "Cinematic authentic photography of Vietnamese home dinner table, freshly boiled green morning glory vegetables on ceramic plate, steam rising, natural warm window sunlight, rustic wooden table, Fujifilm 35mm tone --ar 4:5 --v 6.0",
+          "aspectRatio": "4:5",
+          "textOverlay": "Vị Ngọt Bữa Cơm Nhà",
+          "colorTone": "#10b981"
+        }
+      },
+      {
+        "id": "var_1791379492537_1",
+        "angleKey": "educational",
+        "angleTitle": "Kiến Thức Thực Tế",
+        "angleBadge": "💡 Mẹo Nhỏ Vào Bếp",
+        "headline": "Mẹo chọn và bảo quản rau củ chuẩn VietGAP",
+        "content": "Mẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn\n\nNhiều người đi chợ hay chuộng rau quả thật to, bóng bẩy không một tì vết. Nhưng kinh nghiệm của các cô chú làm vườn lâu năm lại khác:\n\n1. Nhìn phần cuống và màu sắc: Rau củ tự nhiên có màu xanh sáng nhạt, cuống còn tươi nhựa chứ không thâm nhũn.\n2. Trọng lượng khi cầm trên tay: Quả tươi cầm chắc nịch, nặng tay, cùi dày mọng nước.\n3. Độ giòn: Bấm nhẹ thấy giòn ngọt, không xơ ráp.\n\nChỉ cần để ý 3 chi tiết nhỏ này là bạn đã an tâm chuẩn bị bữa ăn trọn vẹn dinh dưỡng cho cả nhà.\n\nHôm nay bếp nhà bạn nấu món gì thế?\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 94,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 89,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 133,
+          "sentenceCount": 9,
+          "emojiCount": 0,
+          "varianceWords": 6.3
+        },
+        "visualDirection": {
+          "concept": "Hình ảnh so sánh trực quan cận cảnh rổ rau củ tươi non, giọt nước đọng trên lá, phong cách chụp tạp chí ẩm thực hiện đại",
+          "aiPrompt": "Editorial flatlay photography of fresh organic vegetables on clean kitchen counter, water droplets on green leaves, wooden cutting board, bright natural daylight, clean and sharp focus --ar 4:5 --v 6.0",
+          "aspectRatio": "4:5",
+          "textOverlay": "3 Mẹo Chọn Rau Sạch",
+          "colorTone": "#059669"
+        }
+      },
+      {
+        "id": "var_1791379492537_2",
+        "angleKey": "conversational",
+        "angleTitle": "Tương Tác & Thảo Luận",
+        "angleBadge": "💬 Chuyện Trò Bếp Núc",
+        "headline": "Bữa nay bếp nhà bạn nấu món gì thế?",
+        "content": "Rau muống ngọn mập mạp xanh đen nhìn thì bắt mắt...\n\nMẹo phân biệt rau muống sạch tự nhiên với rau kích ngọt ngọn: Có nhà thích canh chua thanh mát, có nhà lại chuộng món xào tỏi thơm lừng. Mỗi người một thói quen nêm nếm, nhưng chung quy lại vẫn là cảm giác được ngồi lại cùng những người thân yêu.\n\nCòn bếp nhà bạn hôm nay, món đinh trên bàn ăn là gì? Khoe nhẹ tấm ảnh dưới phần bình luận để team VHFresh học lỏm công thức với nha!\n\n#VHFresh #ThucPhamSach #MeoVatNhaBep #ComNha",
+        "qualityScore": 93,
+        "qualityBreakdown": {
+          "antiAiScore": 100,
+          "brandFitScore": 85,
+          "toneFitScore": 90,
+          "rhythmScore": 95,
+          "engagementScore": 85
+        },
+        "qualityFlags": [],
+        "qualitySuggestions": [
+          "Nội dung đạt chuẩn chất lượng cao, văn phong tự nhiên và đúng định vị thương hiệu."
+        ],
+        "stats": {
+          "wordCount": 97,
+          "sentenceCount": 6,
+          "emojiCount": 0,
+          "varianceWords": 8.1
+        },
+        "visualDirection": {
+          "concept": "Bức ảnh ấm áp đôi bàn tay đang nhặt rau bên hiên nhà, gợi cảm giác thân thuộc của tuổi thơ và bếp mẹ",
+          "aiPrompt": "Cozy candid shot of caring hands preparing fresh green vegetables, warm vintage kitchen aesthetic, soft morning light, emotional storytelling tone --ar 1:1 --v 6.0",
+          "aspectRatio": "1:1",
+          "textOverlay": "Hôm Nay Ăn Gì?",
+          "colorTone": "#f59e0b"
+        }
+      }
+    ],
+    "createdAt": "2026-10-07T13:24:52.537Z",
+    "updatedAt": "2026-10-07T13:24:52.537Z"
+  }
+]

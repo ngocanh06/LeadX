@@ -1,0 +1,4798 @@
+[
+  {
+    "id": "audit_1792740618637_328z9",
+    "timestamp": "2026-10-23T07:30:18.637Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1792740618636_y9psa",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1792740614631_lz2o9",
+    "timestamp": "2026-10-23T07:30:14.631Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1792740614630_ry0z1",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1792740610631_zunon",
+    "timestamp": "2026-10-23T07:30:10.631Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1792740610624_p4yo0",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1792740610099_0n0ty",
+    "timestamp": "2026-10-23T07:30:10.099Z",
+    "actor": "Scheduler",
+    "action": "TRIGGER_SCHEDULE_POSTS",
+    "module": "SCHEDULER",
+    "target": "Lịch Đăng Ca Sáng BĐS & Tuyển Dụng",
+    "status": "SUCCESS",
+    "details": {
+      "scheduleId": "sch_1790935781600_04no",
+      "jobsCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1792740610097_ovgkf",
+    "timestamp": "2026-10-23T07:30:10.097Z",
+    "actor": "PostingQueue",
+    "action": "ENQUEUE_POST",
+    "module": "POSTING_QUEUE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "jobId": "pjob_1792740610096_8ejb",
+      "scheduledAt": null,
+      "priority": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791531021863_ou0gs",
+    "timestamp": "2026-10-09T07:30:21.863Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1791531021862_o2pvg",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791531017853_xl4ee",
+    "timestamp": "2026-10-09T07:30:17.853Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1791531017853_iq7d4",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791531013845_fety6",
+    "timestamp": "2026-10-09T07:30:13.845Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1791531013842_zmtqf",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791531010502_c54du",
+    "timestamp": "2026-10-09T07:30:10.502Z",
+    "actor": "Scheduler",
+    "action": "TRIGGER_SCHEDULE_POSTS",
+    "module": "SCHEDULER",
+    "target": "Lịch Đăng Ca Sáng BĐS & Tuyển Dụng",
+    "status": "SUCCESS",
+    "details": {
+      "scheduleId": "sch_1790935781600_04no",
+      "jobsCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791531010499_u5f08",
+    "timestamp": "2026-10-09T07:30:10.499Z",
+    "actor": "PostingQueue",
+    "action": "ENQUEUE_POST",
+    "module": "POSTING_QUEUE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "jobId": "pjob_1791531010492_yl34",
+      "scheduledAt": null,
+      "priority": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214785490_3xswd",
+    "timestamp": "2026-10-05T15:39:45.490Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Quận Tân Phú",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214783690_2ki5l",
+    "timestamp": "2026-10-05T15:39:43.690Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Quận Tân Phú",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214727190_xq1ni",
+    "timestamp": "2026-10-05T15:38:47.190Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Quận Tân Phú",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051427_2obia",
+    "timestamp": "2026-10-05T15:27:31.427Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TÌM VIỆC BẢO VỆ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051417_jd18c",
+    "timestamp": "2026-10-05T15:27:31.417Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng Việc Làm Bắc Ninh- Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051405_i9lf5",
+    "timestamp": "2026-10-05T15:27:31.405Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng Việc Làm Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051393_szjbv",
+    "timestamp": "2026-10-05T15:27:31.393Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẢO VỆ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051383_hv682",
+    "timestamp": "2026-10-05T15:27:31.383Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Tại Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051370_fxxp0",
+    "timestamp": "2026-10-05T15:27:31.370Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051358_hnjd3",
+    "timestamp": "2026-10-05T15:27:31.358Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051347_z2nd9",
+    "timestamp": "2026-10-05T15:27:31.347Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051337_06b4g",
+    "timestamp": "2026-10-05T15:27:31.337Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051324_kdyug",
+    "timestamp": "2026-10-05T15:27:31.324Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẮC GIANG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051312_lbo3c",
+    "timestamp": "2026-10-05T15:27:31.313Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Bảo vệ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051303_hr3g9",
+    "timestamp": "2026-10-05T15:27:31.303Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051290_o25zk",
+    "timestamp": "2026-10-05T15:27:31.290Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẮC GIANG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051280_trpck",
+    "timestamp": "2026-10-05T15:27:31.280Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẢO VỆ.",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051270_bzgvt",
+    "timestamp": "2026-10-05T15:27:31.270Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051260_u3wfq",
+    "timestamp": "2026-10-05T15:27:31.260Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051249_rchiz",
+    "timestamp": "2026-10-05T15:27:31.249Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051238_irx0y",
+    "timestamp": "2026-10-05T15:27:31.238Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẢO VỆ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051224_rnp8x",
+    "timestamp": "2026-10-05T15:27:31.225Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẮC GIANG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051214_5memr",
+    "timestamp": "2026-10-05T15:27:31.214Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Bắc Giang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051204_exe20",
+    "timestamp": "2026-10-05T15:27:31.204Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng Lao Động Phổ Thông Bảo Vệ - Vệ Sĩ - Tạp Vụ - Vệ Sinh",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051194_8qt4m",
+    "timestamp": "2026-10-05T15:27:31.194Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Bảo Vệ tại Hà Nội - tp HCM",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051184_c92ft",
+    "timestamp": "2026-10-05T15:27:31.184Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Bảo vệ - Vệ sinh Hà Nội",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051174_ipvmf",
+    "timestamp": "2026-10-05T15:27:31.174Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "HỘI NHỮNG NGƯỜI LÀM NGHỀ BẢO VỆ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051162_cv4ew",
+    "timestamp": "2026-10-05T15:27:31.162Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "tuyển dụng bảo vệ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051152_xo3bz",
+    "timestamp": "2026-10-05T15:27:31.152Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẢO VỆ LƯƠNG CAO TẠI HÀ NỘI",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051141_76px6",
+    "timestamp": "2026-10-05T15:27:31.141Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển dụng Việc làm Bảo vệ TP.HCM",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051129_aq2g4",
+    "timestamp": "2026-10-05T15:27:31.129Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TUYỂN BẢO VỆ LƯƠNG CAO KHU VỰC HÀ NỘI",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051118_o4cyi",
+    "timestamp": "2026-10-05T15:27:31.118Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển dụng việc làm bảo vệ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051107_zy7l6",
+    "timestamp": "2026-10-05T15:27:31.107Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng Việc Làm Bảo Vệ Lương Cao",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051095_dphoq",
+    "timestamp": "2026-10-05T15:27:31.095Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Bảo Vệ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051085_oe6rr",
+    "timestamp": "2026-10-05T15:27:31.085Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển dụng bảo vệ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051073_zg37i",
+    "timestamp": "2026-10-05T15:27:31.073Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển dụng việc làm bảo vệ thời vụ - Sự Kiện",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051063_dus2n",
+    "timestamp": "2026-10-05T15:27:31.063Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẢO VỆ HÀ NỘI",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051053_aafs6",
+    "timestamp": "2026-10-05T15:27:31.053Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TUYỂN DỤNG BẢO VỆ LƯƠNG CAO",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051040_f22px",
+    "timestamp": "2026-10-05T15:27:31.040Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẢO VỆ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051027_65mm8",
+    "timestamp": "2026-10-05T15:27:31.027Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "tuyển bảo vệ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051016_7q5gr",
+    "timestamp": "2026-10-05T15:27:31.016Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Bảo Vệ Tại Tp. Hồ Chí Minh",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214051005_yba8c",
+    "timestamp": "2026-10-05T15:27:31.005Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Bảo vệ Hà Nội",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050993_vzgm2",
+    "timestamp": "2026-10-05T15:27:30.993Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm bảo vệ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050985_izwzv",
+    "timestamp": "2026-10-05T15:27:30.985Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TUYỂN DỤNG BẢO VỆ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050974_acbwf",
+    "timestamp": "2026-10-05T15:27:30.974Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TUYỂN DỤNG VIỆC LÀM BẢO VỆ MIỀN BẮC",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050963_o5r0n",
+    "timestamp": "2026-10-05T15:27:30.963Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm bảo vệ ở Hà Nội",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050952_1q068",
+    "timestamp": "2026-10-05T15:27:30.952Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Bảo Vệ Hà Nội",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050942_epft2",
+    "timestamp": "2026-10-05T15:27:30.942Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TUYỂN DỤNG BẢO VỆ (HÀ NỘI)",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050933_tkovp",
+    "timestamp": "2026-10-05T15:27:30.933Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẢO VỆ HÀ NỘI",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050924_jt5q6",
+    "timestamp": "2026-10-05T15:27:30.924Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẢO VỆ",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050915_7k6jj",
+    "timestamp": "2026-10-05T15:27:30.915Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TÌM VIỆC LÀM BẢO VỆ HÀ NỘI",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050905_9tuey",
+    "timestamp": "2026-10-05T15:27:30.905Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm bảo vệ - Hà Nội",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050893_g71f0",
+    "timestamp": "2026-10-05T15:27:30.893Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BẢO VỆ HÀ NỘI",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050884_dosfo",
+    "timestamp": "2026-10-05T15:27:30.884Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050872_hktw9",
+    "timestamp": "2026-10-05T15:27:30.872Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tìm Việc Làm Tại Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050861_ncy1n",
+    "timestamp": "2026-10-05T15:27:30.861Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tìm Kiếm Việc Làm Ở Đà Nẵng - Đà Nẵng SOS",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050851_3rfqw",
+    "timestamp": "2026-10-05T15:27:30.851Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM UY TÍN SỐ 1 ĐÀ NẴNG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050842_qb1sz",
+    "timestamp": "2026-10-05T15:27:30.842Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "ĐÀ NẴNG - VIỆC LÀM",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050832_bezwe",
+    "timestamp": "2026-10-05T15:27:30.832Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tìm kiếm việc làm tại đà nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050823_emzf1",
+    "timestamp": "2026-10-05T15:27:30.823Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng - Tuyển dụng Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050809_0dtax",
+    "timestamp": "2026-10-05T15:27:30.809Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng 24h ✅",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050799_n20uz",
+    "timestamp": "2026-10-05T15:27:30.799Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển dụng việc làm hằng ngày tại ĐÀ NẴNG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050786_uhf07",
+    "timestamp": "2026-10-05T15:27:30.786Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "việc làm sinh viên tại đà nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050770_6kof4",
+    "timestamp": "2026-10-05T15:27:30.770Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050760_anmi1",
+    "timestamp": "2026-10-05T15:27:30.760Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Tại Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050752_2iptx",
+    "timestamp": "2026-10-05T15:27:30.752Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Thời Vụ - PART TIME ĐÀ NẴNG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050743_q2cil",
+    "timestamp": "2026-10-05T15:27:30.743Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050735_kkty0",
+    "timestamp": "2026-10-05T15:27:30.735Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050726_iw1fi",
+    "timestamp": "2026-10-05T15:27:30.726Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm thêm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050719_5ozfv",
+    "timestamp": "2026-10-05T15:27:30.719Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050710_12pgq",
+    "timestamp": "2026-10-05T15:27:30.710Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050703_3c4gw",
+    "timestamp": "2026-10-05T15:27:30.703Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tìm Việc Làm Thêm TP Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050693_xdfmg",
+    "timestamp": "2026-10-05T15:27:30.693Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050686_b6tz4",
+    "timestamp": "2026-10-05T15:27:30.686Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng - Tuyển Dụng & Tìm Việc",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050677_yti6k",
+    "timestamp": "2026-10-05T15:27:30.677Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050670_484o9",
+    "timestamp": "2026-10-05T15:27:30.670Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng - viec lam da nang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050661_zigox",
+    "timestamp": "2026-10-05T15:27:30.661Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050654_rdbfl",
+    "timestamp": "2026-10-05T15:27:30.654Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng 43",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050645_41gbb",
+    "timestamp": "2026-10-05T15:27:30.645Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Sinh Viên Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050636_2kg9x",
+    "timestamp": "2026-10-05T15:27:30.636Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm cho sinh viên đà nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050628_4ucj8",
+    "timestamp": "2026-10-05T15:27:30.628Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng Việc Làm Đà Nẵng - Hội An",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050621_t22jx",
+    "timestamp": "2026-10-05T15:27:30.621Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng Việc Làm Đà Nẵng - Tìm Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050612_9zwqo",
+    "timestamp": "2026-10-05T15:27:30.612Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển dụng - Sàn việc Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050605_rgao2",
+    "timestamp": "2026-10-05T15:27:30.605Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng 24h",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050596_5qui9",
+    "timestamp": "2026-10-05T15:27:30.597Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050589_0xssw",
+    "timestamp": "2026-10-05T15:27:30.589Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng Việc Làm Đà Nẵng - Tìm Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050581_qgmmr",
+    "timestamp": "2026-10-05T15:27:30.581Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tìm Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050573_o27ie",
+    "timestamp": "2026-10-05T15:27:30.573Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "việc làm sinh viên đà nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050563_djv6u",
+    "timestamp": "2026-10-05T15:27:30.563Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng Việc Làm Đà Nẵng - Tìm Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050556_8ach5",
+    "timestamp": "2026-10-05T15:27:30.556Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng - 43.dn",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050549_p4cyh",
+    "timestamp": "2026-10-05T15:27:30.549Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm nhanh Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050540_ydrul",
+    "timestamp": "2026-10-05T15:27:30.540Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050532_1qlko",
+    "timestamp": "2026-10-05T15:27:30.532Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Chợ việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050524_p3vlq",
+    "timestamp": "2026-10-05T15:27:30.524Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng 24h ✅",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050517_omwtn",
+    "timestamp": "2026-10-05T15:27:30.517Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050509_5ur8n",
+    "timestamp": "2026-10-05T15:27:30.509Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050502_me4ov",
+    "timestamp": "2026-10-05T15:27:30.502Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM ĐÀ NẴNG - QUẢNG NAM",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050493_r6tff",
+    "timestamp": "2026-10-05T15:27:30.493Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Sinh Viên Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050487_9wt64",
+    "timestamp": "2026-10-05T15:27:30.487Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng - Viec Lam Da Nang",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050479_ygih3",
+    "timestamp": "2026-10-05T15:27:30.479Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tìm Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050472_cww0g",
+    "timestamp": "2026-10-05T15:27:30.472Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Hội tìm việc làm Đà Nẵng 24/7",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050464_r9jei",
+    "timestamp": "2026-10-05T15:27:30.464Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng ✅ ( Không Đa Cấp )",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050457_jsgop",
+    "timestamp": "2026-10-05T15:27:30.457Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM ĐÀ NẴNG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050449_n05ry",
+    "timestamp": "2026-10-05T15:27:30.449Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng - Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050439_69m3c",
+    "timestamp": "2026-10-05T15:27:30.439Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050431_24g2a",
+    "timestamp": "2026-10-05T15:27:30.431Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển dụng việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050423_co3lw",
+    "timestamp": "2026-10-05T15:27:30.423Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050416_tqoyv",
+    "timestamp": "2026-10-05T15:27:30.416Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050408_r1f0k",
+    "timestamp": "2026-10-05T15:27:30.408Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050401_2h1xx",
+    "timestamp": "2026-10-05T15:27:30.401Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm đà nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050393_oq3q4",
+    "timestamp": "2026-10-05T15:27:30.393Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050386_q71j9",
+    "timestamp": "2026-10-05T15:27:30.386Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM ĐÀ NẴNG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050377_mzzo7",
+    "timestamp": "2026-10-05T15:27:30.377Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050371_1szto",
+    "timestamp": "2026-10-05T15:27:30.371Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm sinh viên Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050362_2srwp",
+    "timestamp": "2026-10-05T15:27:30.362Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng - Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050356_30zky",
+    "timestamp": "2026-10-05T15:27:30.356Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM - ĐÀ NẴNG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050349_lyc2e",
+    "timestamp": "2026-10-05T15:27:30.349Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050341_fbjmm",
+    "timestamp": "2026-10-05T15:27:30.341Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050335_3onpq",
+    "timestamp": "2026-10-05T15:27:30.335Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050327_zaw0c",
+    "timestamp": "2026-10-05T15:27:30.327Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050321_7yp8k",
+    "timestamp": "2026-10-05T15:27:30.321Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050313_1e8qm",
+    "timestamp": "2026-10-05T15:27:30.313Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050306_j6cmb",
+    "timestamp": "2026-10-05T15:27:30.306Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050299_o08dg",
+    "timestamp": "2026-10-05T15:27:30.299Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Quảng Nam",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050292_5gnlh",
+    "timestamp": "2026-10-05T15:27:30.292Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050286_bkst0",
+    "timestamp": "2026-10-05T15:27:30.286Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050277_tgra5",
+    "timestamp": "2026-10-05T15:27:30.277Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050271_ep66y",
+    "timestamp": "2026-10-05T15:27:30.271Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050263_h48l6",
+    "timestamp": "2026-10-05T15:27:30.263Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050257_xf3vy",
+    "timestamp": "2026-10-05T15:27:30.257Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050250_giqhu",
+    "timestamp": "2026-10-05T15:27:30.250Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050242_u83de",
+    "timestamp": "2026-10-05T15:27:30.242Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050235_4er7u",
+    "timestamp": "2026-10-05T15:27:30.235Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050228_573ef",
+    "timestamp": "2026-10-05T15:27:30.228Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050222_urlfo",
+    "timestamp": "2026-10-05T15:27:30.222Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Đà Nẵng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050215_w2q69",
+    "timestamp": "2026-10-05T15:27:30.215Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Thiết Kế Nội Thất - Tuyển Dụng Nhân Viên Kiến Trúc Sư",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050208_vnlfe",
+    "timestamp": "2026-10-05T15:27:30.208Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển dụng thiết kế nội thất",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050202_blry5",
+    "timestamp": "2026-10-05T15:27:30.202Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TUYỂN DỤNG THIẾT KẾ ĐỒ HỌA",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050195_u176z",
+    "timestamp": "2026-10-05T15:27:30.195Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TUYỂN DỤNG THIẾT KẾ 2D 3D NỘI THẤT",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050189_ocxc7",
+    "timestamp": "2026-10-05T15:27:30.189Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Quận Bình Thạnh",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050179_6myuj",
+    "timestamp": "2026-10-05T15:27:30.179Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Bình Thạnh ✅( Việc Làm Bình Thạnh - TP.HCM )",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050173_t698e",
+    "timestamp": "2026-10-05T15:27:30.173Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM Ở TPHCM",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050166_o1tco",
+    "timestamp": "2026-10-05T15:27:30.166Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng Việc Làm TPHCM - Tìm Việc Làm TPHCM",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050159_8egaq",
+    "timestamp": "2026-10-05T15:27:30.159Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM BÌNH THẠNH TP.HCM",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050153_0osc7",
+    "timestamp": "2026-10-05T15:27:30.153Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "VIỆC LÀM KIẾN TRÚC - XÂY DỰNG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050147_6hfhh",
+    "timestamp": "2026-10-05T15:27:30.147Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm, Tuyển Dụng Thiết Kế Nội Thất, Kiến Trúc",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050141_w0roc",
+    "timestamp": "2026-10-05T15:27:30.141Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển dụng ngành Kiến trúc - Nội thất - Xây dựng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050135_4cpag",
+    "timestamp": "2026-10-05T15:27:30.135Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Thiết Kế Nội Thất - Tuyển Dụng Nhân Viên Kiến Trúc Sư",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050126_mw0ng",
+    "timestamp": "2026-10-05T15:27:30.126Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Kiến Trúc, Thiết Kế Nội Thất",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050120_npnzj",
+    "timestamp": "2026-10-05T15:27:30.120Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển Dụng - Việc Làm Thiết Kế Nội Thất",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050113_3gotz",
+    "timestamp": "2026-10-05T15:27:30.113Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "🏡 TUYỂN DỤNG VIỆC LÀM KIẾN TRÚC SƯ - KỸ SƯ XÂY DỰNG - THIẾT KẾ NỘI THẤT",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050106_lt5k8",
+    "timestamp": "2026-10-05T15:27:30.106Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TUYỂN DỤNG VIỆC LÀM KIẾN TRÚC - NỘI THẤT - KỸ SƯ XÂY DỰNG",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050099_8dylf",
+    "timestamp": "2026-10-05T15:27:30.100Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Tuyển dụng kiến truc sư - kỹ sư - nhân sự Ngành Nội Thất, Xây Dựng",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050092_ou394",
+    "timestamp": "2026-10-05T15:27:30.092Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "TUYỂN DỤNG THIẾT KẾ NỘI THẤT, KIẾN TRÚC, 2D 3D",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050086_lezku",
+    "timestamp": "2026-10-05T15:27:30.086Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Hồ Chí Minh City",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050079_kqk6e",
+    "timestamp": "2026-10-05T15:27:30.079Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Sinh Viên Hồ Chí Minh",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050073_xd5od",
+    "timestamp": "2026-10-05T15:27:30.073Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc Làm Sài Gòn",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050066_bnr5o",
+    "timestamp": "2026-10-05T15:27:30.066Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Thủ Dầu Một",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050059_8jxga",
+    "timestamp": "2026-10-05T15:27:30.059Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm TP Hồ Chí Minh",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791214050052_6txrf",
+    "timestamp": "2026-10-05T15:27:30.052Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Quận Tân Phú",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791213760507_k94rf",
+    "timestamp": "2026-10-05T15:22:40.507Z",
+    "actor": "LeadIngestionPipeline",
+    "action": "SYNC_SOURCE_SUCCESS",
+    "module": "LEAD_INGESTION",
+    "target": "Việc làm Quận Tân Phú",
+    "status": "SUCCESS",
+    "details": {
+      "postsFound": 1,
+      "postsNew": 1,
+      "leadsCreated": 0,
+      "leadsDuplicate": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791185442084_vokp7",
+    "timestamp": "2026-10-05T07:30:42.084Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1791185442083_d2uaf",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791185438082_yb0zl",
+    "timestamp": "2026-10-05T07:30:38.082Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1791185438081_f1ran",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791185434078_7zf16",
+    "timestamp": "2026-10-05T07:30:34.078Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1791185434077_lc6ea",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791185430926_kzeiq",
+    "timestamp": "2026-10-05T07:30:30.926Z",
+    "actor": "Scheduler",
+    "action": "TRIGGER_SCHEDULE_POSTS",
+    "module": "SCHEDULER",
+    "target": "Lịch Đăng Ca Sáng BĐS & Tuyển Dụng",
+    "status": "SUCCESS",
+    "details": {
+      "scheduleId": "sch_1790935781600_04no",
+      "jobsCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791185430923_3916v",
+    "timestamp": "2026-10-05T07:30:30.923Z",
+    "actor": "PostingQueue",
+    "action": "ENQUEUE_POST",
+    "module": "POSTING_QUEUE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "jobId": "pjob_1791185430921_86xv",
+      "scheduledAt": null,
+      "priority": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122975463_9nnqx",
+    "timestamp": "2026-10-04T14:09:35.463Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "mai.tran@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43f_rj5e",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78daef465sm7229971a91.1 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122971871_4so3q",
+    "timestamp": "2026-10-04T14:09:31.871Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "long.le@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43j_wh9r",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-351270204e0sm6092084eec.1 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122968382_b568l",
+    "timestamp": "2026-10-04T14:09:28.382Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "ceo@techstartup.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43m_d9qd",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a7bfc344bbsm3863705a91.12 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122964272_0hmdx",
+    "timestamp": "2026-10-04T14:09:24.272Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "hr@vietcorp.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43r_8dbt",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-151fcec9f1dsm14720834c88.16 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122961318_n4bjk",
+    "timestamp": "2026-10-04T14:09:21.318Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "drip_candidate@domain.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43x_ls87",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-151fa751693sm32842033c88.2 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122958044_027c8",
+    "timestamp": "2026-10-04T14:09:18.044Z",
+    "actor": "EmailCampaignService",
+    "action": "CAMPAIGN_COMPLETED",
+    "module": "EMAIL_CAMPAIGN",
+    "target": "Chiến Dịch Khảo Sát B2B 1790943193298",
+    "status": "SUCCESS",
+    "details": {
+      "campaignId": "emcamp_muqxc442"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122957831_zqlgp",
+    "timestamp": "2026-10-04T14:09:17.831Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director1@company1.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc445_8e42",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3512713809csm5535565eec.7 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122953929_askv3",
+    "timestamp": "2026-10-04T14:09:13.929Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director2@company2.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc447_tt5b",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-35127160107sm4695809eec.11 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122950751_n12u7",
+    "timestamp": "2026-10-04T14:09:10.751Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director3@company3.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc449_lyrr",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2e49f6ac880sm24072705ad.32 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122947250_opmp7",
+    "timestamp": "2026-10-04T14:09:07.250Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "long.le@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiho_1dbu",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-35127161456sm5363878eec.14 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122943701_h7dxz",
+    "timestamp": "2026-10-04T14:09:03.701Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "drip_candidate@domain.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgihy_ffd4",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-35127021d1esm5844813eec.4 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122941921_f664k",
+    "timestamp": "2026-10-04T14:09:01.921Z",
+    "actor": "EmailCampaignService",
+    "action": "CAMPAIGN_COMPLETED",
+    "module": "EMAIL_CAMPAIGN",
+    "target": "Chiến Dịch Khảo Sát B2B 1790943398573",
+    "status": "SUCCESS",
+    "details": {
+      "campaignId": "emcamp_muqxgii5"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122940244_my1qd",
+    "timestamp": "2026-10-04T14:09:00.244Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director1@company1.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgii8_3gef",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78d661ef5sm7169763a91.5 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122936030_iqzzi",
+    "timestamp": "2026-10-04T14:08:56.030Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director2@company2.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiia_xlww",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78d65d85csm6714711a91.4 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122933045_jscsd",
+    "timestamp": "2026-10-04T14:08:53.045Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director3@company3.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiic_oedl",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78d6b5c3dsm6869765a91.13 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122851960_x0zly",
+    "timestamp": "2026-10-04T14:07:31.960Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "mai.tran@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43f_rj5e",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-35126f01924sm5432048eec.0 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122848440_g1645",
+    "timestamp": "2026-10-04T14:07:28.440Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "long.le@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43j_wh9r",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-351277a2fb4sm5633262eec.26 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122844962_0pezc",
+    "timestamp": "2026-10-04T14:07:24.962Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "ceo@techstartup.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43m_d9qd",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-35129de5740sm3905752eec.18 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122841371_5lr3f",
+    "timestamp": "2026-10-04T14:07:21.371Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "hr@vietcorp.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43r_8dbt",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-351272db3d5sm5258383eec.28 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122837200_wil1a",
+    "timestamp": "2026-10-04T14:07:17.200Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "drip_candidate@domain.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43x_ls87",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-151fcec9f1dsm14706509c88.16 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122834447_lfp2w",
+    "timestamp": "2026-10-04T14:07:14.447Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director1@company1.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc445_8e42",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-88b0c88a815sm2497163b3a.42 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122830848_sccky",
+    "timestamp": "2026-10-04T14:07:10.848Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director2@company2.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc447_tt5b",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-351272ceb02sm9851677eec.25 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122827280_o99j9",
+    "timestamp": "2026-10-04T14:07:07.280Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director3@company3.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc449_lyrr",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78d7c64b1sm7381811a91.14 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122823866_j26vr",
+    "timestamp": "2026-10-04T14:07:03.866Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "long.le@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiho_1dbu",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-151fca985c6sm19985163c88.10 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122819699_c0tnn",
+    "timestamp": "2026-10-04T14:06:59.699Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "drip_candidate@domain.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgihy_ffd4",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78e497230sm6807431a91.11 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122817056_bjxm9",
+    "timestamp": "2026-10-04T14:06:57.056Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director1@company1.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgii8_3gef",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a7d200b6fasm2722409a91.7 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122812698_9s2xx",
+    "timestamp": "2026-10-04T14:06:52.698Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director2@company2.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiia_xlww",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-35127138638sm6595147eec.8 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122809731_95pmt",
+    "timestamp": "2026-10-04T14:06:49.731Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director3@company3.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiic_oedl",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78d4a869esm7201912a91.2 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122788804_skcr4",
+    "timestamp": "2026-10-04T14:06:28.804Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "mai.tran@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43f_rj5e",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a709a4e80bsm4443956a91.4 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122784597_y01dd",
+    "timestamp": "2026-10-04T14:06:24.597Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "long.le@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43j_wh9r",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78e4262bcsm6670174a91.5 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122781821_u5ozj",
+    "timestamp": "2026-10-04T14:06:21.821Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "ceo@techstartup.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43m_d9qd",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78e4cd01asm6754938a91.14 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122778271_m0ul3",
+    "timestamp": "2026-10-04T14:06:18.271Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "hr@vietcorp.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43r_8dbt",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78d6b3ceasm6871287a91.10 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122774776_v7lue",
+    "timestamp": "2026-10-04T14:06:14.776Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "drip_candidate@domain.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43x_ls87",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-351272f27dcsm5166585eec.30 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122771271_da55h",
+    "timestamp": "2026-10-04T14:06:11.271Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director1@company1.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc445_8e42",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-35128156e6esm5859038eec.20 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122767722_rkmu8",
+    "timestamp": "2026-10-04T14:06:07.722Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director2@company2.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc447_tt5b",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a78e4262cfsm6785835a91.6 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122764267_ej1so",
+    "timestamp": "2026-10-04T14:06:04.267Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director3@company3.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc449_lyrr",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-151fc87346bsm29052478c88.8 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122760959_ustnq",
+    "timestamp": "2026-10-04T14:06:00.959Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "long.le@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiho_1dbu",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-88b0b9ecdb0sm2536512b3a.16 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122757248_o6txs",
+    "timestamp": "2026-10-04T14:05:57.248Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "drip_candidate@domain.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgihy_ffd4",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3512713c9a6sm5117819eec.5 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122753923_jzt81",
+    "timestamp": "2026-10-04T14:05:53.923Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director1@company1.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgii8_3gef",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-35128156e6esm5857032eec.20 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122750165_ol698",
+    "timestamp": "2026-10-04T14:05:50.165Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director2@company2.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiia_xlww",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-cca561e9d1dsm2548604a12.6 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1791122746844_xwyuk",
+    "timestamp": "2026-10-04T14:05:46.844Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "director3@company3.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiic_oedl",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2e49f6d65bbsm23908305ad.54 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398583_za88j",
+    "timestamp": "2026-10-02T12:16:38.583Z",
+    "actor": "EmailCampaignService",
+    "action": "LAUNCH_EMAIL_CAMPAIGN",
+    "module": "EMAIL_CAMPAIGN",
+    "target": "Chiến Dịch Khảo Sát B2B 1790943398573",
+    "status": "SUCCESS",
+    "details": {
+      "campaignId": "emcamp_muqxgii5",
+      "dispatchedCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398581_9d14w",
+    "timestamp": "2026-10-02T12:16:38.581Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Giám Đốc 3 <director3@company3.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiic_oedl",
+      "subject": "【Giải Pháp Tuyển Dụng】Cung Ứng Nhân Sự Đẩy Nhanh Cho Giám Đốc 3",
+      "category": "employer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398579_qzyb3",
+    "timestamp": "2026-10-02T12:16:38.579Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Giám Đốc 2 <director2@company2.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiia_xlww",
+      "subject": "【Giải Pháp Tuyển Dụng】Cung Ứng Nhân Sự Đẩy Nhanh Cho Giám Đốc 2",
+      "category": "employer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398577_lhoa1",
+    "timestamp": "2026-10-02T12:16:38.577Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Giám Đốc 1 <director1@company1.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgii8_3gef",
+      "subject": "【Giải Pháp Tuyển Dụng】Cung Ứng Nhân Sự Đẩy Nhanh Cho Giám Đốc 1",
+      "category": "employer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398573_7t43y",
+    "timestamp": "2026-10-02T12:16:38.573Z",
+    "actor": "EmailCampaignService",
+    "action": "CREATE_EMAIL_CAMPAIGN",
+    "module": "EMAIL_CAMPAIGN",
+    "target": "Chiến Dịch Khảo Sát B2B 1790943398573",
+    "status": "SUCCESS",
+    "details": {
+      "campaignId": "emcamp_muqxgii5",
+      "recipientsCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398572_kzwke",
+    "timestamp": "2026-10-02T12:16:38.572Z",
+    "actor": "EmailAutomationBuilder",
+    "action": "AUTO_STOP_SEQUENCE",
+    "module": "EMAIL_AUTOMATION",
+    "target": "drip_candidate@domain.com",
+    "status": "INFO",
+    "details": {
+      "stoppedCount": 1,
+      "newStatus": "REPLIED"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398567_kymt2",
+    "timestamp": "2026-10-02T12:16:38.567Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Vũ Đình Cường <drip_candidate@domain.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgihy_ffd4",
+      "subject": "【LeadX】Xác Nhận Đã Nhận Hồ Sơ Ứng Tuyển Vị Trí Kế Toán Trưởng -",
+      "category": "candidate"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398563_v16cz",
+    "timestamp": "2026-10-02T12:16:38.563Z",
+    "actor": "EmployerWorkflow",
+    "action": "TRIGGER_EMPLOYER_QUOTATION",
+    "module": "EMAIL_WORKFLOW",
+    "target": "hr@vietcorp.vn",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqxc43r_8dbt",
+      "companyName": "VietCorp"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398560_knjn7",
+    "timestamp": "2026-10-02T12:16:38.560Z",
+    "actor": "EmployerWorkflow",
+    "action": "TRIGGER_EMPLOYER_OUTREACH",
+    "module": "EMAIL_WORKFLOW",
+    "target": "ceo@techstartup.vn",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqxc43m_d9qd",
+      "companyName": "TechStartup JSC",
+      "jobTitle": "Senior Automation Engineer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398559_na98j",
+    "timestamp": "2026-10-02T12:16:38.559Z",
+    "actor": "CandidateWorkflow",
+    "action": "TRIGGER_INTERVIEW_INVITE",
+    "module": "EMAIL_WORKFLOW",
+    "target": "long.le@example.com",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqxgiho_1dbu",
+      "interviewTime": "14:30 Thứ Tư, 15/10/2026",
+      "location": "https://meet.google.com/xyz-test"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398558_i7r47",
+    "timestamp": "2026-10-02T12:16:38.558Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Lê Hoàng Long <long.le@example.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxgiho_1dbu",
+      "subject": "【Thư Mời Phỏng Vấn】Vị Trí Senior Node.js Developer - Ứng Viên Lê Hoàng Long",
+      "category": "candidate"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398554_ujwvk",
+    "timestamp": "2026-10-02T12:16:38.554Z",
+    "actor": "CandidateWorkflow",
+    "action": "TRIGGER_CANDIDATE_ACK",
+    "module": "EMAIL_WORKFLOW",
+    "target": "mai.tran@example.com",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqxc43f_rj5e",
+      "jobTitle": "Chuyên Viên Tuyển Dụng",
+      "candidateName": "Trần Thị Mai"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398553_la02a",
+    "timestamp": "2026-10-02T12:16:38.553Z",
+    "actor": "CandidateWorkflow",
+    "action": "TRIGGER_CANDIDATE_ACK",
+    "module": "EMAIL_WORKFLOW",
+    "target": "mai.tran@example.com",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqxc43f_rj5e",
+      "jobTitle": "Chuyên Viên Tuyển Dụng",
+      "candidateName": "Trần Thị Mai"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943398525_akpzo",
+    "timestamp": "2026-10-02T12:16:38.525Z",
+    "actor": "EmailProviderService",
+    "action": "CREATE_EMAIL_PROVIDER",
+    "module": "EMAIL_ENGINE",
+    "target": "Test Enterprise SMTP",
+    "status": "SUCCESS",
+    "details": {
+      "providerId": "prov_muqxgigr_ue21",
+      "type": "GMAIL_APP_PASS",
+      "user": "test_leadx_enterprise@gmail.com"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193308_9iqq7",
+    "timestamp": "2026-10-02T12:13:13.308Z",
+    "actor": "EmailCampaignService",
+    "action": "LAUNCH_EMAIL_CAMPAIGN",
+    "module": "EMAIL_CAMPAIGN",
+    "target": "Chiến Dịch Khảo Sát B2B 1790943193298",
+    "status": "SUCCESS",
+    "details": {
+      "campaignId": "emcamp_muqxc442",
+      "dispatchedCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193307_rdfl6",
+    "timestamp": "2026-10-02T12:13:13.307Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Giám Đốc 3 <director3@company3.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc449_lyrr",
+      "subject": "【Giải Pháp Tuyển Dụng】Cung Ứng Nhân Sự Đẩy Nhanh Cho Giám Đốc 3",
+      "category": "employer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193304_yglrw",
+    "timestamp": "2026-10-02T12:13:13.304Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Giám Đốc 2 <director2@company2.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc447_tt5b",
+      "subject": "【Giải Pháp Tuyển Dụng】Cung Ứng Nhân Sự Đẩy Nhanh Cho Giám Đốc 2",
+      "category": "employer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193302_gnnfg",
+    "timestamp": "2026-10-02T12:13:13.302Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Giám Đốc 1 <director1@company1.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc445_8e42",
+      "subject": "【Giải Pháp Tuyển Dụng】Cung Ứng Nhân Sự Đẩy Nhanh Cho Giám Đốc 1",
+      "category": "employer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193299_vwo86",
+    "timestamp": "2026-10-02T12:13:13.299Z",
+    "actor": "EmailCampaignService",
+    "action": "CREATE_EMAIL_CAMPAIGN",
+    "module": "EMAIL_CAMPAIGN",
+    "target": "Chiến Dịch Khảo Sát B2B 1790943193298",
+    "status": "SUCCESS",
+    "details": {
+      "campaignId": "emcamp_muqxc442",
+      "recipientsCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193297_kzcrh",
+    "timestamp": "2026-10-02T12:13:13.297Z",
+    "actor": "EmailAutomationBuilder",
+    "action": "AUTO_STOP_SEQUENCE",
+    "module": "EMAIL_AUTOMATION",
+    "target": "drip_candidate@domain.com",
+    "status": "INFO",
+    "details": {
+      "stoppedCount": 1,
+      "newStatus": "REPLIED"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193293_t1jco",
+    "timestamp": "2026-10-02T12:13:13.293Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Vũ Đình Cường <drip_candidate@domain.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43x_ls87",
+      "subject": "【LeadX】Xác Nhận Đã Nhận Hồ Sơ Ứng Tuyển Vị Trí Kế Toán Trưởng -",
+      "category": "candidate"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193290_0bwhv",
+    "timestamp": "2026-10-02T12:13:13.290Z",
+    "actor": "EmployerWorkflow",
+    "action": "TRIGGER_EMPLOYER_QUOTATION",
+    "module": "EMAIL_WORKFLOW",
+    "target": "hr@vietcorp.vn",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqxc43r_8dbt",
+      "companyName": "VietCorp"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193288_e8d9z",
+    "timestamp": "2026-10-02T12:13:13.288Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Chị Lan <hr@vietcorp.vn>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43r_8dbt",
+      "subject": "【Bảng Báo Giá】Gói Dịch Vụ Tuyển Dụng & Đẩy Tin Top Cho VietCorp",
+      "category": "employer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193285_gygtf",
+    "timestamp": "2026-10-02T12:13:13.285Z",
+    "actor": "EmployerWorkflow",
+    "action": "TRIGGER_EMPLOYER_OUTREACH",
+    "module": "EMAIL_WORKFLOW",
+    "target": "ceo@techstartup.vn",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqxc43m_d9qd",
+      "companyName": "TechStartup JSC",
+      "jobTitle": "Senior Automation Engineer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193284_akorm",
+    "timestamp": "2026-10-02T12:13:13.284Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Anh Tuấn <ceo@techstartup.vn>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43m_d9qd",
+      "subject": "【Giải Pháp Tuyển Dụng】Cung Ứng Nhân Sự Đẩy Nhanh Cho TechStartup JSC",
+      "category": "employer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193281_rnuv9",
+    "timestamp": "2026-10-02T12:13:13.281Z",
+    "actor": "CandidateWorkflow",
+    "action": "TRIGGER_INTERVIEW_INVITE",
+    "module": "EMAIL_WORKFLOW",
+    "target": "long.le@example.com",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqxc43j_wh9r",
+      "interviewTime": "14:30 Thứ Tư, 15/10/2026",
+      "location": "https://meet.google.com/xyz-test"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193280_u9sp6",
+    "timestamp": "2026-10-02T12:13:13.280Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Lê Hoàng Long <long.le@example.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43j_wh9r",
+      "subject": "【Thư Mời Phỏng Vấn】Vị Trí Senior Node.js Developer - Ứng Viên Lê Hoàng Long",
+      "category": "candidate"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193277_vb8x5",
+    "timestamp": "2026-10-02T12:13:13.277Z",
+    "actor": "CandidateWorkflow",
+    "action": "TRIGGER_CANDIDATE_ACK",
+    "module": "EMAIL_WORKFLOW",
+    "target": "mai.tran@example.com",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqxc43f_rj5e",
+      "jobTitle": "Chuyên Viên Tuyển Dụng",
+      "candidateName": "Trần Thị Mai"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193276_bor9n",
+    "timestamp": "2026-10-02T12:13:13.276Z",
+    "actor": "CandidateWorkflow",
+    "action": "TRIGGER_CANDIDATE_ACK",
+    "module": "EMAIL_WORKFLOW",
+    "target": "mai.tran@example.com",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqxc43f_rj5e",
+      "jobTitle": "Chuyên Viên Tuyển Dụng",
+      "candidateName": "Trần Thị Mai"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193275_i2tfg",
+    "timestamp": "2026-10-02T12:13:13.275Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Trần Thị Mai <mai.tran@example.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqxc43f_rj5e",
+      "subject": "【LeadX】Xác Nhận Đã Nhận Hồ Sơ Ứng Tuyển Vị Trí Chuyên Viên Tuyển Dụng - Trần Thị Mai",
+      "category": "candidate"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943193247_wdzrt",
+    "timestamp": "2026-10-02T12:13:13.247Z",
+    "actor": "EmailProviderService",
+    "action": "CREATE_EMAIL_PROVIDER",
+    "module": "EMAIL_ENGINE",
+    "target": "Test Enterprise SMTP",
+    "status": "SUCCESS",
+    "details": {
+      "providerId": "prov_muqxc42m_5yq1",
+      "type": "GMAIL_APP_PASS",
+      "user": "test_leadx_enterprise@gmail.com"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943148187_jfp9u",
+    "timestamp": "2026-10-02T12:12:28.187Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "mai.tran@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6twy_yukg",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a6cd634541sm3935268a91.16 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943144516_k2jjb",
+    "timestamp": "2026-10-02T12:12:24.516Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "long.le@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6tx5_m9zl",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2e49f67fcf1sm6905725ad.21 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943140474_9eusq",
+    "timestamp": "2026-10-02T12:12:20.474Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "ceo@techstartup.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6tx8_jwu9",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a6fc716b5esm963480a91.14 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943137611_r9uqt",
+    "timestamp": "2026-10-02T12:12:17.611Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "hr@vietcorp.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6txc_og32",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a6cd5d88e4sm4138677a91.13 - gsmtp",
+      "retryCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943024603_h90y0",
+    "timestamp": "2026-10-02T12:10:24.603Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "mai.tran@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6twy_yukg",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a6cd634536sm4231469a91.15 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943021423_1ov58",
+    "timestamp": "2026-10-02T12:10:21.423Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "long.le@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6tx5_m9zl",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a4f46b6bc6sm8650577a91.6 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943018435_yid1l",
+    "timestamp": "2026-10-02T12:10:18.435Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "ceo@techstartup.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6tx8_jwu9",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-cc9f7398400sm874573a12.25 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790943014829_xmqyp",
+    "timestamp": "2026-10-02T12:10:14.829Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "hr@vietcorp.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6txc_og32",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2e49f6aea8csm6774105ad.35 - gsmtp",
+      "retryCount": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942962514_t863w",
+    "timestamp": "2026-10-02T12:09:22.514Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "mai.tran@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6twy_yukg",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a7024d0f5fsm565987a91.0 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942958804_zjfyu",
+    "timestamp": "2026-10-02T12:09:18.804Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "long.le@example.com",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6tx5_m9zl",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a6dcdac9f7sm1393838a91.1 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942955344_surzg",
+    "timestamp": "2026-10-02T12:09:15.344Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "ceo@techstartup.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6tx8_jwu9",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3a4f43a12c9sm9550151a91.2 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942951283_mli3z",
+    "timestamp": "2026-10-02T12:09:11.283Z",
+    "actor": "EmailWorker",
+    "action": "SEND_EMAIL_FAILED",
+    "module": "EMAIL_ENGINE",
+    "target": "hr@vietcorp.vn",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6txc_og32",
+      "error": "Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2e49f7382a9sm6858075ad.80 - gsmtp",
+      "retryCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942946822_kdtv1",
+    "timestamp": "2026-10-02T12:09:06.822Z",
+    "actor": "EmailCampaignService",
+    "action": "CREATE_EMAIL_CAMPAIGN",
+    "module": "EMAIL_CAMPAIGN",
+    "target": "Chiến Dịch Khảo Sát B2B Q4/2026",
+    "status": "SUCCESS",
+    "details": {
+      "campaignId": "emcamp_muqx6txh",
+      "recipientsCount": 3
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942946818_g9v6c",
+    "timestamp": "2026-10-02T12:09:06.818Z",
+    "actor": "EmployerWorkflow",
+    "action": "TRIGGER_EMPLOYER_QUOTATION",
+    "module": "EMAIL_WORKFLOW",
+    "target": "hr@vietcorp.vn",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqx6txc_og32",
+      "companyName": "VietCorp"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942946817_852y6",
+    "timestamp": "2026-10-02T12:09:06.817Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Chị Lan <hr@vietcorp.vn>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6txc_og32",
+      "subject": "【Bảng Báo Giá】Gói Dịch Vụ Tuyển Dụng & Đẩy Tin Top Cho VietCorp",
+      "category": "employer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942946814_aibl9",
+    "timestamp": "2026-10-02T12:09:06.814Z",
+    "actor": "EmployerWorkflow",
+    "action": "TRIGGER_EMPLOYER_OUTREACH",
+    "module": "EMAIL_WORKFLOW",
+    "target": "ceo@techstartup.vn",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqx6tx8_jwu9",
+      "companyName": "TechStartup JSC",
+      "jobTitle": "Senior Automation Engineer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942946813_ktx7l",
+    "timestamp": "2026-10-02T12:09:06.813Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Anh Tuấn <ceo@techstartup.vn>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6tx8_jwu9",
+      "subject": "【Giải Pháp Tuyển Dụng】Cung Ứng Nhân Sự Đẩy Nhanh Cho TechStartup JSC",
+      "category": "employer"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942946811_256v5",
+    "timestamp": "2026-10-02T12:09:06.811Z",
+    "actor": "CandidateWorkflow",
+    "action": "TRIGGER_INTERVIEW_INVITE",
+    "module": "EMAIL_WORKFLOW",
+    "target": "long.le@example.com",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqx6tx5_m9zl",
+      "interviewTime": "14:30 Thứ Tư, 15/10/2026",
+      "location": "https://meet.google.com/xyz-test"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942946810_17o50",
+    "timestamp": "2026-10-02T12:09:06.810Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Lê Hoàng Long <long.le@example.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6tx5_m9zl",
+      "subject": "【Thư Mời Phỏng Vấn】Vị Trí Senior Node.js Developer - Ứng Viên Lê Hoàng Long",
+      "category": "candidate"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942946805_hyrx0",
+    "timestamp": "2026-10-02T12:09:06.805Z",
+    "actor": "CandidateWorkflow",
+    "action": "TRIGGER_CANDIDATE_ACK",
+    "module": "EMAIL_WORKFLOW",
+    "target": "mai.tran@example.com",
+    "status": "SUCCESS",
+    "details": {
+      "jobId": "emjob_muqx6twy_yukg",
+      "jobTitle": "Chuyên Viên Tuyển Dụng",
+      "candidateName": "Trần Thị Mai"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790942946803_iajef",
+    "timestamp": "2026-10-02T12:09:06.803Z",
+    "actor": "EmailQueueService",
+    "action": "ENQUEUE_EMAIL",
+    "module": "EMAIL_ENGINE",
+    "target": "Trần Thị Mai <mai.tran@example.com>",
+    "status": "INFO",
+    "details": {
+      "jobId": "emjob_muqx6twy_yukg",
+      "subject": "【LeadX】Xác Nhận Đã Nhận Hồ Sơ Ứng Tuyển Vị Trí Chuyên Viên Tuyển Dụng - Trần Thị Mai",
+      "category": "candidate"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790937722491_od0qa",
+    "timestamp": "2026-10-02T10:42:02.491Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Việc Làm Bình Dương",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790937722490_tdm8k",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790937718476_gvnvw",
+    "timestamp": "2026-10-02T10:41:58.476Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Việc Làm Bình Dương",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790937718474_v8yls",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790937714465_doryd",
+    "timestamp": "2026-10-02T10:41:54.465Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Việc Làm Bình Dương",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790937714462_8fyf8",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936781329_61vk4",
+    "timestamp": "2026-10-02T10:26:21.329Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Việc làm TP. Hồ Chí Minh",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936781328_vqprj",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936777314_zq3b3",
+    "timestamp": "2026-10-02T10:26:17.315Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Việc làm TP. Hồ Chí Minh",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936777313_22lxs",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936773305_2lst5",
+    "timestamp": "2026-10-02T10:26:13.305Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Việc làm TP. Hồ Chí Minh",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936773304_qeffb",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936452504_l4ge9",
+    "timestamp": "2026-10-02T10:20:52.504Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936452502_fkrjc",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936432482_jao9l",
+    "timestamp": "2026-10-02T10:20:32.482Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936432481_pbt6r",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936392413_ub3u6",
+    "timestamp": "2026-10-02T10:19:52.413Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936392412_rlhic",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936387409_fzvn7",
+    "timestamp": "2026-10-02T10:19:47.409Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936387407_26fm6",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936372384_dgcnq",
+    "timestamp": "2026-10-02T10:19:32.384Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936372383_yo1e0",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936367384_evbcp",
+    "timestamp": "2026-10-02T10:19:27.384Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936367382_0bgq6",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936347375_ha964",
+    "timestamp": "2026-10-02T10:19:07.375Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936347374_csi10",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936332354_ymdse",
+    "timestamp": "2026-10-02T10:18:52.354Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936332353_urwyk",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936327354_i14v9",
+    "timestamp": "2026-10-02T10:18:47.354Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936327353_thxr5",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936312325_dbk6e",
+    "timestamp": "2026-10-02T10:18:32.325Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936312323_zfz1e",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936307307_wgfip",
+    "timestamp": "2026-10-02T10:18:27.307Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936307306_9yyzz",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936302300_hdi8i",
+    "timestamp": "2026-10-02T10:18:22.300Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936302298_gr6iu",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936287289_xy5hu",
+    "timestamp": "2026-10-02T10:18:07.289Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936287288_c0gxs",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936282283_cvmtv",
+    "timestamp": "2026-10-02T10:18:02.283Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936282282_8acap",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936267262_qibxz",
+    "timestamp": "2026-10-02T10:17:47.262Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936267261_ndhnp",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936247236_2i738",
+    "timestamp": "2026-10-02T10:17:27.236Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936247235_rlexp",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936242227_6vnky",
+    "timestamp": "2026-10-02T10:17:22.227Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936242226_1yqkc",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936227199_xtlyw",
+    "timestamp": "2026-10-02T10:17:07.199Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936227197_94f3l",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936222191_rx1ul",
+    "timestamp": "2026-10-02T10:17:02.191Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936222190_4y4si",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936217182_le9sd",
+    "timestamp": "2026-10-02T10:16:57.182Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936217181_1esj7",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936184153_q2y21",
+    "timestamp": "2026-10-02T10:16:24.153Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "JobCentral Việt Nam (Fanpage Tổng)",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936184152_hi30r",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936182141_0eyow",
+    "timestamp": "2026-10-02T10:16:22.141Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/102/posts/991204",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936182139_p1s0e",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936180151_iw3m0",
+    "timestamp": "2026-10-02T10:16:20.151Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "JobCentral Việt Nam (Fanpage Tổng)",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936180149_g17k5",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936176136_k8ch7",
+    "timestamp": "2026-10-02T10:16:16.136Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "JobCentral Việt Nam (Fanpage Tổng)",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936176135_vgfj7",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936173150_k0btl",
+    "timestamp": "2026-10-02T10:16:13.150Z",
+    "actor": "SeedingEngine",
+    "action": "CREATE_SEEDING_CAMPAIGN",
+    "module": "SEEDING_ENGINE",
+    "target": "Chiến Dịch Seeding Tương Tác Bài Đăng Tuyển Dụng",
+    "status": "SUCCESS",
+    "details": {
+      "campaignId": "seed_camp_muqt5nbv_r0qa",
+      "targetPostsCount": 2,
+      "commentsEnqueued": 4
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936173073_wg17i",
+    "timestamp": "2026-10-02T10:16:13.073Z",
+    "actor": "FanpageBroadcast",
+    "action": "CREATE_FANPAGE_BROADCAST",
+    "module": "FANPAGE_CENTER",
+    "target": "3 Fanpages",
+    "status": "SUCCESS",
+    "details": {
+      "broadcastId": "bcast_muqt5n9k_ynpo",
+      "totalPages": 3,
+      "intervalMinutes": 10,
+      "firstPostAt": "2026-10-02T10:16:13.064Z",
+      "lastPostAt": "2026-10-02T10:36:13.064Z"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936173071_567b1",
+    "timestamp": "2026-10-02T10:16:13.071Z",
+    "actor": "PostingQueue",
+    "action": "SCHEDULE_POST",
+    "module": "POSTING_QUEUE",
+    "target": "Việc Làm Bình Dương",
+    "status": "INFO",
+    "details": {
+      "jobId": "pjob_1790936173069_2doq",
+      "scheduledAt": "2026-10-02T10:36:13.064Z",
+      "priority": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936173068_gzfmg",
+    "timestamp": "2026-10-02T10:16:13.068Z",
+    "actor": "PostingQueue",
+    "action": "SCHEDULE_POST",
+    "module": "POSTING_QUEUE",
+    "target": "Việc làm TP. Hồ Chí Minh",
+    "status": "INFO",
+    "details": {
+      "jobId": "pjob_1790936173067_tdyb",
+      "scheduledAt": "2026-10-02T10:26:13.064Z",
+      "priority": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936173066_8b6uu",
+    "timestamp": "2026-10-02T10:16:13.066Z",
+    "actor": "PostingQueue",
+    "action": "ENQUEUE_POST",
+    "module": "POSTING_QUEUE",
+    "target": "JobCentral Việt Nam (Fanpage Tổng)",
+    "status": "INFO",
+    "details": {
+      "jobId": "pjob_1790936173065_a4nm",
+      "scheduledAt": "2026-10-02T10:16:13.064Z",
+      "priority": 2
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936162121_vaoiv",
+    "timestamp": "2026-10-02T10:16:02.121Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936162119_2d0rc",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936157121_cy4v0",
+    "timestamp": "2026-10-02T10:15:57.121Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936157119_ba3u3",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936080210_w9jp7",
+    "timestamp": "2026-10-02T10:14:40.210Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "https://facebook.com/groups/101/posts/882199",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790936080210_6o2wt",
+      "actionType": "COMMENT"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790936039107_1ohlr",
+    "timestamp": "2026-10-02T10:13:59.107Z",
+    "actor": "SeedingEngine",
+    "action": "CREATE_SEEDING_CAMPAIGN",
+    "module": "SEEDING_ENGINE",
+    "target": "Chiến Dịch Seeding Tương Tác Bài Đăng Tuyển Dụng",
+    "status": "SUCCESS",
+    "details": {
+      "campaignId": "seed_camp_muqt2rwh_71re",
+      "targetPostsCount": 2,
+      "commentsEnqueued": 4
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790935793049_sccv7",
+    "timestamp": "2026-10-02T10:09:53.049Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Hội Mua Bán BĐS Đà Nẵng",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790935793048_q0a6q",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790935789037_xjvx9",
+    "timestamp": "2026-10-02T10:09:49.037Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Hội Mua Bán BĐS Đà Nẵng",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790935789034_knj5b",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790935785029_4mcd8",
+    "timestamp": "2026-10-02T10:09:45.029Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Hội Mua Bán BĐS Đà Nẵng",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1790935785028_uc1iy",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790935781601_nniaj",
+    "timestamp": "2026-10-02T10:09:41.601Z",
+    "actor": "User",
+    "action": "CREATE_SCHEDULE",
+    "module": "SCHEDULER",
+    "target": "Lịch Đăng Ca Sáng BĐS & Tuyển Dụng",
+    "status": "SUCCESS",
+    "details": {
+      "scheduleId": "sch_1790935781600_04no",
+      "type": "DAILY",
+      "targetsCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1790935781585_xpe9x",
+    "timestamp": "2026-10-02T10:09:41.585Z",
+    "actor": "PostingQueue",
+    "action": "ENQUEUE_POST",
+    "module": "POSTING_QUEUE",
+    "target": "Hội Mua Bán BĐS Đà Nẵng",
+    "status": "INFO",
+    "details": {
+      "jobId": "pjob_1790935781584_ewq3",
+      "scheduledAt": null,
+      "priority": 1
+    },
+    "error": null
+  }
+]

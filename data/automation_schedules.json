@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sch_1790935781600_04no",
+    "name": "Lịch Đăng Ca Sáng BĐS & Tuyển Dụng",
+    "type": "DAILY",
+    "timeSlots": [
+      "08:30",
+      "14:30"
+    ],
+    "daysOfWeek": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "startDate": "2026-10-02",
+    "endDate": null,
+    "targetType": "GROUP",
+    "targets": [
+      {
+        "id": "grp_101",
+        "name": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+        "url": "https://facebook.com/groups/td101"
+      }
+    ],
+    "accountPoolId": "pool_recruitment",
+    "campaignId": null,
+    "contentTemplate": "Tuyển gấp 5 nhân viên phát triển thị trường...",
+    "images": [],
+    "timezone": "Asia/Ho_Chi_Minh",
+    "industry": "recruitment",
+    "status": "ACTIVE",
+    "lastTriggeredAt": "2026-10-23T07:30:10.095Z",
+    "createdAt": "2026-10-02T10:09:41.601Z"
+  }
+]

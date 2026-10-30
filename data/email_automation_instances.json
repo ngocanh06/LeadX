@@ -1,0 +1,40 @@
+[
+  {
+    "instanceId": "inst_muqxgihw_0ao1",
+    "automationId": "auto_seq_candidate_onboarding",
+    "automationName": "Quy Trình Chăm Sóc & Mời Phỏng Vấn Ứng Viên Tự Động",
+    "recipientEmail": "drip_candidate@domain.com",
+    "recipientName": "Vũ Đình Cường",
+    "leadId": null,
+    "currentStepIndex": 1,
+    "status": "STOPPED_CONDITION_MET",
+    "variables": {
+      "recipientEmail": "drip_candidate@domain.com",
+      "recipientName": "Vũ Đình Cường",
+      "jobTitle": "Kế Toán Trưởng"
+    },
+    "nextExecutionAt": "2026-10-02T12:16:39.569Z",
+    "createdAt": "2026-10-02T12:16:38.564Z",
+    "updatedAt": "2026-10-02T12:16:38.571Z",
+    "stopReason": "Trạng thái thay đổi thành: REPLIED"
+  },
+  {
+    "instanceId": "inst_muqxc43v_pjko",
+    "automationId": "auto_seq_candidate_onboarding",
+    "automationName": "Quy Trình Chăm Sóc & Mời Phỏng Vấn Ứng Viên Tự Động",
+    "recipientEmail": "drip_candidate@domain.com",
+    "recipientName": "Vũ Đình Cường",
+    "leadId": null,
+    "currentStepIndex": 1,
+    "status": "STOPPED_CONDITION_MET",
+    "variables": {
+      "recipientEmail": "drip_candidate@domain.com",
+      "recipientName": "Vũ Đình Cường",
+      "jobTitle": "Kế Toán Trưởng"
+    },
+    "nextExecutionAt": "2026-10-02T12:13:14.294Z",
+    "createdAt": "2026-10-02T12:13:13.291Z",
+    "updatedAt": "2026-10-02T12:13:13.296Z",
+    "stopReason": "Trạng thái thay đổi thành: REPLIED"
+  }
+]

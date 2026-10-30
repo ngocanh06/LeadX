@@ -1,0 +1,50 @@
+[
+  {
+    "id": "srv_basic",
+    "code": "BASIC_POST",
+    "name": "Gói Đăng Tin Tiêu Chuẩn (7 Ngày)",
+    "price": 1500000,
+    "durationDays": 7,
+    "postLimit": 5,
+    "pinDays": 0,
+    "description": "Đăng bài tuyển dụng tự động trên hệ thống 5 hội nhóm Facebook mục tiêu, hỗ trợ bóc tách CV qua Zalo.",
+    "badgeColor": "#3B82F6",
+    "isActive": true
+  },
+  {
+    "id": "srv_vip_pin",
+    "code": "VIP_PIN",
+    "name": "Gói Đẩy Tin VIP & Ghim Top Đầu Nhóm",
+    "price": 3500000,
+    "durationDays": 15,
+    "postLimit": 15,
+    "pinDays": 7,
+    "description": "Ghim bài viết trên đầu 3 nhóm tuyển dụng lớn nhất, gắn huy hiệu Tuyển Gấp, tiếp cận 50.000+ ứng viên.",
+    "badgeColor": "#F59E0B",
+    "isActive": true
+  },
+  {
+    "id": "srv_combo_month",
+    "code": "COMBO_MONTHLY",
+    "name": "Gói Combo Tuyển Dụng Toàn Diện Theo Tháng",
+    "price": 7500000,
+    "durationDays": 30,
+    "postLimit": 45,
+    "pinDays": 15,
+    "description": "Đăng bài đa nhóm liên tục 30 ngày, tự động đẩy top hàng ngày, kịch bản Zalo tự động lọc ứng viên phỏng vấn.",
+    "badgeColor": "#10B981",
+    "isActive": true
+  },
+  {
+    "id": "srv_enterprise_vip",
+    "code": "ENTERPRISE_VIP",
+    "name": "Gói Doanh Nghiệp VIP - Tuyển Dụng Số Lượng Lớn",
+    "price": 15000000,
+    "durationDays": 60,
+    "postLimit": 120,
+    "pinDays": 30,
+    "description": "Bao phủ toàn bộ hệ sinh thái nhóm tuyển dụng đa tỉnh thành, đội ngũ Sales trực hotline/Zalo sàng lọc ứng viên trực tiếp.",
+    "badgeColor": "#8B5CF6",
+    "isActive": true
+  }
+]

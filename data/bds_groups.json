@@ -1,0 +1,142 @@
+[
+  {
+    "id": "bds_grp_101",
+    "name": "Hội Thuê Nhà & Căn Hộ Đà Nẵng (Chính Chủ & Môi Giới)",
+    "url": "https://www.facebook.com/groups/chothuecanhodanang/",
+    "province": "Đà Nẵng",
+    "district": "Sơn Trà & Ngũ Hành Sơn",
+    "category": "Cho Thuê Căn Hộ",
+    "members": "185.000",
+    "status": "READY",
+    "isJoined": true,
+    "memberships": {
+      "acc_primary": {
+        "isJoined": true,
+        "status": "MEMBER",
+        "joinedAt": "2026-09-01T08:00:00Z"
+      }
+    },
+    "lastPostedAt": null
+  },
+  {
+    "id": "bds_grp_102",
+    "name": "Cho Thuê Căn Hộ & Phòng Trọ Sơn Trà - Ngũ Hành Sơn Đà Nẵng",
+    "url": "https://www.facebook.com/groups/canhosontranguhanhson/",
+    "province": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "category": "Cho Thuê Căn Hộ",
+    "members": "128.500",
+    "status": "READY",
+    "isJoined": true,
+    "memberships": {
+      "acc_primary": {
+        "isJoined": true,
+        "status": "MEMBER",
+        "joinedAt": "2026-09-02T09:30:00Z"
+      }
+    },
+    "lastPostedAt": null
+  },
+  {
+    "id": "bds_grp_103",
+    "name": "Căn Hộ Cho Thuê Đà Nẵng - Studio & Căn Hộ Dịch Vụ",
+    "url": "https://www.facebook.com/groups/canhodichvudanang/",
+    "province": "Đà Nẵng",
+    "district": "Hải Châu",
+    "category": "Studio & Căn Hộ",
+    "members": "96.200",
+    "status": "READY",
+    "isJoined": true,
+    "memberships": {
+      "acc_primary": {
+        "isJoined": true,
+        "status": "MEMBER",
+        "joinedAt": "2026-09-03T10:15:00Z"
+      }
+    },
+    "lastPostedAt": null
+  },
+  {
+    "id": "bds_grp_104",
+    "name": "Bất Động Sản Đà Nẵng - Mua Bán & Cho Thuê BĐS",
+    "url": "https://www.facebook.com/groups/batdongsandanang247/",
+    "province": "Đà Nẵng",
+    "district": "Toàn thành phố",
+    "category": "Bất Động Sản",
+    "members": "215.000",
+    "status": "READY",
+    "isJoined": true,
+    "memberships": {
+      "acc_primary": {
+        "isJoined": true,
+        "status": "MEMBER",
+        "joinedAt": "2026-09-05T14:20:00Z"
+      }
+    },
+    "lastPostedAt": null
+  },
+  {
+    "id": "bds_grp_105",
+    "name": "Thuê Căn Hộ Khách Tây Đà Nẵng - Da Nang Apartments For Rent",
+    "url": "https://www.facebook.com/groups/danangexpatsapartments/",
+    "province": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "category": "Khách Nước Ngoài / Expat",
+    "members": "84.300",
+    "status": "READY",
+    "isJoined": true,
+    "memberships": {
+      "acc_primary": {
+        "isJoined": true,
+        "status": "MEMBER",
+        "joinedAt": "2026-09-06T11:00:00Z"
+      }
+    },
+    "lastPostedAt": null
+  },
+  {
+    "id": "bds_grp_106",
+    "name": "Phòng Trọ & Căn Hộ Mini Thanh Khê - Hải Châu - Đà Nẵng",
+    "url": "https://www.facebook.com/groups/thuecanhothanhkhehaichau/",
+    "province": "Đà Nẵng",
+    "district": "Thanh Khê",
+    "category": "Studio & 1PN",
+    "members": "112.000",
+    "status": "READY",
+    "isJoined": true,
+    "memberships": {
+      "acc_primary": {
+        "isJoined": true,
+        "status": "MEMBER",
+        "joinedAt": "2026-09-08T08:45:00Z"
+      }
+    },
+    "lastPostedAt": null
+  },
+  {
+    "id": "bds_grp_107",
+    "name": "Cộng Đồng Môi Giới BĐS & Cho Thuê Nhà Đà Nẵng",
+    "url": "https://www.facebook.com/groups/moigioibdsdanang/",
+    "province": "Đà Nẵng",
+    "district": "Toàn thành phố",
+    "category": "Bất Động Sản",
+    "members": "76.400",
+    "status": "READY",
+    "isJoined": false,
+    "memberships": {},
+    "lastPostedAt": null
+  },
+  {
+    "id": "bds_grp_108",
+    "name": "Cho Thuê Căn Hộ Cao Cấp View Biển Mỹ Khê - Sơn Trà",
+    "url": "https://www.facebook.com/groups/canhoviewbiendanang/",
+    "province": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "category": "Cho Thuê Căn Hộ",
+    "members": "68.900",
+    "status": "READY",
+    "isJoined": false,
+    "memberships": {},
+    "lastPostedAt": null
+  }
+]

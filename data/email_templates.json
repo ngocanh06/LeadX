@@ -1,0 +1,100 @@
+[
+  {
+    "id": "tmpl_candidate_ack",
+    "name": "Thư Tiếp Nhận Hồ Sơ Ứng Tuyển",
+    "category": "candidate",
+    "subject": "【LeadX】Xác Nhận Đã Nhận Hồ Sơ Ứng Tuyển Vị Trí {{jobTitle}} - {{candidateName}}",
+    "bodyText": "Kính gửi {{candidateName}},\n\nLeadX đã nhận được hồ sơ ứng tuyển của bạn cho vị trí {{jobTitle}}.\nBộ phận tuyển dụng đang tiến hành đánh giá năng lực và sẽ liên hệ lại với bạn trong vòng 24 - 48 giờ làm việc.\n\nThông tin tiếp nhận:\n- Vị trí: {{jobTitle}}\n- Khu vực làm việc: {{location}}\n- Hotline hỗ trợ: {{contactPhone}}\n\nTrân trọng,\nPhòng Tuyển Dụng & Phát Triển Nhân Tài LeadX",
+    "bodyHtml": "\n<div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b; line-height: 1.6; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n  <div style=\"background: #2563eb; padding: 24px; text-align: center; color: #ffffff;\">\n    <h2 style=\"margin: 0; font-size: 20px;\">XÁC NHẬN TIẾP NHẬN HỒ SƠ</h2>\n    <p style=\"margin: 6px 0 0 0; font-size: 13px; opacity: 0.9;\">Hệ Thống Quản Lý Tuyển Dụng & Nhân Tài LeadX</p>\n  </div>\n  <div style=\"padding: 24px;\">\n    <p>Kính gửi <strong>{{candidateName}}</strong>,</p>\n    <p>Cảm ơn bạn đã quan tâm và nộp hồ sơ ứng tuyển vị trí <strong>{{jobTitle}}</strong> tại {{companyName}}.</p>\n    <div style=\"background: #f8fafc; border-left: 4px solid #2563eb; padding: 14px 18px; margin: 20px 0; border-radius: 4px;\">\n      <p style=\"margin: 0 0 8px 0; font-size: 14px;\"><strong>Thông Tin Ứng Tuyển:</strong></p>\n      <ul style=\"margin: 0; padding-left: 20px; font-size: 13px; color: #475569;\">\n        <li>Vị trí: <strong>{{jobTitle}}</strong></li>\n        <li>Doanh nghiệp: <strong>{{companyName}}</strong></li>\n        <li>Khu vực: <strong>{{location}}</strong></li>\n        <li>Thời gian ghi nhận: <strong>{{submittedAt}}</strong></li>\n      </ul>\n    </div>\n    <p>Hội đồng tuyển dụng đang tiến hành đánh giá chi tiết năng lực chuyên môn của bạn. Nếu hồ sơ phù hợp, chúng tôi sẽ liên hệ trực tiếp qua điện thoại hoặc gửi thư mời phỏng vấn trong vòng <strong>24 - 48 giờ</strong>.</p>\n    <p>Mọi thắc mắc cần hỗ trợ, bạn vui lòng liên hệ hotline: <strong>{{contactPhone}}</strong> (Zalo/Call).</p>\n    <p style=\"margin-top: 24px;\">Chúc bạn một ngày làm việc hiệu quả và nhiều năng lượng!</p>\n    <p style=\"margin: 0; font-weight: bold; color: #2563eb;\">Phòng Tuyển Dụng & Phát Triển Nguồn Nhân Lực</p>\n  </div>\n  <div style=\"background: #f1f5f9; padding: 14px; text-align: center; font-size: 12px; color: #64748b; border-top: 1px solid #e2e8f0;\">\n    LeadX Platform • Nền Tảng Marketing Automation & CRM Doanh Nghiệp\n  </div>\n</div>",
+    "variables": [
+      "candidateName",
+      "jobTitle",
+      "companyName",
+      "location",
+      "submittedAt",
+      "contactPhone"
+    ],
+    "createdAt": "2026-10-02T12:04:05.283Z"
+  },
+  {
+    "id": "tmpl_interview_invite",
+    "name": "Thư Mời Phỏng Vấn Chính Thức",
+    "category": "candidate",
+    "subject": "【Thư Mời Phỏng Vấn】Vị Trí {{jobTitle}} - Ứng Viên {{candidateName}}",
+    "bodyText": "Kính gửi {{candidateName}},\n\nChúc mừng bạn đã vượt qua vòng sơ loại hồ sơ. LeadX trân trọng kính mời bạn tham gia buổi phỏng vấn trực tiếp.\n\nThông tin buổi phỏng vấn:\n- Thời gian: {{interviewTime}}\n- Địa điểm / Hình thức: {{interviewLocation}}\n- Người liên hệ: {{interviewerName}} - {{contactPhone}}\n\nVui lòng xác nhận sự có mặt của bạn bằng cách phản hồi lại email này hoặc liên hệ qua SĐT trên.\n\nTrân trọng!",
+    "bodyHtml": "\n<div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b; line-height: 1.6; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n  <div style=\"background: #0284c7; padding: 24px; text-align: center; color: #ffffff;\">\n    <h2 style=\"margin: 0; font-size: 20px;\">THƯ MỜI PHỎNG VẤN CHÍNH THỨC</h2>\n    <p style=\"margin: 6px 0 0 0; font-size: 13px; opacity: 0.9;\">Vị trí tuyển dụng: {{jobTitle}}</p>\n  </div>\n  <div style=\"padding: 24px;\">\n    <p>Kính gửi <strong>{{candidateName}}</strong>,</p>\n    <p>Sau khi xem xét hồ sơ năng lực của bạn, chúng tôi rất ấn tượng với kinh nghiệm và định hướng phát triển của bạn. Đại diện {{companyName}} trân trọng mời bạn tham gia buổi phỏng vấn trao đổi chi tiết về công việc.</p>\n    \n    <div style=\"background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px; padding: 18px; margin: 20px 0;\">\n      <h4 style=\"margin: 0 0 12px 0; color: #0369a1; font-size: 15px;\">Chi Tiết Lịch Hẹn Phỏng Vấn:</h4>\n      <table style=\"width: 100%; font-size: 13px; border-collapse: collapse;\">\n        <tr>\n          <td style=\"padding: 6px 0; width: 130px; color: #64748b;\"><strong>⏰ Thời gian:</strong></td>\n          <td style=\"padding: 6px 0; font-weight: bold; color: #0284c7;\">{{interviewTime}}</td>\n        </tr>\n        <tr>\n          <td style=\"padding: 6px 0; color: #64748b;\"><strong>📍 Địa điểm / Hình thức:</strong></td>\n          <td style=\"padding: 6px 0; font-weight: bold;\">{{interviewLocation}}</td>\n        </tr>\n        <tr>\n          <td style=\"padding: 6px 0; color: #64748b;\"><strong>👤 Người phỏng vấn:</strong></td>\n          <td style=\"padding: 6px 0;\">{{interviewerName}}</td>\n        </tr>\n        <tr>\n          <td style=\"padding: 6px 0; color: #64748b;\"><strong>📞 Hotline hỗ trợ:</strong></td>\n          <td style=\"padding: 6px 0; font-weight: bold; color: #0284c7;\">{{contactPhone}}</td>\n        </tr>\n      </table>\n    </div>\n\n    <p><strong>Lưu ý chuẩn bị:</strong></p>\n    <ul style=\"font-size: 13px; color: #475569; padding-left: 20px;\">\n      <li>Mang theo 01 bản CV cứng (nếu phỏng vấn trực tiếp tại văn phòng).</li>\n      <li>Vui lòng có mặt/online trước giờ hẹn <strong>10 phút</strong>.</li>\n    </ul>\n\n    <p>Vui lòng <strong>phản hồi lại email này</strong> (hoặc nhắn tin qua Zalo số {{contactPhone}}) để xác nhận sự có mặt của bạn.</p>\n    <p style=\"margin-top: 24px;\">Rất mong được gặp gỡ và trao đổi trực tiếp cùng bạn!</p>\n  </div>\n</div>",
+    "variables": [
+      "candidateName",
+      "jobTitle",
+      "companyName",
+      "interviewTime",
+      "interviewLocation",
+      "interviewerName",
+      "contactPhone"
+    ],
+    "createdAt": "2026-10-02T12:04:05.284Z"
+  },
+  {
+    "id": "tmpl_interview_reminder",
+    "name": "Thư Nhắc Lịch Phỏng Vấn Trước 24 Giờ",
+    "category": "candidate",
+    "subject": "【Nhắc Lịch】Buổi Phỏng Vấn Vị Trí {{jobTitle}} Vào Ngày Mai ({{interviewTime}})",
+    "bodyText": "Kính gửi {{candidateName}},\n\nLeadX xin nhắc bạn lịch hẹn phỏng vấn cho vị trí {{jobTitle}} diễn ra vào ngày mai:\n- Thời gian: {{interviewTime}}\n- Địa điểm: {{interviewLocation}}\n- Hotline: {{contactPhone}}\n\nChúc bạn có một buổi phỏng vấn thành công tốt đẹp!",
+    "bodyHtml": "\n<div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b; line-height: 1.6; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n  <div style=\"background: #f59e0b; padding: 20px; text-align: center; color: #ffffff;\">\n    <h3 style=\"margin: 0; font-size: 18px;\">NHẮC HẸN PHỎNG VẤN (NGÀY MAI)</h3>\n  </div>\n  <div style=\"padding: 24px;\">\n    <p>Chào <strong>{{candidateName}}</strong>,</p>\n    <p>LeadX xin gửi thông báo nhắc bạn về buổi hẹn phỏng vấn vị trí <strong>{{jobTitle}}</strong> sẽ diễn ra vào ngày mai:</p>\n    <div style=\"background: #fffbeb; border: 1px solid #fde68a; border-radius: 6px; padding: 14px; margin: 16px 0; font-size: 14px;\">\n      <p style=\"margin: 4px 0;\">⏰ <strong>Thời gian:</strong> <span style=\"color: #b45309; font-weight: bold;\">{{interviewTime}}</span></p>\n      <p style=\"margin: 4px 0;\">📍 <strong>Địa điểm:</strong> {{interviewLocation}}</p>\n      <p style=\"margin: 4px 0;\">📞 <strong>Hotline:</strong> {{contactPhone}}</p>\n    </div>\n    <p>Nếu có bất kỳ sự thay đổi đột xuất nào về lịch trình, bạn vui lòng thông báo sớm qua hotline để công ty sắp xếp hỗ trợ bạn tốt nhất nhé.</p>\n    <p>Chúc bạn tự tin và đạt kết quả tốt nhất!</p>\n  </div>\n</div>",
+    "variables": [
+      "candidateName",
+      "jobTitle",
+      "interviewTime",
+      "interviewLocation",
+      "contactPhone"
+    ],
+    "createdAt": "2026-10-02T12:04:05.284Z"
+  },
+  {
+    "id": "tmpl_employer_outreach",
+    "name": "Thư Tiếp Cận Doanh Nghiệp Tuyển Dụng (B2B Outreach)",
+    "category": "employer",
+    "subject": "【Giải Pháp Tuyển Dụng】Cung Ứng Nhân Sự Đẩy Nhanh Cho {{companyName}}",
+    "bodyText": "Kính gửi Ban Giám Đốc / Bộ Phận Nhân Sự {{companyName}},\n\nChúng tôi được biết quý doanh nghiệp đang có nhu cầu tuyển gấp các vị trí nhân sự. LeadX là nền tảng tự động hóa tuyển dụng đa kênh kết nối hơn 157+ Hội nhóm Facebook và hệ thống 34 Fanpage toàn quốc.\n\nChúng tôi xin gửi giải pháp tiếp cận 10.000+ ứng viên tiềm năng đúng chuyên môn chỉ trong 48h.\nHotline tư vấn: {{contactPhone}}\n\nTrân trọng!",
+    "bodyHtml": "\n<div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b; line-height: 1.6; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n  <div style=\"background: #1e40af; padding: 24px; text-align: center; color: #ffffff;\">\n    <h2 style=\"margin: 0; font-size: 20px;\">GIẢI PHÁP TIẾP CẬN ỨNG VIÊN ĐA KÊNH</h2>\n    <p style=\"margin: 6px 0 0 0; font-size: 13px; opacity: 0.9;\">Tối Ưu Chi Phí Tuyển Dụng Cho {{companyName}}</p>\n  </div>\n  <div style=\"padding: 24px;\">\n    <p>Kính gửi Quý Doanh Nghiệp <strong>{{companyName}}</strong>,</p>\n    <p>Qua theo dõi thị trường lao động tại khu vực <strong>{{location}}</strong>, LeadX được biết Quý công ty đang có nhu cầu bổ sung nhân sự cho vị trí <strong>{{jobTitle}}</strong>.</p>\n    <p>Thay vì mất nhiều tuần chờ đợi hồ sơ thụ động từ các trang việc làm truyền thống với chi phí đắt đỏ, <strong>LeadX Engine</strong> mang đến giải pháp tiếp cận chủ động:</p>\n    \n    <div style=\"background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin: 20px 0;\">\n      <ul style=\"margin: 0; padding-left: 20px; font-size: 13px; color: #334155; line-height: 1.8;\">\n        <li>🚀 <strong>Phủ sóng đồng thời:</strong> Mạng lưới 157+ Hội Nhóm Tuyển Dụng Facebook & 34 Fanpage khu vực.</li>\n        <li>🎯 <strong>Trí tuệ nhân tạo (Lead AI):</strong> Tự động lọc ứng viên có SĐT thật, đúng độ tuổi và kinh nghiệm yêu cầu.</li>\n        <li>⚡ <strong>Hiệu quả thần tốc:</strong> Nhận danh sách 10 - 25 ứng viên sẵn sàng đi làm ngay trong 48 giờ.</li>\n      </ul>\n    </div>\n\n    <p>Chúng tôi rất mong có cơ hội gửi bản báo giá chi tiết và trao đổi phương án cung ứng nhân sự phù hợp nhất cho Quý công ty.</p>\n    <div style=\"text-align: center; margin: 25px 0;\">\n      <a href=\"tel:{{contactPhone}}\" style=\"background: #2563eb; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 14px; display: inline-block;\">\n        📞 Kết Nối Tư Vấn Ngay: {{contactPhone}}\n      </a>\n    </div>\n    <p style=\"font-size: 13px; color: #64748b;\">Trân trọng,<br><strong>Đội Ngũ Giải Pháp Doanh Nghiệp LeadX</strong></p>\n  </div>\n</div>",
+    "variables": [
+      "companyName",
+      "location",
+      "jobTitle",
+      "contactPhone"
+    ],
+    "createdAt": "2026-10-02T12:04:05.284Z"
+  },
+  {
+    "id": "tmpl_employer_quotation",
+    "name": "Báo Giá Gói Dịch Vụ Đẩy Tin & Tuyển Dụng",
+    "category": "employer",
+    "subject": "【Bảng Báo Giá】Gói Dịch Vụ Tuyển Dụng & Đẩy Tin Top Cho {{companyName}}",
+    "bodyText": "Kính gửi {{companyName}},\n\nLeadX trân trọng gửi Quý doanh nghiệp bảng báo giá các gói dịch vụ tuyển dụng hiệu quả cao:\n1. Gói Đăng Tin Tiêu Chuẩn (7 ngày): 1.500.000 đ\n2. Gói Đẩy Tin VIP & Ghim Top Nhóm (15 ngày): 3.500.000 đ\n3. Gói Combo Tuyển Dụng Toàn Diện Theo Tháng: 7.000.000 đ\n\nLiên hệ hotline: {{contactPhone}} để nhận ưu đãi chiết khấu 10% trong tháng này.",
+    "bodyHtml": "\n<div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b; line-height: 1.6; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n  <div style=\"background: #16a34a; padding: 24px; text-align: center; color: #ffffff;\">\n    <h2 style=\"margin: 0; font-size: 20px;\">BẢNG BÁO GIÁ DỊCH VỤ TUYỂN DỤNG</h2>\n    <p style=\"margin: 6px 0 0 0; font-size: 13px; opacity: 0.9;\">Dành riêng cho Quý khách: {{companyName}}</p>\n  </div>\n  <div style=\"padding: 24px;\">\n    <p>Kính gửi Quý Khách Hàng <strong>{{companyName}}</strong>,</p>\n    <p>LeadX trân trọng gửi bảng giá các gói giải pháp tuyển dụng tối ưu chi phí và cam kết tiếp cận ứng viên:</p>\n\n    <table style=\"width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 13px;\">\n      <thead>\n        <tr style=\"background: #f1f5f9; border-bottom: 2px solid #cbd5e1;\">\n          <th style=\"padding: 10px; text-align: left;\">Gói Dịch Vụ</th>\n          <th style=\"padding: 10px; text-align: center;\">Thời Gian</th>\n          <th style=\"padding: 10px; text-align: right;\">Đơn Giá</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n          <td style=\"padding: 10px;\">\n            <strong>Gói Tiêu Chuẩn</strong><br>\n            <span style=\"font-size: 12px; color: #64748b;\">Đăng tin trên 15 nhóm & hệ thống Fanpage</span>\n          </td>\n          <td style=\"padding: 10px; text-align: center;\">07 Ngày</td>\n          <td style=\"padding: 10px; text-align: right; font-weight: bold; color: #16a34a;\">1.500.000 đ</td>\n        </tr>\n        <tr style=\"border-bottom: 1px solid #e2e8f0; background: #f0fdf4;\">\n          <td style=\"padding: 10px;\">\n            <strong style=\"color: #15803d;\">Gói Đẩy Tin VIP (Ưa chuộng)</strong><br>\n            <span style=\"font-size: 12px; color: #64748b;\">Ghim Top đầu nhóm + Đẩy tin 3 lần/ngày</span>\n          </td>\n          <td style=\"padding: 10px; text-align: center;\">15 Ngày</td>\n          <td style=\"padding: 10px; text-align: right; font-weight: bold; color: #15803d; font-size: 14px;\">3.500.000 đ</td>\n        </tr>\n        <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n          <td style=\"padding: 10px;\">\n            <strong>Gói Combo Toàn Diện</strong><br>\n            <span style=\"font-size: 12px; color: #64748b;\">Bao trọn gói đến khi tuyển đủ nhân sự</span>\n          </td>\n          <td style=\"padding: 10px; text-align: center;\">30 Ngày</td>\n          <td style=\"padding: 10px; text-align: right; font-weight: bold; color: #16a34a;\">7.000.000 đ</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <div style=\"background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 6px; padding: 12px; font-size: 13px; color: #166534;\">\n      🎁 <strong>Ưu đãi đặc biệt:</strong> Tặng kèm 01 bài PR Fanpage Tuyển Dụng và giảm ngay <strong>10%</strong> khi thanh toán trước ngày <strong>{{promoValidUntil}}</strong>.\n    </div>\n\n    <p style=\"margin-top: 20px;\">Hotline tư vấn và ký kết hợp đồng: <strong>{{contactPhone}}</strong></p>\n  </div>\n</div>",
+    "variables": [
+      "companyName",
+      "promoValidUntil",
+      "contactPhone"
+    ],
+    "createdAt": "2026-10-02T12:04:05.284Z"
+  },
+  {
+    "id": "tmpl_bds_quote",
+    "name": "Báo Giá & Chào Thuê Căn Hộ Bất Động Sản",
+    "category": "bds",
+    "subject": "【Báo Giá Căn Hộ】Thông Tin & Hình Ảnh Thực Tế Căn Hộ {{propertyTitle}}",
+    "bodyText": "Kính gửi Quý Khách {{clientName}},\n\nLeadX Real Estate xin gửi thông tin chi tiết căn hộ {{propertyTitle}}:\n- Giá thuê: {{rentalPrice}}\n- Diện tích: {{area}}\n- Vị trí: {{location}}\n- Nội thất: {{furniture}}\n\nXem nhà trực tiếp vui lòng liên hệ: {{contactPhone}}.\nTrân trọng!",
+    "bodyHtml": "\n<div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b; line-height: 1.6; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n  <div style=\"background: #ea580c; padding: 24px; text-align: center; color: #ffffff;\">\n    <h2 style=\"margin: 0; font-size: 20px;\">THÔNG TIN CĂN HỘ CHO THUÊ</h2>\n    <p style=\"margin: 6px 0 0 0; font-size: 13px; opacity: 0.9;\">{{propertyTitle}}</p>\n  </div>\n  <div style=\"padding: 24px;\">\n    <p>Chào <strong>{{clientName}}</strong>,</p>\n    <p>Theo nhu cầu thuê căn hộ của bạn tại khu vực <strong>{{location}}</strong>, LeadX gửi bạn thông số chi tiết của căn hộ vừa trống:</p>\n\n    <div style=\"background: #fff7ed; border: 1px solid #fed7aa; border-radius: 8px; padding: 16px; margin: 20px 0;\">\n      <table style=\"width: 100%; font-size: 13px; border-collapse: collapse;\">\n        <tr>\n          <td style=\"padding: 6px 0; width: 120px; color: #9a3412;\"><strong>💰 Giá thuê:</strong></td>\n          <td style=\"padding: 6px 0; font-weight: bold; color: #c2410c; font-size: 15px;\">{{rentalPrice}}</td>\n        </tr>\n        <tr>\n          <td style=\"padding: 6px 0; color: #9a3412;\"><strong>📐 Diện tích:</strong></td>\n          <td style=\"padding: 6px 0; font-weight: bold;\">{{area}}</td>\n        </tr>\n        <tr>\n          <td style=\"padding: 6px 0; color: #9a3412;\"><strong>📍 Vị trí:</strong></td>\n          <td style=\"padding: 6px 0;\">{{location}}</td>\n        </tr>\n        <tr>\n          <td style=\"padding: 6px 0; color: #9a3412;\"><strong>🛋️ Nội thất:</strong></td>\n          <td style=\"padding: 6px 0;\">{{furniture}}</td>\n        </tr>\n      </table>\n    </div>\n\n    <p>Căn hộ có thể dọn vào ở ngay. Để được hỗ trợ mở cửa xem nhà trực tiếp hôm nay, bạn vui lòng liên hệ chuyên viên qua hotline: <strong>{{contactPhone}}</strong>.</p>\n  </div>\n</div>",
+    "variables": [
+      "clientName",
+      "propertyTitle",
+      "rentalPrice",
+      "area",
+      "location",
+      "furniture",
+      "contactPhone"
+    ],
+    "createdAt": "2026-10-02T12:04:05.284Z"
+  }
+]

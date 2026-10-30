@@ -1,0 +1,4019 @@
+[
+  {
+    "id": "job_muvf19zf_3eb1",
+    "source_id": "source_fb_1_muveewta",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:39:45.483Z",
+    "completed_at": "2026-10-05T15:39:45.488Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {}
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:39:45.483Z"
+  },
+  {
+    "id": "job_muvf18kt_krkk",
+    "source_id": "source_fb_1_muveewta",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:39:43.661Z",
+    "completed_at": "2026-10-05T15:39:43.677Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {}
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:39:43.661Z"
+  },
+  {
+    "id": "job_muvf00zz_4xt2",
+    "source_id": "source_fb_1_muveewta",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:38:47.183Z",
+    "completed_at": "2026-10-05T15:38:47.187Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {}
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:38:47.183Z"
+  },
+  {
+    "id": "job_muveljkr_x79e",
+    "source_id": "source_fb_157_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.419Z",
+    "completed_at": "2026-10-05T15:27:31.424Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.419Z"
+  },
+  {
+    "id": "job_muveljkf_440c",
+    "source_id": "source_fb_156_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.407Z",
+    "completed_at": "2026-10-05T15:27:31.412Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.407Z"
+  },
+  {
+    "id": "job_muveljk3_30gv",
+    "source_id": "source_fb_155_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.395Z",
+    "completed_at": "2026-10-05T15:27:31.402Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.395Z"
+  },
+  {
+    "id": "job_muveljjt_q8v0",
+    "source_id": "source_fb_154_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.385Z",
+    "completed_at": "2026-10-05T15:27:31.390Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.385Z"
+  },
+  {
+    "id": "job_muveljjg_j4ld",
+    "source_id": "source_fb_153_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.372Z",
+    "completed_at": "2026-10-05T15:27:31.379Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.372Z"
+  },
+  {
+    "id": "job_muveljj4_pfeb",
+    "source_id": "source_fb_152_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.360Z",
+    "completed_at": "2026-10-05T15:27:31.367Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.360Z"
+  },
+  {
+    "id": "job_muveljiu_lynp",
+    "source_id": "source_fb_151_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.350Z",
+    "completed_at": "2026-10-05T15:27:31.355Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.350Z"
+  },
+  {
+    "id": "job_muveljij_jtf5",
+    "source_id": "source_fb_150_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.339Z",
+    "completed_at": "2026-10-05T15:27:31.344Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.339Z"
+  },
+  {
+    "id": "job_muvelji6_4w3h",
+    "source_id": "source_fb_149_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.326Z",
+    "completed_at": "2026-10-05T15:27:31.333Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.326Z"
+  },
+  {
+    "id": "job_muveljhw_boxf",
+    "source_id": "source_fb_148_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.316Z",
+    "completed_at": "2026-10-05T15:27:31.321Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.316Z"
+  },
+  {
+    "id": "job_muveljhl_sutm",
+    "source_id": "source_fb_147_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.305Z",
+    "completed_at": "2026-10-05T15:27:31.310Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.305Z"
+  },
+  {
+    "id": "job_muveljh9_bjbm",
+    "source_id": "source_fb_146_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.293Z",
+    "completed_at": "2026-10-05T15:27:31.301Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.293Z"
+  },
+  {
+    "id": "job_muveljgy_ks05",
+    "source_id": "source_fb_145_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.282Z",
+    "completed_at": "2026-10-05T15:27:31.287Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.282Z"
+  },
+  {
+    "id": "job_muveljgo_3tqz",
+    "source_id": "source_fb_144_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.272Z",
+    "completed_at": "2026-10-05T15:27:31.277Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.272Z"
+  },
+  {
+    "id": "job_muveljge_u8b1",
+    "source_id": "source_fb_143_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.262Z",
+    "completed_at": "2026-10-05T15:27:31.268Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.262Z"
+  },
+  {
+    "id": "job_muveljg3_ic4w",
+    "source_id": "source_fb_142_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.251Z",
+    "completed_at": "2026-10-05T15:27:31.257Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.251Z"
+  },
+  {
+    "id": "job_muveljfs_780i",
+    "source_id": "source_fb_141_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.240Z",
+    "completed_at": "2026-10-05T15:27:31.245Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.240Z"
+  },
+  {
+    "id": "job_muveljfe_fh6m",
+    "source_id": "source_fb_140_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.226Z",
+    "completed_at": "2026-10-05T15:27:31.235Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.226Z"
+  },
+  {
+    "id": "job_muveljf5_85e4",
+    "source_id": "source_fb_139_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.217Z",
+    "completed_at": "2026-10-05T15:27:31.222Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.217Z"
+  },
+  {
+    "id": "job_muveljeu_g7ni",
+    "source_id": "source_fb_138_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.206Z",
+    "completed_at": "2026-10-05T15:27:31.210Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.206Z"
+  },
+  {
+    "id": "job_muveljek_d6fr",
+    "source_id": "source_fb_137_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.196Z",
+    "completed_at": "2026-10-05T15:27:31.201Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.196Z"
+  },
+  {
+    "id": "job_muveljea_vieb",
+    "source_id": "source_fb_136_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.186Z",
+    "completed_at": "2026-10-05T15:27:31.191Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.186Z"
+  },
+  {
+    "id": "job_muvelje0_z0f7",
+    "source_id": "source_fb_135_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.176Z",
+    "completed_at": "2026-10-05T15:27:31.182Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.176Z"
+  },
+  {
+    "id": "job_muveljdq_txx6",
+    "source_id": "source_fb_134_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.166Z",
+    "completed_at": "2026-10-05T15:27:31.172Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.166Z"
+  },
+  {
+    "id": "job_muveljdf_ssas",
+    "source_id": "source_fb_133_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.155Z",
+    "completed_at": "2026-10-05T15:27:31.159Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.155Z"
+  },
+  {
+    "id": "job_muveljd3_qet6",
+    "source_id": "source_fb_132_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.143Z",
+    "completed_at": "2026-10-05T15:27:31.149Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.143Z"
+  },
+  {
+    "id": "job_muveljcs_0fhl",
+    "source_id": "source_fb_131_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.132Z",
+    "completed_at": "2026-10-05T15:27:31.139Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.132Z"
+  },
+  {
+    "id": "job_muveljcg_c4t2",
+    "source_id": "source_fb_130_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.120Z",
+    "completed_at": "2026-10-05T15:27:31.126Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.120Z"
+  },
+  {
+    "id": "job_muveljc5_e5v0",
+    "source_id": "source_fb_129_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.109Z",
+    "completed_at": "2026-10-05T15:27:31.115Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.109Z"
+  },
+  {
+    "id": "job_muveljbu_64yk",
+    "source_id": "source_fb_128_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.098Z",
+    "completed_at": "2026-10-05T15:27:31.104Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.098Z"
+  },
+  {
+    "id": "job_muveljbj_o4w0",
+    "source_id": "source_fb_127_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.087Z",
+    "completed_at": "2026-10-05T15:27:31.093Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.087Z"
+  },
+  {
+    "id": "job_muveljb7_237w",
+    "source_id": "source_fb_126_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.075Z",
+    "completed_at": "2026-10-05T15:27:31.082Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.075Z"
+  },
+  {
+    "id": "job_muveljay_64pj",
+    "source_id": "source_fb_125_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.065Z",
+    "completed_at": "2026-10-05T15:27:31.071Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.066Z"
+  },
+  {
+    "id": "job_muveljan_t9pn",
+    "source_id": "source_fb_124_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.055Z",
+    "completed_at": "2026-10-05T15:27:31.060Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.055Z"
+  },
+  {
+    "id": "job_muveljaa_188v",
+    "source_id": "source_fb_123_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.042Z",
+    "completed_at": "2026-10-05T15:27:31.050Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.042Z"
+  },
+  {
+    "id": "job_muvelj9x_v3yl",
+    "source_id": "source_fb_122_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.029Z",
+    "completed_at": "2026-10-05T15:27:31.037Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.029Z"
+  },
+  {
+    "id": "job_muvelj9m_pz82",
+    "source_id": "source_fb_121_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.018Z",
+    "completed_at": "2026-10-05T15:27:31.024Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.018Z"
+  },
+  {
+    "id": "job_muvelj9b_2uuy",
+    "source_id": "source_fb_120_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:31.007Z",
+    "completed_at": "2026-10-05T15:27:31.013Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:31.007Z"
+  },
+  {
+    "id": "job_muvelj8z_s9ki",
+    "source_id": "source_fb_119_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.995Z",
+    "completed_at": "2026-10-05T15:27:31.003Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.995Z"
+  },
+  {
+    "id": "job_muvelj8q_89o0",
+    "source_id": "source_fb_118_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.986Z",
+    "completed_at": "2026-10-05T15:27:30.991Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.986Z"
+  },
+  {
+    "id": "job_muvelj8g_io98",
+    "source_id": "source_fb_117_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.976Z",
+    "completed_at": "2026-10-05T15:27:30.982Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.976Z"
+  },
+  {
+    "id": "job_muvelj86_45w2",
+    "source_id": "source_fb_116_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.966Z",
+    "completed_at": "2026-10-05T15:27:30.971Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.966Z"
+  },
+  {
+    "id": "job_muvelj7u_j6rc",
+    "source_id": "source_fb_115_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.954Z",
+    "completed_at": "2026-10-05T15:27:30.960Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.954Z"
+  },
+  {
+    "id": "job_muvelj7k_wt5n",
+    "source_id": "source_fb_114_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.944Z",
+    "completed_at": "2026-10-05T15:27:30.949Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.944Z"
+  },
+  {
+    "id": "job_muvelj7b_f2c4",
+    "source_id": "source_fb_113_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.935Z",
+    "completed_at": "2026-10-05T15:27:30.940Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.935Z"
+  },
+  {
+    "id": "job_muvelj72_8g0h",
+    "source_id": "source_fb_112_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.926Z",
+    "completed_at": "2026-10-05T15:27:30.930Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.926Z"
+  },
+  {
+    "id": "job_muvelj6t_z4a5",
+    "source_id": "source_fb_111_muveewte",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.917Z",
+    "completed_at": "2026-10-05T15:27:30.922Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.917Z"
+  },
+  {
+    "id": "job_muvelj6j_siw8",
+    "source_id": "source_fb_110_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.907Z",
+    "completed_at": "2026-10-05T15:27:30.912Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.907Z"
+  },
+  {
+    "id": "job_muvelj67_0vis",
+    "source_id": "source_fb_109_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.895Z",
+    "completed_at": "2026-10-05T15:27:30.902Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.895Z"
+  },
+  {
+    "id": "job_muvelj5y_16g8",
+    "source_id": "source_fb_108_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.886Z",
+    "completed_at": "2026-10-05T15:27:30.891Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.886Z"
+  },
+  {
+    "id": "job_muvelj5m_d191",
+    "source_id": "source_fb_107_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.874Z",
+    "completed_at": "2026-10-05T15:27:30.879Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.874Z"
+  },
+  {
+    "id": "job_muvelj5b_cqcg",
+    "source_id": "source_fb_106_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.863Z",
+    "completed_at": "2026-10-05T15:27:30.869Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.863Z"
+  },
+  {
+    "id": "job_muvelj52_iikh",
+    "source_id": "source_fb_105_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.854Z",
+    "completed_at": "2026-10-05T15:27:30.858Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.854Z"
+  },
+  {
+    "id": "job_muvelj4s_b9qk",
+    "source_id": "source_fb_104_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.844Z",
+    "completed_at": "2026-10-05T15:27:30.849Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.844Z"
+  },
+  {
+    "id": "job_muvelj4i_bf5q",
+    "source_id": "source_fb_103_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.834Z",
+    "completed_at": "2026-10-05T15:27:30.839Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.834Z"
+  },
+  {
+    "id": "job_muvelj49_vmb3",
+    "source_id": "source_fb_102_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.825Z",
+    "completed_at": "2026-10-05T15:27:30.830Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.825Z"
+  },
+  {
+    "id": "job_muvelj3v_zwiv",
+    "source_id": "source_fb_101_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.811Z",
+    "completed_at": "2026-10-05T15:27:30.820Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.811Z"
+  },
+  {
+    "id": "job_muvelj3m_3iud",
+    "source_id": "source_fb_100_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.802Z",
+    "completed_at": "2026-10-05T15:27:30.807Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.802Z"
+  },
+  {
+    "id": "job_muvelj38_bmrx",
+    "source_id": "source_fb_99_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.788Z",
+    "completed_at": "2026-10-05T15:27:30.794Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.788Z"
+  },
+  {
+    "id": "job_muvelj2s_313r",
+    "source_id": "source_fb_98_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.772Z",
+    "completed_at": "2026-10-05T15:27:30.782Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.772Z"
+  },
+  {
+    "id": "job_muvelj2h_zxnp",
+    "source_id": "source_fb_97_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.761Z",
+    "completed_at": "2026-10-05T15:27:30.768Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.761Z"
+  },
+  {
+    "id": "job_muvelj2a_jevn",
+    "source_id": "source_fb_96_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.754Z",
+    "completed_at": "2026-10-05T15:27:30.758Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.754Z"
+  },
+  {
+    "id": "job_muvelj20_5z5z",
+    "source_id": "source_fb_95_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.744Z",
+    "completed_at": "2026-10-05T15:27:30.750Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.744Z"
+  },
+  {
+    "id": "job_muvelj1t_x5j0",
+    "source_id": "source_fb_94_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.737Z",
+    "completed_at": "2026-10-05T15:27:30.741Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.737Z"
+  },
+  {
+    "id": "job_muvelj1k_5n5f",
+    "source_id": "source_fb_93_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.728Z",
+    "completed_at": "2026-10-05T15:27:30.733Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.728Z"
+  },
+  {
+    "id": "job_muvelj1d_50ma",
+    "source_id": "source_fb_92_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.721Z",
+    "completed_at": "2026-10-05T15:27:30.725Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.721Z"
+  },
+  {
+    "id": "job_muvelj14_7d3e",
+    "source_id": "source_fb_91_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.712Z",
+    "completed_at": "2026-10-05T15:27:30.717Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.712Z"
+  },
+  {
+    "id": "job_muvelj0w_jseh",
+    "source_id": "source_fb_90_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.704Z",
+    "completed_at": "2026-10-05T15:27:30.708Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.704Z"
+  },
+  {
+    "id": "job_muvelj0n_edei",
+    "source_id": "source_fb_89_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.695Z",
+    "completed_at": "2026-10-05T15:27:30.701Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.695Z"
+  },
+  {
+    "id": "job_muvelj0f_rny9",
+    "source_id": "source_fb_88_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.687Z",
+    "completed_at": "2026-10-05T15:27:30.691Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.687Z"
+  },
+  {
+    "id": "job_muvelj07_g0v4",
+    "source_id": "source_fb_87_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.679Z",
+    "completed_at": "2026-10-05T15:27:30.684Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.679Z"
+  },
+  {
+    "id": "job_muvelj00_y74e",
+    "source_id": "source_fb_86_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.672Z",
+    "completed_at": "2026-10-05T15:27:30.675Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.672Z"
+  },
+  {
+    "id": "job_muvelizs_u968",
+    "source_id": "source_fb_85_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.664Z",
+    "completed_at": "2026-10-05T15:27:30.668Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.664Z"
+  },
+  {
+    "id": "job_muvelizk_6wli",
+    "source_id": "source_fb_84_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.656Z",
+    "completed_at": "2026-10-05T15:27:30.660Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.656Z"
+  },
+  {
+    "id": "job_muveliza_foag",
+    "source_id": "source_fb_83_muveewtd",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.646Z",
+    "completed_at": "2026-10-05T15:27:30.652Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.646Z"
+  },
+  {
+    "id": "job_muveliz2_g04n",
+    "source_id": "source_fb_82_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.638Z",
+    "completed_at": "2026-10-05T15:27:30.643Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.638Z"
+  },
+  {
+    "id": "job_muveliyu_yafc",
+    "source_id": "source_fb_81_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.630Z",
+    "completed_at": "2026-10-05T15:27:30.635Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.630Z"
+  },
+  {
+    "id": "job_muveliyn_ndr7",
+    "source_id": "source_fb_80_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.623Z",
+    "completed_at": "2026-10-05T15:27:30.626Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.623Z"
+  },
+  {
+    "id": "job_muveliyf_ngfk",
+    "source_id": "source_fb_79_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.615Z",
+    "completed_at": "2026-10-05T15:27:30.619Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.615Z"
+  },
+  {
+    "id": "job_muveliy6_6uph",
+    "source_id": "source_fb_78_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.606Z",
+    "completed_at": "2026-10-05T15:27:30.610Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.606Z"
+  },
+  {
+    "id": "job_muvelixz_3xlk",
+    "source_id": "source_fb_77_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.599Z",
+    "completed_at": "2026-10-05T15:27:30.603Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.599Z"
+  },
+  {
+    "id": "job_muvelixr_970b",
+    "source_id": "source_fb_76_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.591Z",
+    "completed_at": "2026-10-05T15:27:30.594Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.591Z"
+  },
+  {
+    "id": "job_muvelixj_70f7",
+    "source_id": "source_fb_75_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.583Z",
+    "completed_at": "2026-10-05T15:27:30.587Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.583Z"
+  },
+  {
+    "id": "job_muvelixa_9ry4",
+    "source_id": "source_fb_74_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.574Z",
+    "completed_at": "2026-10-05T15:27:30.579Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.574Z"
+  },
+  {
+    "id": "job_muvelix1_u9dr",
+    "source_id": "source_fb_73_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.565Z",
+    "completed_at": "2026-10-05T15:27:30.571Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.565Z"
+  },
+  {
+    "id": "job_muveliwt_xc7e",
+    "source_id": "source_fb_72_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.557Z",
+    "completed_at": "2026-10-05T15:27:30.561Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.557Z"
+  },
+  {
+    "id": "job_muveliwm_kwoa",
+    "source_id": "source_fb_71_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.550Z",
+    "completed_at": "2026-10-05T15:27:30.554Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.550Z"
+  },
+  {
+    "id": "job_muveliwe_8lcp",
+    "source_id": "source_fb_70_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.542Z",
+    "completed_at": "2026-10-05T15:27:30.545Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.542Z"
+  },
+  {
+    "id": "job_muveliw6_uie1",
+    "source_id": "source_fb_69_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.534Z",
+    "completed_at": "2026-10-05T15:27:30.538Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.534Z"
+  },
+  {
+    "id": "job_muvelivy_m3gr",
+    "source_id": "source_fb_68_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.526Z",
+    "completed_at": "2026-10-05T15:27:30.530Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.526Z"
+  },
+  {
+    "id": "job_muvelivr_ay3x",
+    "source_id": "source_fb_67_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.519Z",
+    "completed_at": "2026-10-05T15:27:30.523Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.519Z"
+  },
+  {
+    "id": "job_muvelivj_yceo",
+    "source_id": "source_fb_66_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.511Z",
+    "completed_at": "2026-10-05T15:27:30.515Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.511Z"
+  },
+  {
+    "id": "job_muvelivc_goas",
+    "source_id": "source_fb_65_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.504Z",
+    "completed_at": "2026-10-05T15:27:30.507Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.504Z"
+  },
+  {
+    "id": "job_muveliv3_9gsk",
+    "source_id": "source_fb_64_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.495Z",
+    "completed_at": "2026-10-05T15:27:30.500Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.495Z"
+  },
+  {
+    "id": "job_muveliuw_vhon",
+    "source_id": "source_fb_63_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.488Z",
+    "completed_at": "2026-10-05T15:27:30.491Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.488Z"
+  },
+  {
+    "id": "job_muveliup_6v7m",
+    "source_id": "source_fb_62_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.481Z",
+    "completed_at": "2026-10-05T15:27:30.485Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.481Z"
+  },
+  {
+    "id": "job_muveliui_l9wh",
+    "source_id": "source_fb_61_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.474Z",
+    "completed_at": "2026-10-05T15:27:30.477Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.474Z"
+  },
+  {
+    "id": "job_muveliua_biau",
+    "source_id": "source_fb_60_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.466Z",
+    "completed_at": "2026-10-05T15:27:30.471Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.466Z"
+  },
+  {
+    "id": "job_muveliu3_2jsa",
+    "source_id": "source_fb_59_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.459Z",
+    "completed_at": "2026-10-05T15:27:30.462Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.459Z"
+  },
+  {
+    "id": "job_muvelitv_8n3l",
+    "source_id": "source_fb_58_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.451Z",
+    "completed_at": "2026-10-05T15:27:30.455Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.451Z"
+  },
+  {
+    "id": "job_muvelitk_635s",
+    "source_id": "source_fb_57_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.440Z",
+    "completed_at": "2026-10-05T15:27:30.444Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.440Z"
+  },
+  {
+    "id": "job_muvelitc_munt",
+    "source_id": "source_fb_56_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.432Z",
+    "completed_at": "2026-10-05T15:27:30.437Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.432Z"
+  },
+  {
+    "id": "job_muvelit5_agfd",
+    "source_id": "source_fb_55_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.425Z",
+    "completed_at": "2026-10-05T15:27:30.428Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.425Z"
+  },
+  {
+    "id": "job_muvelisy_w3qp",
+    "source_id": "source_fb_54_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.418Z",
+    "completed_at": "2026-10-05T15:27:30.421Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.418Z"
+  },
+  {
+    "id": "job_muvelisq_2oms",
+    "source_id": "source_fb_53_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.410Z",
+    "completed_at": "2026-10-05T15:27:30.414Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.410Z"
+  },
+  {
+    "id": "job_muvelisi_dj22",
+    "source_id": "source_fb_52_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.402Z",
+    "completed_at": "2026-10-05T15:27:30.406Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.402Z"
+  },
+  {
+    "id": "job_muvelisa_q982",
+    "source_id": "source_fb_51_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.394Z",
+    "completed_at": "2026-10-05T15:27:30.399Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.394Z"
+  },
+  {
+    "id": "job_muvelis3_x49t",
+    "source_id": "source_fb_50_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.387Z",
+    "completed_at": "2026-10-05T15:27:30.391Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.387Z"
+  },
+  {
+    "id": "job_muvelirv_d99z",
+    "source_id": "source_fb_49_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.379Z",
+    "completed_at": "2026-10-05T15:27:30.384Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.379Z"
+  },
+  {
+    "id": "job_muveliro_vooq",
+    "source_id": "source_fb_48_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.372Z",
+    "completed_at": "2026-10-05T15:27:30.376Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.372Z"
+  },
+  {
+    "id": "job_muvelirh_9k1u",
+    "source_id": "source_fb_47_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.365Z",
+    "completed_at": "2026-10-05T15:27:30.369Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.365Z"
+  },
+  {
+    "id": "job_muvelir9_1axe",
+    "source_id": "source_fb_46_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.357Z",
+    "completed_at": "2026-10-05T15:27:30.361Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.357Z"
+  },
+  {
+    "id": "job_muvelir3_ohpg",
+    "source_id": "source_fb_45_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.351Z",
+    "completed_at": "2026-10-05T15:27:30.354Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.351Z"
+  },
+  {
+    "id": "job_muveliqv_2s1h",
+    "source_id": "source_fb_44_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.343Z",
+    "completed_at": "2026-10-05T15:27:30.347Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.343Z"
+  },
+  {
+    "id": "job_muveliqo_574a",
+    "source_id": "source_fb_43_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.336Z",
+    "completed_at": "2026-10-05T15:27:30.340Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.336Z"
+  },
+  {
+    "id": "job_muveliqh_i0nn",
+    "source_id": "source_fb_42_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.329Z",
+    "completed_at": "2026-10-05T15:27:30.333Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.329Z"
+  },
+  {
+    "id": "job_muveliqa_jp9q",
+    "source_id": "source_fb_41_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.322Z",
+    "completed_at": "2026-10-05T15:27:30.326Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.322Z"
+  },
+  {
+    "id": "job_muveliq3_dzjk",
+    "source_id": "source_fb_40_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.315Z",
+    "completed_at": "2026-10-05T15:27:30.319Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.315Z"
+  },
+  {
+    "id": "job_muvelipw_30ef",
+    "source_id": "source_fb_39_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.308Z",
+    "completed_at": "2026-10-05T15:27:30.312Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.308Z"
+  },
+  {
+    "id": "job_muvelipp_jc0l",
+    "source_id": "source_fb_38_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.301Z",
+    "completed_at": "2026-10-05T15:27:30.305Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.301Z"
+  },
+  {
+    "id": "job_muvelipi_5e3y",
+    "source_id": "source_fb_37_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.294Z",
+    "completed_at": "2026-10-05T15:27:30.298Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.294Z"
+  },
+  {
+    "id": "job_muvelipb_mliz",
+    "source_id": "source_fb_36_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.287Z",
+    "completed_at": "2026-10-05T15:27:30.291Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.287Z"
+  },
+  {
+    "id": "job_muvelip3_0231",
+    "source_id": "source_fb_35_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.279Z",
+    "completed_at": "2026-10-05T15:27:30.284Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.279Z"
+  },
+  {
+    "id": "job_muveliow_4ap9",
+    "source_id": "source_fb_34_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.272Z",
+    "completed_at": "2026-10-05T15:27:30.276Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.272Z"
+  },
+  {
+    "id": "job_muveliop_fdbk",
+    "source_id": "source_fb_33_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.265Z",
+    "completed_at": "2026-10-05T15:27:30.269Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.265Z"
+  },
+  {
+    "id": "job_muvelioi_r2a2",
+    "source_id": "source_fb_32_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.258Z",
+    "completed_at": "2026-10-05T15:27:30.261Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.258Z"
+  },
+  {
+    "id": "job_muvelioc_tb9j",
+    "source_id": "source_fb_31_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.252Z",
+    "completed_at": "2026-10-05T15:27:30.255Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.252Z"
+  },
+  {
+    "id": "job_muvelio3_l1rb",
+    "source_id": "source_fb_30_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.243Z",
+    "completed_at": "2026-10-05T15:27:30.248Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.243Z"
+  },
+  {
+    "id": "job_muvelinw_tbvo",
+    "source_id": "source_fb_29_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.236Z",
+    "completed_at": "2026-10-05T15:27:30.240Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.236Z"
+  },
+  {
+    "id": "job_muvelinp_lyqi",
+    "source_id": "source_fb_28_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.229Z",
+    "completed_at": "2026-10-05T15:27:30.233Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.229Z"
+  },
+  {
+    "id": "job_muvelinj_vjxy",
+    "source_id": "source_fb_27_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.223Z",
+    "completed_at": "2026-10-05T15:27:30.226Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.223Z"
+  },
+  {
+    "id": "job_muvelind_7mwa",
+    "source_id": "source_fb_26_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.217Z",
+    "completed_at": "2026-10-05T15:27:30.220Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.217Z"
+  },
+  {
+    "id": "job_muvelin5_9ryd",
+    "source_id": "source_fb_25_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.209Z",
+    "completed_at": "2026-10-05T15:27:30.213Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.209Z"
+  },
+  {
+    "id": "job_muvelimz_hc7c",
+    "source_id": "source_fb_24_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.203Z",
+    "completed_at": "2026-10-05T15:27:30.207Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.203Z"
+  },
+  {
+    "id": "job_muvelimt_2r5r",
+    "source_id": "source_fb_23_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.197Z",
+    "completed_at": "2026-10-05T15:27:30.200Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.197Z"
+  },
+  {
+    "id": "job_muvelimm_bmlh",
+    "source_id": "source_fb_22_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.190Z",
+    "completed_at": "2026-10-05T15:27:30.194Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.190Z"
+  },
+  {
+    "id": "job_muvelime_n2al",
+    "source_id": "source_fb_21_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.182Z",
+    "completed_at": "2026-10-05T15:27:30.187Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.182Z"
+  },
+  {
+    "id": "job_muvelim6_62xf",
+    "source_id": "source_fb_20_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.174Z",
+    "completed_at": "2026-10-05T15:27:30.178Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.174Z"
+  },
+  {
+    "id": "job_muvelim0_afjx",
+    "source_id": "source_fb_19_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.168Z",
+    "completed_at": "2026-10-05T15:27:30.171Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.168Z"
+  },
+  {
+    "id": "job_muvelils_2f5y",
+    "source_id": "source_fb_18_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.160Z",
+    "completed_at": "2026-10-05T15:27:30.164Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.160Z"
+  },
+  {
+    "id": "job_muveliln_rnqi",
+    "source_id": "source_fb_17_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.155Z",
+    "completed_at": "2026-10-05T15:27:30.158Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.155Z"
+  },
+  {
+    "id": "job_muvelilg_oh95",
+    "source_id": "source_fb_16_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.148Z",
+    "completed_at": "2026-10-05T15:27:30.152Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.148Z"
+  },
+  {
+    "id": "job_muvelila_w4sq",
+    "source_id": "source_fb_15_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.142Z",
+    "completed_at": "2026-10-05T15:27:30.145Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.142Z"
+  },
+  {
+    "id": "job_muvelil4_ghd9",
+    "source_id": "source_fb_14_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.136Z",
+    "completed_at": "2026-10-05T15:27:30.139Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.136Z"
+  },
+  {
+    "id": "job_muvelikw_5w2x",
+    "source_id": "source_fb_13_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.128Z",
+    "completed_at": "2026-10-05T15:27:30.133Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.128Z"
+  },
+  {
+    "id": "job_muvelikq_w93v",
+    "source_id": "source_fb_12_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.122Z",
+    "completed_at": "2026-10-05T15:27:30.125Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.122Z"
+  },
+  {
+    "id": "job_muvelikj_jlgs",
+    "source_id": "source_fb_11_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.115Z",
+    "completed_at": "2026-10-05T15:27:30.119Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.115Z"
+  },
+  {
+    "id": "job_muvelikc_zlew",
+    "source_id": "source_fb_10_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.108Z",
+    "completed_at": "2026-10-05T15:27:30.112Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.108Z"
+  },
+  {
+    "id": "job_muvelik5_mw3y",
+    "source_id": "source_fb_9_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.101Z",
+    "completed_at": "2026-10-05T15:27:30.105Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.101Z"
+  },
+  {
+    "id": "job_muvelijy_3wwv",
+    "source_id": "source_fb_8_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.094Z",
+    "completed_at": "2026-10-05T15:27:30.097Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.094Z"
+  },
+  {
+    "id": "job_muvelijs_mltn",
+    "source_id": "source_fb_7_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.088Z",
+    "completed_at": "2026-10-05T15:27:30.091Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.088Z"
+  },
+  {
+    "id": "job_muvelijl_29b8",
+    "source_id": "source_fb_6_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.081Z",
+    "completed_at": "2026-10-05T15:27:30.085Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.081Z"
+  },
+  {
+    "id": "job_muvelije_n5nv",
+    "source_id": "source_fb_5_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.074Z",
+    "completed_at": "2026-10-05T15:27:30.078Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.074Z"
+  },
+  {
+    "id": "job_muvelij8_0cfw",
+    "source_id": "source_fb_4_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.068Z",
+    "completed_at": "2026-10-05T15:27:30.072Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.068Z"
+  },
+  {
+    "id": "job_muvelij0_saeg",
+    "source_id": "source_fb_3_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.060Z",
+    "completed_at": "2026-10-05T15:27:30.064Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.060Z"
+  },
+  {
+    "id": "job_muveliiu_hdnt",
+    "source_id": "source_fb_2_muveewtc",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.054Z",
+    "completed_at": "2026-10-05T15:27:30.057Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.054Z"
+  },
+  {
+    "id": "job_muveliii_nwl7",
+    "source_id": "source_fb_1_muveewta",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:27:30.041Z",
+    "completed_at": "2026-10-05T15:27:30.049Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {
+        "forceReload": true
+      }
+    },
+    "result": {
+      "postsFound": 0,
+      "postsNew": 0,
+      "leadsCreated": 0,
+      "leadsDuplicate": 0,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:27:30.042Z"
+  },
+  {
+    "id": "job_muvefb3j_jnqi",
+    "source_id": "source_fb_1_muveewta",
+    "job_type": "INGEST_SOURCE",
+    "status": "SUCCESS",
+    "priority": "NORMAL",
+    "retry_count": 0,
+    "started_at": "2026-10-05T15:22:40.494Z",
+    "completed_at": "2026-10-05T15:22:40.505Z",
+    "failed_at": null,
+    "error_message": null,
+    "payload": {
+      "options": {}
+    },
+    "result": {
+      "postsFound": 1,
+      "postsNew": 1,
+      "leadsCreated": 0,
+      "leadsDuplicate": 1,
+      "leadsReview": 0
+    },
+    "created_at": "2026-10-05T15:22:40.495Z"
+  }
+]

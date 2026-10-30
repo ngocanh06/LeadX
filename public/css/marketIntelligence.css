@@ -1,0 +1,1256 @@
+/* =========================================================
+   LEADX LABOR MARKET INTELLIGENCE - ENTERPRISE SAAS SYSTEM
+   Style: Clean, Editorial, Minimal, Information-dense
+   Inspiration: Linear, Stripe, Vercel, Mixpanel, Looker Studio
+   ========================================================= */
+
+:root {
+  --jmi-bg: #F8FAFC;
+  --jmi-surface: #FFFFFF;
+  --jmi-border: #E2E8F0;
+  --jmi-border-hover: #CBD5E1;
+  --jmi-text-main: #0F172A;
+  --jmi-text-secondary: #64748B;
+  --jmi-text-muted: #94A3B8;
+  --jmi-primary: #2563EB;
+  --jmi-primary-hover: #1D4ED8;
+  --jmi-primary-light: #EFF6FF;
+  --jmi-primary-border: #BFDBFE;
+  --jmi-success: #16A34A;
+  --jmi-success-light: #F0FDF4;
+  --jmi-warning: #F59E0B;
+  --jmi-warning-light: #FFFBEB;
+  --jmi-danger: #DC2626;
+  --jmi-danger-light: #FEF2F2;
+  --jmi-radius-sm: 6px;
+  --jmi-radius-md: 8px;
+  --jmi-radius-lg: 10px;
+  --jmi-radius-xl: 12px;
+  --jmi-shadow-card: 0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.04);
+  --jmi-shadow-hover: 0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+  --jmi-shadow-dropdown: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --jmi-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+[data-theme="dark"] {
+  --jmi-bg: #0B0F19;
+  --jmi-surface: #111827;
+  --jmi-border: #1F2937;
+  --jmi-border-hover: #374151;
+  --jmi-text-main: #F9FAFB;
+  --jmi-text-secondary: #9CA3AF;
+  --jmi-text-muted: #6B7280;
+  --jmi-primary: #3B82F6;
+  --jmi-primary-hover: #60A5FA;
+  --jmi-primary-light: rgba(59, 130, 246, 0.12);
+  --jmi-primary-border: rgba(59, 130, 246, 0.3);
+  --jmi-success-light: rgba(22, 163, 74, 0.12);
+  --jmi-warning-light: rgba(245, 158, 11, 0.12);
+  --jmi-shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Master Container */
+#market-intelligence-tab {
+  background: var(--jmi-bg);
+  color: var(--jmi-text-main);
+  font-family: var(--jmi-font);
+  padding: 32px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Ẩn header chung phía ngoài khi đang ở tab Market Intelligence để dùng Page Header tối giản theo đúng thiết kế SaaS */
+body:has(#market-intelligence-tab.active) .page-title-banner {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  #market-intelligence-tab {
+    padding: 16px;
+  }
+}
+
+/* =========================================================
+   1. PAGE HEADER
+   ========================================================= */
+.jmi-saas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.jmi-saas-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--jmi-text-main);
+  letter-spacing: -0.02em;
+  margin: 0 0 6px 0;
+  line-height: 1.25;
+}
+
+.jmi-saas-subtitle {
+  font-size: 14px;
+  color: var(--jmi-text-secondary);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.jmi-saas-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.jmi-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 38px;
+  padding: 0 16px;
+  border-radius: var(--jmi-radius-md);
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  text-decoration: none;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.jmi-btn-primary {
+  background: var(--jmi-primary);
+  color: #FFFFFF !important;
+  border-color: var(--jmi-primary);
+}
+.jmi-btn-primary:hover {
+  background: var(--jmi-primary-hover);
+  border-color: var(--jmi-primary-hover);
+}
+
+.jmi-btn-secondary {
+  background: var(--jmi-surface);
+  color: var(--jmi-text-main) !important;
+  border-color: var(--jmi-border);
+}
+.jmi-btn-secondary:hover {
+  background: var(--jmi-bg);
+  border-color: var(--jmi-border-hover);
+}
+
+.jmi-btn-sm {
+  height: 32px;
+  padding: 0 12px;
+  font-size: 12.5px;
+}
+
+/* =========================================================
+   2. ANALYSIS SEARCH AREA & TOOLBAR
+   ========================================================= */
+.jmi-saas-toolbar-card {
+  background: var(--jmi-surface);
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-xl);
+  padding: 20px 24px;
+  box-shadow: var(--jmi-shadow-card);
+  margin-bottom: 28px;
+}
+
+.jmi-saas-toolbar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.jmi-saas-search-input-wrap {
+  position: relative;
+  flex: 2;
+  min-width: 260px;
+}
+
+.jmi-saas-search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--jmi-text-muted);
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.jmi-saas-search-input {
+  width: 100%;
+  height: 40px;
+  padding: 0 14px 0 38px;
+  border-radius: var(--jmi-radius-md);
+  border: 1px solid var(--jmi-border);
+  background: var(--jmi-surface);
+  color: var(--jmi-text-main);
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.jmi-saas-search-input:focus {
+  border-color: var(--jmi-primary);
+  box-shadow: 0 0 0 2px var(--jmi-primary-light);
+}
+
+.jmi-saas-select {
+  height: 40px;
+  padding: 0 32px 0 12px;
+  border-radius: var(--jmi-radius-md);
+  border: 1px solid var(--jmi-border);
+  background: var(--jmi-surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748B' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 12px center;
+  color: var(--jmi-text-main);
+  font-size: 13.5px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+}
+
+.jmi-saas-select:focus {
+  border-color: var(--jmi-primary);
+}
+
+/* Taxonomy Dropdowns inline */
+.jmi-saas-taxo-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--jmi-border);
+}
+
+.jmi-saas-taxo-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--jmi-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.jmi-saas-chips-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.jmi-saas-chips-label {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--jmi-text-secondary);
+}
+
+.jmi-saas-chip {
+  height: 28px;
+  padding: 0 12px;
+  border-radius: var(--jmi-radius-sm);
+  border: 1px solid var(--jmi-border);
+  background: var(--jmi-surface);
+  color: #475569;
+  font-size: 12.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  outline: none;
+}
+
+.jmi-saas-chip:hover {
+  border-color: var(--jmi-border-hover);
+  background: var(--jmi-bg);
+}
+
+.jmi-saas-chip.active {
+  background: var(--jmi-primary-light);
+  border-color: var(--jmi-primary-border);
+  color: var(--jmi-primary);
+  font-weight: 600;
+}
+
+/* Metadata Strip */
+.jmi-saas-metadata-strip {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--jmi-border);
+  font-size: 12.5px;
+  color: var(--jmi-text-secondary);
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.jmi-saas-meta-sep {
+  color: var(--jmi-text-muted);
+  user-select: none;
+}
+
+/* =========================================================
+   3. UNIFIED KEY MARKET METRICS (KPIs)
+   ========================================================= */
+.jmi-saas-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 1380px) {
+  .jmi-saas-kpi-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .jmi-saas-kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .jmi-saas-kpi-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.jmi-saas-kpi-card {
+  background: var(--jmi-surface);
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-lg);
+  padding: 18px 20px;
+  box-shadow: var(--jmi-shadow-card);
+  transition: all 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jmi-saas-kpi-card:hover {
+  border-color: var(--jmi-border-hover);
+  box-shadow: var(--jmi-shadow-hover);
+}
+
+.jmi-saas-kpi-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--jmi-text-secondary);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.jmi-saas-kpi-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--jmi-text-main);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jmi-saas-kpi-value.primary {
+  color: var(--jmi-primary);
+}
+
+.jmi-saas-kpi-sub {
+  font-size: 12px;
+  color: var(--jmi-text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 1.3;
+}
+
+/* =========================================================
+   4. SECTIONS & CONTAINERS
+   ========================================================= */
+.jmi-saas-section {
+  margin-bottom: 32px;
+}
+
+.jmi-saas-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 16px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.jmi-saas-section-title {
+  font-size: 18px;
+  font-weight: 650;
+  color: var(--jmi-text-main);
+  letter-spacing: -0.01em;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.jmi-saas-section-desc {
+  font-size: 13px;
+  color: var(--jmi-text-secondary);
+  margin: 4px 0 0 0;
+  line-height: 1.4;
+}
+
+.jmi-saas-card {
+  background: var(--jmi-surface);
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-xl);
+  padding: 20px 22px;
+  box-shadow: var(--jmi-shadow-card);
+}
+
+.jmi-saas-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--jmi-border);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.jmi-saas-card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--jmi-text-main);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.jmi-saas-card-subtitle {
+  font-size: 12.5px;
+  color: var(--jmi-text-secondary);
+  margin: 2px 0 0 0;
+}
+
+.jmi-saas-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 1080px) {
+  .jmi-saas-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.jmi-saas-grid-3-2 {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 20px;
+}
+
+@media (max-width: 1080px) {
+  .jmi-saas-grid-3-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================================
+   5. SEGMENTED TABS & VIEW TOGGLERS
+   ========================================================= */
+.jmi-saas-tabs {
+  display: inline-flex;
+  padding: 3px;
+  background: #F1F5F9;
+  border-radius: var(--jmi-radius-md);
+  gap: 2px;
+}
+
+[data-theme="dark"] .jmi-saas-tabs {
+  background: #1E293B;
+}
+
+.jmi-saas-tab-btn {
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: var(--jmi-text-secondary);
+  font-size: 12.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  outline: none;
+}
+
+.jmi-saas-tab-btn:hover {
+  color: var(--jmi-text-main);
+}
+
+.jmi-saas-tab-btn.active {
+  background: #FFFFFF;
+  color: var(--jmi-text-main);
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+}
+
+[data-theme="dark"] .jmi-saas-tab-btn.active {
+  background: #334155;
+  color: #F8FAFC;
+}
+
+/* =========================================================
+   6. OCCUPATION HERO & COMPACT LEGEND
+   ========================================================= */
+.jmi-chart-hero-wrap {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 16px;
+  background: #F8FAFC;
+  border-radius: var(--jmi-radius-lg);
+  border: 1px solid var(--jmi-border);
+  margin-bottom: 18px;
+}
+
+@media (max-width: 900px) {
+  .jmi-chart-hero-wrap {
+    grid-template-columns: 1fr;
+  }
+}
+
+.jmi-donut-wrapper {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jmi-donut-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+
+.jmi-center-pct {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--jmi-text-main);
+  line-height: 1.1;
+}
+
+.jmi-center-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--jmi-text-secondary);
+  max-width: 110px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 2px;
+}
+
+.jmi-center-sub {
+  font-size: 11px;
+  color: var(--jmi-text-muted);
+}
+
+.jmi-legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 6px;
+  max-height: 240px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.jmi-legend-card {
+  background: var(--jmi-surface);
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-md);
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 42px;
+  box-sizing: border-box;
+}
+
+.jmi-legend-card:hover {
+  border-color: var(--jmi-border-hover);
+  background: #F8FAFC;
+}
+
+.jmi-legend-card.active {
+  border-color: var(--jmi-primary);
+  background: var(--jmi-primary-light);
+}
+
+.jmi-legend-main-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+}
+
+.jmi-legend-left {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  flex: 1;
+}
+
+.jmi-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.jmi-legend-title {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--jmi-text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2;
+}
+
+.jmi-legend-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.jmi-legend-meta {
+  font-size: 12px;
+  color: var(--jmi-text-secondary);
+  white-space: nowrap;
+}
+
+.jmi-legend-sal {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--jmi-success);
+  background: var(--jmi-success-light);
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.jmi-legend-pct {
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  min-width: 38px;
+  text-align: right;
+}
+
+.jmi-legend-bar-wrap {
+  width: 100%;
+  height: 3px;
+  background: #E2E8F0;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.jmi-legend-bar {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+/* =========================================================
+   7. CLEAN DATA TABLES
+   ========================================================= */
+.jmi-saas-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.jmi-saas-table th {
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--jmi-text-secondary);
+  border-bottom: 1px solid var(--jmi-border);
+  background: #F8FAFC;
+  white-space: nowrap;
+}
+
+[data-theme="dark"] .jmi-saas-table th {
+  background: #1E293B;
+}
+
+.jmi-saas-table td {
+  padding: 11px 12px;
+  border-bottom: 1px solid var(--jmi-border);
+  color: var(--jmi-text-main);
+  vertical-align: middle;
+}
+
+.jmi-saas-table tr:hover td {
+  background: #F8FAFC;
+}
+
+[data-theme="dark"] .jmi-saas-table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.jmi-table-wrap {
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-lg);
+  overflow: hidden;
+}
+
+/* =========================================================
+   8. SKILLS DEMAND BARS
+   ========================================================= */
+.jmi-skill-row {
+  margin-bottom: 14px;
+}
+
+.jmi-skill-row:last-child {
+  margin-bottom: 0;
+}
+
+.jmi-skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.jmi-skill-name {
+  font-weight: 600;
+  color: var(--jmi-text-main);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.jmi-skill-cat {
+  font-size: 11px;
+  color: var(--jmi-text-secondary);
+  background: #F1F5F9;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.jmi-skill-pct {
+  font-weight: 700;
+  color: var(--jmi-primary);
+}
+
+.jmi-skill-track {
+  width: 100%;
+  height: 6px;
+  background: #F1F5F9;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.jmi-skill-fill {
+  height: 100%;
+  background: var(--jmi-primary);
+  border-radius: 3px;
+}
+
+/* =========================================================
+   9. SALARY RANGE BAR VISUALIZER
+   ========================================================= */
+.jmi-salary-range-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--jmi-border);
+}
+
+.jmi-salary-role-name {
+  width: 170px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--jmi-text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jmi-salary-bar-container {
+  flex: 1;
+  position: relative;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.jmi-salary-track-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #E2E8F0;
+}
+
+.jmi-salary-fill-range {
+  position: absolute;
+  height: 6px;
+  border-radius: 3px;
+  background: #BFDBFE;
+}
+
+.jmi-salary-median-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #2563EB;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.jmi-salary-range-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 11px;
+  color: var(--jmi-text-secondary);
+  margin-top: 4px;
+}
+
+/* =========================================================
+   10. CAREER PATHS & SKILL GAP
+   ========================================================= */
+.jmi-career-path-track {
+  background: #F8FAFC;
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-lg);
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+
+.jmi-career-track-title {
+  font-size: 13.5px;
+  font-weight: 650;
+  color: var(--jmi-text-main);
+  margin-bottom: 4px;
+}
+
+.jmi-career-track-desc {
+  font-size: 12px;
+  color: var(--jmi-text-secondary);
+  margin-bottom: 12px;
+}
+
+.jmi-career-nodes-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.jmi-career-node {
+  background: var(--jmi-surface);
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-md);
+  padding: 7px 13px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--jmi-text-main);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.jmi-career-node.highlight {
+  border-color: var(--jmi-primary-border);
+  background: var(--jmi-primary-light);
+  color: var(--jmi-primary);
+}
+
+.jmi-career-arrow {
+  color: var(--jmi-text-muted);
+  font-size: 12px;
+}
+
+/* Skill Gap Rating Dots */
+.jmi-rating-dots {
+  display: inline-flex;
+  gap: 3px;
+}
+
+.jmi-rating-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #CBD5E1;
+}
+
+.jmi-rating-dot.filled {
+  background: var(--jmi-primary);
+}
+
+.jmi-rating-dot.filled-warning {
+  background: var(--jmi-warning);
+}
+
+/* =========================================================
+   11. AI MARKET INSIGHTS (EDITORIAL ANALYTICAL MODULE)
+   ========================================================= */
+.jmi-ai-summary-card {
+  background: var(--jmi-surface);
+  border: 1px solid var(--jmi-border);
+  border-left: 4px solid var(--jmi-primary);
+  border-radius: var(--jmi-radius-lg);
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--jmi-text-main);
+}
+
+.jmi-saas-insight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.jmi-saas-insight-card {
+  background: var(--jmi-surface);
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-lg);
+  padding: 18px 20px;
+  box-shadow: var(--jmi-shadow-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jmi-saas-insight-num {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--jmi-primary);
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+.jmi-saas-insight-title {
+  font-size: 14px;
+  font-weight: 650;
+  color: var(--jmi-text-main);
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.jmi-saas-insight-text {
+  font-size: 13px;
+  color: var(--jmi-text-secondary);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.jmi-saas-insight-metric {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--jmi-text-main);
+  background: #F1F5F9;
+  padding: 4px 10px;
+  border-radius: 6px;
+  align-self: flex-start;
+}
+
+/* =========================================================
+   12. TOPCV 3-COLUMN MODAL BROWSER & AUDIT MODAL
+   ========================================================= */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(2px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-overlay.active {
+  display: flex !important;
+}
+
+.modal-content {
+  background: var(--jmi-surface);
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-xl);
+  box-shadow: var(--jmi-shadow-dropdown);
+  max-width: 900px;
+  width: 95%;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modal-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--jmi-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-body {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.modal-footer {
+  padding: 14px 20px;
+  border-top: 1px solid var(--jmi-border);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  background: #F8FAFC;
+}
+
+/* 3-Column TopCV Taxonomy */
+.jmi-taxo-browser-grid {
+  display: grid;
+  grid-template-columns: 280px 280px 1fr;
+  height: 480px;
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-lg);
+  overflow: hidden;
+}
+
+.jmi-taxo-col {
+  border-right: 1px solid var(--jmi-border);
+  overflow-y: auto;
+  background: var(--jmi-surface);
+}
+
+.jmi-taxo-col:last-child {
+  border-right: none;
+}
+
+.jmi-taxo-col-header {
+  padding: 10px 14px;
+  background: #F8FAFC;
+  border-bottom: 1px solid var(--jmi-border);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--jmi-text-secondary);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.jmi-taxo-item {
+  padding: 10px 14px;
+  font-size: 13px;
+  color: var(--jmi-text-main);
+  border-bottom: 1px solid var(--jmi-border);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.1s ease;
+}
+
+.jmi-taxo-item:hover {
+  background: #F8FAFC;
+}
+
+.jmi-taxo-item.active {
+  background: var(--jmi-primary-light);
+  color: var(--jmi-primary);
+  font-weight: 600;
+  border-left: 3px solid var(--jmi-primary);
+}
+
+.jmi-vitri-chip-grid {
+  padding: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.jmi-vitri-chip {
+  background: var(--jmi-surface);
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-sm);
+  padding: 6px 12px;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--jmi-text-main);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.jmi-vitri-chip:hover {
+  border-color: var(--jmi-primary);
+  color: var(--jmi-primary);
+}
+
+/* Badge Pills */
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.badge-pill.primary {
+  background: var(--jmi-primary-light);
+  color: var(--jmi-primary);
+}
+
+.badge-pill.success {
+  background: var(--jmi-success-light);
+  color: var(--jmi-success);
+}
+
+.badge-pill.warning {
+  background: var(--jmi-warning-light);
+  color: var(--jmi-warning);
+}
+
+.badge-pill.secondary {
+  background: #F1F5F9;
+  color: var(--jmi-text-secondary);
+}
+
+/* Loading Overlay */
+.jmi-loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+/* =========================================================
+   MARKET DATA COVERAGE STRIP & INSUFFICIENT NOTICE (MỤC 5 & 7)
+   ========================================================= */
+.jmi-coverage-strip {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: var(--jmi-surface);
+  border: 1px solid var(--jmi-border);
+  border-radius: var(--jmi-radius-md);
+  padding: 10px 18px;
+  margin-bottom: 16px;
+  font-size: 12.5px;
+  color: var(--jmi-text-secondary);
+}
+
+.jmi-coverage-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.jmi-coverage-item strong {
+  color: var(--jmi-text-main);
+  font-weight: 600;
+}
+
+.jmi-coverage-sep {
+  color: var(--jmi-text-muted);
+}
+
+/* Insufficient Data State Card (Mục 7) */
+.jmi-insufficient-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: #FFFBEB;
+  border: 1px solid #FDE68A;
+  border-radius: var(--jmi-radius-lg);
+  padding: 18px 22px;
+  margin-bottom: 24px;
+}
+
+.jmi-insufficient-icon {
+  font-size: 24px;
+  color: #D97706;
+  margin-top: 2px;
+}
+
+.jmi-insufficient-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #92400E;
+  margin: 0 0 6px 0;
+}
+
+.jmi-insufficient-desc {
+  font-size: 13px;
+  color: #78350F;
+  margin: 0 0 12px 0;
+  line-height: 1.5;
+}
+
+.jmi-insufficient-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+

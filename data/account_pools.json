@@ -1,0 +1,65 @@
+[
+  {
+    "id": "pool_recruitment",
+    "name": "Nhóm Nick Tuyển Dụng (Recruitment Pool)",
+    "industry": "recruitment",
+    "description": "Chuyên đăng bài tuyển dụng, tương tác ứng viên và theo dõi nhóm tìm việc",
+    "accountIds": [
+      "acc_primary",
+      "acc_backup_01"
+    ],
+    "dailyPostLimitPerAccount": 15,
+    "cooldownMinutesBetweenPosts": 20,
+    "maxConsecutiveErrors": 3,
+    "status": "ACTIVE",
+    "tags": [
+      "Tuyển dụng",
+      "Hội nhóm",
+      "Đà Nẵng"
+    ],
+    "assignedCampaigns": [],
+    "createdAt": "2026-10-02T10:09:16.981Z",
+    "updatedAt": "2026-10-02T10:09:16.982Z"
+  },
+  {
+    "id": "pool_bds",
+    "name": "Nhóm Nick Bất Động Sản (Real Estate Pool)",
+    "industry": "bds",
+    "description": "Chuyên đăng tin căn hộ, phòng trọ, tương tác người thuê và dò lead BĐS",
+    "accountIds": [
+      "acc_bds_01",
+      "acc_bds_02"
+    ],
+    "dailyPostLimitPerAccount": 10,
+    "cooldownMinutesBetweenPosts": 30,
+    "maxConsecutiveErrors": 3,
+    "status": "ACTIVE",
+    "tags": [
+      "Bất động sản",
+      "Căn hộ",
+      "Cho thuê"
+    ],
+    "assignedCampaigns": [],
+    "createdAt": "2026-10-02T10:09:16.982Z",
+    "updatedAt": "2026-10-02T10:09:16.982Z"
+  },
+  {
+    "id": "pool_seeding",
+    "name": "Nhóm Nick Tương Tác & Seeding (Seeding Pool)",
+    "industry": "general",
+    "description": "Chuyên comment mồi, phản hồi thắc mắc, tạo độ tin cậy tự nhiên cho bài đăng",
+    "accountIds": [],
+    "dailyPostLimitPerAccount": 25,
+    "cooldownMinutesBetweenPosts": 10,
+    "maxConsecutiveErrors": 4,
+    "status": "ACTIVE",
+    "tags": [
+      "Seeding",
+      "Bình luận",
+      "Tương tác"
+    ],
+    "assignedCampaigns": [],
+    "createdAt": "2026-10-02T10:09:16.982Z",
+    "updatedAt": "2026-10-02T10:09:16.982Z"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "acc_1788693110873",
+    "name": "TD2 (accvia14 - Mơ Ngọc)",
+    "fbUserId": "61583967538602",
+    "cookies": [
+      {
+        "name": "ps_l",
+        "value": "1",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax"
+      },
+      {
+        "name": "datr",
+        "value": "U7mJaj9p7Pbx4B5Z1kznLmWZ",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "fr",
+        "value": "1ozbHs1AeMpz2ZUck.AWdBW9ljcNqeyauYBXyX72iV4Gxt_DEA9fJhPTLpq-Kd1Tu8i0I.BqvceR..AAA.0.0.BqvceR.AWdab4hx-NJGnpgb7eoHGvx-XlI",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "xs",
+        "value": "7%3A7nRfxKr_eXJBmQ%3A2%3A1790778228%3A-1%3A-1%3A%3AAcy6ifDZP2by-q9koyyPa8x4wTRbzSNuOc5OKjMCUQ",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "c_user",
+        "value": "61583967538602",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "presence",
+        "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1790822289840%2C%22v%22%3A1%7D",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "dpr",
+        "value": "1.5",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "ps_n",
+        "value": "1",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "sb",
+        "value": "U7mJanMXTxfRrg34pJvssN4T",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "wd",
+        "value": "1280x585",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax"
+      }
+    ],
+    "status": "ACTIVE",
+    "actionBlock": null,
+    "cooldownUntil": null,
+    "postsToday": 15,
+    "totalPosts": 15,
+    "isCurrent": true,
+    "createdAt": "2026-09-06T11:11:50.873Z",
+    "lastUsedAt": "2026-10-05T07:21:48.397Z",
+    "updatedAt": "2026-10-01T02:49:41.950Z",
+    "lastCooldownReason": "Facebook tạm khóa tính năng đăng bài do bị giới hạn tần suất (Spam Limit).",
+    "targetType": "GROUP",
+    "isGroupCurrent": true,
+    "isPageCurrent": false,
+    "proxy": ""
+  }
+]

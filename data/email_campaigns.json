@@ -1,0 +1,155 @@
+[
+  {
+    "id": "emcamp_muqxgii5",
+    "name": "Chiến Dịch Khảo Sát B2B 1790943398573",
+    "category": "employer",
+    "templateId": "tmpl_employer_outreach",
+    "providerId": "prov_gmail_leadx_demo",
+    "recipients": [
+      {
+        "email": "director1@company1.com",
+        "name": "Giám Đốc 1",
+        "companyName": "Công Ty Alpha"
+      },
+      {
+        "email": "director2@company2.com",
+        "name": "Giám Đốc 2",
+        "companyName": "Công Ty Beta"
+      },
+      {
+        "email": "director3@company3.com",
+        "name": "Giám Đốc 3",
+        "companyName": "Công Ty Gamma"
+      }
+    ],
+    "throttleSeconds": 5,
+    "scheduledAt": "2026-10-02T12:16:38.573Z",
+    "status": "COMPLETED",
+    "createdAt": "2026-10-02T12:16:38.573Z",
+    "startedAt": "2026-10-02T12:16:38.583Z",
+    "completedAt": "2026-10-04T14:09:01.919Z"
+  },
+  {
+    "id": "emcamp_muqxc442",
+    "name": "Chiến Dịch Khảo Sát B2B 1790943193298",
+    "category": "employer",
+    "templateId": "tmpl_employer_outreach",
+    "providerId": "prov_gmail_leadx_demo",
+    "recipients": [
+      {
+        "email": "director1@company1.com",
+        "name": "Giám Đốc 1",
+        "companyName": "Công Ty Alpha"
+      },
+      {
+        "email": "director2@company2.com",
+        "name": "Giám Đốc 2",
+        "companyName": "Công Ty Beta"
+      },
+      {
+        "email": "director3@company3.com",
+        "name": "Giám Đốc 3",
+        "companyName": "Công Ty Gamma"
+      }
+    ],
+    "throttleSeconds": 5,
+    "scheduledAt": "2026-10-02T12:13:13.298Z",
+    "status": "COMPLETED",
+    "createdAt": "2026-10-02T12:13:13.298Z",
+    "startedAt": "2026-10-02T12:13:13.308Z",
+    "completedAt": "2026-10-04T14:09:18.033Z"
+  },
+  {
+    "id": "emcamp_muqx990k",
+    "name": "Chiến Dịch Khảo Sát B2B 1790943059684",
+    "category": "employer",
+    "templateId": "tmpl_employer_outreach",
+    "providerId": "prov_gmail_leadx_demo",
+    "recipients": [
+      {
+        "email": "director1@company1.com",
+        "name": "Giám Đốc 1",
+        "companyName": "Công Ty Alpha"
+      },
+      {
+        "email": "director2@company2.com",
+        "name": "Giám Đốc 2",
+        "companyName": "Công Ty Beta"
+      },
+      {
+        "email": "director3@company3.com",
+        "name": "Giám Đốc 3",
+        "companyName": "Công Ty Gamma"
+      }
+    ],
+    "throttleSeconds": 5,
+    "scheduledAt": "2026-10-02T12:10:59.684Z",
+    "status": "RUNNING",
+    "createdAt": "2026-10-02T12:10:59.684Z",
+    "startedAt": "2026-10-02T12:10:59.692Z",
+    "completedAt": null
+  },
+  {
+    "id": "emcamp_muqx6txh",
+    "name": "Chiến Dịch Khảo Sát B2B Q4/2026",
+    "category": "employer",
+    "templateId": "tmpl_employer_outreach",
+    "providerId": "prov_gmail_leadx_demo",
+    "recipients": [
+      {
+        "email": "director1@company1.com",
+        "name": "Giám Đốc 1",
+        "companyName": "Công Ty Alpha"
+      },
+      {
+        "email": "director2@company2.com",
+        "name": "Giám Đốc 2",
+        "companyName": "Công Ty Beta"
+      },
+      {
+        "email": "director3@company3.com",
+        "name": "Giám Đốc 3",
+        "companyName": "Công Ty Gamma"
+      }
+    ],
+    "throttleSeconds": 5,
+    "scheduledAt": "2026-10-02T12:09:06.821Z",
+    "status": "DRAFT",
+    "createdAt": "2026-10-02T12:09:06.821Z",
+    "startedAt": null,
+    "completedAt": null
+  },
+  {
+    "id": "emcamp_outreach_q4",
+    "name": "Chiến Dịch Tiếp Cận 50 Doanh Nghiệp F&B Tuyển Dụng",
+    "category": "employer",
+    "templateId": "tmpl_employer_outreach",
+    "providerId": "prov_gmail_leadx_demo",
+    "recipients": [
+      {
+        "email": "hr.the1985@gmail.com",
+        "name": "Quán Cafe The 1985",
+        "customVars": {
+          "companyName": "Quán Cafe The 1985",
+          "location": "Tân Phú, TP.HCM",
+          "jobTitle": "Nhân viên pha chế"
+        }
+      },
+      {
+        "email": "tuyendung.smileshop@gmail.com",
+        "name": "Smile Mart",
+        "customVars": {
+          "companyName": "Smile Mart",
+          "location": "Hà Nội",
+          "jobTitle": "Thu ngân ca gãy"
+        }
+      }
+    ],
+    "throttleSeconds": 30,
+    "scheduledAt": "2026-10-02T12:04:05.289Z",
+    "status": "DRAFT",
+    "createdAt": "2026-10-02T12:04:05.289Z",
+    "startedAt": null,
+    "completedAt": null
+  }
+]

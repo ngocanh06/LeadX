@@ -1,0 +1,1507 @@
+[
+  {
+    "id": "apt_sheet_st___773",
+    "projectCode": "ST - 773",
+    "title": "Cho thuê Studio Hà Bổng, Q. Sơn Trà - ST - 773 (Studio 2 giường)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Hà Bổng",
+    "address": "Hà Bổng, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 35,
+    "price": 4200000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k",
+      "management": "Truyền hình cáp: 100k/phòng, Dọn vệ sinh: 50k/lần",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng"
+    ],
+    "targetTenant": "Tất cả khách hàng / Khách nước ngoài",
+    "note": "Studio 2 giường",
+    "driveLink": "https://drive.google.com/drive/folders/1XrP1-0mI1CmQodHxjHlaEwZnpehhnT6p?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1MQ0R0-QAGHgArsw_QFRI7dGK7wIBnciH.jpg",
+      "/uploads/apartments/12ifFHRz7T4g1ga7L__9AlFUeSvK2Yfus.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:18.791Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___725",
+    "projectCode": "ST - 725",
+    "title": "Cho thuê Căn hộ Nguyễn Công Trứ, Q. Sơn Trà - ST - 725 (1PN vách ngăn)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Nguyễn Công Trứ",
+    "address": "Nguyễn Công Trứ, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 35,
+    "price": 11000000,
+    "deposit": "2 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "1PN vách ngăn",
+    "driveLink": "https://drive.google.com/drive/folders/1DaiMUOxyMXHXnDKpR6fop5SuvZyTuuir?usp=drive_link",
+    "images": [
+      "/uploads/apartments/14-5-P3enE2qY-Hgw3J6MUuEynwl9Tsh5.jpg",
+      "/uploads/apartments/1iPIzMo5lmDp9gUkjmMHkoRj_UM3UaLhi.jpg",
+      "/uploads/apartments/1gUaceVK1AJGmmRaTLfDxC_gtmarchwSg.jpg",
+      "/uploads/apartments/1eH6Nmu3ZEmvtoZst5wgf5xBIX5SJ-uOh.jpg",
+      "/uploads/apartments/1FKMisZUTBhBmYhi8cqU_vafVy9wIyao2.jpg",
+      "/uploads/apartments/1iMp6OL1Scw1s9vamsP0W7UIzqbC57Rfb.jpg",
+      "/uploads/apartments/12Z7QkOiYPCA3Oc5KHO1i_Dbf1Roh8lWN.jpg",
+      "/uploads/apartments/1aNhmzT8s3PxeLVNDLHu8KMdfaNSKoKnJ.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:19.861Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_hc___945",
+    "projectCode": "HC - 945",
+    "title": "Cho thuê Studio Đường 2 Tháng 9, Q. Hải Châu - HC - 945",
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "project": "Đường 2 Tháng 9",
+    "address": "Đường 2 Tháng 9, Q. Hải Châu, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 35,
+    "price": 6500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k5/chữ",
+      "water": "100k",
+      "management": "100k",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "",
+    "driveLink": "https://drive.google.com/drive/folders/1QJWbNZfl0A4FtSOi5ee_cXRDqCVpwfgH?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1PoWm3OczPn3YippEAnIqQNRAWTE_oDrf.jpg",
+      "/uploads/apartments/1kXKvTQ4V0bLK9rNA7-BvJUC8rMuKpl2Q.jpg",
+      "/uploads/apartments/1o6xivxDv9Afmn0GnRt-U3C9S-3_ZE03-.jpg",
+      "/uploads/apartments/1n2tI42gFCgOrJ4ecfGZUIsifuKy83oKs.jpg",
+      "/uploads/apartments/1PeasGjrMSwQ1xK2XYY7GYoXwc34XAb8S.jpg",
+      "/uploads/apartments/1tlQ-4WdqLEjWsyFVy619MkKRI3hfopKY.jpg",
+      "/uploads/apartments/1W34ekVmHipbSXjSX_CbOhga6vmXwSV02.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:22.135Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_hc___994___5tr2",
+    "projectCode": "HC - 994 - 5TR2",
+    "title": "Cho thuê Studio Hà Huy Tập, Q. Hải Châu - HC - 994 - 5TR2 (Ở được 3 người)",
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "project": "Hà Huy Tập",
+    "address": "Hà Huy Tập, Q. Hải Châu, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 40,
+    "price": 5200000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Ở được 3 người",
+    "driveLink": "https://drive.google.com/drive/folders/1UODHx8mHAgqwytqSeRAlSTj3JY3k4zTT?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1L-_RBz8nqN7Y9xRN4PCI2K0PUvpFkNRi.jpg",
+      "/uploads/apartments/1UMSBm_wyvO40UiB5Q-tYj06s_79n0m1Q.jpg",
+      "/uploads/apartments/1fiIT-0OCH8VDwdKHBDlAwfYhBiFMbxWi.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:23.059Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_hc___994___5tr5",
+    "projectCode": "HC - 994 - 5TR5",
+    "title": "Cho thuê Studio Hà Huy Tập, Q. Hải Châu - HC - 994 - 5TR5 (Ở được 3 người)",
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "project": "Hà Huy Tập",
+    "address": "Hà Huy Tập, Q. Hải Châu, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 40,
+    "price": 5500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Ở được 3 người",
+    "driveLink": "https://drive.google.com/drive/folders/1BXntxPZjusdJQ06H15C-CbyJBCzgHt-v?usp=drive_link",
+    "images": [
+      "/uploads/apartments/13mKxdcvL6vI0-D3hkCC4kNRCfGcTIw4Z.jpg",
+      "/uploads/apartments/1FUr8JGPBfds1ZUhwSltNggbWgnRIAeEn.jpg",
+      "/uploads/apartments/1cgO62iShiHUcwd6hCx_e4edd4HELoDaK.jpg",
+      "/uploads/apartments/1_pn8Kwf38Nj3ezWqT2U5yNRwOVVuQVV5.jpg",
+      "/uploads/apartments/1dqAjW5tfEzPg7VhofrrCzgE3DF3EsYy4.jpg",
+      "/uploads/apartments/1Xo1NDYIL2Pfj7kS5L6G7qwlNrM5DIakb.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:24.249Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___813___8tr",
+    "projectCode": "ST - 813 - 8TR",
+    "title": "Cho thuê Studio Phước trường 8, Q. Sơn Trà - ST - 813 - 8TR (Căn sau)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Phước trường 8",
+    "address": "Phước trường 8, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 40,
+    "price": 8000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Căn sau",
+    "driveLink": "https://drive.google.com/drive/folders/1VQN-eG3i5mkpZifykeLiBnssu5-Y4hxC?usp=drive_link",
+    "images": [],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:26.379Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": false
+  },
+  {
+    "id": "apt_sheet_st___813___10tr",
+    "projectCode": "ST - 813 - 10TR",
+    "title": "Cho thuê Studio Phước trường 8, Q. Sơn Trà - ST - 813 - 10TR (Tầng 3)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Phước trường 8",
+    "address": "Phước trường 8, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 40,
+    "price": 10000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Tầng 3",
+    "driveLink": "https://drive.google.com/drive/folders/1oafxzMUWs_f5S4GqwOn23MTl1EJAlHR1?usp=drive_link",
+    "images": [
+      "/uploads/apartments/18ywOsOG6_WkP1_c3mvrCBxvlA5Lxp135.jpg",
+      "/uploads/apartments/10JVtPY6Q8KQqbkBKJo4N9fl-SqVvYIQB.jpg",
+      "/uploads/apartments/1-7SG1kkW0UkRs8YltPioyCWv381Kp-nW.jpg",
+      "/uploads/apartments/1ercyiLoWxafHZkq3Q1-hppe6D4PiYRdG.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:28.657Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_nhs___352",
+    "projectCode": "NHS - 352",
+    "title": "Cho thuê Studio Nghiêm Xuân Yêm, Q. Ngũ Hành Sơn - NHS - 352",
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "project": "Nghiêm Xuân Yêm",
+    "address": "Nghiêm Xuân Yêm, Q. Ngũ Hành Sơn, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 40,
+    "price": 7500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k2/chữ",
+      "water": "150k/người",
+      "management": "300k/tháng",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "",
+    "driveLink": "https://drive.google.com/drive/folders/1S7ToLsI8vbU0BFPwSO5FMzAXQQBAiC-w?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1k6W_j8HutJBhlwKB2oafOWQv3yvHCH90.jpg",
+      "/uploads/apartments/1KmdnpZyyFgLacRsyKloQGQ7IrV2GLR6a.jpg",
+      "/uploads/apartments/11mwpYqq4mvU0t9APBT6I8RLaSwZ0PBt3.jpg",
+      "/uploads/apartments/1iFkCDawFapno_sojhnxOO1Wxd7olIxGG.jpg",
+      "/uploads/apartments/1rWnspmeIxR4hauVIQG6K3BLS713HNJCd.jpg",
+      "/uploads/apartments/1AxK6HkRDU6etBMT7uUTDvfpOoCnsZeNY.jpg",
+      "/uploads/apartments/19ie7FPGuGP14nnV9ooqCpsvkMAzwuDfX.jpg",
+      "/uploads/apartments/1uLTnatrTHVS4ZNrBeF9_0ei2DqU_hGmz.jpg",
+      "/uploads/apartments/1Eb-hz_xasMnBYjardqajOh2bYAczTbYI.jpg",
+      "/uploads/apartments/13htZm4HDARyIyHS6W1q18mywjrFi1k8w.jpg",
+      "/uploads/apartments/188AI4Kqhk2XnEorMjggrOjox229_CGwz.jpg",
+      "/uploads/apartments/1w4EWWok6yy21D7hTPJ-GagovurTpzv0I.jpg",
+      "/uploads/apartments/1Lb2Yprc2Dp9Ppj0H-36488HOxew7LhXn.jpg",
+      "/uploads/apartments/1g_gB90jPmN8xED381HeJ8UWDVGtXS7Hv.jpg",
+      "/uploads/apartments/1cpfztCxmcDcYxuWv8DGdpqV4dPYtNC-4.jpg",
+      "/uploads/apartments/1Y5s9z7jyrZG3d2JR1DSSMpzcqSyBPdOv.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:29.733Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___822",
+    "projectCode": "ST - 822",
+    "title": "Cho thuê Căn hộ Chính Hữu, Q. Sơn Trà - ST - 822 (Phòng 601, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Chính Hữu",
+    "address": "Chính Hữu, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 50,
+    "price": 14000000,
+    "deposit": "2 tháng",
+    "fees": {
+      "electricity": "4k2/chữ",
+      "water": "150k/người",
+      "management": "300k/tháng",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 601, 1PN",
+    "driveLink": "https://drive.google.com/drive/folders/1B8ItatoBQ2Il_ZG8MPqWvB3fAMOFtOhl?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1Oo9N3VY9LCryf5kUIpQYgRqDaDtOWJgy.jpg",
+      "/uploads/apartments/1hvO1KpDGc5qrJ7dDQFR-URSuYznWIKv6.jpg",
+      "/uploads/apartments/1KoAOuWeMfEXcoeFXT3PnsmxlmcKJOALj.jpg",
+      "/uploads/apartments/1TlyChlsrYQP-SqpcV2xFidJySe85Ew15.jpg",
+      "/uploads/apartments/1PGJsYkhbzUE9WQTPchF3SH0SNWVIjFwl.jpg",
+      "/uploads/apartments/1R9M4BOkBze6Sajp6FSynxrz8sYtDFU3D.jpg",
+      "/uploads/apartments/1E3n-9FEfVBtOA736TWcnLPOiw6qpVKGU.jpg",
+      "/uploads/apartments/1OQmAX1nOPY5hy3J2yZvEEq2KornwnZVo.jpg",
+      "/uploads/apartments/1y-lX4-IJF4FI9cblRn8m-GbcxE9BXBqe.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:30.700Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___837",
+    "projectCode": "ST - 837",
+    "title": "Cho thuê Studio Dương Đình Nghệ, Q. Sơn Trà - ST - 837",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Dương Đình Nghệ",
+    "address": "Dương Đình Nghệ, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 50,
+    "price": 9500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "",
+    "driveLink": "https://drive.google.com/drive/folders/18dYlx9qkHWcJO1rIoicHpDtAtCTzYEJi?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1_HVpQKsB0RY7uyiGUs7oFs88kaNYkNAl.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:31.636Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___993___5tr5",
+    "projectCode": "ST - 993 - 5TR5",
+    "title": "Cho thuê Studio Lương Thế Vinh, Q. Sơn Trà - ST - 993 - 5TR5",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Lương Thế Vinh",
+    "address": "Lương Thế Vinh, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 50,
+    "price": 5500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "",
+    "driveLink": "https://drive.google.com/drive/folders/1F9H29U54GZ-W4YBcMYe-TxObOVYoQDsz?usp=sharing",
+    "images": [
+      "/uploads/apartments/19OMEIUheOssLZZTcKk3B4debaLVSnqT2.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:32.704Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___993___8tr",
+    "projectCode": "ST - 993 - 8TR",
+    "title": "Cho thuê Căn hộ Lương Thế Vinh, Q. Sơn Trà - ST - 993 - 8TR (Phòng 101, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Lương Thế Vinh",
+    "address": "Lương Thế Vinh, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 50,
+    "price": 8000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 101, 1PN",
+    "driveLink": "https://drive.google.com/drive/folders/10cu1WpaeKA6SPrho8FZ9nSu9oTpR998r?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1b-SAMRUl4PN4AlkwIWDw4V998YSGWDZP.jpg",
+      "/uploads/apartments/1gwKB_V1F1BGsAAnQ5i7lJ3rawi-hzVan.jpg",
+      "/uploads/apartments/1z747ZHZ-IYZQYjqOBS0jQjSV5WKaHvDY.jpg",
+      "/uploads/apartments/13wIvJd_EwAa5e9A0E1r1swDVtxKZUKqH.jpg",
+      "/uploads/apartments/1BGs0ldYN8spmuBOd4AK87C3Az-LvBbsN.jpg",
+      "/uploads/apartments/1FXgPFO5Stz5ma8QTYL5yuQrhwLU2r0m9.jpg",
+      "/uploads/apartments/1m7JJZTcxv6pio3ephuPVf3_vmBOxqmry.jpg",
+      "/uploads/apartments/1HAFlZKc3eRMWwK8FaoaoximLVkfaiFOd.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:33.681Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___771___10tr",
+    "projectCode": "ST - 771 - 10TR",
+    "title": "Cho thuê Căn hộ Thạch Lam, Q. Sơn Trà - ST - 771 - 10TR (Phòng 202, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Thạch Lam",
+    "address": "Thạch Lam, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 50,
+    "price": 10000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k5/chữ",
+      "water": "100k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 202, 1PN",
+    "driveLink": "https://drive.google.com/drive/folders/14cJoZzrK0EBSAC7KQmF8yXOBgAmlSHB4?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1xoKe3ZIRYKkG9SeqV1R6I8ZQXyVy1Yrl.jpg",
+      "/uploads/apartments/1unTNAgl8cOIUQ6KlTQDfhuk1760n5NDU.jpg",
+      "/uploads/apartments/1rJpPt9tj3Yipql-6eFSxD-LnLlkphLEx.jpg",
+      "/uploads/apartments/1S6U7lK8A9VJlFvV8hgMOSjQkUXKYp5Jf.jpg",
+      "/uploads/apartments/1OyyjEFI3S5iLEgtMaEEcA0aKGrg7BtDh.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:34.630Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___771___12tr",
+    "projectCode": "ST - 771 - 12TR",
+    "title": "Cho thuê Căn hộ An Đồn 6, Q. Sơn Trà - ST - 771 - 12TR (Phòng 3B, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "An Đồn 6",
+    "address": "An Đồn 6, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 50,
+    "price": 12000000,
+    "deposit": "2 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "100k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 3B, 1PN",
+    "driveLink": "https://drive.google.com/drive/folders/14sKtOhxjJwZULcBpi2iluCE1p6uI1Hed?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1lvil3udy38vctuspjMiCQN-5T-mJYlCC.jpg",
+      "/uploads/apartments/11k8FhV99-anVa5TVPs5lN7DWK3bHmPVY.jpg",
+      "/uploads/apartments/1T-l6-vmYoyHgS_T_1HdjCC50eTeiQiI8.jpg",
+      "/uploads/apartments/1ZOoe3MTwSls9_7xFm5OLPUwrcoF5B8Rn.jpg",
+      "/uploads/apartments/1RTUjYYhE-lBIgBL5FJ8tRzZyGbt0a4Vf.jpg",
+      "/uploads/apartments/15hdaocWefDnbYjHrPeFI46w05ShDCiZk.jpg",
+      "/uploads/apartments/1qc4navKC7_pMBxRZdTacPu2K-Y0u10An.jpg",
+      "/uploads/apartments/11hft2qODHUN8jcoVX1BZq7hli4xWYWnA.jpg",
+      "/uploads/apartments/16SadrvFlE2IPEkukdfUghkXo0Q0yOUlP.jpg",
+      "/uploads/apartments/116CkwrEkQ1YZdt-CzfAHDBtt_uU2qDFt.jpg",
+      "/uploads/apartments/12wnAwj6PpTq1mhPIU4rEwAUxyZu5yxA5.jpg",
+      "/uploads/apartments/1nsHJ6UEFv8VETBFP2X2zxrX5ayS-2huq.jpg",
+      "/uploads/apartments/1CJfBUacea7d8KL8l3L5AtDXYYi_ILfUC.jpg",
+      "/uploads/apartments/1ROltw_0mj1GK7vNzlHMUauwW6-bbMT7p.jpg",
+      "/uploads/apartments/1IHLY3tdZcK9RqkgXVv18uSFz1pjqw1kR.jpg",
+      "/uploads/apartments/1PxrSXkUVARSRHd9ifMwrxnmRyafjKypD.jpg",
+      "/uploads/apartments/1yS1QVWAm_69EUgYv45ir0u35s8XhxlkM.jpg",
+      "/uploads/apartments/1bFORFCPFIrrX8_z1MQLPko9XSyIOwh2a.jpg",
+      "/uploads/apartments/1eAwvHcG22LZch_CA_BDFndYubC5coR1F.jpg",
+      "/uploads/apartments/1Q-7iltknmAFEW-lZwBCNRGp0LvIRHOG5.jpg",
+      "/uploads/apartments/1C2WepGDSFWju0JBp9ZThUUFPvbr79FZ6.jpg",
+      "/uploads/apartments/1uPVa4Y59tvTC-MzsnNS1BgHtCSaqOGEN.jpg",
+      "/uploads/apartments/1JZ2VQiZrTqdo0WWyFJ-1njQJTJmEnxgr.jpg",
+      "/uploads/apartments/1wpmiratLz9jAXlBr7jx6V-pftDWyHC4r.jpg",
+      "/uploads/apartments/1KmUltSK7wo3ShYonyeF-iUN5rXm6iTDn.jpg",
+      "/uploads/apartments/16Yr7zA-Vj1wN5GiNg1VtAqIiP75bvkDK.jpg",
+      "/uploads/apartments/1gde7d6VeFg256opC-PcQqQD40eYPM2bP.jpg",
+      "/uploads/apartments/1YQXmqaQdgK7Euypjlk1L8EUsLWL-lbxF.jpg",
+      "/uploads/apartments/1da07JxvMqpSls-yZ2KRNp-Khy80MLKBR.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:35.888Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_hc___992",
+    "projectCode": "HC - 992",
+    "title": "Cho thuê Căn hộ Nguyễn Súy, Q. Hải Châu - HC - 992 (Phòng 101, 1PN (gác lửng))",
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "project": "Nguyễn Súy",
+    "address": "Nguyễn Súy, Q. Hải Châu, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 50,
+    "price": 12000000,
+    "deposit": "2 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "100k/người",
+      "management": "300k/tháng (2 tuần dọn 1 lần)",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 101, 1PN (gác lửng)",
+    "driveLink": "https://drive.google.com/drive/folders/15gzsacl3aIK8-qOqlNbKdM4p-31Rz0zt?usp=drive_link",
+    "images": [],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:36.714Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": false
+  },
+  {
+    "id": "apt_sheet_st___419___8tr5",
+    "projectCode": "ST - 419 - 8TR5",
+    "title": "Cho thuê Căn hộ Phạm Vấn, Q. Sơn Trà - ST - 419 - 8TR5 (Phòng 504, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Phạm Vấn",
+    "address": "Phạm Vấn, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 50,
+    "price": 8500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "100k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 504, 1PN",
+    "driveLink": "https://drive.google.com/drive/folders/1inwC0IQQJE5cvAic5QwkPzmQQ16hzaFV?usp=drive_link",
+    "images": [],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:37.461Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": false
+  },
+  {
+    "id": "apt_sheet_st___419___12tr5",
+    "projectCode": "ST - 419 - 12TR5",
+    "title": "Cho thuê Căn hộ Phạm Vấn, Q. Sơn Trà - ST - 419 - 12TR5 (Phòng 602, 2PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Phạm Vấn",
+    "address": "Phạm Vấn, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 50,
+    "price": 12500000,
+    "deposit": "2 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "100k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 602, 2PN",
+    "driveLink": "https://drive.google.com/drive/folders/1gy7C-CxlTUsYtav_3NjuXwMEYyMU1Yda?usp=drive_link",
+    "images": [
+      "/uploads/apartments/16Bi2t5spwVapPX7GWkiIVlaqkc0kpJ9s.jpg",
+      "/uploads/apartments/1wBRJw3ghrsZ4ej67m18O5vMSDhavfYjH.jpg",
+      "/uploads/apartments/184lDrRARmSfM9ECuf-Q0skdCHggP5e2Q.jpg",
+      "/uploads/apartments/1-eEy1TO_BoofwYSJBtGYvgFxtAdJq2zs.jpg",
+      "/uploads/apartments/1QjpGiMCLyfIifDtXUH9mzsy7CJNzSEcx.jpg",
+      "/uploads/apartments/1Lm8bDGhaf2I7RqXeqysjtxgeb2ZelcXn.jpg",
+      "/uploads/apartments/1Akb23Py9PjB-PMBPyjStxiVgt-5pCywp.jpg",
+      "/uploads/apartments/1I4YjgRGeHO8XVDAS8QzGy2Jo-snw6LZm.jpg",
+      "/uploads/apartments/1lXClBBPv_UNwc8wYxEFw--qcadLtNHul.jpg",
+      "/uploads/apartments/1xFTTEUL0sLocJIoPm0rjg9VG-clVoAj_.jpg",
+      "/uploads/apartments/1PdzcjCehMrB2GCHZwbBpFvoMrSBSEI3L.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:38.412Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___419___7tr5",
+    "projectCode": "ST - 419 - 7TR5",
+    "title": "Cho thuê Studio Phạm Vấn, Q. Sơn Trà - ST - 419 - 7TR5 (Phòng 603)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Phạm Vấn",
+    "address": "Phạm Vấn, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 40,
+    "price": 7500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "100k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 603",
+    "driveLink": "https://drive.google.com/drive/folders/1LvAgYH0wfGInVg8H89t_u5yRRXwXkfQS?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1yUTvS0E5AoZka12V90qJuWudC_V8sSNn.jpg",
+      "/uploads/apartments/1PyuEzWkVDki0MMdnq55T8Smnd8Pd93Re.jpg",
+      "/uploads/apartments/1CtqdjDOX5mUZ9seEEzmY_AnC67hyMgd1.jpg",
+      "/uploads/apartments/1IUpiqtFELcygKbXfmK_9c-4lWzZwu5eL.jpg",
+      "/uploads/apartments/1Bw0_bRi5EknNgydZ8eXi7c5JitkGU4nc.jpg",
+      "/uploads/apartments/18XzDQ2Cq1ib1n5F7gv5JK3oDnYAvv6Eb.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:55:39.378Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___747",
+    "projectCode": "ST - 747",
+    "title": "Cho thuê Căn hộ Phước Trường 17, Q. Sơn Trà - ST - 747 (1PN (giá thương lượng))",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Phước Trường 17",
+    "address": "Phước Trường 17, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 40,
+    "price": 11000000,
+    "deposit": "2 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "100k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "1PN (giá thương lượng)",
+    "driveLink": "https://drive.google.com/drive/folders/1wiuzOZLJ-iWmh1BmPZkXlUKoebR1iKpa?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1rQgcZp_bA5wpkaVBhW2xxdMaCmXgsfYB.jpg",
+      "/uploads/apartments/1U_ruwkvQ-lQCkD_HXrnawZ1eFiZL7_XZ.jpg",
+      "/uploads/apartments/1vQxGbk_Pf-P2EejhY-IHdkqQW50NgWaT.jpg",
+      "/uploads/apartments/1kdcKBh2LFEb22SIDbuQWnipxuh6uSutT.jpg",
+      "/uploads/apartments/1B88HfTaHsT6YdYcpd1tpS6-kA5XawqwT.jpg",
+      "/uploads/apartments/10x9pm4ei4zdZ3WGm5LRX7fCE4plMy-PV.jpg",
+      "/uploads/apartments/1h-MsvHkjZgnEGx1iHf7X_pWhVJLBXFP3.jpg",
+      "/uploads/apartments/1eCbuyIcywvQiaa5OwI_e00njd5-Z2xBJ.jpg",
+      "/uploads/apartments/1HZH2WiUAC8RkrLL5YrZplMevMOv78moC.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:00.149Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___729",
+    "projectCode": "ST - 729",
+    "title": "Cho thuê Studio Dương Đình Nghệ, Q. Sơn Trà - ST - 729",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Dương Đình Nghệ",
+    "address": "Dương Đình Nghệ, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 40,
+    "price": 5000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "200k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "",
+    "driveLink": "https://drive.google.com/drive/folders/19L4-NXMAsjgIGyAZZYtBV2OR28dVdGE7?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1xULYFVMCd2Jbd_qZoLKfWhd1Z2WrDcFn.jpg",
+      "/uploads/apartments/1u4-qDNqZB-kkU9guqeMiL9tSVjlN8Pca.jpg",
+      "/uploads/apartments/1LuFIxQKRGBhGaab4Ruj-V2RTWLsI-dva.jpg",
+      "/uploads/apartments/1At1oUZPVxlt28Yt1-0KUm-Hjbx9Bb6tv.jpg",
+      "/uploads/apartments/16lxWdSaZFSTRavNHv-BvK1ic_nDry5Rf.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:01.384Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_nhs___898___7tr5",
+    "projectCode": "NHS - 898 - 7TR5",
+    "title": "Cho thuê Studio Đỗ Bí, Q. Ngũ Hành Sơn - NHS - 898 - 7TR5 (Phòng 303)",
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "project": "Đỗ Bí",
+    "address": "Đỗ Bí, Q. Ngũ Hành Sơn, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 40,
+    "price": 7500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k5/chữ",
+      "water": "200k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 303",
+    "driveLink": "https://drive.google.com/drive/folders/1QDz5Nl4MBDc5mLfQNaExhFxGVgJF968W?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1VFbWgUVBr8PtT0RLcPdawAJToMrYbolD.jpg",
+      "/uploads/apartments/11iDFFGzyea55ZVDohf2WmMn-RwMjtE5E.jpg",
+      "/uploads/apartments/1TUs4U8EUStYMiTbxjI5PYJWWHmT9trJu.jpg",
+      "/uploads/apartments/12-6d7_R6DJhS66FfcJLZuQNsQM51YCsm.jpg",
+      "/uploads/apartments/1Kj-S_BXfz3kP9Yjcmv0xm9LvsKWdCc_b.jpg",
+      "/uploads/apartments/1IUfFH8eWTdE8xNJxghdWoDr73KXYYFP2.jpg",
+      "/uploads/apartments/1kpR33nCwQH2sxXdQowpCRhnX30_A4Mja.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:02.296Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_nhs___898___7tr",
+    "projectCode": "NHS - 898 - 7TR",
+    "title": "Cho thuê Studio Đỗ Bí, Q. Ngũ Hành Sơn - NHS - 898 - 7TR (Phòng 402)",
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "project": "Đỗ Bí",
+    "address": "Đỗ Bí, Q. Ngũ Hành Sơn, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 40,
+    "price": 7000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k5/chữ",
+      "water": "200k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 402",
+    "driveLink": "https://drive.google.com/drive/folders/1dPjBVOVpn8lHBa-oPsLgb-8OL-64SPhZ?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1bmFtoDOa6G2JK2twlq2p5WwHrhlRJZkP.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:03.257Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.067Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_nhs___181",
+    "projectCode": "NHS - 181",
+    "title": "Cho thuê Căn hộ Lê Quang Đạo, Q. Ngũ Hành Sơn - NHS - 181 (Phòng 5A, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "project": "Lê Quang Đạo",
+    "address": "Lê Quang Đạo, Q. Ngũ Hành Sơn, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 40,
+    "price": 14000000,
+    "deposit": "2 tháng",
+    "fees": {
+      "electricity": "4k5/chữ",
+      "water": "200k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 5A, 1PN",
+    "driveLink": "https://drive.google.com/drive/folders/1B8QfHAQXI-eEDVQhyC7qSKKV_UACVlz1?usp=drive_link",
+    "images": [],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:05.497Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.068Z",
+    "hasRealPhotos": false
+  },
+  {
+    "id": "apt_sheet_nhs___587",
+    "projectCode": "NHS - 587",
+    "title": "Cho thuê Căn hộ Bà Huyện Thanh Quan, Q. Ngũ Hành Sơn - NHS - 587 (Phòng 101, 1PN (vách ngăn))",
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "project": "Bà Huyện Thanh Quan",
+    "address": "Bà Huyện Thanh Quan, Q. Ngũ Hành Sơn, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 40,
+    "price": 9000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k5/chữ",
+      "water": "200k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 101, 1PN (vách ngăn)",
+    "driveLink": "https://drive.google.com/drive/folders/1SWsUjX7uqdmAzdXnsajg8bMUmZX2kNC0?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1O1rnJRE2jbwHbOVgweu-ADM3-hdzbTt7.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:06.855Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.068Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_nhs___898___12tr",
+    "projectCode": "NHS - 898 - 12TR",
+    "title": "Cho thuê Căn hộ Đỗ Bí, Q. Ngũ Hành Sơn - NHS - 898 - 12TR (Phòng 202, 2PN)",
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "project": "Đỗ Bí",
+    "address": "Đỗ Bí, Q. Ngũ Hành Sơn, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 40,
+    "price": 12000000,
+    "deposit": "2 tháng",
+    "fees": {
+      "electricity": "4k5/chữ",
+      "water": "200k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 202, 2PN",
+    "driveLink": "https://drive.google.com/drive/folders/1hFQpFsxJ3tKEmmnL_kTYSvGXgwHHr5h4?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1RknMW7qKwZyWnejHver-WA4QIwr76l54.jpg",
+      "/uploads/apartments/10fg82Mc6uwAL36247EyL0ccu6JUbfDvq.jpg",
+      "/uploads/apartments/1v5b8PdeIixpru-jXdpZEc9r73SsTmfHM.jpg",
+      "/uploads/apartments/1XHLchoHyVujB28QgAY0w_6RH5nnx3M_v.jpg",
+      "/uploads/apartments/1QfjpYTfijDcIAqjbsxXc66RxP2PH0Kmq.jpg",
+      "/uploads/apartments/1PtkHoyBawq4Yv1RpR4EQoLwuqbfnGD-o.jpg",
+      "/uploads/apartments/1tKmkiF44d0G6cPFyS5BCGyPQNspkMv2Q.jpg",
+      "/uploads/apartments/1KLQnIcL-yuORfwO0koG24kKOdui19pih.jpg",
+      "/uploads/apartments/1HrDUg8BvZmohJ1CHxqTG9EbL5aS1_F8M.jpg",
+      "/uploads/apartments/1kmRScliOui45z0j5d9SCjFSdqtxrTVoG.jpg",
+      "/uploads/apartments/1s0sad_YXfpCfxY4M4c0abPwl5dHSXK60.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:04.462Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.068Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_nhs___179",
+    "projectCode": "NHS - 179",
+    "title": "Cho thuê Căn hộ Hoàng Kế Viêm, Q. Ngũ Hành Sơn - NHS - 179 (Phòng 601, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Ngũ Hành Sơn",
+    "project": "Hoàng Kế Viêm",
+    "address": "Hoàng Kế Viêm, Q. Ngũ Hành Sơn, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 40,
+    "price": 10000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k5/chữ",
+      "water": "200k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 601, 1PN",
+    "driveLink": "https://drive.google.com/drive/folders/1RSnF_YVf8YU4uGib4yAhoAokedPeyxSa?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1-khC1HwyRfR-lJe84eVTRvTBOEPzumvA.jpg",
+      "/uploads/apartments/1kqXipTDI5pDVc3yUeuceWpHOhVehv7-t.jpg",
+      "/uploads/apartments/1fYMQe1qlO4Pbzt3-9lUrnu_rZ5Mx_9jc.jpg",
+      "/uploads/apartments/1Et7KUDM-Z14kuGEuTNQapy4MTXv7iIJU.jpg",
+      "/uploads/apartments/1YpPkPB-XP1_xf-ODLHF1DPX7F-iqLjYN.jpg",
+      "/uploads/apartments/1N8UzphTnzEiQmiQn1kfJcdq1bEoORIUb.jpg",
+      "/uploads/apartments/1imMy5dIBTDzlUZS3RNZaTfz4fm9mzRCt.jpg",
+      "/uploads/apartments/1CfcRd46ewDNK0NwXxr0NXlU6LfZwrW5n.jpg",
+      "/uploads/apartments/1V_2VAYGvjWl7QXTVIN3oqETHvzXZ0jld.jpg",
+      "/uploads/apartments/1pNwjMIHa7rHvUrHhmZmH-PDIoZrfNa2y.jpg",
+      "/uploads/apartments/1ssMdnWfpUZ7Oijy-lqaI2Ku82PxrO5UD.jpg",
+      "/uploads/apartments/12j40Lf7wWDtsExmwm16YiohgY7P3azI7.jpg",
+      "/uploads/apartments/1eL7_gQQYmt9TEr0WFKQJ2PI0PeQ0uJcD.jpg",
+      "/uploads/apartments/1k3gORPfV_HulbaDkWkycAP6bWYw_Ew2C.jpg",
+      "/uploads/apartments/1cUpERAUVEJaLmmkRg8AD7lCIM6XW-4Sx.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:08.461Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T10:37:56.068Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_hx___991",
+    "projectCode": "HX - 991",
+    "title": "Cho thuê Studio Trần Nam Trung, Q. Hải Châu - HX - 991 (Phòng 402)",
+    "city": "Đà Nẵng",
+    "district": "Hải Châu",
+    "project": "Trần Nam Trung",
+    "address": "Trần Nam Trung, Q. Hải Châu, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 40,
+    "price": 6500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "160k/người",
+      "management": "Đã bao gồm trong tiền nước",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng",
+      "thang bộ"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 402",
+    "driveLink": "https://drive.google.com/drive/folders/1AkGg3pJj-rGLOgKtYG7hPml7YA9ZAGwA?usp=drive_link",
+    "images": [
+      "/uploads/apartments/1M6uDw4Ea8Y9DBPDVp4AWM7x4IXKSrvXV.jpg"
+    ],
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:10.081Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-25T11:56:12.088Z",
+    "hasRealPhotos": true
+  },
+  {
+    "id": "apt_sheet_st___787",
+    "projectCode": "ST - 787",
+    "title": "Cho thuê Căn hộ Hồ Nghinh, Q. Sơn Trà - ST - 787 (Tầng 2, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Hồ Nghinh",
+    "address": "Hồ Nghinh, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 35,
+    "price": 8500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "200k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Tầng 2, 1PN",
+    "driveLink": "",
+    "images": [],
+    "hasRealPhotos": false,
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:10.081Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-26T00:56:02.863Z"
+  },
+  {
+    "id": "apt_sheet_st___766",
+    "projectCode": "ST - 766",
+    "title": "Cho thuê Căn hộ Phó Đức Chính, Q. Sơn Trà - ST - 766 (1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Phó Đức Chính",
+    "address": "Phó Đức Chính, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 45,
+    "price": 9800000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k3/chữ",
+      "water": "100k",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "1PN",
+    "driveLink": "",
+    "images": [],
+    "hasRealPhotos": false,
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:10.081Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-26T00:56:02.863Z"
+  },
+  {
+    "id": "apt_sheet_st___791",
+    "projectCode": "ST - 791",
+    "title": "Cho thuê Studio Trần Sâm, Q. Sơn Trà - ST - 791",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Trần Sâm",
+    "address": "Trần Sâm, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "Studio",
+    "area": 45,
+    "price": 8000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k",
+      "management": "100k/phòng",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "",
+    "driveLink": "",
+    "images": [],
+    "hasRealPhotos": false,
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:10.081Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-26T00:56:02.863Z"
+  },
+  {
+    "id": "apt_sheet_st___826___10tr",
+    "projectCode": "ST - 826 - 10TR",
+    "title": "Cho thuê Căn hộ Nguyễn Thông, Q. Sơn Trà - ST - 826 - 10TR (Tầng 2, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Nguyễn Thông",
+    "address": "Nguyễn Thông, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 45,
+    "price": 10000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k5/chữ",
+      "water": "100k",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Tầng 2, 1PN",
+    "driveLink": "",
+    "images": [],
+    "hasRealPhotos": false,
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:10.081Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-26T00:56:02.863Z"
+  },
+  {
+    "id": "apt_sheet_st___826___9tr",
+    "projectCode": "ST - 826 - 9TR",
+    "title": "Cho thuê Căn hộ Nguyễn Công Trứ, Q. Sơn Trà - ST - 826 - 9TR (1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Nguyễn Công Trứ",
+    "address": "Nguyễn Công Trứ, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 45,
+    "price": 9000000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "100k",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "1PN",
+    "driveLink": "",
+    "images": [],
+    "hasRealPhotos": false,
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:10.081Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-26T00:56:02.863Z"
+  },
+  {
+    "id": "apt_sheet_st___855",
+    "projectCode": "ST - 855",
+    "title": "Cho thuê Căn hộ Trưng Nữ Vương, Q. Sơn Trà - ST - 855 (Tầng 2 - P204, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Trưng Nữ Vương",
+    "address": "Trưng Nữ Vương, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 40,
+    "price": 5500000,
+    "deposit": "1 tháng",
+    "fees": {
+      "electricity": "3k8/chữ",
+      "water": "100k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng"
+    ],
+    "targetTenant": "Tất cả khách hàng / Khách nước ngoài",
+    "note": "Tầng 2 - P204, 1PN",
+    "driveLink": "",
+    "images": [],
+    "hasRealPhotos": false,
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:10.081Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-26T00:56:02.863Z"
+  },
+  {
+    "id": "apt_sheet_st___795",
+    "projectCode": "ST - 795",
+    "title": "Cho thuê Căn hộ Dương Đình Nghệ, Q. Sơn Trà - ST - 795 (Phòng 1103, 1PN)",
+    "city": "Đà Nẵng",
+    "district": "Sơn Trà",
+    "project": "Dương Đình Nghệ",
+    "address": "Dương Đình Nghệ, Q. Sơn Trà, TP. Đà Nẵng",
+    "roomType": "1PN",
+    "area": 40,
+    "price": 11500000,
+    "deposit": "2 tháng",
+    "fees": {
+      "electricity": "4k/chữ",
+      "water": "150k/người",
+      "management": "Theo tòa nhà",
+      "parking": "Miễn phí / Theo quy định tòa nhà"
+    },
+    "furnitureStatus": "Full nội thất (máy lạnh, bàn ăn, tivi, tủ lạnh)",
+    "features": [
+      "Máy giặt riêng"
+    ],
+    "targetTenant": "Cho người nước ngoài",
+    "note": "Phòng 1103, 1PN",
+    "driveLink": "",
+    "images": [],
+    "hasRealPhotos": false,
+    "contact": {
+      "agentName": "Ban Quản Lý / Chuyên Viên BĐS Đà Nẵng",
+      "phone": "0905123456",
+      "zalo": "0905123456"
+    },
+    "status": "AVAILABLE",
+    "syncedAt": "2026-09-26T00:56:10.081Z",
+    "postCount": 0,
+    "lastPostedAt": null,
+    "createdAt": "2026-09-26T00:56:02.863Z"
+  }
+]

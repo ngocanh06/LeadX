@@ -1,0 +1,80 @@
+[
+  {
+    "id": "rule_account_error_pause",
+    "name": "Tự Động Tạm Dừng Tài Khoản Khi Lỗi Liên Tiếp",
+    "description": "Ngắt tài khoản khỏi Hàng đợi khi gặp lỗi đăng bài liên tiếp để bảo vệ nick khỏi Checkpoint",
+    "enabled": true,
+    "trigger": "ACCOUNT_CONSECUTIVE_ERRORS",
+    "condition": {
+      "field": "consecutiveErrors",
+      "operator": ">=",
+      "value": 3
+    },
+    "action": {
+      "type": "PAUSE_ACCOUNT",
+      "params": {
+        "notifyUser": true,
+        "markReviewRequired": true
+      }
+    },
+    "createdAt": "2026-10-02T10:09:16.992Z"
+  },
+  {
+    "id": "rule_duplicate_content_skip",
+    "name": "Chống Trùng Lặp Nội Dung Đăng Bài",
+    "description": "Bỏ qua hoặc cảnh báo nếu nội dung bài đăng trùng lặp trên 85% với bài vừa đăng gần nhất",
+    "enabled": true,
+    "trigger": "BEFORE_POST_ENQUEUE",
+    "condition": {
+      "field": "similarityRatio",
+      "operator": ">=",
+      "value": 0.85
+    },
+    "action": {
+      "type": "SKIP_OR_SPIN_CONTENT",
+      "params": {
+        "autoSpin": true
+      }
+    },
+    "createdAt": "2026-10-02T10:09:16.992Z"
+  },
+  {
+    "id": "rule_auto_crm_gold_lead",
+    "name": "Tự Động Đẩy Lead Vàng Vào CRM Pipeline",
+    "description": "Tự động tạo bản ghi CRM và kích hoạt cảnh báo khi phát hiện bài tuyển gấp hoặc có điểm chất lượng >= 80",
+    "enabled": true,
+    "trigger": "LEAD_SCORE_EVALUATED",
+    "condition": {
+      "field": "score",
+      "operator": ">=",
+      "value": 80
+    },
+    "action": {
+      "type": "CREATE_CRM_LEAD",
+      "params": {
+        "initialStage": "QUALIFIED",
+        "sendNotification": true
+      }
+    },
+    "createdAt": "2026-10-02T10:09:16.992Z"
+  },
+  {
+    "id": "rule_post_retry_on_failure",
+    "name": "Tự Động Thử Lại Bài Lỗi Tạm Thời",
+    "description": "Nếu bài đăng thất bại do mạng hoặc timeout, tự động thử lại tối đa 3 lần với thời gian chờ dãn cách",
+    "enabled": true,
+    "trigger": "POST_FAILED",
+    "condition": {
+      "field": "retryCount",
+      "operator": "<",
+      "value": 3
+    },
+    "action": {
+      "type": "RETRY_JOB_WITH_BACKOFF",
+      "params": {
+        "backoffMinutes": 5
+      }
+    },
+    "createdAt": "2026-10-02T10:09:16.992Z"
+  }
+]

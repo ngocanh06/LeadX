@@ -1,0 +1,12 @@
+{
+  "Nhân viên Kinh doanh (Sales Online)": {
+    "positionName": "Nhân viên Kinh doanh (Sales Online)",
+    "targetCv": 5,
+    "receivedCv": 0,
+    "maxPostsCap": 15,
+    "autoStopEnabled": true,
+    "costEstimate": 0,
+    "notes": "",
+    "updatedAt": "2026-09-08T14:11:42.498Z"
+  }
+}
