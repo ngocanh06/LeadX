@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cand_1793373461719_o17yr",
+    "name": "Nguyễn Văn A (Updated)",
+    "phone": "0905123456",
+    "phoneNormalized": "0905123456",
+    "email": "nguyenvana@gmail.com",
+    "skills": [
+      "Telesale",
+      "Giao tiếp",
+      "CRM",
+      "Marketing"
+    ],
+    "experience_years": 3,
+    "expected_salary": 14,
+    "location": "Hà Nội",
+    "position_applied": "Chuyên viên Telesale",
+    "source_type": "landing_page",
+    "source_url": "",
+    "consent_status": true,
+    "collected_at": "2026-10-30T15:17:41.719Z",
+    "updated_at": "2026-11-07T10:43:35.586Z",
+    "status": "ACTIVE",
+    "approval_status": "PENDING_REVIEW"
+  }
+]

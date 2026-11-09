@@ -1188,6 +1188,10 @@ function switchTab(tabId) {
       title: '<i class="fa-solid fa-filter text-primary"></i> Quản Lý Lead &amp; Quy Trình Tiếp Cận',
       subtitle: 'Bảng dữ liệu Lead cào được, bóc tách NLP, chống trùng công ty và quy trình Kanban 8 bước tiếp cận'
     },
+    'behavior-scraper-tab': {
+      title: '<i class="fa-solid fa-radar text-primary"></i> Cào Hành Vi & Quét Bình Luận (Facebook Behavior & Comment Scraper)',
+      subtitle: 'Trích xuất hành vi người dùng, quét bình luận mục tiêu và phân tích ý định (Intent Classification) tự động'
+    },
     'customers-tab': {
       title: '<i class="fa-solid fa-id-card-clip text-success"></i> Quản Lý Khách Hàng CRM (Theo Chuẩn Google Sheets)',
       subtitle: 'Bảng quản lý khách hàng 10 mã màu, hồ sơ doanh nghiệp 360°, nhiều đầu mối liên hệ và theo dõi sức khỏe khách hàng'

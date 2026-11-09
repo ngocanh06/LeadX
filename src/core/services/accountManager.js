@@ -205,7 +205,7 @@ class AccountManager {
   /**
    * Thêm tài khoản mới vào hệ thống
    */
-  addAccount({ name, cookieString, targetType = "GROUP", metaToken = "", fanpageNotes = "" }) {
+  addAccount({ name, cookieString, targetType = "GROUP", metaToken = "", fanpageNotes = "", proxy = "" }) {
     if (!name || !name.trim()) {
       throw new Error('Vui lòng nhập Tên gợi nhớ cho tài khoản (Ví dụ: Nick Tuyển Dụng 2).');
     }

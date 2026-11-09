@@ -84,6 +84,10 @@
               <div class="fb-app-icon bg-warning"><i class="fa-solid fa-list-check"></i></div>
               <span>Quét Kiểm Tra Nhóm</span>
             </div>
+            <div class="fb-app-item" onclick="switchTab('behavior-scraper-tab'); toggleFbAppsMenu(false);">
+              <div class="fb-app-icon bg-primary"><i class="fa-solid fa-radar"></i></div>
+              <span>Cào Hành Vi & Bình Luận</span>
+            </div>
           </div>
         </div>
       </div>
@@ -297,6 +301,10 @@
             </a>
             <a href="javascript:void(0)" class="nav-item nav-sub-item" id="subnav-lead-radar" onclick="switchLeadModuleTab('lead-radar-tab')">
               <span>Radar Dò Tìm Lead</span>
+            </a>
+            <a href="javascript:void(0)" class="nav-item nav-sub-item" id="subnav-behavior-scraper" onclick="switchTab('behavior-scraper-tab')">
+              <span>Cào Hành Vi & Bình Luận</span>
+              <span class="leadx-pro-badge" style="font-size: 0.58rem; margin-left: auto; padding: 1px 5px; background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4); border-radius: 4px;">LIVE</span>
             </a>
           </div>
         </div>
@@ -2896,9 +2904,7 @@
               <button class="btn-tool" id="btn-tool-scrape-groups" onclick="openScrapeGroupsModal()" title="Tìm kiếm & Cào nhóm Facebook tự động theo từ khóa / tỉnh thành">
                 <i class="fa-solid fa-magnifying-glass-location" style="color: #06b6d4;"></i> <span class="btn-tool-label">Quét Nhóm Tự Động</span>
               </button>
-              <button class="btn-tool" id="btn-tool-scrape-leads" onclick="openScrapeLeadsModal()" title="Cào bài viết tuyển dụng & bóc tách Lead Vàng từ các nhóm mục tiêu">
-                <i class="fa-solid fa-bolt" style="color: #f59e0b;"></i> <span class="btn-tool-label">Cào Lead Tuyển Dụng</span>
-              </button>
+
               <button class="btn-tool" id="btn-tool-auto-join" onclick="openAutoJoinModal()" title="Tự động xin vào nhóm cho Nick mới & tự trả lời câu hỏi khảo sát">
                 <i class="fa-solid fa-user-plus" style="color: #f59e0b;"></i> <span class="btn-tool-label">Tự Động Xin Vào Nhóm</span>
               </button>
@@ -5994,6 +6000,241 @@
           </div>
           <div class="terminal-view" id="terminal-logs">
             <div class="log-line info">[00:00:00] Khởi tạo hệ thống FB Group Enterprise Engine sẵn sàng...</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: CÀO HÀNH VI & QUÉT BÌNH LUẬN (BEHAVIOR SCRAPER) -->
+      <section id="behavior-scraper-tab" class="tab-content">
+        <div class="panel" style="margin-bottom: 20px;">
+          <div class="panel-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+            <div>
+              <h2 style="font-size: 1.2rem; margin: 0; display: flex; align-items: center; gap: 10px;">
+                <i class="fa-solid fa-radar text-primary"></i> Phân Hệ Cào Hành Vi &amp; Quét Bình Luận (Behavior &amp; Comment Scraper)
+              </h2>
+              <p style="font-size: 0.8rem; color: var(--text-muted); margin: 4px 0 0 0;">
+                Tự động quét hội nhóm, tìm bài viết theo từ khóa và bóc tách profile bình luận có ý định mua hàng / tìm việc (Intent AI)
+              </p>
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <span id="behavior-status-pill" class="badge-pill secondary" style="font-weight: 700; padding: 6px 14px; font-size: 0.8rem;">
+                <i class="fa-solid fa-circle-dot"></i> IDLE
+              </span>
+            </div>
+          </div>
+
+          <!-- MODULE SUB-TABS -->
+          <div class="lead-module-tabs" style="display: flex; gap: 10px; border-bottom: 1px solid var(--border-color); padding: 0 20px 12px 20px; margin-top: 15px;">
+            <button class="lead-tab-link active" onclick="switchBehaviorSubTab('engine', this)">
+              <i class="fa-solid fa-sliders"></i> Điều Khiển &amp; Cấu Hình
+            </button>
+            <button class="lead-tab-link" onclick="switchBehaviorSubTab('results', this)">
+              <i class="fa-solid fa-address-book"></i> Kho Lead Bình Luận (<span id="behavior-tab-count">0</span>)
+            </button>
+            <button class="lead-tab-link" onclick="switchBehaviorSubTab('analytics', this)">
+              <i class="fa-solid fa-chart-pie"></i> Thống Kê &amp; Ý Định AI
+            </button>
+          </div>
+        </div>
+
+        <!-- SUBTAB 1: ENGINE & TERMINAL -->
+        <div id="behavior-subtab-engine" style="display: block;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start;">
+            <!-- CONFIG PANEL -->
+            <div class="panel" style="margin-bottom: 0;">
+              <h3 style="font-size: 0.95rem; margin-top: 0; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+                <i class="fa-solid fa-gear text-primary"></i> Tham Số &amp; Nguồn Quét Hành Vi
+              </h3>
+              
+              <div style="margin-bottom: 14px;">
+                <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; color: var(--text-main);">
+                  <i class="fa-solid fa-link"></i> Link Bài Viết / Group URL / Từ Khóa Mục Tiêu:
+                </label>
+                <input type="text" id="behavior-target-url" class="form-control" placeholder="Dán link bài viết Facebook hoặc URL nhóm..." style="width: 100%; padding: 10px 12px; font-size: 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main);">
+                <small style="font-size: 0.74rem; color: var(--text-muted); display: block; margin-top: 4px;">Ví dụ: https://www.facebook.com/groups/tuyendungbds/posts/98214567/</small>
+              </div>
+
+              <div style="margin-bottom: 14px;">
+                <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; color: var(--text-main);">
+                  <i class="fa-solid fa-filter"></i> Bộ Lọc Từ Khóa Bài Viết / Bình Luận:
+                </label>
+                <input type="text" id="behavior-keywords" class="form-control" placeholder="tuyển dụng, lương, xin việc, khóa học (phân cách bằng dấu phẩy)..." style="width: 100%; padding: 10px 12px; font-size: 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main);">
+              </div>
+
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 18px;">
+                <div>
+                  <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; color: var(--text-main);">
+                    <i class="fa-solid fa-bullseye"></i> Bộ Lọc Ý Định (Intent):
+                  </label>
+                  <select id="behavior-intent-filter" class="form-control" style="width: 100%; padding: 9px 12px; font-size: 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main);">
+                    <option value="JOB_SEEKER">Ứng viên tìm việc / Gửi CV</option>
+                    <option value="COURSE_INTEREST">Quan tâm khóa học / Đăng ký</option>
+                    <option value="ALL">Tất cả bình luận tương tác</option>
+                  </select>
+                </div>
+                <div>
+                  <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; color: var(--text-main);">
+                    <i class="fa-solid fa-list-ol"></i> Giới Hạn Bình Luận:
+                  </label>
+                  <select id="behavior-limit-select" class="form-control" style="width: 100%; padding: 9px 12px; font-size: 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main);">
+                    <option value="50">50 bình luận</option>
+                    <option value="100">100 bình luận</option>
+                    <option value="200" selected>200 bình luận</option>
+                    <option value="500">500 bình luận</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- CONTROLS -->
+              <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center; padding-top: 10px; border-top: 1px solid var(--border-color);">
+                <button class="btn btn-primary" id="btn-behavior-start" onclick="startBehaviorScraper()" style="font-weight: 600; padding: 10px 18px;">
+                  <i class="fa-solid fa-play"></i> Bắt Đầu Cào
+                </button>
+                <button class="btn btn-warning" id="btn-behavior-pause" onclick="pauseBehaviorScraper()" disabled style="font-weight: 600; padding: 10px 16px;">
+                  <i class="fa-solid fa-pause"></i> Tạm Dừng
+                </button>
+                <button class="btn btn-success" id="btn-behavior-resume" onclick="resumeBehaviorScraper()" style="display: none; font-weight: 600; padding: 10px 16px;">
+                  <i class="fa-solid fa-play"></i> Tiếp Tục
+                </button>
+                <button class="btn btn-danger" id="btn-behavior-stop" onclick="stopBehaviorScraper()" disabled style="font-weight: 600; padding: 10px 16px;">
+                  <i class="fa-solid fa-stop"></i> Dừng Lại
+                </button>
+              </div>
+            </div>
+
+            <!-- LIVE TELEMETRY & TERMINAL -->
+            <div class="panel" style="margin-bottom: 0;">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                <h3 style="font-size: 0.95rem; margin: 0; display: flex; align-items: center; gap: 8px;">
+                  <i class="fa-solid fa-terminal text-primary"></i> Nhật Ký Hoạt Động &amp; Tiến Độ
+                </h3>
+                <div style="display: flex; gap: 8px;">
+                  <button class="btn btn-sm btn-outline" id="btn-terminal-autoscroll" onclick="toggleTerminalAutoScroll()" style="font-size: 0.74rem; color: #34d399;">
+                    <i class="fa-solid fa-lock"></i> Auto-Scroll: Bật
+                  </button>
+                  <button class="btn btn-sm btn-outline" onclick="clearBehaviorTerminal()" style="font-size: 0.74rem;">
+                    <i class="fa-solid fa-trash"></i> Xóa
+                  </button>
+                </div>
+              </div>
+
+              <!-- STATS ROW -->
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 12px;">
+                <div style="background: var(--bg-card); padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); text-align: center;">
+                  <span style="font-size: 0.72rem; color: var(--text-muted); display: block;">Bài Quét</span>
+                  <span id="stat-scraped-posts" style="font-size: 1.1rem; font-weight: 700; color: var(--text-main);">0 / 1</span>
+                </div>
+                <div style="background: var(--bg-card); padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); text-align: center;">
+                  <span style="font-size: 0.72rem; color: var(--text-muted); display: block;">Bình Luận</span>
+                  <span id="stat-scraped-comments" style="font-size: 1.1rem; font-weight: 700; color: var(--primary);">0</span>
+                </div>
+                <div style="background: var(--bg-card); padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); text-align: center;">
+                  <span style="font-size: 0.72rem; color: var(--text-muted); display: block;">Lead Thu Thập</span>
+                  <span id="stat-scraped-leads" style="font-size: 1.1rem; font-weight: 700; color: #34d399;">0</span>
+                </div>
+              </div>
+
+              <!-- PROGRESS BAR -->
+              <div style="margin-bottom: 12px;">
+                <div style="display: flex; justify-content: space-between; font-size: 0.76rem; color: var(--text-muted); margin-bottom: 4px;">
+                  <span>Tiến độ thực thi:</span>
+                  <span id="behavior-progress-text" style="font-weight: 600; color: var(--text-main);">0% (0 / 200)</span>
+                </div>
+                <div style="width: 100%; height: 8px; background: var(--border-color); border-radius: 4px; overflow: hidden;">
+                  <div id="behavior-progress-bar" style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--primary), #34d399); transition: width 0.3s ease;"></div>
+                </div>
+              </div>
+
+              <!-- TERMINAL BOX -->
+              <div id="behavior-terminal-logs" style="height: 240px; overflow-y: auto; padding: 12px; font-family: 'Fira Code', 'Consolas', monospace; font-size: 0.78rem; line-height: 1.6; color: #cbd5e1; background: #080c14; border-radius: var(--radius-sm); border: 1px solid #1e293b; scroll-behavior: smooth;">
+                <div class="terminal-line" style="color: #64748b;">[CONSOLE] Sẵn sàng thực thi cào hành vi bình luận Facebook...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUBTAB 2: RESULTS TABLE -->
+        <div id="behavior-subtab-results" style="display: none;">
+          <div class="panel" style="margin-bottom: 0;">
+            <div class="panel-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+              <div>
+                <h3 style="font-size: 0.95rem; margin: 0; display: flex; align-items: center; gap: 8px;">
+                  <i class="fa-solid fa-address-book text-primary"></i> Danh Sách Khách Hàng Tiềm Năng (Behavior Leads)
+                </h3>
+                <p style="font-size: 0.76rem; color: var(--text-muted); margin: 2px 0 0 0;">
+                  Bóc tách từ bình luận Facebook, phân loại ý định AI và đồng bộ sang CRM
+                </p>
+              </div>
+              <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+                <button class="btn btn-sm btn-primary" onclick="syncSelectedBehaviorLeadsToCrm()">
+                  <i class="fa-solid fa-cloud-arrow-up"></i> Đồng Bộ CRM Đã Chọn
+                </button>
+                <button class="btn btn-sm btn-secondary" onclick="exportBehaviorLeadsCsv()">
+                  <i class="fa-solid fa-file-csv"></i> Xuất CSV
+                </button>
+                <button class="btn btn-sm btn-outline text-danger" onclick="deleteSelectedBehaviorLeads()" title="Xóa các khách hàng đã chọn">
+                  <i class="fa-solid fa-trash"></i> Xóa Đã Chọn
+                </button>
+                <button class="btn btn-sm btn-outline text-danger" onclick="clearAllBehaviorLeads()" title="Xóa toàn bộ kho lead">
+                  <i class="fa-solid fa-trash-can"></i> Xóa Tất Cả
+                </button>
+              </div>
+            </div>
+
+            <div style="overflow-x: auto; margin-top: 14px;">
+              <table class="table" style="width: 100%; border-collapse: collapse; font-size: 0.82rem;">
+                <thead>
+                  <tr style="background: var(--bg-hover); color: var(--text-muted); text-align: left;">
+                    <th style="padding: 10px; width: 40px;"><input type="checkbox" id="behavior-select-all" onclick="toggleSelectAllBehaviorLeads(this)"></th>
+                    <th style="padding: 10px; min-width: 160px;">Khách Hàng / Profile</th>
+                    <th style="padding: 10px; min-width: 250px;">Nội Dung Bình Luận</th>
+                    <th style="padding: 10px; min-width: 200px;">Bài Viết Nguồn</th>
+                    <th style="padding: 10px; min-width: 120px;">Ý Định (Intent)</th>
+                    <th style="padding: 10px; width: 130px;" class="text-center">Thao Tác</th>
+                  </tr>
+                </thead>
+                <tbody id="behavior-results-tbody">
+                  <tr>
+                    <td colspan="6" class="text-center py-5" style="color: var(--text-muted);">
+                      <i class="fa-solid fa-folder-open fa-2x mb-2 text-primary" style="display: block; margin: 0 auto 8px;"></i>
+                      <span>Chưa có dữ liệu. Bấm nút "Tải Mẫu" hoặc chạy tiến trình cào hành vi để bắt đầu.</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUBTAB 3: ANALYTICS & INTENT AI -->
+        <div id="behavior-subtab-analytics" style="display: none;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div class="panel" style="margin-bottom: 0;">
+              <h3 style="font-size: 0.95rem; margin-top: 0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                <i class="fa-solid fa-chart-pie text-primary"></i> Phân Bố Ý Định Khách Hàng (Intent AI)
+              </h3>
+              <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 16px;">
+                Đo lường tỷ lệ các nhóm khách hàng quan tâm mua hàng, hỏi lương, gửi CV hoặc tìm hiểu khóa học.
+              </p>
+              <div style="height: 220px; display: flex; align-items: center; justify-content: center; background: var(--bg-card); border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                <div style="text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+                  <i class="fa-solid fa-chart-bar fa-2x mb-2 text-primary" style="display: block;"></i>
+                  Biểu đồ phân tích ý định sẽ hiển thị khi có dữ liệu cào hành vi.
+                </div>
+              </div>
+            </div>
+
+            <div class="panel" style="margin-bottom: 0;">
+              <h3 style="font-size: 0.95rem; margin-top: 0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                <i class="fa-solid fa-shield-halved text-success"></i> Chỉ Số An Toàn &amp; Tần Suất (Behavior Safety)
+              </h3>
+              <ul style="margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--text-main); line-height: 1.8;">
+                <li><strong>Giãn cách an toàn (Random Delay):</strong> 2.0s - 4.0s giữa các thao tác cuộn và trích xuất bình luận.</li>
+                <li><strong>Phát hiện Checkpoint / Login Wall:</strong> Tự động ngắt phiên bản và kích hoạt cờ cảnh báo khi Facebook yêu cầu xác thực.</li>
+                <li><strong>Chuẩn hóa Profile URL:</strong> Loại bỏ URL rác (watch, marketplace, pages), lưu chính xác profile cá nhân dạng `profile.php?id=...`.</li>
+                <li><strong>Đồng bộ CRM 1 chạm:</strong> Chuyển đổi trực tiếp các lead vàng từ bình luận thành khách hàng CRM tiềm năng.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -9711,6 +9952,7 @@ Tuyển Dụng Hà Nội | https://www.facebook.com/groups/tuyendunghn_real/ | H
     <script src="/js/industryAssets.js?v=1.0.0"></script>
     <script src="/js/marketingBrandProfiles.js?v=1.0.0"></script>
     <script src="/js/marketingContentStudio.js?v=1.0.0"></script>
+    <script src="/js/behaviorScraper.js?v=1.0.0"></script>
     <script src="/js/app.js?v=2.8.2"></script>
 </body>
 

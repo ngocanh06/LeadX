@@ -19,8 +19,9 @@ const groupPoster = require('../../../core/automation/groupPoster');
 const groupScraper = require('../automation/groupScraper');
 const groupJoiner = require('../automation/groupJoiner');
 const groupVerifier = require('../automation/groupVerifier');
-const engagementScanner = require('../automation/engagementScanner');
+const engagementScanner = require('../../../automation/engagementScanner');
 const postLeadScraper = require('../automation/postLeadScraper');
+const groupCommentScraper = require('../../../automation/groupCommentScraper');
 const scrapedJobsProvider = require('../services/scrapedJobsProvider');
 const scraperDataProvider = require('../services/scraperDataProvider');
 const scraperLiveSyncService = require('../services/scraperLiveSyncService');
@@ -382,6 +383,168 @@ router.post('/scraped/resume-scrape', (req, res) => {
   try {
     postLeadScraper.resume();
     res.json({ success: true, message: 'Đã tiếp tục tiến trình cào bài viết!' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+// === BEHAVIOR & COMMENT SCRAPER API ===
+
+router.post('/behavior-scraper/start-posts', async (req, res) => {
+  try {
+    const { postUrl, postUrls } = req.body;
+    const targetUrl = postUrl || (postUrls && postUrls[0]);
+    if (!targetUrl) {
+      return res.status(400).json({ success: false, message: 'Vui lòng cung cấp link bài viết Facebook!' });
+    }
+    if (groupCommentScraper.isScraping) {
+      return res.status(400).json({ success: false, message: 'Tiến trình cào bình luận đang chạy!' });
+    }
+
+    groupCommentScraper.startScraping({
+      targetUrl,
+      maxPosts: 1,
+      maxCommentsPerPost: 100
+    }).catch(err => {
+      logger.error(`[GroupCommentScraper Async Error] ${err.message}`);
+    });
+
+    res.json({
+      success: true,
+      message: 'Đã khởi chạy tiến trình quét bình luận bài viết!',
+      status: groupCommentScraper.getStatus()
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+router.post('/behavior-scraper/start-groups', async (req, res) => {
+  try {
+    const { groupUrls } = req.body;
+    const targetUrl = groupUrls && groupUrls[0];
+    if (!targetUrl) {
+      return res.status(400).json({ success: false, message: 'Vui lòng cung cấp danh sách link hội nhóm Facebook!' });
+    }
+    if (groupCommentScraper.isScraping) {
+      return res.status(400).json({ success: false, message: 'Tiến trình cào bình luận đang chạy!' });
+    }
+
+    groupCommentScraper.startScraping({
+      targetUrl,
+      maxPosts: 10,
+      maxCommentsPerPost: 50
+    }).catch(err => {
+      logger.error(`[GroupCommentScraper Groups Async Error] ${err.message}`);
+    });
+
+    res.json({
+      success: true,
+      message: `Đã khởi chạy tiến trình quét hội nhóm!`,
+      status: groupCommentScraper.getStatus()
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+router.get('/behavior-scraper/status', (req, res) => {
+  try {
+    res.json({
+      success: true,
+      data: groupCommentScraper.getStatus()
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+router.post('/behavior-scraper/pause', (req, res) => {
+  try {
+    groupCommentScraper.pause();
+    res.json({ success: true, message: 'Đã tạm dừng tiến trình cào bình luận!' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+router.post('/behavior-scraper/resume', (req, res) => {
+  try {
+    groupCommentScraper.resume();
+    res.json({ success: true, message: 'Đã tiếp tục tiến trình cào bình luận!' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+router.post('/behavior-scraper/stop', (req, res) => {
+  try {
+    groupCommentScraper.stop();
+    res.json({ success: true, message: 'Đã dừng tiến trình cào bình luận!' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+// === FACEBOOK GROUP COMMENT SCRAPER API ===
+router.post('/group-comments/start', async (req, res) => {
+  try {
+    const { targetUrl, maxPosts, maxCommentsPerPost } = req.body;
+    if (!targetUrl || !targetUrl.trim()) {
+      return res.status(400).json({ success: false, message: 'Vui lòng cung cấp link Facebook Group hoặc Link bài viết!' });
+    }
+    if (groupCommentScraper.isScraping) {
+      return res.status(400).json({ success: false, message: 'Tiến trình cào bình luận đang chạy!' });
+    }
+
+    groupCommentScraper.startScraping({
+      targetUrl,
+      maxPosts: maxPosts ? parseInt(maxPosts, 10) : 10,
+      maxCommentsPerPost: maxCommentsPerPost ? parseInt(maxCommentsPerPost, 10) : 50
+    }).catch(err => {
+      logger.error(`[GroupCommentScraper Async Error] ${err.message}`);
+    });
+
+    res.json({
+      success: true,
+      message: 'Đã khởi chạy tiến trình cào bình luận Facebook!',
+      status: groupCommentScraper.getStatus()
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+router.get('/group-comments/status', (req, res) => {
+  try {
+    res.json({ success: true, data: groupCommentScraper.getStatus() });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+router.post('/group-comments/pause', (req, res) => {
+  try {
+    groupCommentScraper.pause();
+    res.json({ success: true, message: 'Đã tạm dừng cào bình luận!' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+router.post('/group-comments/resume', (req, res) => {
+  try {
+    groupCommentScraper.resume();
+    res.json({ success: true, message: 'Đã tiếp tục cào bình luận!' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
+router.post('/group-comments/stop', (req, res) => {
+  try {
+    groupCommentScraper.stop();
+    res.json({ success: true, message: 'Đã dừng cào bình luận!' });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
