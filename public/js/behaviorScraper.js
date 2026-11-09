@@ -33,7 +33,11 @@ function switchBehaviorSubTab(subTabName, btnEl) {
   });
 
   if (subTabName === 'results') {
-    renderBehaviorResultsTable();
+    if ((behaviorState.results || []).length === 0) {
+      loadSavedBehaviorResults();
+    } else {
+      renderBehaviorResultsTable();
+    }
   }
 }
 
@@ -113,7 +117,6 @@ async function startBehaviorScraper() {
   behaviorState.targetUrl = targetUrlInput.value.trim();
   behaviorState.keywords = document.getElementById('behavior-keywords')?.value || '';
   behaviorState.limit = parseInt(document.getElementById('behavior-limit-select')?.value || '200', 10);
-  const intentFilter = document.getElementById('behavior-intent-filter-select')?.value || 'JOB_SEEKER';
 
   behaviorState.scrapedPostsCount = 0;
   behaviorState.scrapedCommentsCount = 0;
@@ -130,14 +133,14 @@ async function startBehaviorScraper() {
   document.getElementById('btn-behavior-resume').style.display = 'none';
   document.getElementById('btn-behavior-pause').style.display = 'inline-flex';
 
-  appendBehaviorTerminalLog(`Bắt đầu tiến trình Cào Hành Vi & Bình Luận cho URL: ${behaviorState.targetUrl}`, 'action');
+  appendBehaviorTerminalLog(`Bắt đầu tiến trình Cào Bình Luận cho URL: ${behaviorState.targetUrl}`, 'action');
 
   try {
     const isGroup = behaviorState.targetUrl.includes('/groups/') && !behaviorState.targetUrl.includes('/posts/') && !behaviorState.targetUrl.includes('/permalink/');
     const endpoint = isGroup ? '/api/behavior-scraper/start-groups' : '/api/behavior-scraper/start-posts';
     const payload = isGroup 
-      ? { groupUrls: [behaviorState.targetUrl], intentFilter, maxPostsPerGroup: Math.min(20, Math.ceil(behaviorState.limit / 10)), keywords: behaviorState.keywords }
-      : { postUrl: behaviorState.targetUrl, intentFilter };
+      ? { groupUrls: [behaviorState.targetUrl], maxPostsPerGroup: Math.min(20, Math.ceil(behaviorState.limit / 10)), keywords: behaviorState.keywords }
+      : { postUrl: behaviorState.targetUrl };
 
     const res = await fetch(endpoint, {
       method: 'POST',
@@ -278,14 +281,13 @@ function renderBehaviorResultsTable() {
 
   const results = behaviorState.results || [];
   if (results.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="7" class="text-center text-muted py-4">Chưa có dữ liệu lead bình luận nào được trích xuất. Hãy chạy quét hoặc nạp mẫu.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="5" class="text-center text-muted py-4">Chưa có dữ liệu bình luận nào. Hãy bấm "Tải Dữ Liệu Đã Lưu" hoặc chạy quét.</td></tr>`;
     return;
   }
 
   tbody.innerHTML = results.map((item, idx) => `
     <tr>
       <td class="text-center"><input type="checkbox" class="behavior-row-checkbox" value="${item.id}" ${behaviorState.selectedIds.has(item.id) ? 'checked' : ''} onchange="toggleBehaviorSelectRow('${item.id}', this)"></td>
-      <td class="text-center font-weight-bold">${idx + 1}</td>
       <td>
         <div class="font-weight-bold text-dark">${escapeHtml(item.name || 'Khách hàng')}</div>
         <a href="${item.profileUrl}" target="_blank" class="small text-primary" style="word-break: break-all;"><i class="fa-brands fa-facebook"></i> Mở Profile <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.65rem;"></i></a>
@@ -293,8 +295,9 @@ function renderBehaviorResultsTable() {
       <td>
         <div style="max-height: 70px; overflow-y: auto; font-size: 0.82rem; color: #334155;" title="${escapeHtml(item.commentText)}">${escapeHtml(item.commentText)}</div>
       </td>
-      <td><span class="badge-pill info" style="font-size: 0.7rem;">${escapeHtml(item.intent || 'JOB_SEEKER')}</span></td>
-      <td><span class="badge-pill secondary" style="font-size: 0.7rem;">${escapeHtml(item.status || 'NEW')}</span></td>
+      <td>
+        <a href="${item.postUrl || '#'}" target="_blank" class="small text-muted" style="word-break: break-all; max-width: 200px; display: inline-block;" title="${escapeHtml(item.postUrl || '')}">${escapeHtml(item.postUrl || 'Bài viết gốc')}</a>
+      </td>
       <td class="text-center">
         <button class="btn btn-sm btn-outline-danger" onclick="deleteBehaviorLead('${item.id}')" title="Xóa"><i class="fa-solid fa-trash"></i></button>
       </td>
@@ -305,6 +308,8 @@ function renderBehaviorResultsTable() {
 function updateBehaviorResultsCount() {
   const badge = document.getElementById('behavior-results-count-badge');
   if (badge) badge.innerText = `${(behaviorState.results || []).length} bản ghi`;
+  const tabBadge = document.getElementById('behavior-tab-count');
+  if (tabBadge) tabBadge.innerText = `${(behaviorState.results || []).length}`;
 }
 
 function toggleBehaviorSelectAll(masterEl) {
@@ -326,11 +331,11 @@ function toggleBehaviorSelectRow(id, cbEl) {
 async function syncBehaviorLeadsToCrm() {
   const results = behaviorState.results || [];
   if (results.length === 0) {
-    showToast('Chưa Có Dữ Liệu', 'Vui lòng cào hành vi bình luận hoặc nạp dữ liệu mẫu trước khi đồng bộ CRM!', 'warning');
+    showToast('Chưa Có Dữ Liệu', 'Vui lòng cào hoặc tải dữ liệu trước khi đồng bộ CRM!', 'warning');
     return;
   }
-  showToast('Đồng Bộ Thành Công', `Đã đồng bộ ${results.length} lead bình luận vào hệ thống CRM khách hàng.`, 'success', 4000);
-  appendBehaviorTerminalLog(`[CRM SYNC] Đồng bộ thành công ${results.length} lead bình luận sang CRM.`, 'success');
+  showToast('Đồng Bộ Thành Công', `Đã đồng bộ ${results.length} bình luận vào hệ thống CRM khách hàng.`, 'success', 4000);
+  appendBehaviorTerminalLog(`[CRM SYNC] Đồng bộ thành công ${results.length} bình luận sang CRM.`, 'success');
 }
 
 function exportBehaviorResultsCsv() {
@@ -339,9 +344,9 @@ function exportBehaviorResultsCsv() {
     showToast('Trống', 'Không có dữ liệu để xuất CSV.', 'warning');
     return;
   }
-  let csv = 'ID,Name,ProfileUrl,CommentText,Intent,Status\n';
+  let csv = 'ID,Name,ProfileUrl,CommentText,PostUrl,ScrapedAt\n';
   results.forEach(r => {
-    csv += `"${r.id}","${(r.name || '').replace(/"/g, '""')}","${r.profileUrl}","${(r.commentText || '').replace(/"/g, '""')}","${r.intent}","${r.status}"\n`;
+    csv += `"${r.id}","${(r.name || '').replace(/"/g, '""')}","${r.profileUrl}","${(r.commentText || '').replace(/"/g, '""')}","${r.postUrl || ''}","${r.scrapedAt || ''}"\n`;
   });
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
   const url = URL.createObjectURL(blob);
@@ -372,4 +377,28 @@ function clearAllBehaviorResults() {
   updateBehaviorResultsCount();
   showToast('Đã Làm Trống', 'Đã xóa toàn bộ kho lead bình luận.', 'success', 2000);
   appendBehaviorTerminalLog('[DELETE ALL] Đã làm trống kho lead bình luận.', 'error');
+}
+
+async function loadSavedBehaviorResults() {
+  try {
+    const res = await fetch('/api/behavior-scraper/results');
+    const data = await res.json();
+    if (data.success && Array.isArray(data.data)) {
+      behaviorState.results = data.data;
+      behaviorState.leadsFoundCount = data.data.length;
+      behaviorState.scrapedCommentsCount = data.data.length;
+      updateBehaviorProgressUI();
+      renderBehaviorResultsTable();
+      updateBehaviorResultsCount();
+      const badge = document.getElementById('behavior-tab-count');
+      if (badge) badge.innerText = data.data.length;
+      showToast('Đã Tải Dữ Liệu', `Đã tải thành công ${data.data.length} bình luận từ tệp lưu trữ.`, 'success', 3000);
+      appendBehaviorTerminalLog(`[LOAD] Đã tải thành công ${data.data.length} bình luận từ tệp lưu trữ.`, 'success');
+    } else {
+      showToast('Thông Báo', 'Không có dữ liệu lưu trữ nào.', 'info');
+    }
+  } catch (err) {
+    console.error('Error loading saved behavior results:', err);
+    showToast('Lỗi', 'Không thể tải dữ liệu bình luận đã lưu.', 'danger');
+  }
 }

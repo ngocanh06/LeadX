@@ -459,6 +459,30 @@ router.get('/behavior-scraper/status', (req, res) => {
   }
 });
 
+router.get('/behavior-scraper/results', (req, res) => {
+  try {
+    const filePath = path.resolve(config.rootDir, 'data/scraped_group_comments.json');
+    if (!fs.existsSync(filePath)) {
+      return res.json({ success: true, data: [] });
+    }
+    const raw = fs.readFileSync(filePath, 'utf8');
+    const items = JSON.parse(raw);
+    const formatted = items.map((item, idx) => ({
+      id: item.commentId || `comment_${idx}`,
+      name: item.authorName || 'Khách hàng',
+      profileUrl: item.profileUrl || '#',
+      commentText: item.commentText || '',
+      intent: item.intent || 'JOB_SEEKER',
+      status: item.status || 'NEW',
+      postUrl: item.postUrl || '',
+      scrapedAt: item.scrapedAt || ''
+    }));
+    res.json({ success: true, data: formatted });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
 router.post('/behavior-scraper/pause', (req, res) => {
   try {
     groupCommentScraper.pause();

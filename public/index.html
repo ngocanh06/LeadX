@@ -6031,9 +6031,6 @@
             <button class="lead-tab-link" onclick="switchBehaviorSubTab('results', this)">
               <i class="fa-solid fa-address-book"></i> Kho Lead Bình Luận (<span id="behavior-tab-count">0</span>)
             </button>
-            <button class="lead-tab-link" onclick="switchBehaviorSubTab('analytics', this)">
-              <i class="fa-solid fa-chart-pie"></i> Thống Kê &amp; Ý Định AI
-            </button>
           </div>
         </div>
 
@@ -6061,28 +6058,16 @@
                 <input type="text" id="behavior-keywords" class="form-control" placeholder="tuyển dụng, lương, xin việc, khóa học (phân cách bằng dấu phẩy)..." style="width: 100%; padding: 10px 12px; font-size: 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main);">
               </div>
 
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 18px;">
-                <div>
-                  <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; color: var(--text-main);">
-                    <i class="fa-solid fa-bullseye"></i> Bộ Lọc Ý Định (Intent):
-                  </label>
-                  <select id="behavior-intent-filter" class="form-control" style="width: 100%; padding: 9px 12px; font-size: 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main);">
-                    <option value="JOB_SEEKER">Ứng viên tìm việc / Gửi CV</option>
-                    <option value="COURSE_INTEREST">Quan tâm khóa học / Đăng ký</option>
-                    <option value="ALL">Tất cả bình luận tương tác</option>
-                  </select>
-                </div>
-                <div>
-                  <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; color: var(--text-main);">
-                    <i class="fa-solid fa-list-ol"></i> Giới Hạn Bình Luận:
-                  </label>
-                  <select id="behavior-limit-select" class="form-control" style="width: 100%; padding: 9px 12px; font-size: 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main);">
-                    <option value="50">50 bình luận</option>
-                    <option value="100">100 bình luận</option>
-                    <option value="200" selected>200 bình luận</option>
-                    <option value="500">500 bình luận</option>
-                  </select>
-                </div>
+              <div style="margin-bottom: 18px;">
+                <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; color: var(--text-main);">
+                  <i class="fa-solid fa-list-ol"></i> Giới Hạn Bình Luận:
+                </label>
+                <select id="behavior-limit-select" class="form-control" style="width: 100%; padding: 9px 12px; font-size: 0.85rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main);">
+                  <option value="50">50 bình luận</option>
+                  <option value="100">100 bình luận</option>
+                  <option value="200" selected>200 bình luận</option>
+                  <option value="500">500 bình luận</option>
+                </select>
               </div>
 
               <!-- CONTROLS -->
@@ -6166,8 +6151,8 @@
                 </p>
               </div>
               <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
-                <button class="btn btn-sm btn-primary" onclick="syncSelectedBehaviorLeadsToCrm()">
-                  <i class="fa-solid fa-cloud-arrow-up"></i> Đồng Bộ CRM Đã Chọn
+                <button class="btn btn-sm btn-outline-primary" onclick="loadSavedBehaviorResults()">
+                  <i class="fa-solid fa-folder-open"></i> Tải Dữ Liệu Đã Lưu
                 </button>
                 <button class="btn btn-sm btn-secondary" onclick="exportBehaviorLeadsCsv()">
                   <i class="fa-solid fa-file-csv"></i> Xuất CSV
@@ -6189,51 +6174,18 @@
                     <th style="padding: 10px; min-width: 160px;">Khách Hàng / Profile</th>
                     <th style="padding: 10px; min-width: 250px;">Nội Dung Bình Luận</th>
                     <th style="padding: 10px; min-width: 200px;">Bài Viết Nguồn</th>
-                    <th style="padding: 10px; min-width: 120px;">Ý Định (Intent)</th>
                     <th style="padding: 10px; width: 130px;" class="text-center">Thao Tác</th>
                   </tr>
                 </thead>
                 <tbody id="behavior-results-tbody">
                   <tr>
-                    <td colspan="6" class="text-center py-5" style="color: var(--text-muted);">
+                    <td colspan="5" class="text-center py-5" style="color: var(--text-muted);">
                       <i class="fa-solid fa-folder-open fa-2x mb-2 text-primary" style="display: block; margin: 0 auto 8px;"></i>
-                      <span>Chưa có dữ liệu. Bấm nút "Tải Mẫu" hoặc chạy tiến trình cào hành vi để bắt đầu.</span>
+                      <span>Chưa có dữ liệu. Bấm nút "Tải Dữ Liệu Đã Lưu" hoặc chạy tiến trình cào để bắt đầu.</span>
                     </td>
                   </tr>
                 </tbody>
               </table>
-            </div>
-          </div>
-        </div>
-
-        <!-- SUBTAB 3: ANALYTICS & INTENT AI -->
-        <div id="behavior-subtab-analytics" style="display: none;">
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-            <div class="panel" style="margin-bottom: 0;">
-              <h3 style="font-size: 0.95rem; margin-top: 0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
-                <i class="fa-solid fa-chart-pie text-primary"></i> Phân Bố Ý Định Khách Hàng (Intent AI)
-              </h3>
-              <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 16px;">
-                Đo lường tỷ lệ các nhóm khách hàng quan tâm mua hàng, hỏi lương, gửi CV hoặc tìm hiểu khóa học.
-              </p>
-              <div style="height: 220px; display: flex; align-items: center; justify-content: center; background: var(--bg-card); border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
-                <div style="text-align: center; color: var(--text-muted); font-size: 0.85rem;">
-                  <i class="fa-solid fa-chart-bar fa-2x mb-2 text-primary" style="display: block;"></i>
-                  Biểu đồ phân tích ý định sẽ hiển thị khi có dữ liệu cào hành vi.
-                </div>
-              </div>
-            </div>
-
-            <div class="panel" style="margin-bottom: 0;">
-              <h3 style="font-size: 0.95rem; margin-top: 0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
-                <i class="fa-solid fa-shield-halved text-success"></i> Chỉ Số An Toàn &amp; Tần Suất (Behavior Safety)
-              </h3>
-              <ul style="margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--text-main); line-height: 1.8;">
-                <li><strong>Giãn cách an toàn (Random Delay):</strong> 2.0s - 4.0s giữa các thao tác cuộn và trích xuất bình luận.</li>
-                <li><strong>Phát hiện Checkpoint / Login Wall:</strong> Tự động ngắt phiên bản và kích hoạt cờ cảnh báo khi Facebook yêu cầu xác thực.</li>
-                <li><strong>Chuẩn hóa Profile URL:</strong> Loại bỏ URL rác (watch, marketplace, pages), lưu chính xác profile cá nhân dạng `profile.php?id=...`.</li>
-                <li><strong>Đồng bộ CRM 1 chạm:</strong> Chuyển đổi trực tiếp các lead vàng từ bình luận thành khách hàng CRM tiềm năng.</li>
-              </ul>
             </div>
           </div>
         </div>
