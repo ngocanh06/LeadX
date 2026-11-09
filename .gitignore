@@ -6,3 +6,5 @@ tests/debug_scripts/
 node_modules/
 *.log
 .env
+.opencode/
+ai/
