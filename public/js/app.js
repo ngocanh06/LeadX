@@ -1593,7 +1593,7 @@ function renderSheetTable() {
     return;
   }
 
-  state.filteredJobs.forEach((job) => {
+  state.filteredJobs.forEach((job, index) => {
     const tr = document.createElement('tr');
     const customBadge = (job.source === 'LeadX App') 
       ? `<span class="badge-pill success" style="font-size: 0.68rem; margin-top: 3px; display: inline-flex; align-items: center; gap: 4px; padding: 2px 6px;"><i class="fa-solid fa-cloud-arrow-up"></i> Thêm từ App</span>` 
@@ -1626,6 +1626,9 @@ function renderSheetTable() {
         <button class="btn btn-sm btn-primary" onclick="selectJobForCampaign('${job.id}')" title="Chọn tin tuyển dụng này để tiến hành đăng nhóm">
           <i class="fa-solid fa-paper-plane"></i> Chọn Đăng
         </button>
+        <button class="btn btn-sm btn-danger" onclick="deleteSheetJob(${index})" title="Xóa việc làm khỏi danh sách và Google Sheets">
+          <i class="fa-solid fa-trash"></i>
+        </button>
       </td>
     `;
     tbody.appendChild(tr);
@@ -1641,6 +1644,52 @@ function filterSheetJobs() {
     (job.industry && job.industry.toLowerCase().includes(q))
   );
   renderSheetTable();
+}
+
+async function deleteSheetJob(index) {
+  const job = state.filteredJobs[index];
+  if (!job) return;
+
+  const confirmMessage = job.source === 'LeadX App'
+    ? `Xóa việc làm "${job.title}" của ${job.company} khỏi LeadX?`
+    : `Xóa việc làm "${job.title}" của ${job.company} khỏi Google Sheets và LeadX?`;
+  if (!confirm(confirmMessage)) return;
+
+  try {
+    const response = await fetch('/api/sheet/jobs', {
+      method: 'DELETE',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        title: job.title,
+        company: job.company,
+        location: job.province || job.location || '',
+        salary: job.salary || '',
+        sheetMatch: job.sheetMatch,
+        source: job.source || 'Google Sheets'
+      })
+    });
+    const responseText = await response.text();
+    let result;
+    try {
+      result = JSON.parse(responseText);
+    } catch (parseError) {
+      if (response.status === 404) {
+        throw new Error('Máy chủ LeadX chưa nạp API xóa việc làm. Hãy khởi động lại ứng dụng rồi thử lại.');
+      }
+      throw new Error(`Máy chủ trả về phản hồi không hợp lệ (HTTP ${response.status}).`);
+    }
+
+    if (!response.ok || !result.success) {
+      showToast('Không thể xóa', result.message || 'Xóa việc làm thất bại.', 'error', 6000);
+      return;
+    }
+
+    showToast('Đã xóa việc làm', result.message, 'success', 5000);
+    appendTerminalLog(`[JOB DELETED] ${job.title} - ${job.company} (${result.syncedToSheet ? 'Đã đồng bộ Google Sheets' : 'Đã xóa tại LeadX'})`, 'success');
+    await loadGoogleSheets(true);
+  } catch (err) {
+    showToast('Lỗi kết nối', `Không thể xóa việc làm: ${err.message}`, 'error', 6000);
+  }
 }
 
 // =========================================================
@@ -8232,7 +8281,7 @@ function renderAccountsTab(accounts, currentId) {
           ${acc.proxy ? `
             <i class="fa-solid fa-shield-halved text-success" style="font-size: 0.85rem;" title="Đã có Proxy bảo vệ"></i>
             <span style="color: var(--text-muted); font-size: 0.72rem;">Proxy:</span>
-            <strong style="font-family: monospace; color: #059669;" title="${escapeHtml(acc.proxy)}">${escapeHtml(formatProxyDisplay(acc.proxy))}</strong>
+            <strong style="font-family: monospace; color: #059669;">${escapeHtml(formatProxyDisplay(acc.proxy))}</strong>
           ` : `
             <i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; font-size: 0.85rem;" title="Chưa gán Proxy, đang dùng IP mạng nhà"></i>
             <span style="color: var(--text-muted); font-size: 0.72rem;">Mạng:</span>
@@ -8348,9 +8397,9 @@ async function testProxyInput(mode) {
         feedbackEl.style.background = 'rgba(16, 185, 129, 0.12)';
         feedbackEl.style.color = '#059669';
         feedbackEl.style.border = '1px solid rgba(16, 185, 129, 0.35)';
-        feedbackEl.innerHTML = `<i class="fa-solid fa-circle-check"></i> <strong>Proxy Sống Tốt!</strong> IP ra ngoài: <span style="font-family: monospace; font-weight: bold;">${data.ip}</span> (Độ trễ: ${data.latencyMs}ms). Đã ẩn an toàn IP thật.`;
+        feedbackEl.innerHTML = `<i class="fa-solid fa-circle-check"></i> <strong>Proxy Sống Tốt!</strong> IP ra ngoài: <span style="font-family: monospace; font-weight: bold;">${data.ip}</span> (Độ trễ: ${data.latency}ms). Đã ẩn an toàn IP thật.`;
       }
-      showToast('Proxy hoạt động!', `IP ra ngoài: ${data.ip} (${data.latencyMs}ms)`, 'success');
+      showToast('Proxy hoạt động!', `IP ra ngoài: ${data.ip} (${data.latency}ms)`, 'success');
     } else {
       if (feedbackEl) {
         feedbackEl.style.display = 'block';
@@ -13182,10 +13231,40 @@ async function saveSheetConfig() {
 }
 
 function copyAppsScriptCode() {
-  const code = `function doPost(e) {
+  const code = `function doGet(e) {
+  return ContentService.createTextOutput(JSON.stringify({
+    status: 'success',
+    capabilities: ['add', 'delete']
+  })).setMimeType(ContentService.MimeType.JSON);
+}
+
+function doPost(e) {
   try {
     var data = JSON.parse(e.postData.contents);
     var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    if (data.action === 'delete') {
+      var match = data.match || {};
+      var values = sheet.getDataRange().getDisplayValues();
+      var normalize = function(value) { return String(value || '').trim().toLowerCase(); };
+      var deleted = 0;
+      for (var row = values.length - 1; row >= 1; row--) {
+        var matches = normalize(values[row][1]) === normalize(match.title) &&
+          normalize(values[row][2]) === normalize(match.company) &&
+          (!match.location || normalize(values[row][3]) === normalize(match.location)) &&
+          (!match.salary || normalize(values[row][4]) === normalize(match.salary));
+        if (matches) {
+          sheet.deleteRow(row + 1);
+          deleted++;
+          break;
+        }
+      }
+      return ContentService.createTextOutput(JSON.stringify({
+        status: deleted === 1 ? 'success' : 'error',
+        deleted: deleted,
+        message: deleted ? 'Đã xóa việc làm.' : 'Không tìm thấy dòng khớp trên Sheet.'
+      })).setMimeType(ContentService.MimeType.JSON);
+    }
+
     sheet.appendRow([
       sheet.getLastRow(), // STT
       data.title || '',
@@ -13224,4 +13303,3 @@ function viewFullInspectorPoster() {
   }
 }
 window.viewFullInspectorPoster = viewFullInspectorPoster;
-

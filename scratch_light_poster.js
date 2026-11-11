@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 async function createLightMinimalPoster() {
-  const stockImgPath = path.resolve('d:/Dokumen/Làm/LeadX/data/images/stock/education.jpg');
+  const stockImgPath = path.resolve(__dirname, 'data/images/stock/education.jpg');
   const imgBase64 = fs.readFileSync(stockImgPath).toString('base64');
   const dataUri = `data:image/jpeg;base64,${imgBase64}`;
   
@@ -289,7 +289,7 @@ async function createLightMinimalPoster() {
   await page.setViewport({ width: 1200, height: 1200, deviceScaleFactor: 2 });
   await page.setContent(html, { waitUntil: 'networkidle0' });
   
-  const outPath = path.resolve('d:/Dokumen/Làm/LeadX/data/images/sample_light_minimal_poster.png');
+  const outPath = path.resolve(__dirname, 'data/images/sample_light_minimal_poster.png');
   await page.screenshot({ path: outPath, type: 'png' });
   await browser.close();
   console.log('Light minimal poster generated at:', outPath);

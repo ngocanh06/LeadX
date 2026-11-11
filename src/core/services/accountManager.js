@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const config = require('../../config');
 const logger = require('../utils/logger');
+const { formatProxyDisplay, parseProxy } = require('../utils/proxyUtils');
 const browserController = require('../automation/browserController');
 
 class AccountManager {
@@ -205,13 +206,21 @@ class AccountManager {
   /**
    * Thêm tài khoản mới vào hệ thống
    */
-  addAccount({ name, cookieString, targetType = "GROUP", metaToken = "", fanpageNotes = "" }) {
+  addAccount({ name, cookieString, targetType = "GROUP", metaToken = "", fanpageNotes = "", proxy = "" }) {
     if (!name || !name.trim()) {
       throw new Error('Vui lòng nhập Tên gợi nhớ cho tài khoản (Ví dụ: Nick Tuyển Dụng 2).');
     }
 
     if (!cookieString || !cookieString.trim()) {
       throw new Error('Vui lòng dán chuỗi Cookie Facebook vào khung.');
+    }
+
+    if (proxy !== null && typeof proxy !== 'string') {
+      throw new Error('Proxy phải là chuỗi ký tự hợp lệ.');
+    }
+    const normalizedProxy = typeof proxy === 'string' ? proxy.trim() : '';
+    if (normalizedProxy && !parseProxy(normalizedProxy)) {
+      throw new Error('Định dạng Proxy không hợp lệ. Vui lòng kiểm tra IP, Port và thông tin đăng nhập.');
     }
 
     const cookies = this.parseCookieString(cookieString);
@@ -241,7 +250,7 @@ class AccountManager {
       name: name.trim(),
       fbUserId: uid,
       cookies,
-      proxy: (proxy || '').trim(),
+      proxy: normalizedProxy,
       targetType: assignedType,
       metaToken: (metaToken || '').trim(),
       fanpageNotes: (fanpageNotes || '').trim(),
@@ -257,8 +266,10 @@ class AccountManager {
     };
 
     accounts.push(newAccount);
-    this.saveAccounts(accounts);
-    logger.success(`Đã thêm tài khoản Facebook mới: ${newAccount.name} (UID: ${uid}, Proxy: ${newAccount.proxy || 'Trực tiếp'})`);
+    if (!this.saveAccounts(accounts)) {
+      throw new Error('Không thể lưu danh sách tài khoản vào accounts.json.');
+    }
+    logger.success(`Đã thêm tài khoản Facebook mới: ${newAccount.name} (UID: ${uid}, Proxy: ${formatProxyDisplay(newAccount.proxy)})`);
 
     // Nếu là tài khoản duy nhất hoặc đầu tiên, tự động kích hoạt
     if (isFirst) {
@@ -281,8 +292,15 @@ class AccountManager {
     }
 
     if (proxy !== undefined) {
+      if (proxy !== null && typeof proxy !== 'string') {
+        throw new Error('Proxy phải là chuỗi ký tự hợp lệ.');
+      }
+      const normalizedProxy = typeof proxy === 'string' ? proxy.trim() : '';
+      if (normalizedProxy && !parseProxy(normalizedProxy)) {
+        throw new Error('Định dạng Proxy không hợp lệ. Vui lòng kiểm tra IP, Port và thông tin đăng nhập.');
+      }
       const oldProxy = account.proxy || '';
-      account.proxy = proxy.trim();
+      account.proxy = normalizedProxy;
       // Nếu proxy thay đổi và nick đang dùng, đóng browser để phiên sau ăn proxy mới
       if (account.isCurrent && oldProxy !== account.proxy) {
         try {

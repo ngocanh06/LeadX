@@ -11,6 +11,8 @@ const path = require('path');
 const axios = require('axios');
 const LeadSourceConnector = require('./LeadSourceConnector');
 const logger = require('../../../core/utils/logger');
+const config = require('../../../config');
+const resolveScraperDataDir = require('../../../core/utils/scraperDataPath');
 
 class FacebookGroupConnector extends LeadSourceConnector {
   constructor(sourceConfig) {
@@ -19,8 +21,8 @@ class FacebookGroupConnector extends LeadSourceConnector {
     this.groupName = sourceConfig.group_name || sourceConfig.name || '';
     this.accessToken = sourceConfig.access_token || process.env.FB_GRAPH_API_TOKEN || null;
     this.dataSourceMode = sourceConfig.data_source_mode || 'INTERNAL_AUTHORIZED_PIPELINE'; // 'GRAPH_API' | 'INTERNAL_AUTHORIZED_PIPELINE'
-    this.localScraperFile = sourceConfig.local_file_path || path.resolve(process.cwd(), 'data/facebook_group_jobs.json');
-    this.externalScraperFile = path.resolve(process.cwd(), '../Tuyển Dụng/scraper_data/facebook_group/facebook_group_jobs.json');
+    this.localScraperFile = sourceConfig.local_file_path || path.resolve(config.rootDir, 'data/facebook_group_jobs.json');
+    this.externalScraperFile = path.join(resolveScraperDataDir(), 'facebook_group', 'facebook_group_jobs.json');
   }
 
   /**

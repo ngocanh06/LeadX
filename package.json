@@ -30,6 +30,8 @@
     "puppeteer": "^24.4.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "socks": "^2.8.9",
+    "socks-proxy-agent": "^8.0.5",
     "xlsx": "^0.18.5"
   }
 }

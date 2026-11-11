@@ -11,12 +11,13 @@ const fs = require('fs');
 const path = require('path');
 const EventEmitter = require('events');
 const logger = require('../../../core/utils/logger');
+const config = require('../../../config');
 
 class IngestionJobQueue extends EventEmitter {
   constructor() {
     super();
-    this.jobsFilePath = path.resolve(process.cwd(), 'data/ingestion_jobs.json');
-    this.logsFilePath = path.resolve(process.cwd(), 'data/sync_logs.json');
+    this.jobsFilePath = path.resolve(config.rootDir, 'data/ingestion_jobs.json');
+    this.logsFilePath = path.resolve(config.rootDir, 'data/sync_logs.json');
     this.jobs = [];
     this.logs = [];
     this.isProcessing = false;

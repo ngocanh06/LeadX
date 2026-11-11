@@ -5,26 +5,9 @@ const path = require('path');
 const fs = require('fs');
 const xlsx = require('xlsx');
 const logger = require('../../../core/utils/logger');
+const resolveScraperDataDir = require('../../../core/utils/scraperDataPath');
 
-function resolveScraperDir() {
-  const candidates = [
-    'd:/Dokumen/Làm/Tuyển Dụng/scraper_data',
-    'd:\\Dokumen\\Làm\\Tuyển Dụng\\scraper_data',
-    'd:/Dokumen/Tuyển Dụng/scraper_data',
-    'd:\\Dokumen\\Tuyển Dụng\\scraper_data',
-    path.resolve(process.cwd(), '../Tuyển Dụng/scraper_data'),
-    path.resolve(__dirname, '../../../../../../Tuyển Dụng/scraper_data'),
-    path.resolve(__dirname, '../../../../Tuyển Dụng/scraper_data')
-  ];
-  for (const c of candidates) {
-    try {
-      if (fs.existsSync(c)) return c;
-    } catch (e) {}
-  }
-  return candidates[0];
-}
-
-const SCRAPER_DIR = resolveScraperDir();
+const SCRAPER_DIR = resolveScraperDataDir();
 
 const KNOWN_SOURCES = [
   { fileName: 'topcv_matrix_jobs.xlsx', subPath: 'topcv/topcv_matrix_jobs.xlsx', sourceName: 'TopCV' },

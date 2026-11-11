@@ -7,6 +7,7 @@ const axios = require('axios');
 const config = require('../../../config');
 const logger = require('../../../core/utils/logger');
 const groupManager = require('./groupManager');
+const resolveScraperDataDir = require('../../../core/utils/scraperDataPath');
 
 function extractVietnamesePhone(text) {
   if (!text) return '';
@@ -27,7 +28,7 @@ function extractVietnamesePhone(text) {
 class ScrapedJobsProvider {
   constructor() {
     const rootDir = config.rootDir || path.resolve(__dirname, '../../../../');
-    this.scraperDir = path.resolve(rootDir, '../Tuyển Dụng/scraper_data/facebook_group');
+    this.scraperDir = path.join(resolveScraperDataDir(), 'facebook_group');
     this.jobsJsonFile = path.join(this.scraperDir, 'facebook_group_jobs.json');
     this.groupsJsonFile = path.join(this.scraperDir, 'facebook_groups.json');
     this.localJobsJsonFile = path.resolve(rootDir, 'data/facebook_group_jobs.json');

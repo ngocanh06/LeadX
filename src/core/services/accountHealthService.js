@@ -245,7 +245,7 @@ class AccountHealthService {
         id: 'network_proxy',
         name: 'Địa Chỉ IP & Cô Lập Mạng (Anti-Detection)',
         status: (currentAcc && currentAcc.proxy) ? 'GOOD' : 'WARNING',
-        label: (currentAcc && currentAcc.proxy) ? `Đã Ẩn IP Qua Proxy (${proxyUtils.formatProxy(currentAcc.proxy)})` : 'Dùng Chung IP Mạng Nhà (Chưa có Proxy)',
+        label: (currentAcc && currentAcc.proxy) ? `Đã Ẩn IP Qua Proxy (${proxyUtils.formatProxyDisplay(currentAcc.proxy)})` : 'Dùng Chung IP Mạng Nhà (Chưa có Proxy)',
         description: (currentAcc && currentAcc.proxy)
           ? `Tài khoản kết nối qua địa chỉ IP riêng biệt với cờ chống rò rỉ WebRTC. Facebook nhận diện đây là người dùng độc lập, triệt tiêu nguy cơ cháy lan Checkpoint.`
           : `Đang dùng chung IP mạng nhà/văn phòng. Nếu trên cùng mạng có nhiều nick hoạt động hoặc từng bị chặn, Meta có thể liên kết và áp đặt hạn chế dây chuyền.`,

@@ -2,7 +2,7 @@
  * scraperLiveSyncService.js
  * ----------------------------------------------------
  * Dịch vụ Tự Động Đồng Bộ Liên Tục Dữ Liệu Cào Tuyển Dụng (Real-time Live Sync)
- * - Tự động phát hiện thư mục scraper_data (d:/Dokumen/Làm/Tuyển Dụng/scraper_data)
+ * - Tự động phát hiện thư mục scraper_data nằm ngoài thư mục dự án
  * - Quản lý File Watcher & Auto-Sync Runner (chạy background py export_scraper_stats.py)
  * - Cung cấp cơ chế thông báo Real-time (Server-Sent Events) tới Client
  * - Tự động nạp mới cache scraperDataProvider & marketAnalytics khi phát hiện có tin mới
@@ -12,6 +12,7 @@ const fs = require('fs');
 const { exec } = require('child_process');
 const EventEmitter = require('events');
 const logger = require('../../../core/utils/logger');
+const resolveScraperDataDir = require('../../../core/utils/scraperDataPath');
 
 class ScraperLiveSyncService extends EventEmitter {
   constructor() {
@@ -36,24 +37,7 @@ class ScraperLiveSyncService extends EventEmitter {
   }
 
   _resolveScraperDir() {
-    const candidates = [
-      'd:/Dokumen/Làm/Tuyển Dụng/scraper_data',
-      'd:\\Dokumen\\Làm\\Tuyển Dụng\\scraper_data',
-      'd:/Dokumen/Tuyển Dụng/scraper_data',
-      'd:\\Dokumen\\Tuyển Dụng\\scraper_data',
-      path.resolve(process.cwd(), '../Tuyển Dụng/scraper_data'),
-      path.resolve(__dirname, '../../../../../../Tuyển Dụng/scraper_data'),
-      path.resolve(__dirname, '../../../../Tuyển Dụng/scraper_data')
-    ];
-
-    for (const c of candidates) {
-      try {
-        if (fs.existsSync(c)) {
-          return c;
-        }
-      } catch (e) {}
-    }
-    return candidates[0];
+    return resolveScraperDataDir();
   }
 
   _loadFromFile(broadcastIfChanged = true) {

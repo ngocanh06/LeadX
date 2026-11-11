@@ -9,11 +9,12 @@
 const fs = require('fs');
 const path = require('path');
 const logger = require('../../../core/utils/logger');
+const config = require('../../../config');
 
 class LeadSourceManager {
   constructor() {
-    this.filePath = path.resolve(process.cwd(), 'data/lead_sources.json');
-    this.legacyGroupsPath = path.resolve(process.cwd(), 'data/groups.json');
+    this.filePath = path.resolve(config.rootDir, 'data/lead_sources.json');
+    this.legacyGroupsPath = path.resolve(config.rootDir, 'data/groups.json');
     this.sources = [];
     this._load();
   }

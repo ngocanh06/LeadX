@@ -952,7 +952,7 @@ router.get('/accounts', (req, res) => {
 router.post('/accounts/test-proxy', async (req, res) => {
   try {
     const { proxy } = req.body;
-    if (!proxy || !proxy.trim()) {
+    if (typeof proxy !== 'string' || !proxy.trim()) {
       return res.status(400).json({ success: false, message: 'Vui lòng nhập chuỗi Proxy (IP:Port hoặc IP:Port:User:Pass).' });
     }
     const result = await testProxy(proxy);

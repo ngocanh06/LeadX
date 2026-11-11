@@ -12,10 +12,11 @@ const fs = require('fs');
 const path = require('path');
 const logger = require('../../../core/utils/logger');
 const auditLogger = require('../../../core/services/auditLogger');
+const config = require('../../../config');
 
 class ReviewQueueService {
   constructor() {
-    this.filePath = path.resolve(process.cwd(), 'data/review_queue.json');
+    this.filePath = path.resolve(config.rootDir, 'data/review_queue.json');
     this.queue = [];
     this._load();
   }

@@ -20,7 +20,7 @@ module.exports = {
   browser: {
     userDataDir: path.resolve(ROOT_DIR, process.env.CHROME_USER_DATA_DIR || './chrome_profile'),
     headless: process.env.CHROME_HEADLESS === 'true',
-    executablePath: process.env.CHROME_EXECUTABLE_PATH || undefined
+    executablePath: process.env.CHROME_EXECUTABLE_PATH || process.env.PUPPETEER_EXECUTABLE_PATH || undefined
   },
 
   safety: {

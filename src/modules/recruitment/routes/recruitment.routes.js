@@ -97,6 +97,15 @@ router.post('/sheet/add-job', async (req, res) => {
   }
 });
 
+router.delete('/sheet/jobs', async (req, res) => {
+  try {
+    const result = await googleSheetProvider.deleteJob(req.body || {});
+    res.status(result.success ? 200 : 400).json(result);
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
 // 1.2 LẤY CẤU HÌNH LINK SHEET & WEBHOOK
 router.get('/sheet/config', (req, res) => {
   res.json({

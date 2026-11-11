@@ -11,10 +11,11 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const logger = require('../../../core/utils/logger');
+const config = require('../../../config');
 
 class RawPostRepository {
   constructor() {
-    this.filePath = path.resolve(process.cwd(), 'data/raw_posts.json');
+    this.filePath = path.resolve(config.rootDir, 'data/raw_posts.json');
     this.posts = [];
     this.hashSet = new Set();
     this._load();

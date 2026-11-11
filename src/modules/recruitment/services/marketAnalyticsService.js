@@ -5,13 +5,12 @@
 const path = require('path');
 const fs = require('fs');
 const xlsx = require('xlsx');
-const config = require('../../../config');
 const logger = require('../../../core/utils/logger');
+const resolveScraperDataDir = require('../../../core/utils/scraperDataPath');
 
 class MarketAnalyticsService {
   constructor() {
-    const rootDir = config.rootDir || path.resolve(__dirname, '../../../../');
-    this.scraperDataDir = path.resolve(rootDir, '../Tuyển Dụng/scraper_data');
+    this.scraperDataDir = resolveScraperDataDir();
     this.cachedJobs = null;
     this.lastLoadedAt = null;
   }

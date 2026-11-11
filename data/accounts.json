@@ -100,7 +100,7 @@
     "cooldownUntil": null,
     "postsToday": 15,
     "totalPosts": 15,
-    "isCurrent": true,
+    "isCurrent": false,
     "createdAt": "2026-09-06T11:11:50.873Z",
     "lastUsedAt": "2026-10-05T07:21:48.397Z",
     "updatedAt": "2026-10-01T02:49:41.950Z",
@@ -109,5 +109,158 @@
     "isGroupCurrent": true,
     "isPageCurrent": false,
     "proxy": ""
+  },
+  {
+    "id": "acc_1793988120774",
+    "name": "TD_Davies",
+    "fbUserId": "61596370856476",
+    "cookies": [
+      {
+        "name": "c_user",
+        "value": "61596370856476",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true
+      },
+      {
+        "name": "fr",
+        "value": "1dPCv8RaHiKcQZOLR.AWcpU4yiAYVhuXONJoA6E_AQve0gt6diwY55Cdf1nsxm4Jwb4PQ.Bq7gPF..AAA.0.0.Bq7gPF.AWeJWLNGR_M-qn22eDh57gfm2Ew",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true
+      },
+      {
+        "name": "xs",
+        "value": "1%3AXXL2P2eeyTcZaw%3A2%3A1793896529%3A-1%3A-1%3A%3AAc0L1pRRIspYvJke3rHwZq-KmcIR_pMXETMEQDzLCA",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true
+      },
+      {
+        "name": "wd",
+        "value": "684x825",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true
+      },
+      {
+        "name": "presence",
+        "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1793983948146%2C%22v%22%3A1%7D",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true
+      }
+    ],
+    "proxy": "14.224.217.113:30113:BCWed:16635",
+    "targetType": "GROUP",
+    "metaToken": "",
+    "fanpageNotes": "",
+    "status": "ACTIVE",
+    "cooldownUntil": null,
+    "postsToday": 52,
+    "totalPosts": 52,
+    "isCurrent": true,
+    "isGroupCurrent": true,
+    "isPageCurrent": false,
+    "createdAt": "2026-11-06T18:02:00.774Z",
+    "lastUsedAt": "2026-11-11T13:10:25.106Z",
+    "updatedAt": "2026-11-08T03:39:15.796Z"
+  },
+  {
+    "id": "acc_1794402231911",
+    "name": "TD_ThanhPhuong",
+    "fbUserId": "61596371614694",
+    "cookies": [
+      {
+        "name": "c_user",
+        "value": "61596371614694",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "datr",
+        "value": "8GP0akwxB1BUniZMpxyZcYQQ",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "dpr",
+        "value": "2",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "fr",
+        "value": "1KCnwV7pETgewE1k0.AWcoogUmeUoSbOZpwT1YRFM_7yxyU9LPEkNlzgrMhef6RTM5y8M.Bq9GXX..AAA.0.0.Bq9GYY.AWcjLfpHkEacEbF-Ql6BXvQBpW4",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "presence",
+        "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1794401822903%2C%22v%22%3A1%7D",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "unspecified"
+      },
+      {
+        "name": "sb",
+        "value": "8WP0arTWv1JnNFySGRSX-sG3",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "wd",
+        "value": "981x825",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax"
+      },
+      {
+        "name": "xs",
+        "value": "35%3A6Jkq2WomSyqveQ%3A2%3A1794401738%3A-1%3A-1%3A%3AAc1OTNVj4Z5Y1flpZ8W3MDOs-hCebB4baCfbE6ZHhg",
+        "domain": ".facebook.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction"
+      }
+    ],
+    "proxy": "14.224.217.113:29186:TPgEi:42849",
+    "targetType": "GROUP",
+    "metaToken": "",
+    "fanpageNotes": "",
+    "status": "ACTIVE",
+    "cooldownUntil": null,
+    "postsToday": 0,
+    "totalPosts": 0,
+    "isCurrent": false,
+    "isGroupCurrent": true,
+    "isPageCurrent": false,
+    "createdAt": "2026-11-11T13:03:51.911Z",
+    "lastUsedAt": "2026-11-11T13:04:25.755Z"
   }
 ]

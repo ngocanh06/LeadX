@@ -176,6 +176,8 @@ class GoogleSheetProvider {
           targetGroups,
           contactInfo,
           note,
+          source: 'Google Sheets',
+          sheetMatch: { title, company, location, salary },
           isCustom: true
         };
 
@@ -187,8 +189,7 @@ class GoogleSheetProvider {
       
       // Tự động gộp các việc làm lưu tại app chưa có trên Sheet
       try {
-        const path = require('path');
-        const localJobsFile = path.resolve(__dirname, '..', '..', 'data', 'local_jobs.json');
+        const localJobsFile = path.resolve(config.rootDir, 'data', 'local_jobs.json');
         if (fs.existsSync(localJobsFile)) {
           const localJobs = JSON.parse(fs.readFileSync(localJobsFile, 'utf8'));
           const unadded = localJobs.filter(lj => 
@@ -342,6 +343,126 @@ class GoogleSheetProvider {
         : (this.webhookUrl 
           ? `Đã lưu việc làm vào LeadX (Lỗi kết nối Webhook: ${syncError || 'timeout'})`
           : `Đã lưu việc làm vào LeadX thành công! (Dán Webhook URL trong Cấu Hình Link Sheet để tự động ghi vào Google Sheet)`)
+    };
+  }
+
+  async deleteJob(jobData) {
+    const title = String(jobData.title || '').trim();
+    const company = String(jobData.company || '').trim();
+    if (!title || !company) {
+      return { success: false, message: 'Thiếu chức danh hoặc tên công ty để xác định việc làm cần xóa.' };
+    }
+
+    const normalize = value => String(value || '').trim().toLocaleLowerCase();
+    const matchesJob = job => (
+      normalize(job.title) === normalize(title) &&
+      normalize(job.company) === normalize(company) &&
+      (!jobData.location || normalize(job.location || job.province) === normalize(jobData.location)) &&
+      (!jobData.salary || normalize(job.salary) === normalize(jobData.salary))
+    );
+    const isSheetJob = jobData.source !== 'LeadX App';
+    const webhook = (this.webhookUrl || '').trim();
+    let syncedToSheet = false;
+
+    if (isSheetJob) {
+      if (!webhook) {
+        return {
+          success: false,
+          message: 'Chưa cấu hình Webhook Google Sheets. Cần Webhook hỗ trợ xóa để đồng bộ thay đổi trên Sheet.'
+        };
+      }
+
+      try {
+        const capabilityUrl = new URL(webhook);
+        capabilityUrl.searchParams.set('action', 'capabilities');
+        const capabilityResponse = await axios.get(capabilityUrl.toString(), { timeout: 10000 });
+        const capabilities = capabilityResponse.data && capabilityResponse.data.capabilities;
+        if (!Array.isArray(capabilities) || !capabilities.includes('delete')) {
+          return {
+            success: false,
+            message: 'Webhook hiện tại chưa hỗ trợ xóa. Hãy cập nhật và triển khai Apps Script mới trước khi xóa.'
+          };
+        }
+
+        const response = await axios.post(webhook, {
+          action: 'delete',
+          match: jobData.sheetMatch || {
+            title,
+            company,
+            location: jobData.location || '',
+            salary: jobData.salary || ''
+          }
+        }, {
+          timeout: 10000,
+          headers: { 'Content-Type': 'application/json' }
+        });
+
+        if (!response.data || response.data.status !== 'success' || response.data.deleted !== 1) {
+          return {
+            success: false,
+            message: response.data && response.data.message
+              ? response.data.message
+              : 'Không tìm thấy đúng một dòng tương ứng trên Google Sheets; dữ liệu LeadX chưa bị xóa.'
+          };
+        }
+        syncedToSheet = true;
+      } catch (err) {
+        logger.warn(`Lỗi đồng bộ xóa việc làm trên Google Sheets: ${err.message}`);
+        return {
+          success: false,
+          message: `Không thể xóa việc làm trên Google Sheets: ${err.message}`
+        };
+      }
+    }
+
+    const localJobsFile = path.resolve(config.rootDir, 'data', 'local_jobs.json');
+    let localJobs = [];
+    if (fs.existsSync(localJobsFile)) {
+      try {
+        localJobs = JSON.parse(fs.readFileSync(localJobsFile, 'utf8'));
+        if (!Array.isArray(localJobs)) {
+          throw new Error('Dữ liệu local_jobs.json không phải danh sách hợp lệ.');
+        }
+      } catch (err) {
+        logger.error(`Lỗi đọc local_jobs.json khi xóa việc làm: ${err.message}`);
+        return {
+          success: false,
+          syncedToSheet,
+          message: syncedToSheet
+            ? `Đã xóa trên Google Sheets nhưng không đọc được dữ liệu LeadX cục bộ: ${err.message}`
+            : `Không thể đọc dữ liệu việc làm cục bộ: ${err.message}`
+        };
+      }
+    }
+
+    const localIndex = localJobs.findIndex(matchesJob);
+    if (localIndex !== -1) {
+      localJobs.splice(localIndex, 1);
+      try {
+        fs.writeFileSync(localJobsFile, JSON.stringify(localJobs, null, 2), 'utf8');
+      } catch (err) {
+        logger.error(`Lỗi lưu local_jobs.json sau khi xóa: ${err.message}`);
+        return {
+          success: false,
+          syncedToSheet,
+          message: syncedToSheet
+            ? `Đã xóa trên Google Sheets nhưng không thể cập nhật dữ liệu LeadX cục bộ: ${err.message}`
+            : `Không thể cập nhật dữ liệu việc làm cục bộ: ${err.message}`
+        };
+      }
+    } else if (!isSheetJob) {
+      return { success: false, message: 'Không tìm thấy việc làm này trong dữ liệu LeadX cục bộ.' };
+    }
+
+    this.cachedJobs = this.cachedJobs.filter(job => !matchesJob(job));
+    this.lastFetched = null;
+
+    return {
+      success: true,
+      syncedToSheet,
+      message: syncedToSheet
+        ? `Đã xóa "${title}" khỏi Google Sheets và dữ liệu LeadX.`
+        : `Đã xóa "${title}" khỏi dữ liệu LeadX cục bộ.`
     };
   }
 

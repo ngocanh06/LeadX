@@ -377,7 +377,7 @@ async function createSampleBanner() {
   await page.setViewport({ width: 1200, height: 1200, deviceScaleFactor: 2 });
   await page.setContent(html, { waitUntil: 'networkidle0' });
   
-  const outDir = path.resolve('d:/Dokumen/Làm/LeadX/data/images');
+  const outDir = path.resolve(__dirname, 'data/images');
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
   }

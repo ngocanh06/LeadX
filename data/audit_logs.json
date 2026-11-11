@@ -1,5 +1,76 @@
 [
   {
+    "id": "audit_1794015061123_w46tf",
+    "timestamp": "2026-11-07T01:31:01.123Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1794015061122_v8qkn",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1794015057122_u4g2y",
+    "timestamp": "2026-11-07T01:30:57.122Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1794015057121_1esq3",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1794015053107_6r5ev",
+    "timestamp": "2026-11-07T01:30:53.107Z",
+    "actor": "ActionEngine",
+    "action": "ENQUEUE_ACTION",
+    "module": "ACTION_ENGINE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "actionId": "act_1794015053106_g5a23",
+      "actionType": "PUBLISH_POST"
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1794015050942_1jef5",
+    "timestamp": "2026-11-07T01:30:50.942Z",
+    "actor": "Scheduler",
+    "action": "TRIGGER_SCHEDULE_POSTS",
+    "module": "SCHEDULER",
+    "target": "Lịch Đăng Ca Sáng BĐS & Tuyển Dụng",
+    "status": "SUCCESS",
+    "details": {
+      "scheduleId": "sch_1790935781600_04no",
+      "jobsCount": 1
+    },
+    "error": null
+  },
+  {
+    "id": "audit_1794015050940_fdj6q",
+    "timestamp": "2026-11-07T01:30:50.940Z",
+    "actor": "PostingQueue",
+    "action": "ENQUEUE_POST",
+    "module": "POSTING_QUEUE",
+    "target": "Nhóm Tuyển Dụng Đà Nẵng 24h",
+    "status": "INFO",
+    "details": {
+      "jobId": "pjob_1794015050939_i22u",
+      "scheduledAt": null,
+      "priority": 2
+    },
+    "error": null
+  },
+  {
     "id": "audit_1792740618637_328z9",
     "timestamp": "2026-10-23T07:30:18.637Z",
     "actor": "ActionEngine",

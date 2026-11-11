@@ -7,6 +7,7 @@ const accountManager = require('../../../core/services/accountManager');
 const groupManager = require('../services/groupManager');
 const bdsGroupManager = require('../../bds/services/bdsGroupManager');
 const logger = require('../../../core/utils/logger');
+const { parseProxy } = require('../../../core/utils/proxyUtils');
 
 function getGroupMgr(groupType) {
   return groupType === 'bds' ? bdsGroupManager : groupManager;
@@ -854,9 +855,29 @@ class GroupJoiner {
       this.progress.message = `Hoàn tất! Thành công: ${this.progress.successCount}, Chờ duyệt / Nộp KS: ${this.progress.pendingCount}, Lỗi: ${this.progress.failCount}`;
       this._log(`[KẾT THÚC TIẾN TRÌNH] ${this.progress.message}`, 'success');
     } catch (err) {
-      this._log(`[LỖI AUTO-JOINER] ${err.message}`, 'error');
+      let errorMessage = err.message;
+      if (/ERR_INVALID_AUTH_CREDENTIALS/i.test(err.message || '')) {
+        let proxy = null;
+        try {
+          const selectedAccount = (accountId && accountManager.loadAccounts().find(account => account.id === accountId))
+            || accountManager.getCurrentAccount();
+          proxy = parseProxy(selectedAccount && selectedAccount.proxy);
+        } catch (_) {}
+
+        const hasCredentials = Boolean(proxy && (proxy.username || proxy.password));
+        if (proxy && !hasCredentials && proxy.protocol.startsWith('socks')) {
+          errorMessage = `Proxy ${proxy.protocol.toUpperCase()} hiện không có username/password. Nếu nhà cung cấp yêu cầu xác thực, hãy cấu hình credential SOCKS5 hoặc dùng proxy không cần credential/đã whitelist IP.`;
+        } else if (proxy && !hasCredentials) {
+          errorMessage = `Proxy ${proxy.protocol.toUpperCase()} đang cấu hình không có username/password nhưng máy chủ yêu cầu xác thực. Hãy nhập proxy dạng host:port:username:password hoặc whitelist IP public của máy chạy LeadX tại nhà cung cấp.`;
+        } else if (proxy) {
+          errorMessage = `Proxy ${proxy.protocol.toUpperCase()} từ chối xác thực. Kiểm tra username/password, ký tự đặc biệt trong credential và quyền truy cập IP tại nhà cung cấp.`;
+        } else {
+          errorMessage = 'Chrome nhận yêu cầu xác thực HTTP nhưng tài khoản hiện tại không có proxy hợp lệ. Kiểm tra proxy hệ thống, VPN hoặc gateway mạng.';
+        }
+      }
+      this._log(`[LỖI AUTO-JOINER] ${errorMessage}`, 'error');
       this.progress.status = 'ERROR';
-      this.progress.message = `Lỗi: ${err.message}`;
+      this.progress.message = `Lỗi: ${errorMessage}`;
     } finally {
       this.isRunning = false;
       this.isPaused = false;

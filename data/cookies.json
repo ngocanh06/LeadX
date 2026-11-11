@@ -1,52 +1,16 @@
 [
   {
-    "name": "ps_l",
-    "value": "1",
+    "name": "c_user",
+    "value": "61596370856476",
     "domain": ".facebook.com",
     "path": "/",
     "httpOnly": true,
     "secure": true,
     "sameSite": "Lax"
-  },
-  {
-    "name": "datr",
-    "value": "U7mJaj9p7Pbx4B5Z1kznLmWZ",
-    "domain": ".facebook.com",
-    "path": "/",
-    "httpOnly": true,
-    "secure": true,
-    "sameSite": "None"
   },
   {
     "name": "fr",
-    "value": "1ozbHs1AeMpz2ZUck.AWdBW9ljcNqeyauYBXyX72iV4Gxt_DEA9fJhPTLpq-Kd1Tu8i0I.BqvceR..AAA.0.0.BqvceR.AWdab4hx-NJGnpgb7eoHGvx-XlI",
-    "domain": ".facebook.com",
-    "path": "/",
-    "httpOnly": true,
-    "secure": true,
-    "sameSite": "None"
-  },
-  {
-    "name": "xs",
-    "value": "7%3A7nRfxKr_eXJBmQ%3A2%3A1790778228%3A-1%3A-1%3A%3AAcy6ifDZP2by-q9koyyPa8x4wTRbzSNuOc5OKjMCUQ",
-    "domain": ".facebook.com",
-    "path": "/",
-    "httpOnly": true,
-    "secure": true,
-    "sameSite": "None"
-  },
-  {
-    "name": "c_user",
-    "value": "61583967538602",
-    "domain": ".facebook.com",
-    "path": "/",
-    "httpOnly": true,
-    "secure": true,
-    "sameSite": "None"
-  },
-  {
-    "name": "presence",
-    "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1790822289840%2C%22v%22%3A1%7D",
+    "value": "1dPCv8RaHiKcQZOLR.AWcpU4yiAYVhuXONJoA6E_AQve0gt6diwY55Cdf1nsxm4Jwb4PQ.Bq7gPF..AAA.0.0.Bq7gPF.AWeJWLNGR_M-qn22eDh57gfm2Ew",
     "domain": ".facebook.com",
     "path": "/",
     "httpOnly": false,
@@ -54,35 +18,26 @@
     "sameSite": "Lax"
   },
   {
-    "name": "dpr",
-    "value": "1.5",
+    "name": "xs",
+    "value": "1%3AXXL2P2eeyTcZaw%3A2%3A1793896529%3A-1%3A-1%3A%3AAc0L1pRRIspYvJke3rHwZq-KmcIR_pMXETMEQDzLCA",
+    "domain": ".facebook.com",
+    "path": "/",
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "wd",
+    "value": "684x825",
     "domain": ".facebook.com",
     "path": "/",
     "httpOnly": false,
     "secure": true,
-    "sameSite": "None"
+    "sameSite": "Lax"
   },
   {
-    "name": "ps_n",
-    "value": "1",
-    "domain": ".facebook.com",
-    "path": "/",
-    "httpOnly": true,
-    "secure": true,
-    "sameSite": "None"
-  },
-  {
-    "name": "sb",
-    "value": "U7mJanMXTxfRrg34pJvssN4T",
-    "domain": ".facebook.com",
-    "path": "/",
-    "httpOnly": true,
-    "secure": true,
-    "sameSite": "None"
-  },
-  {
-    "name": "wd",
-    "value": "1280x585",
+    "name": "presence",
+    "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1793983948146%2C%22v%22%3A1%7D",
     "domain": ".facebook.com",
     "path": "/",
     "httpOnly": false,

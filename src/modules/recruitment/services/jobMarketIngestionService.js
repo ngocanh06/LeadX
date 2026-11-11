@@ -9,6 +9,7 @@ const xlsx = require('xlsx');
 const logger = require('../../../core/utils/logger');
 const normalizer = require('./jobMarketNormalizer');
 const taxonomyService = require('./jobMarketTaxonomyService');
+const resolveScraperDataDir = require('../../../core/utils/scraperDataPath');
 
 class JobMarketIngestionService {
   constructor() {
@@ -19,16 +20,7 @@ class JobMarketIngestionService {
   }
 
   _resolveScraperDir() {
-    const candidates = [
-      'd:/Dokumen/Làm/Tuyển Dụng/scraper_data',
-      'd:\\Dokumen\\Làm\\Tuyển Dụng\\scraper_data',
-      path.resolve(process.cwd(), '../Tuyển Dụng/scraper_data'),
-      path.resolve(__dirname, '../../../../../../Tuyển Dụng/scraper_data')
-    ];
-    for (const c of candidates) {
-      if (fs.existsSync(c)) return c;
-    }
-    return candidates[0];
+    return resolveScraperDataDir();
   }
 
   /**
